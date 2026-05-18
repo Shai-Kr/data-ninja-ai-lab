@@ -3,7 +3,6 @@ description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, 
 url: "https://shai-kr.github.io"
 baseurl: "/data-ninja-ai-lab"
 markdown: kramdown
-permalink: pretty
 
 defaults:
   - scope:
