@@ -7,6 +7,7 @@ description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, 
 <section class="hero">
   <p class="eyebrow">Data Ninja AI Lab</p>
   <h1>Practical data platform thinking, not polished demo theatre.</h1>
+  <p class="byline">by <a href="https://www.linkedin.com/in/shai-kr">Shai Karmani</a></p>
   <p class="lede">Technical blogs, GitHub Pages content, reusable demos, code samples, and experiments around Microsoft Fabric, Power BI, analytics engineering, automation, and practical AI.</p>
   <div class="hero-actions">
     <a class="button primary" href="{{ '/blog/' | relative_url }}">Read the blog</a>

@@ -7,6 +7,7 @@ description: Practical articles from Data Ninja AI Lab.
 <section class="hero compact">
   <p class="eyebrow">Data Ninja AI Lab</p>
   <h1>Technical articles from the lab</h1>
+  <p class="byline">by <a href="https://www.linkedin.com/in/shai-kr">Shai Karmani</a></p>
   <p class="lede">Practical notes on Microsoft Fabric, Power BI, analytics engineering, automation, and AI systems.</p>
 </section>
 
