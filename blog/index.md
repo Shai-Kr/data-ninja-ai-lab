@@ -4,20 +4,14 @@ title: Blog
 description: Practical articles from Data Ninja AI Lab.
 ---
 
-<section class="hero blog-hero">
+<section class="hero blog-hero cinematic-hero">
   <div class="hero-copy">
     <p class="eyebrow">Data Ninja AI Lab</p>
     <h1>Stop Building Dashboards. Start Building Data Systems People Trust.</h1>
-    <p class="byline hero-byline"><img class="avatar avatar-small" src="{{ '/assets/img/shai-karmani-profile.png' | relative_url }}" alt="Shai Karmani"> by <a href="https://www.linkedin.com/in/shai-kr">Shai Karmani</a></p>
+    <p class="byline hero-byline">by <a href="https://www.linkedin.com/in/shai-kr">Shai Karmani</a></p>
     <p class="lede">Sharp, practical writing about Microsoft Fabric, Power BI, analytics engineering, automation, and AI systems that survive contact with real business data.</p>
-  </div>
-  <div class="profile-card">
-    <img class="profile-photo" src="{{ '/assets/img/shai-karmani-profile.png' | relative_url }}" alt="Shai Karmani profile image">
-    <div>
-      <p class="profile-kicker">About Shai</p>
-      <p>I'm Shai Karmani, a senior data and technology professional with around 20 years across data engineering, software development, BI architecture, integrations, IT management, and delivery. I write about the practical side of Microsoft Fabric, Power BI, analytics engineering, automation, and AI, especially the messy parts teams usually discover after the demo works.</p>
-      <a class="profile-link" href="https://www.linkedin.com/in/shai-kr">Let’s connect on LinkedIn</a>
-    </div>
+    <p class="about-inline">I'm Shai Karmani, a senior data and technology professional with around 20 years across data engineering, software development, BI architecture, integrations, IT management, and delivery. I write about the practical side of data platforms, especially the messy parts teams usually discover after the demo works.</p>
+    <a class="profile-link" href="https://www.linkedin.com/in/shai-kr">Let’s connect on LinkedIn</a>
   </div>
 </section>
 
