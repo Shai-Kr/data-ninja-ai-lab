@@ -1,11 +1,12 @@
 ---
+layout: post
 title: "Before You Put a Fabric AI Agent in Production, Steal This Checklist"
 description: "The demo is not the hard part. The hard part is making the agent safe enough to use with real business data."
 date: 2026-05-17
+author: Shai Karmani
+author_url: https://www.linkedin.com/in/shai-kr
 tags: [Microsoft Fabric, AI Agents, Data Engineering, Power BI, Governance]
 ---
-
-# Before You Put a Fabric AI Agent in Production, Steal This Checklist
 
 The demo is not the hard part. The hard part is making the agent safe enough to use with real business data.
 

@@ -1,11 +1,12 @@
 ---
+layout: post
 title: "Your Microsoft Fabric Bill Has a OneLake Problem"
 description: "OneLake storage tiers make Fabric cost a design problem, not just an admin cleanup task."
 date: 2026-05-13
+author: Shai Karmani
+author_url: https://www.linkedin.com/in/shai-kr
 tags: [Microsoft Fabric, OneLake, FinOps, Data Engineering, Governance]
 ---
-
-# Your Microsoft Fabric Bill Has a OneLake Problem
 
 Most Fabric cost conversations start too late.
 

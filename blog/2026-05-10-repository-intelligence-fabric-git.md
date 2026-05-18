@@ -1,11 +1,12 @@
 ---
+layout: post
 title: "Repository Intelligence: The Real Shift Behind Microsoft Fabric + Git"
 description: "Fabric Git integration turns analytics assets into repository context that AI can inspect, compare, explain, and help improve."
 date: 2026-05-10
+author: Shai Karmani
+author_url: https://www.linkedin.com/in/shai-kr
 tags: [Microsoft Fabric, Git, Analytics Engineering, AI Skills, Power BI]
 ---
-
-# Repository Intelligence: the real shift behind Microsoft Fabric + Git
 
 ![Repository Intelligence turns the Fabric repository into a reasoning surface for AI-assisted analytics engineering.](../assets/blog/repository-intelligence-fabric-git/hero-repository-intelligence.jpg)
 

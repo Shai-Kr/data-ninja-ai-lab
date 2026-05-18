@@ -1,0 +1,15 @@
+title: Data Ninja AI Lab
+description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, and AI lab by Shai Karmani.
+url: "https://shai-kr.github.io"
+baseurl: "/data-ninja-ai-lab"
+markdown: kramdown
+permalink: pretty
+
+defaults:
+  - scope:
+      path: "blog"
+      type: "pages"
+    values:
+      layout: post
+      author: Shai Karmani
+      author_url: https://www.linkedin.com/in/shai-kr

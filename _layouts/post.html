@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<article class="article">
+  <header class="article-header">
+    <p class="eyebrow">Data Ninja AI Lab</p>
+    <h1>{{ page.title }}</h1>
+    <p class="byline">by <a href="{{ page.author_url | default: 'https://www.linkedin.com/in/shai-kr' }}">{{ page.author | default: 'Shai Karmani' }}</a>{% if page.date %} · {{ page.date | date: "%b %-d, %Y" }}{% endif %}</p>
+    {% if page.description %}<p class="dek">{{ page.description }}</p>{% endif %}
+  </header>
+  <div class="article-body">
+    {{ content }}
+  </div>
+</article>
