@@ -128,3 +128,8 @@ If those answers are vague, the agent is still a pilot.
 That is not a failure. It just means the platform work is not finished.
 
 The goal is not to slow down AI agents. The goal is to make them safe enough to use with real business data.
+
+---
+
+**Shai Karmani**  
+[Let’s connect on LinkedIn](https://www.linkedin.com/in/shai-kr)
