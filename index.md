@@ -4,40 +4,32 @@ title: Data Ninja AI Lab
 description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, and AI lab by Shai Karmani.
 ---
 
-<section class="hero">
-  <p class="eyebrow">Data Ninja AI Lab</p>
-  <h1>Practical data platform thinking, not polished demo theatre.</h1>
-  <p class="byline">by <a href="https://www.linkedin.com/in/shai-kr">Shai Karmani</a></p>
-  <p class="lede">Technical blogs, GitHub Pages content, reusable demos, code samples, and experiments around Microsoft Fabric, Power BI, analytics engineering, automation, and practical AI.</p>
-  <div class="hero-actions">
-    <a class="button primary" href="{{ '/blog/' | relative_url }}">Read the blog</a>
-    <a class="button" href="https://www.linkedin.com/in/shai-kr">Let’s connect on LinkedIn</a>
+<section class="hero home-hero">
+  <div class="hero-copy">
+    <p class="eyebrow">Data Ninja AI Lab</p>
+    <h1>Building practical data systems with Microsoft Fabric, Power BI, and AI.</h1>
+    <p class="byline home-name">by <a href="https://www.linkedin.com/in/shai-kr">Shai Karmani</a></p>
+    <p class="lede">I use this lab to publish practical articles, demos, and code around Microsoft Fabric, Power BI, analytics engineering, automation, and AI systems.</p>
+    <p class="about-inline">My goal is simple: turn real implementation work into clear patterns other data professionals can use. Less theory, more decisions, tradeoffs, architecture, and working examples from the messy middle of building reliable data platforms.</p>
+    <a class="profile-link" href="https://www.linkedin.com/in/shai-kr">Let’s connect on LinkedIn</a>
   </div>
 </section>
 
-<section class="grid two">
-  <div class="panel">
-    <h2>What this lab is for</h2>
-    <p>Companion material for articles, architecture notes, practical patterns, and small experiments that connect real data platform work with AI-assisted engineering.</p>
-  </div>
-  <div class="panel">
-    <h2>Current focus</h2>
-    <p>Microsoft Fabric, Power BI, semantic models, OneLake, Git-backed analytics engineering, AI Skills, and production-ready agent patterns.</p>
-  </div>
-</section>
-
-<section class="post-list featured">
+<section class="post-list featured home-articles">
   <h2>Latest articles</h2>
   <article class="post-card">
     <p class="post-meta">Microsoft Fabric · AI Agents</p>
     <h3><a href="{{ '/blog/2026-05-17-fabric-ai-agent-production-checklist.html' | relative_url }}">Before You Put a Fabric AI Agent in Production, Steal This Checklist</a></h3>
+    <p>A practical production checklist for Fabric AI Agents, focused on access paths, ownership, auditability, and safe use with real business data.</p>
   </article>
   <article class="post-card">
     <p class="post-meta">OneLake · FinOps</p>
     <h3><a href="{{ '/blog/2026-05-13-microsoft-fabric-bill-onelake-problem.html' | relative_url }}">Your Microsoft Fabric Bill Has a OneLake Problem</a></h3>
+    <p>How OneLake storage tiers push Fabric teams toward better ownership, lifecycle rules, and practical FinOps habits.</p>
   </article>
   <article class="post-card">
     <p class="post-meta">Fabric Git · AI Skills</p>
     <h3><a href="{{ '/blog/2026-05-10-repository-intelligence-fabric-git.html' | relative_url }}">Repository Intelligence: The Real Shift Behind Microsoft Fabric + Git</a></h3>
+    <p>Why Git-backed Fabric assets can become a context layer for AI-assisted analytics engineering.</p>
   </article>
 </section>

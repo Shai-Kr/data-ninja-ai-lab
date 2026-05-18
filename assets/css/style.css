@@ -153,3 +153,15 @@ h3 { font-size: 1.35rem; }
 .article-header .avatar-small, .byline .avatar-small { width: 24px !important; height: 24px !important; min-width: 24px !important; max-width: 24px !important; min-height: 24px !important; max-height: 24px !important; flex: 0 0 24px; border-width: 1px; box-shadow: 0 0 0 2px rgba(77,216,255,0.10), 0 0 12px rgba(77,216,255,0.20); }
 .article-header .byline img { margin: 0 !important; border-radius: 999px !important; display: inline-block !important; }
 @media (max-width: 860px) { .cinematic-hero { padding-right: 22px; min-height: 420px; } .cinematic-hero::before { background: linear-gradient(180deg, rgba(5,9,20,0.88), rgba(5,9,20,0.90)), url('/data-ninja-ai-lab/assets/img/shai-karmani-profile.png') right 8% top 24px / 220px auto no-repeat; opacity: 0.42; } }
+
+/* Final homepage refinement */
+.home-hero { min-height: 450px; display: flex; align-items: flex-start; padding: 44px min(44%, 430px) 46px 48px; }
+.home-hero h1 { font-size: clamp(2.05rem, 4.6vw, 3.85rem); max-width: 720px; }
+.home-hero::before { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(5,9,20,0.97) 0%, rgba(5,9,20,0.82) 48%, rgba(5,9,20,0.30) 76%, rgba(5,9,20,0.12) 100%), url('/data-ninja-ai-lab/assets/img/shai-karmani-profile.png') right 8% top 34px / min(360px, 38vw) auto no-repeat; opacity: 0.48; filter: saturate(1.06) contrast(1.03); z-index: 0; }
+.home-hero::after { z-index: 0; }
+.home-hero .hero-copy { position: relative; z-index: 2; max-width: 720px; }
+.home-name { margin-top: 14px; }
+.home-articles { margin-top: 34px; }
+.hero-actions { display: none; }
+.grid.two { display: none; }
+@media (max-width: 860px) { .home-hero { padding: 30px 22px 34px; min-height: 460px; } .home-hero::before { background: linear-gradient(180deg, rgba(5,9,20,0.86), rgba(5,9,20,0.94)), url('/data-ninja-ai-lab/assets/img/shai-karmani-profile.png') right 14px top 22px / 210px auto no-repeat; opacity: 0.36; } .home-hero h1 { font-size: 2.25rem; } }
