@@ -18,6 +18,11 @@ description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, 
 <section class="post-list featured home-articles">
   <h2>Latest articles</h2>
   <article class="post-card">
+    <p class="post-meta">Power BI · Semantic Models · Security</p>
+    <h3><a href="{{ '/blog/2026-05-19-outbound-access-protection-semantic-models.html' | relative_url }}">Your Semantic Model Is Now a Data Exfiltration Boundary</a></h3>
+    <p>Why Outbound Access Protection for semantic models turns workspace network rules into a real Power BI governance decision.</p>
+  </article>
+  <article class="post-card">
     <p class="post-meta">Microsoft Fabric · AI Agents</p>
     <h3><a href="{{ '/blog/2026-05-17-fabric-ai-agent-production-checklist.html' | relative_url }}">Before You Put a Fabric AI Agent in Production, Steal This Checklist</a></h3>
     <p>A practical production checklist for Fabric AI Agents, focused on access paths, ownership, auditability, and safe use with real business data.</p>
