@@ -1,40 +1,37 @@
 ---
-layout: post
 title: "Before You Put a Fabric AI Agent in Production, Steal This Checklist"
 description: "The demo is not the hard part. The hard part is making the agent safe enough to use with real business data."
 date: 2026-05-17
-author: Shai Karmani
-author_url: https://www.linkedin.com/in/shai-kr
 tags: [Microsoft Fabric, AI Agents, Data Engineering, Power BI, Governance]
 ---
 
-The demo is not the hard part. The hard part is making the agent safe enough to use with real business data.
+# Before You Put a Fabric AI Agent in Production, Steal This Checklist
 
 A Fabric AI Agent demo can become useful faster than most teams expect.
 
-Connect it to a semantic model. Add context from Eventhouse, a Lakehouse, or a Warehouse. Ask a few business questions. Suddenly the demo feels close to something people could actually use.
+Connect it to a semantic model. Ask a few business questions. Add context from Eventhouse, a Lakehouse, or a Warehouse. Suddenly the demo feels close to something people could use.
 
 That is exactly where teams need to slow down for one hour.
 
 Not to block the idea. To stop the first working demo from becoming a messy production workload.
 
-![Pilot to production is a gate, not a vibe.](../assets/blog/fabric-ai-agent-production-checklist/01-production-gate.png)
+This is the checklist I would use before moving a Fabric AI Agent past pilot stage.
 
-*Pilot to production is a gate, not a vibe.*
+![Medium hero](../assets/blog/fabric-ai-agent-production-checklist/01-medium-hero-ai-agent-checklist.png)
 
-## 1. Give the agent its own access path
+## 1. Give the agent its own identity
 
-A demo can run under a person’s access. Production should not.
+A demo can run under a human account. Production should not.
 
-If an agent depends on one user’s permissions, the operating model is fragile. Roles change. Ownership becomes unclear. Offboarding gets messy. Troubleshooting becomes personal instead of operational.
+If an agent depends on one person’s access, the operating model is fragile. Permissions change when that person changes role. Ownership becomes unclear. Offboarding becomes risky. Troubleshooting becomes personal instead of operational.
 
-For production, the cleaner pattern is a dedicated workload access path. In Fabric, that means service-principal thinking: explicit permissions, reviewable access, and an owner who is not “whoever built the first demo.”
+For a production agent, the better pattern is workload identity.
 
-![Replace human-owned shortcuts with production-owned access.](../assets/blog/fabric-ai-agent-production-checklist/02-access-path.png)
+That means the agent has a dedicated service principal, with access that can be granted, reviewed, rotated, and removed without depending on someone’s user account.
 
-*Replace human-owned shortcuts with production-owned access.*
+This is the first line I would draw between a pilot and something ready for business users.
 
-## 2. Start with one narrow job
+## 2. Start with one narrow use case
 
 The easiest way to make an AI agent hard to govern is to connect it to everything.
 
@@ -44,46 +41,40 @@ A useful production candidate sounds like this:
 
 - Explain sales variance from a governed semantic model
 - Summarize operational events from Eventhouse
-- Answer inventory questions for one operations team
+- Answer inventory questions for a specific operations team
 - Help finance users understand reconciliation status
-- Query approved warehouse views for one workflow
+- Query a curated warehouse table for one business workflow
 
 A weak production candidate sounds like this:
 
-> Let it answer questions about our data.
+“Let it answer questions about our data.”
 
-That is too broad. It gives the agent no clean boundary and gives the team no clean way to review access.
+That is too broad. It gives the agent no clear boundary and gives the team no clean way to review access.
 
-![The useful version is narrow, governed, and explainable.](../assets/blog/fabric-ai-agent-production-checklist/03-reference-architecture.png)
+![Reference architecture](../assets/blog/fabric-ai-agent-production-checklist/02-reference-architecture.png)
 
-*The useful version is narrow, governed, and explainable.*
+## 3. Map the data sources before adding them
 
-## 3. Map the blast radius
-
-For every source the agent can reach, write down why it needs it.
+For every data source the agent can reach, write down why it needs it.
 
 Not in a 20-page governance document. A short access inventory is enough:
 
 - Workspace
-- Source type: semantic model, Eventhouse, Lakehouse, or Warehouse
-- Access level
+- Semantic model, Eventhouse, Lakehouse, or Warehouse
+- Read-only or operational access
 - Business owner
 - Approval date
 - Review date
 
-The point is simple: someone should be able to look at the agent and understand what it can reach.
+The point is simple: someone should be able to look at the agent and understand its blast radius.
 
-If nobody can explain that, the agent is not ready.
+If nobody can explain what the agent can reach, the agent is not ready.
 
-![A small inventory is often enough to expose the real risk.](../assets/blog/fabric-ai-agent-production-checklist/04-access-inventory.png)
+## 4. Separate dev, test, and production
 
-*A small inventory is often enough to expose the real risk.*
+Most demos start in one workspace, with one identity, and one person who understands the setup.
 
-## 4. Separate demo, test, and production
-
-Most demos start in one workspace, with one setup, and one person who understands it.
-
-That is fine for discovery.
+That is normal.
 
 Leaving it that way is the problem.
 
@@ -93,7 +84,11 @@ Before production, I would want a clean path across environments:
 - Test for validation
 - Production for the restricted, supported version
 
-The permissions do not always need to be complicated. They do need to be deliberate.
+The identities and permissions do not always need to be complicated. They do need to be deliberate.
+
+If dev and production use the same broad access, every experiment becomes a production risk.
+
+![Checklist](../assets/blog/fabric-ai-agent-production-checklist/03-production-readiness-checklist.png)
 
 ## 5. Confirm the audit path
 
@@ -101,28 +96,38 @@ If the agent gives a bad answer, uses the wrong source, or becomes part of a bus
 
 Before launch, answer these questions:
 
-- Which access path did the agent use?
+- Which identity did the agent use?
 - Which data source was involved?
 - Who can review activity?
 - Who investigates issues?
 - How do we separate an agent issue from a model issue?
 
-This is where AI work gets uncomfortable. The demo focuses on the answer. Production needs the trail behind the answer.
+This is where a lot of AI work gets uncomfortable. The demo focuses on the answer. Production needs the trail behind the answer.
 
-![If a gate is vague, the agent is still a pilot.](../assets/blog/fabric-ai-agent-production-checklist/05-promotion-gates.png)
+## 6. Treat new data sources as a change request
 
-*If a gate is vague, the agent is still a pilot.*
+The first agent will not stay still.
+
+Someone will ask to add finance data. Then operations data. Then a shortcut. Then an Eventhouse function. Then a warehouse table.
+
+Some of those requests will be valid.
+
+They should still trigger a review.
+
+Every new data source changes the agent’s scope. That means the identity, permissions, audit path, and owner should be checked again.
+
+![Demo to production](../assets/blog/fabric-ai-agent-production-checklist/04-demo-to-production-map.png)
 
 ## The short version
 
-Before a Fabric AI Agent goes live, I would want these checks done:
+Before a Fabric AI Agent goes live, I would want these six checks done:
 
-1. Dedicated workload access path
-1. Narrow use case
-1. Known data sources
-1. Separated environments
-1. Least-privilege permissions
-1. Clear audit path and owner
+1. Dedicated service principal
+2. Narrow use case
+3. Known data sources
+4. Separated environments
+5. Least-privilege permissions
+6. Clear audit path and owner
 
 If those answers are vague, the agent is still a pilot.
 
