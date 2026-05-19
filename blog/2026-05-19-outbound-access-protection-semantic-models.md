@@ -1,11 +1,11 @@
 ---
-title: "Your Semantic Model Is Now a Data Exfiltration Boundary"
+title: "Your Semantic Model Can Leak Data"
 description: "Outbound Access Protection for semantic models changes Power BI governance from report permissions to workspace-level network controls."
 date: 2026-05-19
 tags: [Power BI, Microsoft Fabric, Semantic Models, Governance, Security]
 ---
 
-# Your Semantic Model Is Now a Data Exfiltration Boundary
+# Your Semantic Model Can Leak Data
 
 Most Power BI security conversations stop at the report.
 
