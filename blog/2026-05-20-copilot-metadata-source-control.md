@@ -163,7 +163,6 @@ That means the migration should be planned like a model change.
 
 Not like a dialog box someone clicks through.
 
-![Managing Prep data for AI settings](../assets/blog/copilot-metadata-source-control/screenshots/04-prep-data-service.jpg)
 
 Before upgrading a production model, I would check:
 
@@ -213,7 +212,6 @@ For a Power BI team using Copilot, I would add these checks to the semantic mode
 - Is any Q&A migration involved?
 - Is the change safe for every audience that can access the model?
 
-![Testing Copilot changes](../assets/blog/copilot-metadata-source-control/screenshots/04-prep-data-service.jpg)
 
 ## The real shift
 
