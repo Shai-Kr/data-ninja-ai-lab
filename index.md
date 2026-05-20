@@ -18,6 +18,11 @@ description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, 
 <section class="post-list featured home-articles">
   <h2>Latest articles</h2>
   <article class="post-card">
+    <p class="post-meta">Power BI · Copilot · Semantic Models</p>
+    <h3><a href="{{ '/blog/2026-05-20-copilot-metadata-source-control.html' | relative_url }}">Put Copilot Metadata Where Your Team Can Review It</a></h3>
+    <p>Why Prep data for AI, verified answers, and Copilot metadata should be treated like semantic model engineering artifacts.</p>
+  </article>
+  <article class="post-card">
     <p class="post-meta">Power BI · Semantic Models · Security</p>
     <h3><a href="{{ '/blog/2026-05-19-outbound-access-protection-semantic-models.html' | relative_url }}">The Power BI Setting That Makes Semantic Models Safer</a></h3>
     <p>Why Outbound Access Protection for semantic models turns workspace network rules into a real Power BI governance decision.</p>
