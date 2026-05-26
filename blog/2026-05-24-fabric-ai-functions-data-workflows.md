@@ -8,8 +8,7 @@ categories: [Microsoft Fabric, AI, Data Engineering, Data Science]
 tags: [microsoftfabric, ai, dataengineering, datascience, analyticsengineering]
 description: "Fabric AI Functions move GenAI into pandas and Spark workflows, where teams can classify, extract, summarize, embed, and enrich messy business data inside Microsoft Fabric."
 image: /assets/blog/fabric-ai-functions-data-workflows/01-ai-functions-pipeline.svg
-
-
+---
 ![AI Functions in Fabric data workflow](../assets/blog/fabric-ai-functions-data-workflows/01-ai-functions-pipeline.svg)
 
 Most enterprise GenAI demos start in the wrong place.
