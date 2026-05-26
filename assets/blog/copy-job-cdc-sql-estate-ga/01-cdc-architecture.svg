@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Copy Job CDC with SQL estate is GA</title>
+  <desc id="desc">A cleaner pattern for operational SQL changes into Fabric analytics.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07111f"/><stop offset="1" stop-color="#0b1930"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="coloredBlur"/><feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .title { font: 700 42px Inter, Segoe UI, Arial, sans-serif; fill: #f4fbff; }
+      .sub { font: 400 22px Inter, Segoe UI, Arial, sans-serif; fill: #9fc8d8; }
+      .card { fill: rgba(13,31,54,.9); stroke: #22d3ee; stroke-width: 2; rx: 24; }
+      .card2 { fill: rgba(13,31,54,.86); stroke: #60a5fa; stroke-width: 2; rx: 24; }
+      .head { font: 700 25px Inter, Segoe UI, Arial, sans-serif; fill: #e6fbff; }
+      .txt { font: 400 20px Inter, Segoe UI, Arial, sans-serif; fill: #c7dbe8; }
+      .small { font: 500 18px Inter, Segoe UI, Arial, sans-serif; fill: #8fc9db; }
+      .arrow { stroke: #22d3ee; stroke-width: 6; fill: none; marker-end: url(#arrow); filter:url(#glow); }
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 Z" fill="#22d3ee"/></marker>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <circle cx="1040" cy="120" r="210" fill="#0ea5e9" opacity=".12"/>
+  <circle cx="110" cy="650" r="220" fill="#22d3ee" opacity=".09"/>
+  <text x="70" y="78" class="title">Copy Job CDC with SQL estate is GA</text>
+  <text x="70" y="116" class="sub">A cleaner pattern for operational SQL changes into Fabric analytics.</text>
+  
+  <rect x="70" y="190" width="285" height="360" class="card"/>
+  <text x="105" y="245" class="head">Operational SQL estate</text>
+  <text x="105" y="300" class="txt">SQL Server</text>
+  <text x="105" y="342" class="txt">Azure SQL Database</text>
+  <text x="105" y="384" class="txt">Azure SQL MI</text>
+  <text x="105" y="456" class="small">Orders, customers, inventory,</text>
+  <text x="105" y="486" class="small">subscriptions, finance data</text>
+  <path d="M370 370 C420 370 440 370 490 370" class="arrow"/>
+  <rect x="490" y="165" width="320" height="410" class="card2"/>
+  <text x="525" y="225" class="head">Fabric Copy Job CDC</text>
+  <text x="525" y="285" class="txt">Change capture</text>
+  <text x="525" y="327" class="txt">Incremental replication</text>
+  <text x="525" y="369" class="txt">SCD Type 2 history</text>
+  <text x="525" y="411" class="txt">Soft delete handling</text>
+  <text x="525" y="485" class="small">Production pattern inside</text>
+  <text x="525" y="515" class="small">Fabric Data Factory</text>
+  <path d="M825 370 C875 370 895 370 945 370" class="arrow"/>
+  <rect x="945" y="190" width="185" height="360" class="card"/>
+  <text x="980" y="245" class="head">Analytics</text>
+  <text x="980" y="300" class="txt">Fabric SQL</text>
+  <text x="980" y="342" class="txt">Warehouse</text>
+  <text x="980" y="384" class="txt">Synapse SQL</text>
+  <text x="980" y="426" class="txt">Snowflake</text>
+  <text x="70" y="665" class="sub">The shift: from full reloads to governed change history.</text>
+
+</svg>
