@@ -19,8 +19,8 @@ description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, 
   <h2>Latest articles</h2>
   <article class="post-card">
     <p class="post-meta">Microsoft Fabric · AI Functions · Data Engineering</p>
-    <h3><a href="{{ '/blog/2026-05-24-fabric-ai-functions-data-workflows.html' | relative_url }}">Fabric AI Functions Put GenAI Where the Data Work Already Happens</a></h3>
-    <p>What changed with Fabric AI Functions, why multimodal support matters, and how teams can use AI enrichment inside real pandas and Spark workflows.</p>
+    <h3><a href="{{ '/blog/2026-05-24-fabric-ai-functions-data-workflows.html' | relative_url }}">Fabric AI Functions Turn GenAI Into a Data Pipeline Step</a></h3>
+    <p>Why Fabric AI Functions matter: GenAI enrichment inside pandas and Spark workflows, with multimodal input, embeddings, and reviewable data assets.</p>
   </article>
   <article class="post-card">
     <p class="post-meta">Power BI · Copilot · Semantic Models</p>
