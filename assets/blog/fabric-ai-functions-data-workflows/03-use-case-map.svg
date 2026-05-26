@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Good Use Cases</title>
+  <desc id="desc">Start with workflows where enrichment creates a measurable data asset</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="0.55" stop-color="#071528"/>
+      <stop offset="1" stop-color="#020817"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .title { font: 700 54px Inter, Segoe UI, Arial, sans-serif; fill: #eef8ff; }
+      .subtitle { font: 400 25px Inter, Segoe UI, Arial, sans-serif; fill: #9fb8d4; }
+      .card-title { font: 700 28px Inter, Segoe UI, Arial, sans-serif; fill: #eef8ff; }
+      .card-text { font: 400 22px Inter, Segoe UI, Arial, sans-serif; fill: #b8c7d9; }
+      .small { font: 600 18px Inter, Segoe UI, Arial, sans-serif; fill: #7dd3fc; letter-spacing: 2px; }
+      .line { stroke: #21d4fd; stroke-width: 4; stroke-linecap: round; opacity: .85; }
+    </style>
+  </defs>
+  <rect width="1400" height="900" fill="url(#bg)"/>
+  <circle cx="1120" cy="160" r="250" fill="#0ea5e9" opacity="0.11" filter="url(#glow)"/>
+  <circle cx="170" cy="760" r="260" fill="#7c3aed" opacity="0.13" filter="url(#glow)"/>
+  <text x="80" y="100" class="small">DATA NINJA AI LAB</text>
+  <text x="80" y="170" class="title">Good Use Cases</text>
+  <text x="82" y="220" class="subtitle">Start with workflows where enrichment creates a measurable data asset</text>
+  <rect x="80" y="250" width="360" height="440" rx="28" fill="#081525" stroke="#00d4ff" stroke-width="3" opacity="0.98"/>
+  <rect x="104" y="276" width="84" height="10" rx="5" fill="#00d4ff"/>
+  <text x="108" y="342" class="card-title">Support data</text>
+  <text x="108" y="395" class="card-text">Classify tickets,</text>
+  <text x="108" y="437" class="card-text">detect sentiment,</text>
+  <text x="108" y="479" class="card-text">summarize long notes</text>
+  <path d="M 452 470 L 466 470" class="line"/>
+  <path d="M 446 456 L 466 470 L 446 484" class="line" fill="none"/>
+  <rect x="478" y="250" width="360" height="440" rx="28" fill="#081525" stroke="#7c5cff" stroke-width="3" opacity="0.98"/>
+  <rect x="502" y="276" width="84" height="10" rx="5" fill="#7c5cff"/>
+  <text x="506" y="342" class="card-title">Documents</text>
+  <text x="506" y="395" class="card-text">Extract fields from</text>
+  <text x="506" y="437" class="card-text">PDFs, forms, images,</text>
+  <text x="506" y="479" class="card-text">and text files</text>
+  <path d="M 850 470 L 864 470" class="line"/>
+  <path d="M 844 456 L 864 470 L 844 484" class="line" fill="none"/>
+  <rect x="876" y="250" width="360" height="440" rx="28" fill="#081525" stroke="#22e6a8" stroke-width="3" opacity="0.98"/>
+  <rect x="900" y="276" width="84" height="10" rx="5" fill="#22e6a8"/>
+  <text x="904" y="342" class="card-title">Search and RAG</text>
+  <text x="904" y="395" class="card-text">Create embeddings,</text>
+  <text x="904" y="437" class="card-text">compare meaning,</text>
+  <text x="904" y="479" class="card-text">prepare retrieval data</text>
+  <text x="80" y="820" class="subtitle">Practical pattern: run AI where the data workflow already runs, then review the output before it reaches users.</text>
+</svg>
