@@ -18,6 +18,11 @@ description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, 
 <section class="post-list featured home-articles">
   <h2>Latest articles</h2>
   <article class="post-card">
+    <p class="post-meta">Power BI · Semantic Models · DAX</p>
+    <h3><a href="{{ '/blog/2026-05-28-user-aware-calculated-columns-power-bi.html' | relative_url }}">Build Power BI Columns That Adapt to Each User</a></h3>
+    <p>A practical guide to user-aware calculated columns, Expression Context, localization, virtual columns, and security-aware model patterns.</p>
+  </article>
+  <article class="post-card">
     <p class="post-meta">Microsoft Fabric · Data Factory · CDC</p>
     <h3><a href="{{ '/blog/2026-05-26-copy-job-cdc-sql-estate-ga.html' | relative_url }}">Copy Job CDC with SQL estate is now GA in Microsoft Fabric</a></h3>
     <p>What the GA release means for SQL estate replication, SCD Type 2 history, soft deletes, and production Fabric architecture.</p>
