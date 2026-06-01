@@ -11,8 +11,21 @@ description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, 
     <p class="byline home-name">by <a href="https://www.linkedin.com/in/shai-kr">Shai Karmani</a></p>
     <p class="lede">I use this lab to publish practical articles, demos, and code around Microsoft Fabric, Power BI, analytics engineering, automation, and AI systems.</p>
     <p class="about-inline">My goal is simple: turn real implementation work into clear patterns other data professionals can use. Less theory, more decisions, tradeoffs, architecture, and working examples from the messy middle of building reliable data platforms.</p>
-    <a class="profile-link" href="https://www.linkedin.com/in/shai-kr">Let’s connect on LinkedIn</a>
+    <div class="hero-cta-row">
+      <a class="profile-link" href="https://www.linkedin.com/in/shai-kr">Let’s connect on LinkedIn</a>
+      <a class="subscribe-pill" href="https://docs.google.com/forms/d/e/1FAIpQLSfzdHN_6hpK7X0OnN2q_TeR3OaQoPG0Llu447dgISWpfjyTCA/viewform">Subscribe for new posts</a>
+    </div>
   </div>
+</section>
+
+<section class="subscribe-card home-subscribe" aria-label="Subscribe to Data Ninja AI Lab updates">
+  <div class="subscribe-orbit" aria-hidden="true"></div>
+  <div class="subscribe-copy">
+    <p class="subscribe-kicker">Follow the lab</p>
+    <h2>Get new Fabric, Power BI, and AI articles in your inbox.</h2>
+    <p>No feed hunting. When a new post is ready, I send a short email with the practical angle and the link.</p>
+  </div>
+  <a class="subscribe-button" href="https://docs.google.com/forms/d/e/1FAIpQLSfzdHN_6hpK7X0OnN2q_TeR3OaQoPG0Llu447dgISWpfjyTCA/viewform">Join the update list</a>
 </section>
 
 <section class="post-list featured home-articles">
