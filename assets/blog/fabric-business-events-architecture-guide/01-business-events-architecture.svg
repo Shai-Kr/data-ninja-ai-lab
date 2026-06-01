@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#06111f"/><stop offset="1" stop-color="#020713"/></linearGradient>
+  <linearGradient id="card" x1="0" x2="1"><stop offset="0" stop-color="#0a1f35"/><stop offset="1" stop-color="#071626"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs><defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 Z" fill="#4dd8ff"/></marker></defs>
+<rect width="1200" height="700" fill="url(#bg)"/>
+<g opacity="0.22"><line x1="0" y1="0" x2="0" y2="700" stroke="#4dd8ff" stroke-width="1"/><line x1="60" y1="0" x2="60" y2="700" stroke="#4dd8ff" stroke-width="1"/><line x1="120" y1="0" x2="120" y2="700" stroke="#4dd8ff" stroke-width="1"/><line x1="180" y1="0" x2="180" y2="700" stroke="#4dd8ff" stroke-width="1"/><line x1="240" y1="0" x2="240" y2="700" stroke="#4dd8ff" stroke-width="1"/><line x1="300" y1="0" x2="300" y2="700" stroke="#4dd8ff" stroke-width="1"/><line x1="360" y1="0" x2="360" y2="700" stroke="#4dd8ff" stroke-width="1"/><line x1="420" y1="0" x2="420" y2="700" stroke="#4dd8ff" stroke-width="1"/><line x1="480" y1="0" x2="480" y2="700" stroke="#4dd8ff" stroke-width="1"/><line x1="540" y1="0" x2="540" y2="700" stroke="#4dd8ff" stroke-width="1"/><line x1="600" y1="0" x2="600" y2="700" stroke="#4dd8ff" stroke-width="1"/><line x1="660" y1="0" x2="660" y2="700" stroke="#4dd8ff" stroke-width="1"/><line x1="720" y1="0" x2="720" y2="700" stroke="#4dd8ff" stroke-width="1"/><line x1="780" y1="0" x2="780" y2="700" stroke="#4dd8ff" stroke-width="1"/><line x1="840" y1="0" x2="840" y2="700" stroke="#4dd8ff" stroke-width="1"/><line x1="900" y1="0" x2="900" y2="700" stroke="#4dd8ff" stroke-width="1"/><line x1="960" y1="0" x2="960" y2="700" stroke="#4dd8ff" stroke-width="1"/><line x1="1020" y1="0" x2="1020" y2="700" stroke="#4dd8ff" stroke-width="1"/><line x1="1080" y1="0" x2="1080" y2="700" stroke="#4dd8ff" stroke-width="1"/><line x1="1140" y1="0" x2="1140" y2="700" stroke="#4dd8ff" stroke-width="1"/><line x1="1200" y1="0" x2="1200" y2="700" stroke="#4dd8ff" stroke-width="1"/><line x1="0" y1="0" x2="1200" y2="0" stroke="#4dd8ff" stroke-width="1"/><line x1="0" y1="60" x2="1200" y2="60" stroke="#4dd8ff" stroke-width="1"/><line x1="0" y1="120" x2="1200" y2="120" stroke="#4dd8ff" stroke-width="1"/><line x1="0" y1="180" x2="1200" y2="180" stroke="#4dd8ff" stroke-width="1"/><line x1="0" y1="240" x2="1200" y2="240" stroke="#4dd8ff" stroke-width="1"/><line x1="0" y1="300" x2="1200" y2="300" stroke="#4dd8ff" stroke-width="1"/><line x1="0" y1="360" x2="1200" y2="360" stroke="#4dd8ff" stroke-width="1"/><line x1="0" y1="420" x2="1200" y2="420" stroke="#4dd8ff" stroke-width="1"/><line x1="0" y1="480" x2="1200" y2="480" stroke="#4dd8ff" stroke-width="1"/><line x1="0" y1="540" x2="1200" y2="540" stroke="#4dd8ff" stroke-width="1"/><line x1="0" y1="600" x2="1200" y2="600" stroke="#4dd8ff" stroke-width="1"/><line x1="0" y1="660" x2="1200" y2="660" stroke="#4dd8ff" stroke-width="1"/></g>
+<circle cx="1005" cy="76" r="180" fill="#4dd8ff" opacity="0.12"/>
+<text x="56" y="70" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#4dd8ff" letter-spacing="3">DATA NINJA AI LAB</text>
+
+<text x="56" y="128" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="850" fill="#ffffff"><tspan x="56" dy="0">Fabric Business Events</tspan><tspan x="56" dy="48">Architecture</tspan></text>
+
+    <rect x="58" y="210" width="250" height="180" rx="28" fill="url(#card)" stroke="rgba(77,216,255,0.45)" stroke-width="2"/>
+    <rect x="76" y="228" width="8" height="144" rx="4" fill="#7aa2ff" filter="url(#glow)"/>
+    <text x="102" y="258" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#ffffff"><tspan x="102" dy="0">Raw signals</tspan></text>
+    <text x="102" y="314" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="500" fill="#a9c6d8"><tspan x="102" dy="0">CDC rows,</tspan><tspan x="102" dy="20">telemetry, report</tspan><tspan x="102" dy="20">state, KQL, SQL</tspan></text>
+    
+<line x1="324" y1="300" x2="388" y2="300" stroke="#4dd8ff" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)" opacity="0.9"/>
+
+    <rect x="396" y="210" width="250" height="180" rx="28" fill="url(#card)" stroke="rgba(77,216,255,0.45)" stroke-width="2"/>
+    <rect x="414" y="228" width="8" height="144" rx="4" fill="#4dd8ff" filter="url(#glow)"/>
+    <text x="440" y="258" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#ffffff"><tspan x="440" dy="0">Event contract</tspan></text>
+    <text x="440" y="314" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="500" fill="#a9c6d8"><tspan x="440" dy="0">Name, schema,</tspan><tspan x="440" dy="20">owner, version,</tspan><tspan x="440" dy="20">correlation ID</tspan></text>
+    
+<line x1="662" y1="300" x2="728" y2="300" stroke="#4dd8ff" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)" opacity="0.9"/>
+
+    <rect x="736" y="210" width="250" height="180" rx="28" fill="url(#card)" stroke="rgba(77,216,255,0.45)" stroke-width="2"/>
+    <rect x="754" y="228" width="8" height="144" rx="4" fill="#5ce7ff" filter="url(#glow)"/>
+    <text x="780" y="258" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#ffffff"><tspan x="780" dy="0">Real-Time Hub</tspan></text>
+    <text x="780" y="314" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="500" fill="#a9c6d8"><tspan x="780" dy="0">Discover, route,</tspan><tspan x="780" dy="20">subscribe, govern</tspan></text>
+    
+
+    <rect x="58" y="455" width="250" height="165" rx="28" fill="url(#card)" stroke="rgba(77,216,255,0.45)" stroke-width="2"/>
+    <rect x="76" y="473" width="8" height="129" rx="4" fill="#83a7ff" filter="url(#glow)"/>
+    <text x="102" y="503" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#ffffff"><tspan x="102" dy="0">Action</tspan></text>
+    <text x="102" y="559" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="500" fill="#a9c6d8"><tspan x="102" dy="0">Activator,</tspan><tspan x="102" dy="20">Power Automate,</tspan><tspan x="102" dy="20">UDFs</tspan></text>
+    
+
+    <rect x="396" y="455" width="250" height="165" rx="28" fill="url(#card)" stroke="rgba(77,216,255,0.45)" stroke-width="2"/>
+    <rect x="414" y="473" width="8" height="129" rx="4" fill="#4dd8ff" filter="url(#glow)"/>
+    <text x="440" y="503" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#ffffff"><tspan x="440" dy="0">History</tspan></text>
+    <text x="440" y="559" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="500" fill="#a9c6d8"><tspan x="440" dy="0">Queryable</tspan><tspan x="440" dy="20">Eventhouse</tspan><tspan x="440" dy="20">history</tspan></text>
+    
+
+    <rect x="736" y="455" width="250" height="165" rx="28" fill="url(#card)" stroke="rgba(77,216,255,0.45)" stroke-width="2"/>
+    <rect x="754" y="473" width="8" height="129" rx="4" fill="#5ce7ff" filter="url(#glow)"/>
+    <text x="780" y="503" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#ffffff"><tspan x="780" dy="0">Visibility</tspan></text>
+    <text x="780" y="559" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="500" fill="#a9c6d8"><tspan x="780" dy="0">Live dashboards</tspan></text>
+    
+<line x1="736" y1="338" x2="298" y2="454" stroke="#4dd8ff" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)" opacity="0.9"/><line x1="862" y1="390" x2="520" y2="454" stroke="#4dd8ff" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)" opacity="0.9"/><line x1="982" y1="338" x2="982" y2="454" stroke="#4dd8ff" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)" opacity="0.9"/>
+
+<text x="56" y="650" font-family="JetBrains Mono, monospace" font-size="18" fill="#6f8299">From raw signal to governed business event</text>
+</svg>

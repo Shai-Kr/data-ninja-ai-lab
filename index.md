@@ -31,6 +31,11 @@ description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, 
 <section class="post-list featured home-articles">
   <h2>Latest articles</h2>
   <article class="post-card">
+    <p class="post-meta">Microsoft Fabric · Real-Time Intelligence · Event Architecture</p>
+    <h3><a href="{{ '/blog/2026-06-01-fabric-business-events-architecture-guide.html' | relative_url }}">Stop Treating Fabric Business Events Like Alerts</a></h3>
+    <p>A practical guide to what changed in Fabric Business Events, how to design event contracts, and when Eventstream, Activator, Eventhouse, and capacity ownership matter.</p>
+  </article>
+  <article class="post-card">
     <p class="post-meta">Power BI · Semantic Models · DAX</p>
     <h3><a href="{{ '/blog/2026-05-28-user-aware-calculated-columns-power-bi.html' | relative_url }}">Build Power BI Columns That Adapt to Each User</a></h3>
     <p>A practical guide to user-aware calculated columns, Expression Context, localization, virtual columns, and security-aware model patterns.</p>
