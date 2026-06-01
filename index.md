@@ -32,8 +32,8 @@ description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, 
   <h2>Latest articles</h2>
   <article class="post-card">
     <p class="post-meta">Microsoft Fabric · Real-Time Intelligence · Event Architecture</p>
-    <h3><a href="{{ '/blog/2026-06-01-fabric-business-events-architecture-guide.html' | relative_url }}">Stop Treating Fabric Business Events Like Alerts</a></h3>
-    <p>A practical guide to what changed in Fabric Business Events, how to design event contracts, and when Eventstream, Activator, Eventhouse, and capacity ownership matter.</p>
+    <h3><a href="{{ '/blog/2026-06-01-fabric-business-events-architecture-guide.html' | relative_url }}">Fabric Business Events Just Became an Architecture Pattern</a></h3>
+    <p>A practical guide to the meaningful shift in Fabric Business Events, what the feature is, how to design event contracts, and where Eventstream, Activator, Eventhouse, and capacity ownership fit.</p>
   </article>
   <article class="post-card">
     <p class="post-meta">Power BI · Semantic Models · DAX</p>
