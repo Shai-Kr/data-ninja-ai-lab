@@ -7,10 +7,10 @@ author_url: https://www.linkedin.com/in/shai-kr
 categories: [Microsoft Fabric, Fabric IQ, AI Agents, Analytics Engineering]
 tags: [microsoftfabric, fabriciq, aiagents, powerbi, analyticsengineering]
 description: "Fabric IQ becoming generally available is a real milestone for AI agents in Microsoft Fabric. The important shift is governed business context, not another chat interface."
-image: /assets/blog/fabric-iq-ga-context-layer/01-fabric-iq-context-loop-v2.png
+image: /assets/blog/fabric-iq-ga-context-layer/01-fabric-iq-context-layer-v3.png
 ---
 
-![Fabric IQ operating loop](../assets/blog/fabric-iq-ga-context-layer/01-fabric-iq-context-loop-v2.png)
+![Fabric IQ context layer](../assets/blog/fabric-iq-ga-context-layer/01-fabric-iq-context-layer-v3.png)
 
 Fabric IQ becoming generally available is one of the Fabric milestones I was waiting for.
 
@@ -54,7 +54,7 @@ Microsoft describes three connected layers.
 
 ### 1. Unified data in OneLake
 
-OneLake gives Fabric IQ the common data foundation. Analytical data, operational data, real-time data, shortcuts, lakehouses, eventhouses, warehouses, and semantic models can participate in the same platform story.
+OneLake gives Fabric IQ the common data foundation. Analytical data, operational data, shortcuts, lakehouses, warehouses, semantic models, and other Fabric items can participate in the same platform story.
 
 ### 2. Business intelligence through semantic models
 
@@ -184,7 +184,7 @@ That is why I was waiting for this milestone.
 
 Semantic models gave BI teams a trusted language for reporting.
 
-Fabric IQ pushes that idea further: a trusted context layer for agents, real-time operations, planning, graph reasoning, and applications.
+Fabric IQ pushes that idea further: a trusted context layer for agents, planning, graph reasoning, and applications.
 
 The opportunity is huge, but the implementation discipline matters.
 
@@ -198,7 +198,7 @@ That is how Fabric IQ becomes useful infrastructure instead of another impressiv
 - [Microsoft Learn: What is Ontology in Fabric IQ?](https://learn.microsoft.com/en-us/fabric/iq/ontology/overview)
 - [Microsoft Learn: Consume Ontology from Agents](https://learn.microsoft.com/en-us/fabric/iq/ontology/tutorial-4-create-data-agent)
 - [Microsoft Learn: What is Graph in Microsoft Fabric?](https://learn.microsoft.com/en-us/fabric/graph/overview)
-- [Microsoft Fabric Updates Blog: Fabric IQ, the shared context layer for AI agents and real-time applications](https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-IQ-The-shared-context-layer-for-AI-agents-and-real-time/ba-p/5191678)
+- [Microsoft Fabric Updates Blog: Fabric IQ as the shared context layer for AI agents](https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-IQ-The-shared-context-layer-for-AI-agents-and-real-time/ba-p/5191678)
 - [Microsoft Fabric Updates Blog: Fabric IQ, the semantic layer powering trusted AI agents at enterprise scale](https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-IQ-The-semantic-layer-powering-trusted-AI-agents-at/ba-p/5190739)
 - [Microsoft Fabric Updates Blog: Graph in Fabric Generally Available](https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Graph-in-Fabric-Generally-Available/ba-p/5190748)
 
