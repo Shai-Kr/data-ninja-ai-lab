@@ -7,10 +7,10 @@ author_url: https://www.linkedin.com/in/shai-kr
 categories: [Microsoft Fabric, Fabric IQ, AI Agents, Analytics Engineering]
 tags: [microsoftfabric, fabriciq, aiagents, powerbi, analyticsengineering]
 description: "Fabric IQ becoming generally available is a real milestone for AI agents in Microsoft Fabric. The important shift is governed business context, not another chat interface."
-image: /assets/blog/fabric-iq-ga-context-layer/01-fabric-iq-operating-loop.png
+image: /assets/blog/fabric-iq-ga-context-layer/01-fabric-iq-context-loop-v2.png
 ---
 
-![Fabric IQ operating loop](../assets/blog/fabric-iq-ga-context-layer/01-fabric-iq-operating-loop.png)
+![Fabric IQ operating loop](../assets/blog/fabric-iq-ga-context-layer/01-fabric-iq-context-loop-v2.png)
 
 Fabric IQ becoming generally available is one of the Fabric milestones I was waiting for.
 
