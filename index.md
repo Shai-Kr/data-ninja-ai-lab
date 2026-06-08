@@ -31,6 +31,11 @@ description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, 
 <section class="post-list featured home-articles">
   <h2>Latest articles</h2>
   <article class="post-card">
+    <p class="post-meta">Power BI · AI Agents · Agent Skills</p>
+    <h3><a href="{{ '/blog/2026-06-08-power-bi-agent-skills-playbook.html' | relative_url }}">AI Can Build Power BI Reports Now. Here’s the Playbook I’d Use First.</a></h3>
+    <p>A practical guide to Microsoft’s Power BI agent skills, top use cases, install path, PBIR workflow, screenshot loop, and first pilot playbook.</p>
+  </article>
+  <article class="post-card">
     <p class="post-meta">Microsoft Fabric · Fabric IQ · AI Agents</p>
     <h3><a href="{{ '/blog/2026-06-04-fabric-iq-ga-context-layer.html' | relative_url }}">Fabric IQ Is GA. This Is the Context Layer I’ve Been Waiting For.</a></h3>
     <p>Why Fabric IQ becoming generally available matters for AI agents, semantic models, graph reasoning, ontology, and governed business context.</p>

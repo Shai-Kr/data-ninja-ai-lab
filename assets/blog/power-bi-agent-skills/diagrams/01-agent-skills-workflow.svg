@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-label="Power BI agent skills workflow from prompt to PBIR to screenshot review to Fabric publish">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#061526"/>
+      <stop offset="0.55" stop-color="#071b2f"/>
+      <stop offset="1" stop-color="#030713"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" x2="1">
+      <stop offset="0" stop-color="#0d2b45"/>
+      <stop offset="1" stop-color="#0a1d35"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .title{font:700 46px Inter,Segoe UI,Arial,sans-serif;fill:#f4fbff}.sub{font:500 22px Inter,Segoe UI,Arial,sans-serif;fill:#9fd8ff}.small{font:500 19px Inter,Segoe UI,Arial,sans-serif;fill:#cbeeff}.label{font:700 24px Inter,Segoe UI,Arial,sans-serif;fill:#ffffff}.body{font:500 18px Inter,Segoe UI,Arial,sans-serif;fill:#b9d9ed}.num{font:800 24px Inter,Segoe UI,Arial,sans-serif;fill:#00111f}.chip{font:700 16px Inter,Segoe UI,Arial,sans-serif;fill:#79f7ff}.arrow{stroke:#35d7ff;stroke-width:4;fill:none;marker-end:url(#arrowhead);filter:url(#glow)}
+    </style>
+    <marker id="arrowhead" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#35d7ff"/></marker>
+  </defs>
+  <rect width="1400" height="900" fill="url(#bg)"/>
+  <circle cx="1180" cy="120" r="190" fill="#0aa8ff" opacity="0.08"/>
+  <circle cx="140" cy="660" r="230" fill="#2af7ff" opacity="0.07"/>
+  <text x="70" y="78" class="title">AI-Built Power BI Reports: The New Authoring Loop</text>
+  <text x="72" y="118" class="sub">Agent Skills turn report creation into a repeatable workflow, not a one-off prompt.</text>
+
+  <g transform="translate(70,190)">
+    <rect width="210" height="190" rx="28" fill="url(#card)" stroke="#2ed7ff" stroke-width="2"/>
+    <circle cx="42" cy="44" r="21" fill="#7df9ff"/><text x="34" y="52" class="num">1</text>
+    <text x="28" y="88" class="label">Plan</text>
+    <text x="28" y="124" class="body">Define pages, KPIs,</text>
+    <text x="28" y="150" class="body">audience, filters,</text>
+    <text x="28" y="176" class="body">and report intent.</text>
+  </g>
+  <path d="M290 285 C330 285 350 285 388 285" class="arrow"/>
+  <g transform="translate(400,190)">
+    <rect width="210" height="190" rx="28" fill="url(#card)" stroke="#2ed7ff" stroke-width="2"/>
+    <circle cx="42" cy="44" r="21" fill="#7df9ff"/><text x="34" y="52" class="num">2</text>
+    <text x="28" y="88" class="label">Generate</text>
+    <text x="28" y="124" class="body">Write schema-correct</text>
+    <text x="28" y="150" class="body">PBIR files inside a</text>
+    <text x="28" y="176" class="body">PBIP project.</text>
+  </g>
+  <path d="M620 285 C660 285 680 285 718 285" class="arrow"/>
+  <g transform="translate(730,190)">
+    <rect width="210" height="190" rx="28" fill="url(#card)" stroke="#2ed7ff" stroke-width="2"/>
+    <circle cx="42" cy="44" r="21" fill="#7df9ff"/><text x="34" y="52" class="num">3</text>
+    <text x="28" y="88" class="label">Reload</text>
+    <text x="28" y="124" class="body">Use Desktop bridge</text>
+    <text x="28" y="150" class="body">to reload the open</text>
+    <text x="28" y="176" class="body">Power BI report.</text>
+  </g>
+  <path d="M950 285 C990 285 1010 285 1048 285" class="arrow"/>
+  <g transform="translate(1060,190)">
+    <rect width="260" height="190" rx="28" fill="url(#card)" stroke="#2ed7ff" stroke-width="2"/>
+    <circle cx="42" cy="44" r="21" fill="#7df9ff"/><text x="34" y="52" class="num">4</text>
+    <text x="28" y="88" class="label">Review screenshots</text>
+    <text x="28" y="124" class="body">The agent sees the</text>
+    <text x="28" y="150" class="body">actual rendered page,</text>
+    <text x="28" y="176" class="body">then iterates.</text>
+  </g>
+
+  <g transform="translate(210,500)">
+    <rect width="980" height="118" rx="30" fill="#071d34" stroke="#1fbce8" stroke-width="2"/>
+    <text x="42" y="46" class="chip">Result</text>
+    <text x="42" y="80" class="small">A report workflow where natural language, PBIR source files, Desktop rendering, screenshot review,</text>
+    <text x="42" y="108" class="small">semantic model authoring, and Fabric publishing can work as one practical build loop.</text>
+  </g>
+</svg>

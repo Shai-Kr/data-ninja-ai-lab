@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-label="Implementation playbook for using Power BI agent skills correctly">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#051322"/><stop offset="1" stop-color="#020711"/></linearGradient>
+    <linearGradient id="lane" x1="0" x2="1"><stop offset="0" stop-color="#0a2a44"/><stop offset="1" stop-color="#07182b"/></linearGradient>
+    <style>.title{font:800 46px Inter,Segoe UI,Arial,sans-serif;fill:#f7fcff}.sub{font:500 22px Inter,Segoe UI,Arial,sans-serif;fill:#a4dfff}.stage{font:800 25px Inter,Segoe UI,Arial,sans-serif;fill:#ffffff}.body{font:500 18px Inter,Segoe UI,Arial,sans-serif;fill:#c6e6f7}.cmd{font:700 18px ui-monospace,SFMono-Regular,Consolas,monospace;fill:#7df9ff}.num{font:900 24px Inter,Segoe UI,Arial,sans-serif;fill:#031323}</style>
+  </defs>
+  <rect width="1400" height="900" fill="url(#bg)"/>
+  <circle cx="1190" cy="130" r="210" fill="#22d8ff" opacity="0.07"/>
+  <text x="70" y="80" class="title">A Practical Playbook for the First Pilot</text>
+  <text x="72" y="120" class="sub">Start narrow, keep everything in source control, and let the agent iterate on rendered Power BI output.</text>
+
+  <g transform="translate(80,180)">
+    <rect width="1240" height="96" rx="24" fill="url(#lane)" stroke="#24d5ff"/>
+    <circle cx="46" cy="48" r="24" fill="#7df9ff"/><text x="38" y="56" class="num">1</text>
+    <text x="88" y="42" class="stage">Install the Power BI Authoring plugin</text>
+    <text x="88" y="72" class="cmd">/plugin marketplace add microsoft/skills-for-fabric  |  /plugin install powerbi-authoring@fabric-collection</text>
+  </g>
+  <g transform="translate(80,300)">
+    <rect width="1240" height="96" rx="24" fill="url(#lane)" stroke="#24d5ff"/>
+    <circle cx="46" cy="48" r="24" fill="#7df9ff"/><text x="38" y="56" class="num">2</text>
+    <text x="88" y="42" class="stage">Put the report in PBIP and keep PBIR files visible</text>
+    <text x="88" y="72" class="body">Use a Git branch so report pages, visuals, theme changes, and generated files are normal reviewable artifacts.</text>
+  </g>
+  <g transform="translate(80,420)">
+    <rect width="1240" height="96" rx="24" fill="url(#lane)" stroke="#24d5ff"/>
+    <circle cx="46" cy="48" r="24" fill="#7df9ff"/><text x="38" y="56" class="num">3</text>
+    <text x="88" y="42" class="stage">Give the agent a real report brief</text>
+    <text x="88" y="72" class="body">Audience, pages, KPIs, slicers, navigation, brand constraints, semantic model, and sample questions.</text>
+  </g>
+  <g transform="translate(80,540)">
+    <rect width="1240" height="96" rx="24" fill="url(#lane)" stroke="#24d5ff"/>
+    <circle cx="46" cy="48" r="24" fill="#7df9ff"/><text x="38" y="56" class="num">4</text>
+    <text x="88" y="42" class="stage">Use the design, authoring, and Desktop loop together</text>
+    <text x="88" y="72" class="body">Design skill shapes the experience, authoring skill writes PBIR, Desktop bridge reloads and captures screenshots.</text>
+  </g>
+  <g transform="translate(80,660)">
+    <rect width="1240" height="96" rx="24" fill="url(#lane)" stroke="#24d5ff"/>
+    <circle cx="46" cy="48" r="24" fill="#7df9ff"/><text x="38" y="56" class="num">5</text>
+    <text x="88" y="42" class="stage">Publish when the report is ready</text>
+    <text x="88" y="72" class="body">Use report management only after the PBIR definition, screenshots, and semantic model binding are in good shape.</text>
+  </g>
+</svg>

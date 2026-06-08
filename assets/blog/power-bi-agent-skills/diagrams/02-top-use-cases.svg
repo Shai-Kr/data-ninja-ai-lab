@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-label="Top Power BI agent skills use cases that save time">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#04111f"/><stop offset="1" stop-color="#071b30"/></linearGradient>
+    <linearGradient id="tile" x1="0" x2="1"><stop offset="0" stop-color="#0e314f"/><stop offset="1" stop-color="#091c31"/></linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>.title{font:800 48px Inter,Segoe UI,Arial,sans-serif;fill:#f7fcff}.sub{font:500 22px Inter,Segoe UI,Arial,sans-serif;fill:#a8dcff}.h{font:800 25px Inter,Segoe UI,Arial,sans-serif;fill:#fff}.p{font:500 18px Inter,Segoe UI,Arial,sans-serif;fill:#c7e6f8}.tag{font:800 15px Inter,Segoe UI,Arial,sans-serif;fill:#001423}.n{font:900 31px Inter,Segoe UI,Arial,sans-serif;fill:#04111f}</style>
+  </defs>
+  <rect width="1400" height="900" fill="url(#bg)"/>
+  <circle cx="1180" cy="170" r="220" fill="#24d5ff" opacity="0.08"/>
+  <circle cx="190" cy="790" r="260" fill="#7df9ff" opacity="0.06"/>
+  <text x="70" y="86" class="title">Top Use Cases for Power BI Agent Skills</text>
+  <text x="72" y="126" class="sub">The highest-value wins are repeatable report work across planning, layout, PBIR edits, screenshots, and publishing.</text>
+  <g transform="translate(70,190)">
+    <rect width="390" height="230" rx="28" fill="url(#tile)" stroke="#28d8ff" stroke-width="2"/>
+    <circle cx="48" cy="48" r="24" fill="#7df9ff" filter="url(#glow)"/><text x="39" y="59" class="n">1</text>
+    <text x="88" y="54" class="h">First-draft report build</text>
+    <text x="32" y="100" class="p">Turn a report brief into pages, KPI</text><text x="32" y="128" class="p">cards, slicers, tables, navigation, and</text><text x="32" y="156" class="p">PBIR files that can be reviewed in Git.</text>
+    <rect x="32" y="180" width="158" height="28" rx="14" fill="#7df9ff"/><text x="48" y="200" class="tag">Saves: build setup</text>
+  </g>
+  <g transform="translate(505,190)">
+    <rect width="390" height="230" rx="28" fill="url(#tile)" stroke="#28d8ff" stroke-width="2"/>
+    <circle cx="48" cy="48" r="24" fill="#7df9ff" filter="url(#glow)"/><text x="39" y="59" class="n">2</text>
+    <text x="88" y="54" class="h">Report modernization</text>
+    <text x="32" y="100" class="p">Ask the agent to clean up layout,</text><text x="32" y="128" class="p">alignment, navigation, color, and scan</text><text x="32" y="156" class="p">flow for an old operational report.</text>
+    <rect x="32" y="180" width="178" height="28" rx="14" fill="#7df9ff"/><text x="48" y="200" class="tag">Saves: redesign time</text>
+  </g>
+  <g transform="translate(940,190)">
+    <rect width="390" height="230" rx="28" fill="url(#tile)" stroke="#28d8ff" stroke-width="2"/>
+    <circle cx="48" cy="48" r="24" fill="#7df9ff" filter="url(#glow)"/><text x="39" y="59" class="n">3</text>
+    <text x="88" y="54" class="h">Brand and theme updates</text>
+    <text x="32" y="100" class="p">Give it a reference image, logo, or</text><text x="32" y="128" class="p">theme direction and let the skill apply</text><text x="32" y="156" class="p">consistent report styling.</text>
+    <rect x="32" y="180" width="170" height="28" rx="14" fill="#7df9ff"/><text x="48" y="200" class="tag">Saves: polish work</text>
+  </g>
+  <g transform="translate(70,480)">
+    <rect width="390" height="230" rx="28" fill="url(#tile)" stroke="#28d8ff" stroke-width="2"/>
+    <circle cx="48" cy="48" r="24" fill="#7df9ff" filter="url(#glow)"/><text x="39" y="59" class="n">4</text>
+    <text x="88" y="54" class="h">Semantic model plus report</text>
+    <text x="32" y="100" class="p">Pair the report skill with Modeling MCP</text><text x="32" y="128" class="p">and semantic-model authoring to create</text><text x="32" y="156" class="p">the model and the report together.</text>
+    <rect x="32" y="180" width="190" height="28" rx="14" fill="#7df9ff"/><text x="48" y="200" class="tag">Saves: handoff gaps</text>
+  </g>
+  <g transform="translate(505,480)">
+    <rect width="390" height="230" rx="28" fill="url(#tile)" stroke="#28d8ff" stroke-width="2"/>
+    <circle cx="48" cy="48" r="24" fill="#7df9ff" filter="url(#glow)"/><text x="39" y="59" class="n">5</text>
+    <text x="88" y="54" class="h">Screenshot-driven iteration</text>
+    <text x="32" y="100" class="p">The Desktop bridge lets the agent reload,</text><text x="32" y="128" class="p">capture actual output, inspect it, and</text><text x="32" y="156" class="p">refine instead of guessing.</text>
+    <rect x="32" y="180" width="192" height="28" rx="14" fill="#7df9ff"/><text x="48" y="200" class="tag">Saves: QA loops</text>
+  </g>
+  <g transform="translate(940,480)">
+    <rect width="390" height="230" rx="28" fill="url(#tile)" stroke="#28d8ff" stroke-width="2"/>
+    <circle cx="48" cy="48" r="24" fill="#7df9ff" filter="url(#glow)"/><text x="39" y="59" class="n">6</text>
+    <text x="88" y="54" class="h">Publishable Fabric assets</text>
+    <text x="32" y="100" class="p">Use management skills to create, update,</text><text x="32" y="128" class="p">or publish report definitions into Fabric</text><text x="32" y="156" class="p">after the PBIR work is ready.</text>
+    <rect x="32" y="180" width="176" height="28" rx="14" fill="#7df9ff"/><text x="48" y="200" class="tag">Saves: deployment prep</text>
+  </g>
+  <text x="72" y="822" class="sub">Best starting point: one report, one semantic model, one business question, and a Git branch where every AI edit is visible.</text>
+</svg>
