@@ -212,7 +212,7 @@ Giving the agent access to that rendered page is a big practical step.
 
 Here are the use cases I would prioritize first.
 
-![Top use cases for Power BI agent skills](../assets/blog/power-bi-agent-skills/diagrams/02-top-use-cases.svg)
+![Top use cases for Power BI agent skills](../assets/blog/power-bi-agent-skills/diagrams/02-top-use-cases-v2.svg)
 
 ### 1. First draft report generation
 
