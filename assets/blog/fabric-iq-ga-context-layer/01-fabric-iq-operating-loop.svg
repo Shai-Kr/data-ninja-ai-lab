@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1427" viewBox="0 0 900 1427" role="img" aria-label="Fabric IQ adds context to the loop">
+<defs>
+<radialGradient id="bg" cx="20%" cy="10%" r="95%"><stop offset="0%" stop-color="#123b66"/><stop offset="50%" stop-color="#071527"/><stop offset="100%" stop-color="#020711"/></radialGradient>
+<linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#10233d"/><stop offset="100%" stop-color="#07101f"/></linearGradient>
+<filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="7" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<style>
+.title { font: 750 54px Inter, Segoe UI, Arial, sans-serif; fill:#f2fbff; }
+.subtitle { font: 420 31px Inter, Segoe UI, Arial, sans-serif; fill:#a8d8ff; }
+.card-title { font: 750 37px Inter, Segoe UI, Arial, sans-serif; fill:#e7fbff; }
+.card-text { font: 430 30px Inter, Segoe UI, Arial, sans-serif; fill:#c2dcf0; }
+.badge { font: 800 24px Inter, Segoe UI, Arial, sans-serif; fill:#06101d; }
+.footer { font: 650 26px Inter, Segoe UI, Arial, sans-serif; fill:#82d7ff; }
+.arrow { fill:none; stroke:#2ed3ff; stroke-width:5; marker-end:url(#arrow); opacity:.9; }
+</style>
+<marker id="arrow" markerWidth="16" markerHeight="16" refX="13" refY="8" orient="auto"><path d="M3,3 L13,8 L3,13 Z" fill="#2ed3ff"/></marker>
+</defs>
+<rect width="900" height="1427" fill="url(#bg)"/>
+<circle cx="720" cy="135" r="180" fill="#0bc6ff" opacity=".11" filter="url(#glow)"/>
+<circle cx="145" cy="1207" r="230" fill="#2563eb" opacity=".13" filter="url(#glow)"/>
+<text x="58" y="70" class="title">Fabric IQ turns data</text>
+<text x="58" y="132" class="title">into context</text>
+<text x="60" y="199" class="subtitle">Real-time signals need business meaning.</text>
+<rect x="58" y="210" width="784" height="285" rx="30" fill="url(#card)" stroke="#1fbfe8" stroke-opacity=".58"/>
+<rect x="90" y="242" width="130" height="46" rx="23" fill="#40e0ff"/>
+<text x="155" y="274" text-anchor="middle" class="badge">01</text>
+<text x="90" y="336" class="card-title">Live signals arrive</text>
+<text x="90" y="385" class="card-text">Events, telemetry, reports, and</text>
+<text x="90" y="423" class="card-text">operational changes arrive through Fabric.</text>
+<path class="arrow" d="M450,511 L450,557"/>
+<rect x="58" y="581" width="784" height="285" rx="30" fill="url(#card)" stroke="#1fbfe8" stroke-opacity=".58"/>
+<rect x="90" y="613" width="130" height="46" rx="23" fill="#40e0ff"/>
+<text x="155" y="645" text-anchor="middle" class="badge">02</text>
+<text x="90" y="707" class="card-title">Understand meaning</text>
+<text x="90" y="756" class="card-text">Semantic models, ontology, and graph turn</text>
+<text x="90" y="794" class="card-text">signals into business context.</text>
+<path class="arrow" d="M450,882 L450,928"/>
+<rect x="58" y="952" width="784" height="285" rx="30" fill="url(#card)" stroke="#1fbfe8" stroke-opacity=".58"/>
+<rect x="90" y="984" width="130" height="46" rx="23" fill="#40e0ff"/>
+<text x="155" y="1016" text-anchor="middle" class="badge">03</text>
+<text x="90" y="1078" class="card-title">Act with controls</text>
+<text x="90" y="1127" class="card-text">Agents can answer, monitor, recommend</text>
+<text x="90" y="1165" class="card-text">action, or trigger governed workflows.</text>
+<text x="58" y="1332" class="footer">OneLake is the foundation. Real-Time Intelligence is</text>
+<text x="58" y="1366" class="footer">the event plane. Fabric IQ is shared context.</text>
+</svg>

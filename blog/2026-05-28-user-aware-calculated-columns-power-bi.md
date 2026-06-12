@@ -76,6 +76,7 @@ The model does not need separate month-name columns for every language. The expr
 
 ![Power BI report showing localized values for English and French users](../assets/blog/user-aware-calculated-columns/02-localized-report-values.png)
 
+Screenshot source: [SQLBI](https://www.sqlbi.com/articles/introducing-user-aware-calculated-columns-in-power-bi/)
 
 This is where the feature becomes practical. Many organizations serve the same report to users in different regions. The metadata translation story already exists for names of tables, columns, and measures. User-aware calculated columns add another piece: values inside the model can adapt too.
 
@@ -95,6 +96,7 @@ SQLBI shows the TMDL version clearly:
 
 ![TMDL definition showing expressionContext userContext and related column details](../assets/blog/user-aware-calculated-columns/03-tmdl-user-context.png)
 
+Screenshot source: [SQLBI](https://www.sqlbi.com/articles/introducing-user-aware-calculated-columns-in-power-bi/)
 
 The principle is simple:
 
@@ -155,6 +157,7 @@ The supporting table stores the sensitive value. RLS blocks that table for restr
 
 ![Power BI model view with Sales, Customer, and CustomerIncome tables](../assets/blog/user-aware-calculated-columns/04-disconnected-security-table.png)
 
+Screenshot source: [SQLBI](https://www.sqlbi.com/articles/introducing-user-aware-calculated-columns-in-power-bi/)
 
 The key design choice is that the sensitive lookup table stays disconnected from the main customer table.
 
@@ -164,11 +167,13 @@ For an admin user, the report can show the income bracket values:
 
 ![Power BI matrix showing sales by income bracket for admin users](../assets/blog/user-aware-calculated-columns/05-admin-income-bracket-output.png)
 
+Screenshot source: [SQLBI](https://www.sqlbi.com/articles/introducing-user-aware-calculated-columns-in-power-bi/)
 
 For a restricted user, the same report still renders, but the sensitive values become blank:
 
 ![Power BI matrix under View as role showing blank income bracket values](../assets/blog/user-aware-calculated-columns/06-restricted-user-view-as.png)
 
+Screenshot source: [SQLBI](https://www.sqlbi.com/articles/introducing-user-aware-calculated-columns-in-power-bi/)
 
 This is not a replacement for every object-level security scenario. Restricted users can still see that the column exists. But for reports where the layout must keep working while sensitive values are redacted, it is a useful pattern to test.
 

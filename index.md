@@ -31,6 +31,11 @@ description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, 
 <section class="post-list featured home-articles">
   <h2>Latest articles</h2>
   <article class="post-card">
+    <p class="post-meta">Microsoft Fabric · Real-Time Intelligence · Operations</p>
+    <h3><a href="{{ '/blog/2026-06-12-fabric-real-time-dashboards-operational-screens.html' | relative_url }}">Fabric Real-Time Dashboards Just Became Much More Useful for Live Operations</a></h3>
+    <p>A practical guide to the new Real-Time Dashboard updates: AI-assisted visual authoring, Time Series visualization, Live Refresh, and the operational checklist that makes them useful.</p>
+  </article>
+  <article class="post-card">
     <p class="post-meta">Power BI · AI Agents · Agent Skills</p>
     <h3><a href="{{ '/blog/2026-06-08-power-bi-agent-skills-playbook.html' | relative_url }}">AI Can Build Power BI Reports Now. Here’s the Playbook I’d Use First.</a></h3>
     <p>A practical guide to Microsoft’s Power BI agent skills, top use cases, install path, PBIR workflow, screenshot loop, and first pilot playbook.</p>
@@ -39,11 +44,6 @@ description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, 
     <p class="post-meta">Microsoft Fabric · Fabric IQ · AI Agents</p>
     <h3><a href="{{ '/blog/2026-06-04-fabric-iq-ga-context-layer.html' | relative_url }}">Fabric IQ Is GA. This Is the Context Layer I’ve Been Waiting For.</a></h3>
     <p>Why Fabric IQ becoming generally available matters for AI agents, semantic models, graph reasoning, ontology, and governed business context.</p>
-  </article>
-  <article class="post-card">
-    <p class="post-meta">Microsoft Fabric · Real-Time Intelligence · Event Architecture</p>
-    <h3><a href="{{ '/blog/2026-06-01-fabric-business-events-architecture-guide.html' | relative_url }}">Fabric Business Events Just Became an Architecture Pattern</a></h3>
-    <p>A practical guide to the meaningful shift in Fabric Business Events, what the feature is, how to design event contracts, and where Eventstream, Activator, Eventhouse, and capacity ownership fit.</p>
   </article>
   <article class="post-card">
     <p class="post-meta">Power BI · Semantic Models · DAX</p>
