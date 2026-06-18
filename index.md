@@ -31,9 +31,9 @@ description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, 
 <section class="post-list featured home-articles">
   <h2>Latest articles</h2>
   <article class="post-card">
-    <p class="post-meta">Microsoft Fabric · AI Agents · Governance</p>
-    <h3><a href="{{ '/blog/2026-06-14-fabric-skills-platform-standards.html' | relative_url }}">Fabric Skills Turn AI Prompts Into Platform Standards</a></h3>
-    <p>Why Microsoft’s Fabric Skills matter beyond prompt engineering: reusable agent instructions, scoped bundles, MCP-aware workflows, and governed platform standards.</p>
+    <p class="post-meta">Microsoft Fabric · Data Warehouse · Data Quality</p>
+    <h3><a href="{{ '/blog/2026-06-18-fabric-warehouse-string-quality-playbook.html' | relative_url }}">Fabric Warehouse Can Clean Messy Text Now. Here’s the Data Quality Playbook.</a></h3>
+    <p>A practical guide to the new Fabric Data Warehouse string-processing preview: how to profile, normalize, validate, match, review, and audit messy text inside the warehouse.</p>
   </article>
   <article class="post-card">
     <p class="post-meta">Microsoft Fabric · Real-Time Intelligence · Operations</p>
