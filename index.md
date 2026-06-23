@@ -31,6 +31,11 @@ description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, 
 <section class="post-list featured home-articles">
   <h2>Latest articles</h2>
   <article class="post-card">
+    <p class="post-meta">Microsoft Fabric · Data Factory · Multi-cloud Architecture</p>
+    <h3><a href="{{ '/blog/2026-06-23-fabric-data-factory-multicloud-governance.html' | relative_url }}">Fabric Data Factory Makes Multi-Cloud Integration Practical. Here’s the Architecture Checklist.</a></h3>
+    <p>A practical architecture checklist for using Fabric Data Factory to build multi-cloud data flows with clear landing zones, identity paths, transform boundaries, cost rules, failure contracts, and trusted outputs.</p>
+  </article>
+  <article class="post-card">
     <p class="post-meta">Microsoft Fabric · Data Warehouse · Data Quality</p>
     <h3><a href="{{ '/blog/2026-06-18-fabric-warehouse-string-quality-playbook.html' | relative_url }}">Fabric Warehouse Can Clean Messy Text Now. Here’s the Data Quality Playbook.</a></h3>
     <p>A practical guide to the new Fabric Data Warehouse string-processing preview: how to profile, normalize, validate, match, review, and audit messy text inside the warehouse.</p>
