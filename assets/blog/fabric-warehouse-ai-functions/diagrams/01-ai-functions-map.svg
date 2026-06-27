@@ -33,9 +33,6 @@
   <text x="372" y="494" fill="#fff8d4" font-size="29" font-family="Inter, Segoe UI, Arial" font-weight="800">Generate controlled responses</text>
   <text x="372" y="539" fill="#fde68a" font-size="23" font-family="Inter, Segoe UI, Arial">AI_GENERATE_RESPONSE(prompt, data)</text>
 
-  <path d="M262 356 C350 424, 480 454, 600 476" fill="none" stroke="#26c6ff" stroke-width="4" opacity="0.55"/>
-  <path d="M700 356 C700 390, 700 415, 700 445" fill="none" stroke="#4ade80" stroke-width="4" opacity="0.55"/>
-  <path d="M1138 356 C1040 424, 910 454, 800 476" fill="none" stroke="#a78bfa" stroke-width="4" opacity="0.55"/>
 
   <rect x="112" y="660" width="1176" height="70" rx="20" fill="#071827" stroke="#1d9eca" stroke-width="1.5"/>
   <text x="154" y="704" fill="#b9edff" font-size="24" font-family="Inter, Segoe UI, Arial">Best use: materialized enrichment columns, staging tables, reviewed outputs, and governed refresh patterns.</text>
