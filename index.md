@@ -36,6 +36,11 @@ description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, 
     <p>A practical runbook for using sp_get_table_health_metrics to diagnose Lakehouse table health before spending Spark compute on maintenance.</p>
   </article>
   <article class="post-card">
+    <p class="post-meta">Microsoft Fabric · Data Warehouse · AI Functions</p>
+    <h3><a href="{{ '/blog/2026-06-27-fabric-warehouse-ai-functions-guide.html' | relative_url }}">Fabric Warehouse Brings AI Enrichment Into T-SQL. Here’s the Practical Guide.</a></h3>
+    <p>A practical guide to the preview AI functions in Fabric Data Warehouse: classify, extract, summarize, translate, fix grammar, generate responses, and materialize outputs safely.</p>
+  </article>
+  <article class="post-card">
     <p class="post-meta">Microsoft Fabric · Data Factory · Multi-cloud Architecture</p>
     <h3><a href="{{ '/blog/2026-06-23-fabric-data-factory-multicloud-governance.html' | relative_url }}">Fabric Data Factory Makes Multi-Cloud Integration Practical. Here’s the Architecture Checklist.</a></h3>
     <p>A practical architecture checklist for using Fabric Data Factory to build multi-cloud data flows with clear landing zones, identity paths, transform boundaries, cost rules, failure contracts, and trusted outputs.</p>
