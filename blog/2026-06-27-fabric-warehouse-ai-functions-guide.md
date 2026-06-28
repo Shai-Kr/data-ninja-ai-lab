@@ -7,10 +7,10 @@ author_url: https://www.linkedin.com/in/shai-kr
 categories: [Microsoft Fabric, Data Warehouse, AI, T-SQL]
 tags: [microsoftfabric, datawarehouse, tsql, ai, dataengineering, analyticsengineering]
 description: "A practical guide to the preview AI functions in Fabric Data Warehouse, with examples, use cases, and a production checklist for governed text enrichment."
-image: /assets/blog/fabric-warehouse-ai-functions/diagrams/01-ai-functions-map.svg
+image: /assets/blog/fabric-warehouse-ai-functions/diagrams/01-ai-functions-map-v2.svg
 ---
 
-![Fabric Warehouse AI functions map](../assets/blog/fabric-warehouse-ai-functions/diagrams/01-ai-functions-map.svg)
+![Fabric Warehouse AI functions map](../assets/blog/fabric-warehouse-ai-functions/diagrams/01-ai-functions-map-v2.svg)
 
 Fabric Data Warehouse now has preview AI functions that let you classify, summarize, translate, extract, and improve text directly from T-SQL.
 

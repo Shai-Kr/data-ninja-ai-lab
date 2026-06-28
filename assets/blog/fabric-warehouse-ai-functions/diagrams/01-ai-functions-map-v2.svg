@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">Fabric Warehouse AI functions map</title>
+  <desc id="desc">A padded map of Fabric Warehouse AI functions grouped by practical use case.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050b18"/><stop offset="1" stop-color="#0a1f31"/></linearGradient>
+  </defs>
+  <rect width="1400" height="820" fill="url(#bg)"/>
+  <circle cx="1150" cy="130" r="210" fill="#0ea5e9" opacity="0.10"/>
+  <circle cx="240" cy="680" r="235" fill="#22d3ee" opacity="0.08"/>
+  <text x="96" y="96" fill="#e5f6ff" font-size="42" font-family="Inter, Segoe UI, Arial" font-weight="800">Fabric Warehouse AI functions</text>
+  <text x="96" y="140" fill="#9ccfe3" font-size="23" font-family="Inter, Segoe UI, Arial">Text enrichment from T-SQL, designed for governed warehouse workflows.</text>
+
+  <rect x="110" y="215" width="340" height="150" rx="26" fill="#08243a" stroke="#26c6ff" stroke-width="2"/>
+  <text x="146" y="260" fill="#dff8ff" font-size="26" font-family="Inter, Segoe UI, Arial" font-weight="800">Understand text</text>
+  <text x="146" y="304" fill="#8fe7ff" font-size="21" font-family="Inter, Segoe UI, Arial">AI_ANALYZE_SENTIMENT</text>
+  <text x="146" y="338" fill="#8fe7ff" font-size="21" font-family="Inter, Segoe UI, Arial">AI_SUMMARIZE</text>
+
+  <rect x="530" y="215" width="340" height="150" rx="26" fill="#0b2035" stroke="#4ade80" stroke-width="2"/>
+  <text x="566" y="260" fill="#eafff1" font-size="26" font-family="Inter, Segoe UI, Arial" font-weight="800">Structure text</text>
+  <text x="566" y="304" fill="#b7f7c9" font-size="21" font-family="Inter, Segoe UI, Arial">AI_CLASSIFY</text>
+  <text x="566" y="338" fill="#b7f7c9" font-size="21" font-family="Inter, Segoe UI, Arial">AI_EXTRACT</text>
+
+  <rect x="950" y="215" width="340" height="150" rx="26" fill="#241b3b" stroke="#a78bfa" stroke-width="2"/>
+  <text x="986" y="260" fill="#f4edff" font-size="26" font-family="Inter, Segoe UI, Arial" font-weight="800">Improve text</text>
+  <text x="986" y="304" fill="#d8c8ff" font-size="21" font-family="Inter, Segoe UI, Arial">AI_TRANSLATE</text>
+  <text x="986" y="338" fill="#d8c8ff" font-size="21" font-family="Inter, Segoe UI, Arial">AI_FIX_GRAMMAR</text>
+
+  <rect x="345" y="455" width="710" height="130" rx="28" fill="#102033" stroke="#facc15" stroke-width="2"/>
+  <text x="390" y="505" fill="#fff8d4" font-size="28" font-family="Inter, Segoe UI, Arial" font-weight="800">Generate controlled responses</text>
+  <text x="390" y="548" fill="#fde68a" font-size="22" font-family="Inter, Segoe UI, Arial">AI_GENERATE_RESPONSE(prompt, data)</text>
+
+  <rect x="150" y="670" width="1100" height="64" rx="20" fill="#071827" stroke="#1d9eca" stroke-width="1.5"/>
+  <text x="190" y="711" fill="#b9edff" font-size="22" font-family="Inter, Segoe UI, Arial">Best use: materialized enrichment columns, staging tables, reviewed outputs, and governed refresh patterns.</text>
+</svg>
