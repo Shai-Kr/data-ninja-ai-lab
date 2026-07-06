@@ -31,14 +31,9 @@ description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, 
 <section class="post-list featured home-articles">
   <h2>Latest articles</h2>
   <article class="post-card">
-    <p class="post-meta">Microsoft Fabric · Lakehouse · Data Engineering</p>
-    <h3><a href="{{ '/blog/2026-06-24-fabric-lakehouse-health-checks.html' | relative_url }}">Fabric Lakehouse Health Checks Make Optimization Practical. Here’s the Runbook.</a></h3>
-    <p>A practical runbook for using sp_get_table_health_metrics to diagnose Lakehouse table health before spending Spark compute on maintenance.</p>
-  </article>
-  <article class="post-card">
-    <p class="post-meta">Microsoft Fabric · Data Warehouse · AI Functions</p>
-    <h3><a href="{{ '/blog/2026-06-27-fabric-warehouse-ai-functions-guide.html' | relative_url }}">Fabric Warehouse Brings AI Enrichment Into T-SQL. Here’s the Practical Guide.</a></h3>
-    <p>A practical guide to the preview AI functions in Fabric Data Warehouse: classify, extract, summarize, translate, fix grammar, generate responses, and materialize outputs safely.</p>
+    <p class="post-meta">Microsoft Fabric · AI Agents · Information Protection</p>
+    <h3><a href="{{ '/blog/2026-07-06-fabric-ai-agents-sensitivity-labels.html' | relative_url }}">Make Fabric AI Agents Smarter With Labels You Already Own</a></h3>
+    <p>A practical guide to using Fabric sensitivity labels as context signals for AI agents, with a label-to-behavior map, pilot playbook, answer-quality checklist, and governance rules.</p>
   </article>
   <article class="post-card">
     <p class="post-meta">Microsoft Fabric · Data Factory · Multi-cloud Architecture</p>
