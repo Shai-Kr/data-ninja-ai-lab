@@ -31,6 +31,11 @@ description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, 
 <section class="post-list featured home-articles">
   <h2>Latest articles</h2>
   <article class="post-card">
+    <p class="post-meta">Power BI · Fabric IQ · Microsoft 365 Copilot</p>
+    <h3><a href="{{ '/blog/2026-07-09-fabric-iq-m365-copilot-chat-readiness.html' | relative_url }}">Bring Power BI Answers Into the Flow of Work With Fabric IQ</a></h3>
+    <p>A practical readiness guide for using Fabric IQ in Microsoft 365 Copilot Chat, so governed Power BI answers can show up where business decisions already happen.</p>
+  </article>
+  <article class="post-card">
     <p class="post-meta">Microsoft Fabric · AI Agents · Information Protection</p>
     <h3><a href="{{ '/blog/2026-07-06-fabric-ai-agents-sensitivity-labels.html' | relative_url }}">Make Fabric AI Agents Smarter With Labels You Already Own</a></h3>
     <p>A practical guide to using Fabric sensitivity labels as context signals for AI agents, with a label-to-behavior map, pilot playbook, answer-quality checklist, and governance rules.</p>
