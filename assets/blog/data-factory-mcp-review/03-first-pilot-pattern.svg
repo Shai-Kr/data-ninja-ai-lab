@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">A Safer First Pilot Pattern</title>
+  <desc id="desc">Use a small workflow that proves speed without opening the whole estate</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#0b1830"/>
+      <stop offset="1" stop-color="#101827"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .title { font: 800 52px Inter, Segoe UI, Arial, sans-serif; fill: #f8fbff; }
+      .sub { font: 400 25px Inter, Segoe UI, Arial, sans-serif; fill: #a9bdd6; }
+      .label { font: 800 26px Inter, Segoe UI, Arial, sans-serif; fill: #ffffff; }
+      .body { font: 400 21px Inter, Segoe UI, Arial, sans-serif; fill: #dce8f7; }
+      .foot { font: 600 22px Inter, Segoe UI, Arial, sans-serif; fill: #8ee7ff; }
+      .card { fill: rgba(13,30,55,0.92); stroke-width: 2; rx: 26; }
+      .arrow { stroke: #65e8ff; stroke-width: 5; fill: none; stroke-linecap: round; stroke-linejoin: round; marker-end: url(#arrow); }
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10" fill="#65e8ff"/>
+    </marker>
+  </defs>
+  <rect width="1400" height="820" fill="url(#bg)"/>
+  <circle cx="1180" cy="120" r="210" fill="#062c4d" opacity="0.58" filter="url(#glow)"/>
+  <circle cx="150" cy="700" r="260" fill="#18205a" opacity="0.42" filter="url(#glow)"/>
+  <text x="70" y="95" class="title">A Safer First Pilot Pattern</text>
+  <text x="72" y="143" class="sub">Use a small workflow that proves speed without opening the whole estate</text>
+  <rect x="70.0" y="250" width="291.0" height="330" class="card" stroke="#00d4ff"/>
+  <text x="98.0" y="308" class="label">Scope</text>
+  <text x="98.0" y="355" class="body">One workspace</text>
+  <text x="98.0" y="393" class="body">One source system</text>
+  <text x="98.0" y="431" class="body">One dataflow</text>
+  <text x="98.0" y="469" class="body">One pipeline</text>
+  <path d="M 369.0 415.0 L 385.0 415.0" class="arrow"/>
+  <rect x="393.0" y="250" width="291.0" height="330" class="card" stroke="#7c3aed"/>
+  <text x="421.0" y="308" class="label">Identity</text>
+  <text x="421.0" y="355" class="body">Service principal</text>
+  <text x="421.0" y="393" class="body">Least privilege</text>
+  <text x="421.0" y="431" class="body">Named connection</text>
+  <text x="421.0" y="469" class="body">No owner shortcut</text>
+  <path d="M 692.0 415.0 L 708.0 415.0" class="arrow"/>
+  <rect x="716.0" y="250" width="291.0" height="330" class="card" stroke="#22c55e"/>
+  <text x="744.0" y="308" class="label">Review</text>
+  <text x="744.0" y="355" class="body">Definition diff</text>
+  <text x="744.0" y="393" class="body">Test refresh</text>
+  <text x="744.0" y="431" class="body">Schedule window</text>
+  <text x="744.0" y="469" class="body">Owner sign-off</text>
+  <path d="M 1015.0 415.0 L 1031.0 415.0" class="arrow"/>
+  <rect x="1039.0" y="250" width="291.0" height="330" class="card" stroke="#f59e0b"/>
+  <text x="1067.0" y="308" class="label">Operate</text>
+  <text x="1067.0" y="355" class="body">Run history</text>
+  <text x="1067.0" y="393" class="body">Failure path</text>
+  <text x="1067.0" y="431" class="body">Cost check</text>
+  <text x="1067.0" y="469" class="body">Cleanup rule</text>
+  <text x="70" y="735" class="foot">If the pilot cannot be reviewed, supported, and rolled back, it is not ready.</text>
+  <text x="70" y="775" class="sub">Data Ninja AI Lab · Shai Karmani</text>
+</svg>
