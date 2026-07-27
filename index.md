@@ -31,6 +31,11 @@ description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, 
 <section class="post-list featured home-articles">
   <h2>Latest articles</h2>
   <article class="post-card">
+    <p class="post-meta">Microsoft Fabric · Data Factory · AI-assisted Engineering</p>
+    <h3><a href="{{ '/blog/2026-07-27-data-factory-mcp-control.html' | relative_url }}">Build Fabric Dataflows From Chat and Still Keep Control</a></h3>
+    <p>A practical control model for using Data Factory MCP with Fabric dataflows, pipelines, connections, schedules, and human-owned review gates.</p>
+  </article>
+  <article class="post-card">
     <p class="post-meta">Power BI · Fabric IQ · Microsoft 365 Copilot</p>
     <h3><a href="{{ '/blog/2026-07-09-fabric-iq-m365-copilot-chat-readiness.html' | relative_url }}">Bring Power BI Answers Into the Flow of Work With Fabric IQ</a></h3>
     <p>A practical readiness guide for using Fabric IQ in Microsoft 365 Copilot Chat, so governed Power BI answers can show up where business decisions already happen.</p>

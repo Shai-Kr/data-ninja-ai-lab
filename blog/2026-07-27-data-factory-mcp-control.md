@@ -5,7 +5,7 @@ description: "Data Factory MCP gives AI assistants a real path into Microsoft Fa
 date: 2026-07-27
 author: Shai Karmani
 author_url: https://www.linkedin.com/in/shai-kr
-permalink: /review/2026-07-27-data-factory-mcp-control.html
+permalink: /blog/2026-07-27-data-factory-mcp-control.html
 ---
 
 ![Build From Chat. Ship With Control.]({{ '/assets/blog/data-factory-mcp-review/01-ai-to-fabric-control-loop.svg' | relative_url }})
