@@ -31,6 +31,11 @@ description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, 
 <section class="post-list featured home-articles">
   <h2>Latest articles</h2>
   <article class="post-card">
+    <p class="post-meta">Microsoft Fabric · OneLake · Governance</p>
+    <h3><a href="{{ '/blog/2026-07-28-onelake-security-enterprise-trust.html' | relative_url }}">OneLake Security Just Got Easier to Trust Across Fabric</a></h3>
+    <p>A practical governance guide for OneLake security across SQL analytics endpoints, groups, service principals, shortcuts, Eventhouse, Graph Database, and AI-agent-safe access paths.</p>
+  </article>
+  <article class="post-card">
     <p class="post-meta">Microsoft Fabric · Data Factory · AI-assisted Engineering</p>
     <h3><a href="{{ '/blog/2026-07-27-data-factory-mcp-control.html' | relative_url }}">Build Fabric Dataflows From Chat and Still Keep Control</a></h3>
     <p>A practical control model for using Data Factory MCP with Fabric dataflows, pipelines, connections, schedules, and human-owned review gates.</p>

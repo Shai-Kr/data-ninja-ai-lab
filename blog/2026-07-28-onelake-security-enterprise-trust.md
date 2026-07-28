@@ -5,10 +5,10 @@ description: "Microsoft Fabric added OneLake security improvements for SQL analy
 date: 2026-07-28
 author: Shai Karmani
 author_url: https://www.linkedin.com/in/shai-kr
-permalink: /review/2026-07-28-onelake-security-enterprise-trust.html
+permalink: /blog/2026-07-28-onelake-security-enterprise-trust.html
 ---
 
-![OneLake Security Control Plane.]({{ '/assets/blog/onelake-security-enterprise-trust/01-onelake-security-control-plane.svg' | relative_url }})
+![OneLake Security Control Plane.]({{ '/assets/blog/onelake-security-enterprise-trust/01-onelake-security-control-plane.png' | relative_url }})
 
 Microsoft Fabric keeps moving toward a more useful idea of governance: define access close to the data, then let more of the platform respect it.
 
@@ -34,7 +34,7 @@ They have central lakehouses and team-owned workspaces. They have security group
 
 If OneLake security works only for the clean demo path, it is not enough.
 
-![Enterprise access pattern.]({{ '/assets/blog/onelake-security-enterprise-trust/02-enterprise-access-pattern.svg' | relative_url }})
+![Enterprise access pattern.]({{ '/assets/blog/onelake-security-enterprise-trust/02-enterprise-access-pattern.png' | relative_url }})
 
 ## Why SQL analytics endpoints matter so much
 
@@ -86,7 +86,7 @@ The goal is not only to prove that the feature works. The goal is to find the pl
 
 That usually means finding old groups nobody owns, shortcuts that were created for convenience, columns that should have been classified earlier, and reports that quietly depended on copied data.
 
-![OneLake security rollout checklist.]({{ '/assets/blog/onelake-security-enterprise-trust/03-review-checklist.svg' | relative_url }})
+![OneLake security rollout checklist.]({{ '/assets/blog/onelake-security-enterprise-trust/03-review-checklist.png' | relative_url }})
 
 ## The AI agent angle
 
