@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+<title id="title">OneLake Security Control Plane</title>
+<desc id="desc">Define close to the data, enforce across more Fabric engines</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#08111f"/><stop offset="0.55" stop-color="#111827"/><stop offset="1" stop-color="#071a2b"/></linearGradient>
+  <filter id="glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1400" height="760" fill="url(#bg)"/>
+<circle cx="1140" cy="110" r="220" fill="#0ea5e9" opacity="0.10"/>
+<circle cx="180" cy="620" r="260" fill="#8b5cf6" opacity="0.10"/>
+<text x="80" y="92" fill="#e5f5ff" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="800">OneLake Security Control Plane</text>
+<text x="80" y="142" fill="#a7c4d8" font-family="Arial, Helvetica, sans-serif" font-size="24">Define close to the data, enforce across more Fabric engines</text>
+
+<rect x="218" y="210" width="300" height="330" rx="28" fill="#0f172a" stroke="#57d6ff" stroke-width="2" opacity="0.98"/>
+<circle cx="262" cy="258" r="17" fill="#57d6ff" filter="url(#glow)"/>
+<text x="292" y="266" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="800">Policy</text>
+<text x="252" y="322" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="21">OneLake roles</text>
+<text x="252" y="356" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="21">RLS, CLS, OLS</text>
+<text x="252" y="390" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="21">Defined on lakehouse</text>
+<rect x="550" y="210" width="300" height="330" rx="28" fill="#0f172a" stroke="#8b5cf6" stroke-width="2" opacity="0.98"/>
+<circle cx="594" cy="258" r="17" fill="#8b5cf6" filter="url(#glow)"/>
+<text x="624" y="266" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="800">Identity</text>
+<text x="584" y="322" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="21">Users and groups</text>
+<text x="584" y="356" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="21">Nested groups</text>
+<text x="584" y="390" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="21">Service principals</text>
+<rect x="882" y="210" width="300" height="330" rx="28" fill="#0f172a" stroke="#22c55e" stroke-width="2" opacity="0.98"/>
+<circle cx="926" cy="258" r="17" fill="#22c55e" filter="url(#glow)"/>
+<text x="956" y="266" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="800">Engines</text>
+<text x="916" y="322" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="21">SQL endpoint</text>
+<text x="916" y="356" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="21">Eventhouse</text>
+<text x="916" y="390" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="21">Graph Database</text>
+<rect x="80" y="610" width="1240" height="78" rx="24" fill="#020617" stroke="#1e3a8a"/>
+<text x="112" y="660" fill="#dbeafe" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700">The win is not another permission screen. It is fewer disconnected security models.</text>
+</svg>
