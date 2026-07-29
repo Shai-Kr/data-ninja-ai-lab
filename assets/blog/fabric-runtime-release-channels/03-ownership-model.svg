@@ -1,25 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
-<rect width="1280" height="720" fill="#06101f"/>
-<circle cx="1080" cy="120" r="240" fill="#00d4ff" opacity="0.10"/>
-<circle cx="120" cy="650" r="260" fill="#6d5dfc" opacity="0.12"/>
-<rect x="54" y="48" width="1172" height="624" rx="34" fill="#0b1426" stroke="#1e88ff" stroke-opacity="0.45" stroke-width="2"/>
-<text x="84" y="116" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="42" font-weight="800" fill="#f4fbff">Runtime Updates Need Owners</text>
-<text x="84" y="158" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23" fill="#b9d7ee">A simple contract for Spark workload reliability in Fabric</text>
-<rect x="84" y="220" width="500" height="126" rx="22" fill="#0f213b" stroke="#2fc7ff" stroke-opacity="0.55"/>
-<text x="112" y="260" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="750" fill="#ffffff">Platform admin</text>
-<text x="112" y="296" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" fill="#bfe7f8">Owns channel policy, environments, pools,</text>
-<text x="112" y="324" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" fill="#bfe7f8">and rollout calendar.</text>
-<rect x="644" y="220" width="500" height="126" rx="22" fill="#0f213b" stroke="#2fc7ff" stroke-opacity="0.55"/>
-<text x="672" y="260" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="750" fill="#ffffff">Data engineer</text>
-<text x="672" y="296" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" fill="#bfe7f8">Owns workload tests, dependencies, and</text>
-<text x="672" y="324" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" fill="#bfe7f8">regression evidence.</text>
-<rect x="84" y="390" width="500" height="126" rx="22" fill="#0f213b" stroke="#2fc7ff" stroke-opacity="0.55"/>
-<text x="112" y="430" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="750" fill="#ffffff">BI owner</text>
-<text x="112" y="466" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" fill="#bfe7f8">Owns downstream refresh, Direct Lake impact,</text>
-<text x="112" y="494" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" fill="#bfe7f8">and stakeholder timing.</text>
-<rect x="644" y="390" width="500" height="126" rx="22" fill="#0f213b" stroke="#2fc7ff" stroke-opacity="0.55"/>
-<text x="672" y="430" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="750" fill="#ffffff">Support path</text>
-<text x="672" y="466" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" fill="#bfe7f8">Owns blocker triage before early access</text>
-<text x="672" y="494" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" fill="#bfe7f8">becomes default.</text>
-<text x="84" y="628" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" fill="#7ee7ff">Spark runtime governance sits between platform, engineering, and BI.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1180" viewBox="0 0 720 1180">
+<rect width="720" height="1180" fill="#06101f"/>
+<circle cx="620" cy="110" r="210" fill="#00d4ff" opacity="0.12"/>
+<circle cx="70" cy="1110" r="240" fill="#6d5dfc" opacity="0.13"/>
+<rect x="28" y="28" width="664" height="1124" rx="30" fill="#0b1426" stroke="#2fc7ff" stroke-opacity="0.5" stroke-width="2"/>
+<text x="58" y="88" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="35" font-weight="800" fill="#f4fbff">Runtime Updates Need</text>
+<text x="58" y="131" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="35" font-weight="800" fill="#f4fbff">Owners</text>
+<text x="58" y="183" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" fill="#b9d7ee">A simple contract for Spark workload</text>
+<text x="58" y="215" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" fill="#b9d7ee">reliability in Fabric.</text>
+<rect x="58" y="298" width="604" height="145" rx="22" fill="#0f213b" stroke="#2fc7ff" stroke-opacity="0.58"/>
+<text x="90" y="345" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="29" font-weight="760" fill="#ffffff">Platform admin</text>
+<text x="90" y="387" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" fill="#bfe7f8">Owns channel policy, pools,</text>
+<text x="90" y="418" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" fill="#bfe7f8">environments, and rollout calendar.</text>
+<rect x="58" y="483" width="604" height="145" rx="22" fill="#0f213b" stroke="#2fc7ff" stroke-opacity="0.58"/>
+<text x="90" y="530" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="29" font-weight="760" fill="#ffffff">Data engineer</text>
+<text x="90" y="572" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" fill="#bfe7f8">Owns workload tests, dependencies, and</text>
+<text x="90" y="603" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" fill="#bfe7f8">regression evidence.</text>
+<rect x="58" y="668" width="604" height="145" rx="22" fill="#0f213b" stroke="#2fc7ff" stroke-opacity="0.58"/>
+<text x="90" y="715" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="29" font-weight="760" fill="#ffffff">BI owner</text>
+<text x="90" y="757" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" fill="#bfe7f8">Owns refresh impact, semantic models,</text>
+<text x="90" y="788" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" fill="#bfe7f8">and stakeholder timing.</text>
+<rect x="58" y="853" width="604" height="145" rx="22" fill="#0f213b" stroke="#2fc7ff" stroke-opacity="0.58"/>
+<text x="90" y="900" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="29" font-weight="760" fill="#ffffff">Support path</text>
+<text x="90" y="942" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" fill="#bfe7f8">Owns blocker triage before early access</text>
+<text x="90" y="973" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" fill="#bfe7f8">becomes default.</text>
+<text x="58" y="1080" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" fill="#7ee7ff">Runtime governance sits between platform,</text>
+<text x="58" y="1080" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" fill="#7ee7ff">engineering, and BI.</text>
 </svg>
