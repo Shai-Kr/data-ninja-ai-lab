@@ -7,6 +7,11 @@ author: Shai Karmani
 author_url: https://www.linkedin.com/in/shai-kr
 ---
 
+<style>
+.article-body code { overflow-wrap: anywhere; word-break: break-word; }
+.article-body img[src*="fabric-runtime-release-channels"] { width: min(100%, 390px); max-width: 390px; }
+</style>
+
 ![Fabric Runtime Release Channels model]({{ '/assets/blog/fabric-runtime-release-channels/01-runtime-channel-model.svg' | relative_url }})
 
 Microsoft Fabric Runtime Release Channels look like a small Spark feature at first.

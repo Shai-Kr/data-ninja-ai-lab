@@ -1,28 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1180" viewBox="0 0 720 1180">
-<rect width="720" height="1180" fill="#06101f"/>
-<circle cx="620" cy="110" r="210" fill="#00d4ff" opacity="0.12"/>
-<circle cx="70" cy="1110" r="240" fill="#6d5dfc" opacity="0.13"/>
-<rect x="28" y="28" width="664" height="1124" rx="30" fill="#0b1426" stroke="#2fc7ff" stroke-opacity="0.5" stroke-width="2"/>
-<text x="58" y="88" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="35" font-weight="800" fill="#f4fbff">A Practical Validation</text>
-<text x="58" y="131" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="35" font-weight="800" fill="#f4fbff">Runbook</text>
-<text x="58" y="183" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" fill="#b9d7ee">What to test before trusting the next</text>
-<text x="58" y="215" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" fill="#b9d7ee">Fabric Spark runtime.</text>
-<rect x="58" y="298" width="604" height="145" rx="22" fill="#0f213b" stroke="#2fc7ff" stroke-opacity="0.58"/>
-<text x="90" y="345" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="29" font-weight="760" fill="#ffffff">1. Inventory</text>
-<text x="90" y="387" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" fill="#bfe7f8">Critical notebooks, jobs, libraries,</text>
-<text x="90" y="418" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" fill="#bfe7f8">pools, connectors, and tables.</text>
-<rect x="58" y="483" width="604" height="145" rx="22" fill="#0f213b" stroke="#2fc7ff" stroke-opacity="0.58"/>
-<text x="90" y="530" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="29" font-weight="760" fill="#ffffff">2. Clone path</text>
-<text x="90" y="572" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" fill="#bfe7f8">Use dev or staging with</text>
-<text x="90" y="603" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" fill="#bfe7f8">production-shaped data.</text>
-<rect x="58" y="668" width="604" height="145" rx="22" fill="#0f213b" stroke="#2fc7ff" stroke-opacity="0.58"/>
-<text x="90" y="715" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="29" font-weight="760" fill="#ffffff">3. Run checks</text>
-<text x="90" y="757" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" fill="#bfe7f8">Check schema, row counts, performance,</text>
-<text x="90" y="788" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" fill="#bfe7f8">dependencies, and output.</text>
-<rect x="58" y="853" width="604" height="145" rx="22" fill="#0f213b" stroke="#2fc7ff" stroke-opacity="0.58"/>
-<text x="90" y="900" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="29" font-weight="760" fill="#ffffff">4. Decide</text>
-<text x="90" y="942" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" fill="#bfe7f8">Approve, fix, escalate, or hold specific</text>
-<text x="90" y="973" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" fill="#bfe7f8">workloads back.</text>
-<text x="58" y="1080" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" fill="#7ee7ff">The value is the operating rhythm, not the</text>
-<text x="58" y="1114" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" fill="#7ee7ff">preview flag.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="820" viewBox="0 0 390 820">
+<rect width="390" height="820" fill="#06101f"/>
+<circle cx="335" cy="80" r="125" fill="#00d4ff" opacity="0.12"/>
+<circle cx="35" cy="780" r="140" fill="#6d5dfc" opacity="0.13"/>
+<rect x="14" y="14" width="362" height="792" rx="22" fill="#0b1426" stroke="#2fc7ff" stroke-opacity="0.5" stroke-width="1.5"/>
+<text x="30" y="54" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23" font-weight="800" fill="#f4fbff">A Practical Validation</text>
+<text x="30" y="82" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23" font-weight="800" fill="#f4fbff">Runbook</text>
+<text x="30" y="136" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" fill="#b9d7ee">What to test before trusting the</text>
+<text x="30" y="157" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" fill="#b9d7ee">next Fabric Spark runtime.</text>
+<rect x="30" y="206" width="330" height="98" rx="15" fill="#0f213b" stroke="#2fc7ff" stroke-opacity="0.58"/>
+<text x="48" y="237" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="760" fill="#ffffff">1. Inventory</text>
+<text x="48" y="264" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#bfe7f8">Critical notebooks and jobs,</text>
+<text x="48" y="284" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#bfe7f8">libraries and pools.</text>
+<rect x="30" y="328" width="330" height="98" rx="15" fill="#0f213b" stroke="#2fc7ff" stroke-opacity="0.58"/>
+<text x="48" y="359" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="760" fill="#ffffff">2. Clone path</text>
+<text x="48" y="386" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#bfe7f8">Use dev or staging with</text>
+<text x="48" y="406" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#bfe7f8">production-shaped data.</text>
+<rect x="30" y="450" width="330" height="98" rx="15" fill="#0f213b" stroke="#2fc7ff" stroke-opacity="0.58"/>
+<text x="48" y="481" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="760" fill="#ffffff">3. Run checks</text>
+<text x="48" y="508" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#bfe7f8">Check schema and row counts,</text>
+<text x="48" y="528" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#bfe7f8">performance and output.</text>
+<rect x="30" y="572" width="330" height="98" rx="15" fill="#0f213b" stroke="#2fc7ff" stroke-opacity="0.58"/>
+<text x="48" y="603" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="760" fill="#ffffff">4. Decide</text>
+<text x="48" y="630" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#bfe7f8">Approve, fix, escalate, or hold</text>
+<text x="48" y="650" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#bfe7f8">workloads back.</text>
+<text x="30" y="760" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" fill="#7ee7ff">The value is the operating rhythm.</text>
 </svg>
