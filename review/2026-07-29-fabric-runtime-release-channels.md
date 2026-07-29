@@ -180,7 +180,6 @@ The important step is not making the process perfect. The important step is admi
 - [Fabric runtime release channels - Microsoft Learn](https://learn.microsoft.com/en-us/fabric/data-engineering/release-channels)
 - [Apache Spark runtime in Fabric - Microsoft Learn](https://learn.microsoft.com/en-us/fabric/data-engineering/runtime)
 - [Microsoft Fabric What's New](https://learn.microsoft.com/en-us/fabric/fundamentals/whats-new)
-- [Fabric Runtime Release Channels announcement](https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-Runtime-Release-Channels/ba-p/5240330)
 
 ## About the author
 
