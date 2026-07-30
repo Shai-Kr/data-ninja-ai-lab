@@ -1,35 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="980" viewBox="0 0 720 980" role="img" aria-label="VNet gateway autoscaling operating model">
-  <defs><style>text{font-family:Inter,Segoe UI,Arial,sans-serif;fill:#e8fbff}.title{font-size:34px;font-weight:850}.sub{font-size:22px;fill:#a8ceda}.h{font-size:26px;font-weight:820}.body{font-size:22px;fill:#bee7f2}.tag{font-size:20px;fill:#06111f;font-weight:850}</style></defs>
-  <rect width="720" height="980" fill="#07111f"/>
-  <rect x="36" y="36" width="648" height="908" rx="34" fill="#0b1f33" stroke="#155e75"/>
-  <text x="70" y="96" class="title">VNet Gateway Autoscaling</text>
-  <text x="70" y="132" class="sub">Private Fabric access needs a scaling</text>
-  <text x="70" y="162" class="sub">policy, not manual refresh watching.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="1120" viewBox="0 0 520 1120" role="img" aria-label="VNet gateway autoscaling operating model">
+  <defs><style>text{font-family:Inter,Segoe UI,Arial,sans-serif;fill:#e8fbff}.title{font-size:31px;font-weight:850}.sub{font-size:24px;fill:#a8ceda}.h{font-size:28px;font-weight:850}.body{font-size:24px;fill:#bee7f2}.tag{font-size:22px;fill:#06111f;font-weight:850}</style></defs>
+  <rect width="520" height="1120" fill="#07111f"/>
+  <rect x="24" y="24" width="472" height="1072" rx="30" fill="#0b1f33" stroke="#155e75"/>
+  <text x="48" y="82" class="title">VNet Gateway</text>
+  <text x="48" y="120" class="title">Autoscaling</text>
+  <text x="48" y="160" class="sub">Private Fabric access</text>
+  <text x="48" y="190" class="sub">needs a scaling policy.</text>
 
-  <rect x="82" y="215" width="556" height="150" rx="24" fill="#10243a" stroke="#22d3ee"/>
-  <text x="120" y="260" class="h">1. Private data sources</text>
-  <text x="120" y="300" class="body">Azure SQL, private endpoints, source</text>
-  <text x="120" y="332" class="body">systems, and network controls.</text>
+  <rect x="50" y="250" width="420" height="160" rx="24" fill="#10243a" stroke="#22d3ee"/>
+  <text x="78" y="300" class="h">Private data</text>
+  <text x="78" y="342" class="body">Azure SQL</text>
+  <text x="78" y="376" class="body">Private endpoints</text>
 
-  <path d="M360 376 L360 430" stroke="#38bdf8" stroke-width="5"/>
-  <path d="M345 414 L360 434 L375 414" fill="none" stroke="#38bdf8" stroke-width="5"/>
+  <path d="M260 428 L260 490" stroke="#38bdf8" stroke-width="5"/>
+  <path d="M245 474 L260 496 L275 474" fill="none" stroke="#38bdf8" stroke-width="5"/>
 
-  <rect x="82" y="445" width="556" height="190" rx="28" fill="#083047" stroke="#22d3ee" stroke-width="3"/>
-  <text x="120" y="492" class="h">2. VNet data gateway</text>
-  <text x="120" y="532" class="body">Admin-defined min and max nodes.</text>
-  <text x="120" y="565" class="body">Scale up for demand spikes.</text>
-  <text x="120" y="598" class="body">Scale down when load drops.</text>
-  <rect x="420" y="548" width="155" height="42" rx="21" fill="#22d3ee"/>
-  <text x="452" y="577" class="tag">Policy</text>
+  <rect x="50" y="515" width="420" height="230" rx="26" fill="#083047" stroke="#22d3ee" stroke-width="3"/>
+  <text x="78" y="565" class="h">VNet gateway</text>
+  <text x="78" y="608" class="body">Min nodes</text>
+  <text x="78" y="642" class="body">Max nodes</text>
+  <text x="78" y="676" class="body">Scale up or down</text>
+  <rect x="78" y="700" width="136" height="42" rx="21" fill="#22d3ee"/>
+  <text x="109" y="729" class="tag">Policy</text>
 
-  <path d="M360 646 L360 700" stroke="#38bdf8" stroke-width="5"/>
-  <path d="M345 684 L360 704 L375 684" fill="none" stroke="#38bdf8" stroke-width="5"/>
+  <path d="M260 762 L260 824" stroke="#38bdf8" stroke-width="5"/>
+  <path d="M245 808 L260 830 L275 808" fill="none" stroke="#38bdf8" stroke-width="5"/>
 
-  <rect x="82" y="715" width="556" height="150" rx="24" fill="#10243a" stroke="#22d3ee"/>
-  <text x="120" y="760" class="h">3. Fabric workloads</text>
-  <text x="120" y="800" class="body">Semantic models, Dataflow Gen2,</text>
-  <text x="120" y="832" class="body">pipelines, Copy Job, paginated reports.</text>
+  <rect x="50" y="850" width="420" height="175" rx="24" fill="#10243a" stroke="#22d3ee"/>
+  <text x="78" y="900" class="h">Fabric workloads</text>
+  <text x="78" y="942" class="body">Semantic models</text>
+  <text x="78" y="976" class="body">Dataflows, pipelines</text>
+  <text x="78" y="1010" class="body">Copy Job, reports</text>
 
-  <text x="94" y="915" class="sub">Good pattern: inventory workloads, stagger refreshes,</text>
-  <text x="94" y="945" class="sub">set limits, and monitor gateway pressure.</text>
+  <text x="48" y="1066" class="sub">Inventory, stagger, limit, monitor.</text>
 </svg>

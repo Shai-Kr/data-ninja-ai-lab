@@ -1,17 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1040" viewBox="0 0 720 1040" role="img" aria-label="Gateway ownership contract">
-  <defs><style>text{font-family:Inter,Segoe UI,Arial,sans-serif;fill:#e8fbff}.title{font-size:34px;font-weight:850}.sub{font-size:22px;fill:#a8ceda}.role{font-size:25px;font-weight:850}.body{font-size:21px;fill:#bee7f2}.center{font-size:28px;font-weight:900;fill:#06111f}</style></defs>
-  <rect width="720" height="1040" fill="#06111f"/>
-  <rect x="36" y="34" width="648" height="972" rx="34" fill="#0b1f33" stroke="#155e75"/>
-  <text x="70" y="92" class="title">Name the gateway owners</text>
-  <text x="70" y="128" class="sub">Autoscaling adds capacity policy.</text>
-  <text x="70" y="158" class="sub">The team still needs a contract.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="1180" viewBox="0 0 520 1180" role="img" aria-label="Gateway ownership contract">
+  <defs><style>text{font-family:Inter,Segoe UI,Arial,sans-serif;fill:#e8fbff}.title{font-size:31px;font-weight:850}.sub{font-size:24px;fill:#a8ceda}.role{font-size:26px;font-weight:850}.body{font-size:22px;fill:#bee7f2}.center{font-size:28px;font-weight:900;fill:#06111f}</style></defs>
+  <rect width="520" height="1180" fill="#06111f"/>
+  <rect x="24" y="24" width="472" height="1132" rx="30" fill="#0b1f33" stroke="#155e75"/>
+  <text x="48" y="82" class="title">Name the</text>
+  <text x="48" y="120" class="title">gateway owners</text>
+  <text x="48" y="160" class="sub">Capacity policy needs</text>
+  <text x="48" y="190" class="sub">an operating contract.</text>
 
-  <circle cx="360" cy="280" r="92" fill="#22d3ee"/>
-  <text x="307" y="270" class="center">VNet</text>
-  <text x="278" y="306" class="center">gateway</text>
+  <circle cx="260" cy="300" r="82" fill="#22d3ee"/>
+  <text x="210" y="292" class="center">VNet</text>
+  <text x="180" y="328" class="center">gateway</text>
 
-  <g transform="translate(75 420)"><rect width="570" height="120" rx="24" fill="#10243a" stroke="#22d3ee"/><text x="34" y="43" class="role">Platform owner</text><text x="34" y="82" class="body">Policy, limits, standards, workspace patterns.</text></g>
-  <g transform="translate(75 575)"><rect width="570" height="120" rx="24" fill="#10243a" stroke="#22d3ee"/><text x="34" y="43" class="role">BI owner</text><text x="34" y="82" class="body">Critical models, deadlines, reporting impact.</text></g>
-  <g transform="translate(75 730)"><rect width="570" height="120" rx="24" fill="#10243a" stroke="#22d3ee"/><text x="34" y="43" class="role">Data engineering owner</text><text x="34" y="82" class="body">Pipelines, Copy Jobs, dataflows, readiness.</text></g>
-  <g transform="translate(75 885)"><rect width="570" height="120" rx="24" fill="#10243a" stroke="#22d3ee"/><text x="34" y="43" class="role">Security and finance</text><text x="34" y="82" class="body">Private access, audit, cost, scaling limits.</text></g>
+  <g transform="translate(50 440)"><rect width="420" height="135" rx="24" fill="#10243a" stroke="#22d3ee"/><text x="28" y="48" class="role">Platform owner</text><text x="28" y="88" class="body">Policy, limits, standards.</text></g>
+  <g transform="translate(50 620)"><rect width="420" height="135" rx="24" fill="#10243a" stroke="#22d3ee"/><text x="28" y="48" class="role">BI owner</text><text x="28" y="88" class="body">Critical models, deadlines.</text></g>
+  <g transform="translate(50 800)"><rect width="420" height="135" rx="24" fill="#10243a" stroke="#22d3ee"/><text x="28" y="48" class="role">Data engineering</text><text x="28" y="88" class="body">Pipelines and readiness.</text></g>
+  <g transform="translate(50 980)"><rect width="420" height="135" rx="24" fill="#10243a" stroke="#22d3ee"/><text x="28" y="48" class="role">Security and finance</text><text x="28" y="88" class="body">Private access, audit, cost.</text></g>
 </svg>
