@@ -9,7 +9,7 @@ author_url: https://www.linkedin.com/in/shai-kr
 
 <style>
 .article-body code { overflow-wrap: anywhere; word-break: break-word; }
-.article-body img[src*="vnet-gateway-autoscaling"] { width: min(100%, 760px); max-width: 760px; }
+.article-body img[src*="vnet-gateway-autoscaling"] { width: min(100%, 720px); max-width: 720px; }
 </style>
 
 ![VNet gateway autoscaling operating model]({{ '/assets/blog/vnet-gateway-autoscaling/01-operating-model.svg' | relative_url }})

@@ -1,18 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Gateway ownership contract">
-  <defs><style>text{font-family:Inter,Segoe UI,Arial,sans-serif;fill:#e8fbff}.title{font-size:38px;font-weight:800}.sub{font-size:21px;fill:#a8ceda}.role{font-size:23px;font-weight:800}.body{font-size:18px;fill:#c0e4ee}.center{font-size:28px;font-weight:900;fill:#06111c}</style></defs>
-  <rect width="1200" height="675" fill="#06111f"/>
-  <text x="70" y="78" class="title">The gateway needs named owners</text>
-  <text x="70" y="116" class="sub">Autoscaling adds capacity policy. The team still needs an operating contract.</text>
-  <circle cx="600" cy="360" r="112" fill="#22d3ee" opacity="0.95"/>
-  <text x="535" y="345" class="center">VNet</text>
-  <text x="500" y="380" class="center">gateway</text>
-  <text x="515" y="415" class="center">contract</text>
-  <g transform="translate(90 180)"><rect width="310" height="120" rx="22" fill="#10243a" stroke="#164e63"/><text x="26" y="40" class="role">Platform owner</text><text x="26" y="75" class="body">Policy, limits, standards,</text><text x="26" y="100" class="body">workspace patterns.</text></g>
-  <g transform="translate(800 180)"><rect width="310" height="120" rx="22" fill="#10243a" stroke="#164e63"/><text x="26" y="40" class="role">BI owner</text><text x="26" y="75" class="body">Critical models, deadlines,</text><text x="26" y="100" class="body">reporting impact.</text></g>
-  <g transform="translate(90 420)"><rect width="310" height="120" rx="22" fill="#10243a" stroke="#164e63"/><text x="26" y="40" class="role">Data engineering</text><text x="26" y="75" class="body">Pipelines, Copy Jobs, dataflows,</text><text x="26" y="100" class="body">upstream readiness.</text></g>
-  <g transform="translate(800 420)"><rect width="310" height="120" rx="22" fill="#10243a" stroke="#164e63"/><text x="26" y="40" class="role">Security and finance</text><text x="26" y="75" class="body">Private access, audit, cost,</text><text x="26" y="100" class="body">and scaling boundaries.</text></g>
-  <path d="M405 245 C475 245 500 300 510 330" stroke="#38bdf8" stroke-width="4" fill="none"/>
-  <path d="M795 245 C725 245 700 300 690 330" stroke="#38bdf8" stroke-width="4" fill="none"/>
-  <path d="M405 480 C475 480 500 425 510 390" stroke="#38bdf8" stroke-width="4" fill="none"/>
-  <path d="M795 480 C725 480 700 425 690 390" stroke="#38bdf8" stroke-width="4" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1040" viewBox="0 0 720 1040" role="img" aria-label="Gateway ownership contract">
+  <defs><style>text{font-family:Inter,Segoe UI,Arial,sans-serif;fill:#e8fbff}.title{font-size:34px;font-weight:850}.sub{font-size:22px;fill:#a8ceda}.role{font-size:25px;font-weight:850}.body{font-size:21px;fill:#bee7f2}.center{font-size:28px;font-weight:900;fill:#06111f}</style></defs>
+  <rect width="720" height="1040" fill="#06111f"/>
+  <rect x="36" y="34" width="648" height="972" rx="34" fill="#0b1f33" stroke="#155e75"/>
+  <text x="70" y="92" class="title">Name the gateway owners</text>
+  <text x="70" y="128" class="sub">Autoscaling adds capacity policy.</text>
+  <text x="70" y="158" class="sub">The team still needs a contract.</text>
+
+  <circle cx="360" cy="280" r="92" fill="#22d3ee"/>
+  <text x="307" y="270" class="center">VNet</text>
+  <text x="278" y="306" class="center">gateway</text>
+
+  <g transform="translate(75 420)"><rect width="570" height="120" rx="24" fill="#10243a" stroke="#22d3ee"/><text x="34" y="43" class="role">Platform owner</text><text x="34" y="82" class="body">Policy, limits, standards, workspace patterns.</text></g>
+  <g transform="translate(75 575)"><rect width="570" height="120" rx="24" fill="#10243a" stroke="#22d3ee"/><text x="34" y="43" class="role">BI owner</text><text x="34" y="82" class="body">Critical models, deadlines, reporting impact.</text></g>
+  <g transform="translate(75 730)"><rect width="570" height="120" rx="24" fill="#10243a" stroke="#22d3ee"/><text x="34" y="43" class="role">Data engineering owner</text><text x="34" y="82" class="body">Pipelines, Copy Jobs, dataflows, readiness.</text></g>
+  <g transform="translate(75 885)"><rect width="570" height="120" rx="24" fill="#10243a" stroke="#22d3ee"/><text x="34" y="43" class="role">Security and finance</text><text x="34" y="82" class="body">Private access, audit, cost, scaling limits.</text></g>
 </svg>
