@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="VNet gateway autoscaling operating model">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07111f"/><stop offset="1" stop-color="#0b2740"/></linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#10243a"/><stop offset="1" stop-color="#0b1b2b"/></linearGradient>
+    <filter id="glow"><feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#22d3ee" flood-opacity="0.35"/></filter>
+    <style>
+      text{font-family:Inter,Segoe UI,Arial,sans-serif;fill:#e5f7ff} .muted{fill:#9ec6d4}.title{font-size:40px;font-weight:800}.small{font-size:21px}.label{font-size:24px;font-weight:700}.pill{font-size:19px;fill:#c3f7ff}.num{font-size:30px;font-weight:800;fill:#06111c}
+    </style>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1020" cy="90" r="170" fill="#0ea5e9" opacity="0.12"/>
+  <circle cx="150" cy="610" r="210" fill="#22d3ee" opacity="0.08"/>
+  <text x="70" y="76" class="title">VNet Gateway Autoscaling</text>
+  <text x="70" y="112" class="small muted">Private data access becomes an operating model, not a manual refresh watch.</text>
+
+  <rect x="70" y="178" width="260" height="290" rx="24" fill="url(#card)" stroke="#1f9fcb"/>
+  <text x="105" y="230" class="label">Private data</text>
+  <text x="105" y="270" class="small muted">Azure SQL</text>
+  <text x="105" y="306" class="small muted">Private endpoints</text>
+  <text x="105" y="342" class="small muted">Source systems</text>
+  <text x="105" y="378" class="small muted">Network controls</text>
+
+  <rect x="470" y="160" width="260" height="330" rx="28" fill="#08283a" stroke="#22d3ee" stroke-width="2.5" filter="url(#glow)"/>
+  <text x="518" y="218" class="label">VNet gateway</text>
+  <text x="508" y="258" class="small muted">Min nodes</text>
+  <text x="508" y="294" class="small muted">Max nodes</text>
+  <text x="508" y="330" class="small muted">Demand signal</text>
+  <text x="508" y="366" class="small muted">Scale up</text>
+  <text x="508" y="402" class="small muted">Scale down</text>
+  <rect x="515" y="430" width="170" height="36" rx="18" fill="#22d3ee"/>
+  <text x="552" y="455" class="num">Policy</text>
+
+  <rect x="870" y="178" width="260" height="290" rx="24" fill="url(#card)" stroke="#1f9fcb"/>
+  <text x="905" y="230" class="label">Fabric work</text>
+  <text x="905" y="270" class="small muted">Semantic models</text>
+  <text x="905" y="306" class="small muted">Dataflow Gen2</text>
+  <text x="905" y="342" class="small muted">Pipelines</text>
+  <text x="905" y="378" class="small muted">Copy Job</text>
+  <text x="905" y="414" class="small muted">Paginated reports</text>
+
+  <path d="M340 320 C390 320 410 320 460 320" stroke="#38bdf8" stroke-width="5" fill="none" marker-end="url(#arrow)"/>
+  <path d="M740 320 C790 320 810 320 860 320" stroke="#38bdf8" stroke-width="5" fill="none" marker-end="url(#arrow)"/>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#38bdf8"/></marker></defs>
+
+  <rect x="120" y="545" width="960" height="70" rx="24" fill="#061827" stroke="#164e63"/>
+  <text x="165" y="589" class="small">Good pattern: inventory workloads, stagger refreshes, set scaling limits, monitor gateway pressure.</text>
+</svg>

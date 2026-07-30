@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Fabric gateway scaling checklist">
+  <defs><style>text{font-family:Inter,Segoe UI,Arial,sans-serif;fill:#e8fbff}.title{font-size:38px;font-weight:800}.sub{font-size:21px;fill:#a8ceda}.h{font-size:25px;font-weight:800}.body{font-size:19px;fill:#b8dce7}.n{font-size:26px;font-weight:900;fill:#04111f}</style></defs>
+  <rect width="1200" height="675" fill="#07111f"/>
+  <rect x="35" y="35" width="1130" height="605" rx="34" fill="#0b1f33" stroke="#155e75"/>
+  <text x="80" y="95" class="title">Four checks before scaling the gateway</text>
+  <text x="80" y="132" class="sub">Autoscaling works best when the platform contract is already clear.</text>
+  <g transform="translate(80 185)">
+    <rect width="500" height="150" rx="22" fill="#102a43" stroke="#22d3ee"/>
+    <circle cx="48" cy="48" r="24" fill="#22d3ee"/><text x="39" y="57" class="n">1</text>
+    <text x="90" y="52" class="h">Inventory gateway workloads</text>
+    <text x="90" y="88" class="body">Semantic models, dataflows, pipelines,</text>
+    <text x="90" y="118" class="body">Copy Jobs, mirroring, and owners.</text>
+  </g>
+  <g transform="translate(620 185)">
+    <rect width="500" height="150" rx="22" fill="#102a43" stroke="#22d3ee"/>
+    <circle cx="48" cy="48" r="24" fill="#22d3ee"/><text x="39" y="57" class="n">2</text>
+    <text x="90" y="52" class="h">Set min and max with intent</text>
+    <text x="90" y="88" class="body">Baseline capacity, peak tolerance,</text>
+    <text x="90" y="118" class="body">cost boundary, and support target.</text>
+  </g>
+  <g transform="translate(80 375)">
+    <rect width="500" height="150" rx="22" fill="#102a43" stroke="#22d3ee"/>
+    <circle cx="48" cy="48" r="24" fill="#22d3ee"/><text x="39" y="57" class="n">3</text>
+    <text x="90" y="52" class="h">Stagger refresh pressure</text>
+    <text x="90" y="88" class="body">Dependency order beats everybody</text>
+    <text x="90" y="118" class="body">starting at the same minute.</text>
+  </g>
+  <g transform="translate(620 375)">
+    <rect width="500" height="150" rx="22" fill="#102a43" stroke="#22d3ee"/>
+    <circle cx="48" cy="48" r="24" fill="#22d3ee"/><text x="39" y="57" class="n">4</text>
+    <text x="90" y="52" class="h">Monitor as a dependency</text>
+    <text x="90" y="88" class="body">Track failures, peak windows, slow</text>
+    <text x="90" y="118" class="body">queries, scaling behavior, and cost.</text>
+  </g>
+</svg>
