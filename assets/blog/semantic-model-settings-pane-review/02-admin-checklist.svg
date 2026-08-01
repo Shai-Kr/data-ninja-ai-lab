@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850" role="img" aria-labelledby="title desc">
+<title id="title">The First 30 Minute Pass</title><desc id="desc">A lightweight audit before teams adopt the new default</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050816"/><stop offset="0.55" stop-color="#081a2e"/><stop offset="1" stop-color="#0f172a"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1400" height="850" rx="34" fill="url(#bg)"/>
+<circle cx="1140" cy="80" r="210" fill="#0ea5e9" opacity="0.14"/>
+<circle cx="160" cy="760" r="260" fill="#7c3aed" opacity="0.12"/>
+<path d="M90 165 C380 70, 650 250, 930 145 S1240 115, 1320 210" stroke="#22d3ee" stroke-opacity="0.22" stroke-width="4" fill="none"/>
+<text x="84" y="96" fill="#67e8f9" font-size="24" font-family="Inter, Segoe UI, Arial" font-weight="700" letter-spacing="4">POWER BI SERVICE</text>
+<text x="84" y="154" fill="#f8fafc" font-size="54" font-family="Inter, Segoe UI, Arial" font-weight="800">The First 30 Minute Pass</text>
+<text x="86" y="205" fill="#cbd5e1" font-size="26" font-family="Inter, Segoe UI, Arial">A lightweight audit before teams adopt the new default</text>
+<rect x="90" y="285" width="560" height="138" rx="24" fill="#0b1224" stroke="#22d3ee" stroke-opacity="0.8" stroke-width="2"/>
+<circle cx="132" cy="329" r="18" fill="#22d3ee" opacity="0.9" filter="url(#glow)"/>
+<text x="168" y="328" fill="#f8fafc" font-size="27" font-family="Inter, Segoe UI, Arial" font-weight="800">Inventory models</text>
+<text x="168" y="369" fill="#cbd5e1" font-size="21" font-family="Inter, Segoe UI, Arial">Criticality, owners, data sources</text>
+<rect x="710" y="285" width="560" height="138" rx="24" fill="#0b1224" stroke="#60a5fa" stroke-opacity="0.8" stroke-width="2"/>
+<circle cx="752" cy="329" r="18" fill="#60a5fa" opacity="0.9" filter="url(#glow)"/>
+<text x="788" y="328" fill="#f8fafc" font-size="27" font-family="Inter, Segoe UI, Arial" font-weight="800">Check refresh paths</text>
+<text x="788" y="369" fill="#cbd5e1" font-size="21" font-family="Inter, Segoe UI, Arial">Gateway, capacity, failure history</text>
+<rect x="90" y="465" width="560" height="138" rx="24" fill="#0b1224" stroke="#a78bfa" stroke-opacity="0.8" stroke-width="2"/>
+<circle cx="132" cy="509" r="18" fill="#a78bfa" opacity="0.9" filter="url(#glow)"/>
+<text x="168" y="508" fill="#f8fafc" font-size="27" font-family="Inter, Segoe UI, Arial" font-weight="800">Review security</text>
+<text x="168" y="549" fill="#cbd5e1" font-size="21" font-family="Inter, Segoe UI, Arial">RLS roles, access, sensitivity</text>
+<rect x="710" y="465" width="560" height="138" rx="24" fill="#0b1224" stroke="#34d399" stroke-opacity="0.8" stroke-width="2"/>
+<circle cx="752" cy="509" r="18" fill="#34d399" opacity="0.9" filter="url(#glow)"/>
+<text x="788" y="508" fill="#f8fafc" font-size="27" font-family="Inter, Segoe UI, Arial" font-weight="800">Document decisions</text>
+<text x="788" y="549" fill="#cbd5e1" font-size="21" font-family="Inter, Segoe UI, Arial">Settings that need team approval</text>
+<rect x="86" y="742" width="1228" height="62" rx="22" fill="#020617" stroke="#334155"/>
+<text x="112" y="781" fill="#e2e8f0" font-size="22" font-family="Inter, Segoe UI, Arial" font-weight="700">A simple checklist prevents scattered model administration</text>
+</svg>
