@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1080" viewBox="0 0 900 1080" role="img" aria-labelledby="title desc">
+<title id="title">30 Minute Review</title><desc id="desc">Audit the model before drift wins</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050816"/><stop offset="0.58" stop-color="#081a2e"/><stop offset="1" stop-color="#0f172a"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="900" height="1080" rx="32" fill="url(#bg)"/>
+<circle cx="760" cy="95" r="150" fill="#0ea5e9" opacity="0.16"/>
+<circle cx="120" cy="980" r="210" fill="#7c3aed" opacity="0.13"/>
+<text x="56" y="80" fill="#67e8f9" font-size="24" font-family="Inter, Segoe UI, Arial" font-weight="700" letter-spacing="3">POWER BI SERVICE</text>
+<text x="56" y="143" fill="#f8fafc" font-size="46" font-family="Inter, Segoe UI, Arial" font-weight="850">30 Minute Review</text>
+<text x="58" y="195" fill="#cbd5e1" font-size="26" font-family="Inter, Segoe UI, Arial">Audit the model before drift wins</text>
+<rect x="56" y="260" width="788" height="125" rx="24" fill="#0b1224" stroke="#22d3ee" stroke-opacity="0.85" stroke-width="2.5"/>
+<circle cx="102" cy="303" r="18" fill="#22d3ee" filter="url(#glow)"/>
+<text x="140" y="308" fill="#f8fafc" font-size="31" font-family="Inter, Segoe UI, Arial" font-weight="850">Inventory models</text>
+<text x="140" y="351" fill="#cbd5e1" font-size="25" font-family="Inter, Segoe UI, Arial">Criticality, owners, data sources</text>
+<rect x="56" y="415" width="788" height="125" rx="24" fill="#0b1224" stroke="#60a5fa" stroke-opacity="0.85" stroke-width="2.5"/>
+<circle cx="102" cy="458" r="18" fill="#60a5fa" filter="url(#glow)"/>
+<text x="140" y="463" fill="#f8fafc" font-size="31" font-family="Inter, Segoe UI, Arial" font-weight="850">Check refresh paths</text>
+<text x="140" y="506" fill="#cbd5e1" font-size="25" font-family="Inter, Segoe UI, Arial">Gateway, capacity, failure history</text>
+<rect x="56" y="570" width="788" height="125" rx="24" fill="#0b1224" stroke="#a78bfa" stroke-opacity="0.85" stroke-width="2.5"/>
+<circle cx="102" cy="613" r="18" fill="#a78bfa" filter="url(#glow)"/>
+<text x="140" y="618" fill="#f8fafc" font-size="31" font-family="Inter, Segoe UI, Arial" font-weight="850">Review security</text>
+<text x="140" y="661" fill="#cbd5e1" font-size="25" font-family="Inter, Segoe UI, Arial">RLS roles, access, sensitivity</text>
+<rect x="56" y="725" width="788" height="125" rx="24" fill="#0b1224" stroke="#34d399" stroke-opacity="0.85" stroke-width="2.5"/>
+<circle cx="102" cy="768" r="18" fill="#34d399" filter="url(#glow)"/>
+<text x="140" y="773" fill="#f8fafc" font-size="31" font-family="Inter, Segoe UI, Arial" font-weight="850">Document decisions</text>
+<text x="140" y="816" fill="#cbd5e1" font-size="25" font-family="Inter, Segoe UI, Arial">Settings that need approval</text>
+<rect x="56" y="920" width="788" height="88" rx="24" fill="#020617" stroke="#334155"/>
+<text x="86" y="958" fill="#e2e8f0" font-size="24" font-family="Inter, Segoe UI, Arial" font-weight="800">A simple checklist reduces support noise</text>
+<text x="86" y="991" fill="#94a3b8" font-size="22" font-family="Inter, Segoe UI, Arial">Start with the top ten semantic models</text>
+</svg>

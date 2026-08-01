@@ -31,6 +31,11 @@ description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, 
 <section class="post-list featured home-articles">
   <h2>Latest articles</h2>
   <article class="post-card">
+    <p class="post-meta">Power BI · Semantic Models · Governance</p>
+    <h3><a href="{{ '/blog/2026-08-01-power-bi-semantic-model-settings-pane.html' | relative_url }}">Make Power BI Semantic Model Settings Easier to Govern</a></h3>
+    <p>A practical governance workflow for using the semantic model settings pane to review ownership, refresh, credentials, access, labels, endorsement, and support routing.</p>
+  </article>
+  <article class="post-card">
     <p class="post-meta">Microsoft Fabric · OneLake · Governance</p>
     <h3><a href="{{ '/blog/2026-07-28-onelake-security-enterprise-trust.html' | relative_url }}">OneLake Security Just Got Easier to Trust Across Fabric</a></h3>
     <p>A practical governance guide for OneLake security across SQL analytics endpoints, groups, service principals, shortcuts, Eventhouse, Graph Database, and AI-agent-safe access paths.</p>
