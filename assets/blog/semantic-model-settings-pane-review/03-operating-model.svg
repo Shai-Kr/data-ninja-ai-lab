@@ -1,32 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850" role="img" aria-labelledby="title desc">
-<title id="title">From Page to Process</title><desc id="desc">Turn semantic model settings into a repeatable operating model</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1080" viewBox="0 0 900 1080" role="img" aria-labelledby="title desc">
+<title id="title">From Pane to Process</title><desc id="desc">A repeatable model admin rhythm</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050816"/><stop offset="0.55" stop-color="#081a2e"/><stop offset="1" stop-color="#0f172a"/></linearGradient>
-  <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050816"/><stop offset="0.58" stop-color="#081a2e"/><stop offset="1" stop-color="#0f172a"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
-<rect width="1400" height="850" rx="34" fill="url(#bg)"/>
-<circle cx="1140" cy="80" r="210" fill="#0ea5e9" opacity="0.14"/>
-<circle cx="160" cy="760" r="260" fill="#7c3aed" opacity="0.12"/>
-<path d="M90 165 C380 70, 650 250, 930 145 S1240 115, 1320 210" stroke="#22d3ee" stroke-opacity="0.22" stroke-width="4" fill="none"/>
-<text x="84" y="96" fill="#67e8f9" font-size="24" font-family="Inter, Segoe UI, Arial" font-weight="700" letter-spacing="4">POWER BI SERVICE</text>
-<text x="84" y="154" fill="#f8fafc" font-size="54" font-family="Inter, Segoe UI, Arial" font-weight="800">From Page to Process</text>
-<text x="86" y="205" fill="#cbd5e1" font-size="26" font-family="Inter, Segoe UI, Arial">Turn semantic model settings into a repeatable operating model</text>
-<rect x="90" y="285" width="560" height="138" rx="24" fill="#0b1224" stroke="#22d3ee" stroke-opacity="0.8" stroke-width="2"/>
-<circle cx="132" cy="329" r="18" fill="#22d3ee" opacity="0.9" filter="url(#glow)"/>
-<text x="168" y="328" fill="#f8fafc" font-size="27" font-family="Inter, Segoe UI, Arial" font-weight="800">Model owner</text>
-<text x="168" y="369" fill="#cbd5e1" font-size="21" font-family="Inter, Segoe UI, Arial">Business and technical accountability</text>
-<rect x="710" y="285" width="560" height="138" rx="24" fill="#0b1224" stroke="#60a5fa" stroke-opacity="0.8" stroke-width="2"/>
-<circle cx="752" cy="329" r="18" fill="#60a5fa" opacity="0.9" filter="url(#glow)"/>
-<text x="788" y="328" fill="#f8fafc" font-size="27" font-family="Inter, Segoe UI, Arial" font-weight="800">Platform admin</text>
-<text x="788" y="369" fill="#cbd5e1" font-size="21" font-family="Inter, Segoe UI, Arial">Tenant, capacity, workspace standards</text>
-<rect x="90" y="465" width="560" height="138" rx="24" fill="#0b1224" stroke="#a78bfa" stroke-opacity="0.8" stroke-width="2"/>
-<circle cx="132" cy="509" r="18" fill="#a78bfa" opacity="0.9" filter="url(#glow)"/>
-<text x="168" y="508" fill="#f8fafc" font-size="27" font-family="Inter, Segoe UI, Arial" font-weight="800">BI developer</text>
-<text x="168" y="549" fill="#cbd5e1" font-size="21" font-family="Inter, Segoe UI, Arial">Model changes, measures, tests</text>
-<rect x="710" y="465" width="560" height="138" rx="24" fill="#0b1224" stroke="#34d399" stroke-opacity="0.8" stroke-width="2"/>
-<circle cx="752" cy="509" r="18" fill="#34d399" opacity="0.9" filter="url(#glow)"/>
-<text x="788" y="508" fill="#f8fafc" font-size="27" font-family="Inter, Segoe UI, Arial" font-weight="800">Support flow</text>
-<text x="788" y="549" fill="#cbd5e1" font-size="21" font-family="Inter, Segoe UI, Arial">Refresh issue to root cause to fix</text>
-<rect x="86" y="742" width="1228" height="62" rx="22" fill="#020617" stroke="#334155"/>
-<text x="112" y="781" fill="#e2e8f0" font-size="22" font-family="Inter, Segoe UI, Arial" font-weight="700">Better UI only helps when the operating model is clear</text>
+<rect width="900" height="1080" rx="32" fill="url(#bg)"/>
+<circle cx="760" cy="95" r="150" fill="#0ea5e9" opacity="0.16"/>
+<circle cx="120" cy="980" r="210" fill="#7c3aed" opacity="0.13"/>
+<text x="56" y="80" fill="#67e8f9" font-size="24" font-family="Inter, Segoe UI, Arial" font-weight="700" letter-spacing="3">POWER BI SERVICE</text>
+<text x="56" y="143" fill="#f8fafc" font-size="46" font-family="Inter, Segoe UI, Arial" font-weight="850">From Pane to Process</text>
+<text x="58" y="195" fill="#cbd5e1" font-size="26" font-family="Inter, Segoe UI, Arial">A repeatable model admin rhythm</text>
+<rect x="56" y="260" width="788" height="125" rx="24" fill="#0b1224" stroke="#22d3ee" stroke-opacity="0.85" stroke-width="2.5"/>
+<circle cx="102" cy="303" r="18" fill="#22d3ee" filter="url(#glow)"/>
+<text x="140" y="308" fill="#f8fafc" font-size="31" font-family="Inter, Segoe UI, Arial" font-weight="850">Model owner</text>
+<text x="140" y="351" fill="#cbd5e1" font-size="25" font-family="Inter, Segoe UI, Arial">Business and technical accountability</text>
+<rect x="56" y="415" width="788" height="125" rx="24" fill="#0b1224" stroke="#60a5fa" stroke-opacity="0.85" stroke-width="2.5"/>
+<circle cx="102" cy="458" r="18" fill="#60a5fa" filter="url(#glow)"/>
+<text x="140" y="463" fill="#f8fafc" font-size="31" font-family="Inter, Segoe UI, Arial" font-weight="850">Platform admin</text>
+<text x="140" y="506" fill="#cbd5e1" font-size="25" font-family="Inter, Segoe UI, Arial">Tenant, capacity, workspace standards</text>
+<rect x="56" y="570" width="788" height="125" rx="24" fill="#0b1224" stroke="#a78bfa" stroke-opacity="0.85" stroke-width="2.5"/>
+<circle cx="102" cy="613" r="18" fill="#a78bfa" filter="url(#glow)"/>
+<text x="140" y="618" fill="#f8fafc" font-size="31" font-family="Inter, Segoe UI, Arial" font-weight="850">BI developer</text>
+<text x="140" y="661" fill="#cbd5e1" font-size="25" font-family="Inter, Segoe UI, Arial">Model changes, measures, tests</text>
+<rect x="56" y="725" width="788" height="125" rx="24" fill="#0b1224" stroke="#34d399" stroke-opacity="0.85" stroke-width="2.5"/>
+<circle cx="102" cy="768" r="18" fill="#34d399" filter="url(#glow)"/>
+<text x="140" y="773" fill="#f8fafc" font-size="31" font-family="Inter, Segoe UI, Arial" font-weight="850">Support flow</text>
+<text x="140" y="816" fill="#cbd5e1" font-size="25" font-family="Inter, Segoe UI, Arial">Refresh issue to root cause to fix</text>
+<rect x="56" y="920" width="788" height="88" rx="24" fill="#020617" stroke="#334155"/>
+<text x="86" y="958" fill="#e2e8f0" font-size="24" font-family="Inter, Segoe UI, Arial" font-weight="800">Better UI helps when ownership is clear</text>
+<text x="86" y="991" fill="#94a3b8" font-size="22" font-family="Inter, Segoe UI, Arial">Make settings part of the operating model</text>
 </svg>
