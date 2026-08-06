@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Bring AWS Glue Iceberg Tables Into OneLake Without Rebuilding the Lake
 date: 2026-08-06
 description: AWS Glue catalog mirroring gives Fabric teams a practical cross-cloud path: keep Iceberg data in Amazon S3, mirror the catalog into OneLake, and build Power BI or Fabric experiences from a governed analytics surface.
@@ -7,15 +7,15 @@ author: Shai Karmani
 author_url: https://www.linkedin.com/in/shai-kr
 ---
 
-<style>
-@media (max-width: 760px) {
-  .article-header h1 { font-size: clamp(1.85rem, 9vw, 2.25rem); overflow-wrap: anywhere; }
-  .article-header .dek { font-size: 1rem; }
-  .article-body { overflow-x: hidden; }
-  .article-body img { width: 100%; max-width: 100%; }
-}
-</style>
+<article class="article" markdown="1">
+  <header class="article-header">
+    <p class="eyebrow">Data Ninja AI Lab</p>
+    <h1>Bring AWS Glue Iceberg Tables Into OneLake Without Rebuilding the Lake</h1>
+    <p class="byline"><img class="avatar avatar-small" src="{{ '/assets/img/shai-karmani-profile.png' | relative_url }}" alt="Shai Karmani"> by <a href="https://www.linkedin.com/in/shai-kr">Shai Karmani</a> · Aug 6, 2026</p>
+    <p class="dek">AWS Glue catalog mirroring gives Fabric teams a practical cross-cloud path: keep Iceberg data in Amazon S3, mirror the catalog into OneLake, and build Power BI or Fabric experiences from a governed analytics surface.</p>
+  </header>
 
+  <div class="article-body" markdown="1">
 ![AWS Glue catalog mirroring flow into OneLake]({{ '/assets/blog/aws-glue-onelake-mirroring/01-cross-cloud-catalog-flow.svg' | relative_url }})
 
 Most data platforms do not fail because the team picked the wrong lake.
@@ -197,3 +197,16 @@ If that does not work, you learned the right thing early.
 ---
 
 Written by **Shai Karmani**. If you work with Microsoft Fabric, Power BI, data platforms, or practical AI systems, [connect with me on LinkedIn](https://www.linkedin.com/in/shai-kr).
+
+  </div>
+
+  <section class="subscribe-card article-subscribe" aria-label="Subscribe to Data Ninja AI Lab updates">
+    <div class="subscribe-orbit" aria-hidden="true"></div>
+    <div class="subscribe-copy">
+      <p class="subscribe-kicker">New posts by email</p>
+      <h2>Get the next Data Ninja note when it goes live.</h2>
+      <p>I send short updates only when a new practical Fabric, Power BI, analytics engineering, or AI article is published.</p>
+    </div>
+    <a class="subscribe-button" href="https://docs.google.com/forms/d/e/1FAIpQLSfzdHN_6hpK7X0OnN2q_TeR3OaQoPG0Llu447dgISWpfjyTCA/viewform">Subscribe to updates</a>
+  </section>
+</article>
