@@ -7,6 +7,15 @@ author: Shai Karmani
 author_url: https://www.linkedin.com/in/shai-kr
 ---
 
+<style>
+@media (max-width: 760px) {
+  .article-header h1 { font-size: clamp(1.85rem, 9vw, 2.25rem); overflow-wrap: anywhere; }
+  .article-header .dek { font-size: 1rem; }
+  .article-body { overflow-x: hidden; }
+  .article-body img { width: 100%; max-width: 100%; }
+}
+</style>
+
 ![AWS Glue catalog mirroring flow into OneLake]({{ '/assets/blog/aws-glue-onelake-mirroring/01-cross-cloud-catalog-flow.svg' | relative_url }})
 
 Most data platforms do not fail because the team picked the wrong lake.
