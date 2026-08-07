@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Make Rules Publish Real Events</title><desc id="desc">A practical Fabric pattern for turning detection into shared signals</desc>
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#07111f"/><stop offset="0.55" stop-color="#0b1328"/><stop offset="1" stop-color="#111827"/></linearGradient>
+  <filter id="glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="7" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <style>
+    .h { font: 800 44px Inter, Segoe UI, Arial, sans-serif; fill: #f8fafc; letter-spacing: -1px; }
+    .s { font: 500 22px Inter, Segoe UI, Arial, sans-serif; fill: #b6c6e3; }
+    .t { font: 800 25px Inter, Segoe UI, Arial, sans-serif; fill: #f8fafc; }
+    .d { font: 500 18px Inter, Segoe UI, Arial, sans-serif; fill: #cbd5e1; }
+    .small { font: 700 16px Inter, Segoe UI, Arial, sans-serif; fill: #91a7c7; letter-spacing: .5px; }
+  </style>
+</defs>
+<rect width="1200" height="720" rx="34" fill="url(#bg)"/>
+<circle cx="1020" cy="110" r="170" fill="#0ea5e9" opacity="0.16" filter="url(#glow)"/>
+<circle cx="150" cy="640" r="210" fill="#7c3aed" opacity="0.14" filter="url(#glow)"/>
+<text x="70" y="82" class="small">DATA NINJA AI LAB</text>
+<text x="70" y="140" class="h">Make Rules Publish Real Events</text>
+<text x="70" y="180" class="s">A practical Fabric pattern for turning detection into shared signals</text>
+
+<rect x="70" y="270" width="220" height="230" rx="24" fill="#0f1b31" stroke="#00d9ff" stroke-width="2.5" opacity="0.96"/>
+<circle cx="102" cy="306" r="14" fill="#00d9ff" opacity="0.95"/>
+<text x="128" y="315" class="t">Stream</text>
+<text x="94" y="362" class="d">Eventstream, Power BI</text>
+<text x="94" y="392" class="d">SQL query, dashboard</text>
+<path d="M 304 382 L 346 382" stroke="#4ddcff" stroke-width="4" stroke-linecap="round"/>
+<path d="M 346 382 L 332 370 M 346 382 L 332 394" stroke="#4ddcff" stroke-width="4" stroke-linecap="round"/>
+<rect x="350" y="270" width="220" height="230" rx="24" fill="#0f1b31" stroke="#8b5cf6" stroke-width="2.5" opacity="0.96"/>
+<circle cx="382" cy="306" r="14" fill="#8b5cf6" opacity="0.95"/>
+<text x="408" y="315" class="t">Detect</text>
+<text x="374" y="362" class="d">Activator rule</text>
+<text x="374" y="392" class="d">Per object state</text>
+<path d="M 584 382 L 626 382" stroke="#4ddcff" stroke-width="4" stroke-linecap="round"/>
+<path d="M 626 382 L 612 370 M 626 382 L 612 394" stroke="#4ddcff" stroke-width="4" stroke-linecap="round"/>
+<rect x="630" y="270" width="220" height="230" rx="24" fill="#0f1b31" stroke="#22c55e" stroke-width="2.5" opacity="0.96"/>
+<circle cx="662" cy="306" r="14" fill="#22c55e" opacity="0.95"/>
+<text x="688" y="315" class="t">Publish</text>
+<text x="654" y="362" class="d">Business event</text>
+<text x="654" y="392" class="d">Schema Registry</text>
+<path d="M 864 382 L 906 382" stroke="#4ddcff" stroke-width="4" stroke-linecap="round"/>
+<path d="M 906 382 L 892 370 M 906 382 L 892 394" stroke="#4ddcff" stroke-width="4" stroke-linecap="round"/>
+<rect x="910" y="270" width="220" height="230" rx="24" fill="#0f1b31" stroke="#f59e0b" stroke-width="2.5" opacity="0.96"/>
+<circle cx="942" cy="306" r="14" fill="#f59e0b" opacity="0.95"/>
+<text x="968" y="315" class="t">Act</text>
+<text x="934" y="362" class="d">Teams, flows, UDFs</text>
+<text x="934" y="392" class="d">Eventhouse history</text>
+<rect x="70" y="610" width="1060" height="54" rx="18" fill="#071527" stroke="#223a5f"/><text x="96" y="645" class="s">The win is not another alert. The win is a reusable event contract other teams can trust.</text></svg>
