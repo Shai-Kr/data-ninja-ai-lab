@@ -22,7 +22,7 @@
   <g fill="none" stroke="#38bdf8" stroke-width="3" opacity="0.5">
     <path d="M630 220 L630 555"/>
   </g>
-  <rect x="345" y="625" width="590" height="48" rx="18" fill="#12365f" stroke="#60a5fa"/>
-  <text x="405" y="656" fill="#dbeafe" font-size="21" font-weight="750">Treat the app like a channel, not a folder with prettier navigation.</text>
+  <rect x="235" y="625" width="810" height="48" rx="18" fill="#12365f" stroke="#60a5fa"/>
+  <text x="285" y="656" fill="#dbeafe" font-size="20" font-weight="750">Treat the app like a channel, not a folder with prettier navigation.</text>
 </g>
 </svg>
