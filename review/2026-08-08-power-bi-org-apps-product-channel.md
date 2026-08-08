@@ -9,14 +9,16 @@ author_url: https://www.linkedin.com/in/shai-kr
 
 <style>
 @media (max-width: 760px) {
+  .site-shell { width: min(var(--max), calc(100% - 18px)); }
   .site-header { gap: 12px; margin-bottom: 22px; }
   .brand { font-size: 0.95rem; }
   .nav { gap: 10px; font-size: 0.86rem; }
-  .article-header { padding: 24px 18px; }
-  .article-header h1 { font-size: clamp(1.55rem, 7.2vw, 1.95rem); line-height: 1.16; letter-spacing: -0.035em; overflow-wrap: anywhere; }
-  .article-header .dek { font-size: 0.98rem; line-height: 1.58; }
-  .article-body { overflow-x: hidden; }
-  .article-body img { width: 100%; max-width: 100%; }
+  .article { max-width: 100%; }
+  .article-header { padding: 22px 14px; border-radius: 18px; }
+  .article-header h1 { font-size: clamp(1.32rem, 6.1vw, 1.72rem); line-height: 1.17; letter-spacing: -0.035em; overflow-wrap: anywhere; }
+  .article-header .dek { font-size: 0.93rem; line-height: 1.55; }
+  .article-body { overflow-x: hidden; font-size: 0.98rem; }
+  .article-body img { width: 100%; max-width: 100%; border-radius: 16px; }
   .subscribe-orbit { display: none; }
 }
 </style>
