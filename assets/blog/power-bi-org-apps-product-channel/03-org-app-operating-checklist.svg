@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+<title id="title">Power BI org app operating checklist</title>
+<desc id="desc">A practical checklist for managing Power BI org apps as product channels.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06101c"/><stop offset="1" stop-color="#0f2742"/></linearGradient></defs>
+<rect width="1280" height="720" fill="url(#bg)"/>
+<text x="74" y="84" fill="#f8fafc" font-family="Inter, Arial" font-size="44" font-weight="800">The org app operating checklist</text>
+<text x="76" y="126" fill="#a7bdd7" font-family="Inter, Arial" font-size="22">A small standard that makes BI delivery easier to trust and easier to maintain.</text>
+<g font-family="Inter, Arial">
+  <rect x="80" y="180" width="1120" height="420" rx="30" fill="#0b1b31" stroke="#28456a"/>
+  <g font-size="24" font-weight="760" fill="#e5f0ff">
+    <text x="140" y="255">✓ Audience map</text>
+    <text x="140" y="322">✓ Included item inventory</text>
+    <text x="140" y="389">✓ Semantic model dependency list</text>
+    <text x="140" y="456">✓ Support owner and contact path</text>
+    <text x="140" y="523">✓ Release notes for app changes</text>
+    <text x="690" y="255">✓ Access review cadence</text>
+    <text x="690" y="322">✓ Bookmark and storytelling policy</text>
+    <text x="690" y="389">✓ API automation plan</text>
+    <text x="690" y="456">✓ Adoption and usage review</text>
+    <text x="690" y="523">✓ Retirement path for old apps</text>
+  </g>
+  <g fill="none" stroke="#38bdf8" stroke-width="3" opacity="0.5">
+    <path d="M630 220 L630 555"/>
+  </g>
+  <rect x="345" y="625" width="590" height="48" rx="18" fill="#12365f" stroke="#60a5fa"/>
+  <text x="405" y="656" fill="#dbeafe" font-size="21" font-weight="750">Treat the app like a channel, not a folder with prettier navigation.</text>
+</g>
+</svg>

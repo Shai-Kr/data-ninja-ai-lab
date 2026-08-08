@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+<title id="title">Power BI org app as a BI product channel</title>
+<desc id="desc">Diagram showing a governed BI product channel with workspace content, org app audiences, consumer experiences, and operational controls.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07111f"/><stop offset="0.55" stop-color="#10233f"/><stop offset="1" stop-color="#071827"/></linearGradient>
+  <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#162b4d"/><stop offset="1" stop-color="#0d1b31"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1280" height="720" fill="url(#bg)"/>
+<circle cx="1060" cy="100" r="220" fill="#2563eb" opacity="0.12"/>
+<circle cx="180" cy="620" r="250" fill="#14b8a6" opacity="0.10"/>
+<text x="70" y="84" fill="#e5f0ff" font-family="Inter, Arial" font-size="46" font-weight="800">Org apps turn BI into a product channel</text>
+<text x="72" y="124" fill="#a9bdd7" font-family="Inter, Arial" font-size="22">Package content, target audiences, automate lifecycle, and own the consumer experience.</text>
+<g font-family="Inter, Arial">
+  <rect x="70" y="205" width="250" height="160" rx="24" fill="url(#card)" stroke="#3b82f6" stroke-width="2"/>
+  <text x="100" y="255" fill="#eaf2ff" font-size="26" font-weight="750">Workspace</text>
+  <text x="100" y="294" fill="#b9c8dc" font-size="19">Reports</text>
+  <text x="100" y="323" fill="#b9c8dc" font-size="19">Semantic models</text>
+  <text x="100" y="352" fill="#b9c8dc" font-size="19">Notebooks and RT dashboards</text>
+
+  <rect x="515" y="190" width="250" height="190" rx="28" fill="#13294a" stroke="#2dd4bf" stroke-width="3" filter="url(#glow)"/>
+  <text x="552" y="245" fill="#f0fdfa" font-size="30" font-weight="800">Org app item</text>
+  <text x="552" y="286" fill="#b9f3ea" font-size="20">A managed BI package</text>
+  <text x="552" y="318" fill="#b9f3ea" font-size="20">with audiences</text>
+  <text x="552" y="350" fill="#b9f3ea" font-size="20">and lifecycle control</text>
+
+  <rect x="960" y="205" width="250" height="160" rx="24" fill="url(#card)" stroke="#8b5cf6" stroke-width="2"/>
+  <text x="990" y="255" fill="#f3e8ff" font-size="26" font-weight="750">Consumers</text>
+  <text x="990" y="294" fill="#cfc1e8" font-size="19">Executives</text>
+  <text x="990" y="323" fill="#cfc1e8" font-size="19">Operations</text>
+  <text x="990" y="352" fill="#cfc1e8" font-size="19">Finance and sales</text>
+
+  <path d="M330 285 C390 285 450 285 505 285" fill="none" stroke="#7dd3fc" stroke-width="5" stroke-linecap="round"/>
+  <path d="M485 265 L510 285 L485 305" fill="none" stroke="#7dd3fc" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M775 285 C835 285 895 285 950 285" fill="none" stroke="#c4b5fd" stroke-width="5" stroke-linecap="round"/>
+  <path d="M930 265 L955 285 L930 305" fill="none" stroke="#c4b5fd" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="155" y="470" width="970" height="100" rx="24" fill="#091a2f" stroke="#25466f"/>
+  <text x="200" y="514" fill="#e5f0ff" font-size="24" font-weight="760">The operating layer</text>
+  <text x="200" y="550" fill="#aac3df" font-size="20">Audience rules  •  support owner  •  release notes  •  access review  •  API automation  •  adoption signals</text>
+</g>
+</svg>

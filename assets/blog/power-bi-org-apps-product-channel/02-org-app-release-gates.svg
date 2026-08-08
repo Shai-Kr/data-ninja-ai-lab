@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+<title id="title">Release gates for Power BI org apps</title>
+<desc id="desc">Checklist diagram for moving a Power BI org app from workspace content to a governed release.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#08111f"/><stop offset="1" stop-color="#102a43"/></linearGradient></defs>
+<rect width="1280" height="720" fill="url(#bg)"/>
+<text x="70" y="82" fill="#f8fafc" font-family="Inter, Arial" font-size="44" font-weight="800">Release gates before a BI app reaches users</text>
+<text x="72" y="122" fill="#a7bdd7" font-family="Inter, Arial" font-size="22">Useful org apps need the same discipline as a small internal product release.</text>
+<g font-family="Inter, Arial" font-size="20">
+  <g transform="translate(90 195)">
+    <rect width="230" height="310" rx="24" fill="#10233f" stroke="#38bdf8" stroke-width="2"/>
+    <circle cx="115" cy="75" r="38" fill="#0ea5e9" opacity="0.25"/><text x="100" y="84" fill="#e0f2fe" font-size="30" font-weight="800">1</text>
+    <text x="35" y="145" fill="#e5f0ff" font-size="26" font-weight="750">Audience</text>
+    <text x="35" y="190" fill="#b8cbe0">Who gets what?</text><text x="35" y="224" fill="#b8cbe0">Which groups?</text><text x="35" y="258" fill="#b8cbe0">Which exclusions?</text>
+  </g>
+  <g transform="translate(375 195)">
+    <rect width="230" height="310" rx="24" fill="#10233f" stroke="#2dd4bf" stroke-width="2"/>
+    <circle cx="115" cy="75" r="38" fill="#14b8a6" opacity="0.25"/><text x="100" y="84" fill="#ccfbf1" font-size="30" font-weight="800">2</text>
+    <text x="35" y="145" fill="#e5f0ff" font-size="26" font-weight="750">Content</text>
+    <text x="35" y="190" fill="#b8cbe0">Is it curated?</text><text x="35" y="224" fill="#b8cbe0">Is it current?</text><text x="35" y="258" fill="#b8cbe0">Can users trust it?</text>
+  </g>
+  <g transform="translate(660 195)">
+    <rect width="230" height="310" rx="24" fill="#10233f" stroke="#a78bfa" stroke-width="2"/>
+    <circle cx="115" cy="75" r="38" fill="#8b5cf6" opacity="0.25"/><text x="100" y="84" fill="#ede9fe" font-size="30" font-weight="800">3</text>
+    <text x="35" y="145" fill="#e5f0ff" font-size="26" font-weight="750">Support</text>
+    <text x="35" y="190" fill="#b8cbe0">Owner named</text><text x="35" y="224" fill="#b8cbe0">Contact path</text><text x="35" y="258" fill="#b8cbe0">Change notes</text>
+  </g>
+  <g transform="translate(945 195)">
+    <rect width="230" height="310" rx="24" fill="#10233f" stroke="#f59e0b" stroke-width="2"/>
+    <circle cx="115" cy="75" r="38" fill="#f59e0b" opacity="0.25"/><text x="100" y="84" fill="#fef3c7" font-size="30" font-weight="800">4</text>
+    <text x="35" y="145" fill="#e5f0ff" font-size="26" font-weight="750">Automate</text>
+    <text x="35" y="190" fill="#b8cbe0">API lifecycle</text><text x="35" y="224" fill="#b8cbe0">Access review</text><text x="35" y="258" fill="#b8cbe0">Promotion path</text>
+  </g>
+  <rect x="185" y="575" width="910" height="58" rx="18" fill="#0b1c33" stroke="#31547d"/>
+  <text x="235" y="612" fill="#dbeafe" font-size="22" font-weight="700">Outcome: fewer shared links, cleaner permissions, clearer BI ownership.</text>
+</g>
+</svg>
