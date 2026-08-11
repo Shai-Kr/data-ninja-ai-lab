@@ -1,28 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
 <title>The monthly warehouse review</title><desc>A lightweight review rhythm for Fabric teams.</desc>
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07111f"/><stop offset="0.55" stop-color="#0b1630"/><stop offset="1" stop-color="#102a3f"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="5" result="coloredBlur"/><feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07111f"/><stop offset="0.55" stop-color="#0b1630"/><stop offset="1" stop-color="#102a3f"/></linearGradient></defs>
 <rect width="1400" height="820" rx="42" fill="url(#bg)"/>
-<circle cx="1180" cy="120" r="220" fill="#2dd4bf" opacity="0.12"/>
-<circle cx="150" cy="720" r="260" fill="#60a5fa" opacity="0.11"/>
-<text x="80" y="92" fill="#e5f3ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="48" font-weight="800">The monthly warehouse review</text>
-<text x="82" y="140" fill="#9fb7d7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24">A lightweight review rhythm for Fabric teams.</text>
-<rect x="90" y="205" width="380" height="190" rx="24" fill="#38bdf8" opacity="0.18" stroke="#38bdf8" stroke-width="2"/>
-<text x="118" y="257" fill="#f7fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="750">Consumption review</text>
-<text x="118" y="330" fill="#b9cae4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22">Top warehouses</text>
-<text x="118" y="358" fill="#b9cae4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22">Peak windows</text>
-<text x="118" y="386" fill="#b9cae4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22">User vs system trend</text>
-<rect x="510" y="205" width="380" height="190" rx="24" fill="#2dd4bf" opacity="0.18" stroke="#2dd4bf" stroke-width="2"/>
-<text x="538" y="257" fill="#f7fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="750">Workload review</text>
-<text x="538" y="330" fill="#b9cae4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22">Top query groups</text>
-<text x="538" y="358" fill="#b9cae4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22">Owners</text>
-<text x="538" y="386" fill="#b9cae4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22">Recent deployments</text>
-<rect x="930" y="205" width="380" height="190" rx="24" fill="#a78bfa" opacity="0.18" stroke="#a78bfa" stroke-width="2"/>
-<text x="958" y="257" fill="#f7fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="750">Action backlog</text>
-<text x="958" y="330" fill="#b9cae4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22">Tune candidates</text>
-<text x="958" y="358" fill="#b9cae4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22">Scheduling changes</text>
-<text x="958" y="386" fill="#b9cae4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22">Model or pipeline fixes</text>
-<rect x="205" y="505" width="990" height="130" rx="24" fill="#f59e0b" opacity="0.18" stroke="#f59e0b" stroke-width="2"/>
-<text x="233" y="557" fill="#f7fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="750">Decision record</text>
-<text x="233" y="630" fill="#b9cae4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22">What changed, why it changed, and who owns the next optimization.</text>
-<text x="80" y="770" fill="#7890ad" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18">Data Ninja AI Lab · Shai Karmani · Microsoft Fabric warehouse operations</text>
+<circle cx="1190" cy="110" r="190" fill="#2dd4bf" opacity="0.10"/>
+<circle cx="120" cy="735" r="220" fill="#60a5fa" opacity="0.08"/>
+<text x="80" y="92" fill="#e5f3ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="46" font-weight="800">The monthly warehouse review</text>
+<text x="82" y="140" fill="#9fb7d7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">A lightweight review rhythm for Fabric teams.</text>
+<rect x="90" y="205" width="380" height="185" rx="24" fill="#38bdf8" opacity="0.16" stroke="#38bdf8" stroke-width="2"/>
+<text x="118" y="253" fill="#f7fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="750">Consumption review</text>
+<text x="118" y="317" fill="#b9cae4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Top warehouses</text>
+<text x="118" y="343" fill="#b9cae4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Peak windows</text>
+<text x="118" y="369" fill="#b9cae4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">User vs system trend</text>
+<rect x="510" y="205" width="380" height="185" rx="24" fill="#2dd4bf" opacity="0.16" stroke="#2dd4bf" stroke-width="2"/>
+<text x="538" y="253" fill="#f7fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="750">Workload review</text>
+<text x="538" y="317" fill="#b9cae4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Top query groups</text>
+<text x="538" y="343" fill="#b9cae4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Owners</text>
+<text x="538" y="369" fill="#b9cae4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Recent deployments</text>
+<rect x="930" y="205" width="380" height="185" rx="24" fill="#a78bfa" opacity="0.16" stroke="#a78bfa" stroke-width="2"/>
+<text x="958" y="253" fill="#f7fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="750">Action backlog</text>
+<text x="958" y="317" fill="#b9cae4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Tune candidates</text>
+<text x="958" y="343" fill="#b9cae4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Scheduling changes</text>
+<text x="958" y="369" fill="#b9cae4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Model or pipeline fixes</text>
+<rect x="205" y="470" width="990" height="150" rx="24" fill="#f59e0b" opacity="0.16" stroke="#f59e0b" stroke-width="2"/>
+<text x="233" y="518" fill="#f7fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="750">Decision record</text>
+<text x="233" y="582" fill="#b9cae4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">What changed, why it changed, and who owns the next optimization.</text>
+<text x="80" y="780" fill="#7890ad" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18">Data Ninja AI Lab · Shai Karmani · Microsoft Fabric warehouse operations</text>
 </svg>
