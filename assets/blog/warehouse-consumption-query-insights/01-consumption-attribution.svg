@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+<title>Make warehouse spend explainable</title><desc>Capacity Metrics tells you when. Query Insights helps explain what.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07111f"/><stop offset="0.55" stop-color="#0b1630"/><stop offset="1" stop-color="#102a3f"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="5" result="coloredBlur"/><feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="1400" height="820" rx="42" fill="url(#bg)"/>
+<circle cx="1180" cy="120" r="220" fill="#2dd4bf" opacity="0.12"/>
+<circle cx="150" cy="720" r="260" fill="#60a5fa" opacity="0.11"/>
+<text x="80" y="92" fill="#e5f3ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="48" font-weight="800">Make warehouse spend explainable</text>
+<text x="82" y="140" fill="#9fb7d7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24">Capacity Metrics tells you when. Query Insights helps explain what.</text>
+<rect x="80" y="210" width="360" height="190" rx="24" fill="#38bdf8" opacity="0.18" stroke="#38bdf8" stroke-width="2"/>
+<text x="108" y="262" fill="#f7fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="750">Capacity Metrics</text>
+<text x="108" y="335" fill="#b9cae4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22">Warehouse CU consumption</text>
+<text x="108" y="363" fill="#b9cae4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22">Spikes by time window</text>
+<text x="108" y="391" fill="#b9cae4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22">User vs system workload</text>
+<rect x="520" y="210" width="360" height="190" rx="24" fill="#2dd4bf" opacity="0.18" stroke="#2dd4bf" stroke-width="2"/>
+<text x="548" y="262" fill="#f7fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="750">Query Insights</text>
+<text x="548" y="335" fill="#b9cae4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22">Queries, users, pools</text>
+<text x="548" y="363" fill="#b9cae4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22">Allocated CPU time</text>
+<text x="548" y="391" fill="#b9cae4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22">Workload activity</text>
+<rect x="960" y="210" width="360" height="190" rx="24" fill="#a78bfa" opacity="0.18" stroke="#a78bfa" stroke-width="2"/>
+<text x="988" y="262" fill="#f7fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="750">Weighted attribution</text>
+<text x="988" y="335" fill="#b9cae4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22">Approximate contribution</text>
+<text x="988" y="363" fill="#b9cae4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22">by query or user</text>
+<text x="988" y="391" fill="#b9cae4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22">Optimization priority</text>
+<rect x="250" y="500" width="900" height="130" rx="24" fill="#f59e0b" opacity="0.18" stroke="#f59e0b" stroke-width="2"/>
+<text x="278" y="552" fill="#f7fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="750">Operating question</text>
+<text x="278" y="625" fill="#b9cae4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22">Which workload deserves tuning, refactoring, scheduling, or ownership review?</text>
+<text x="80" y="770" fill="#7890ad" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18">Data Ninja AI Lab · Shai Karmani · Microsoft Fabric warehouse operations</text>
+</svg>
