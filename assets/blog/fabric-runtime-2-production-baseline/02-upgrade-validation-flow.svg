@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Runtime upgrade validation flow">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#08111f"/><stop offset="1" stop-color="#102848"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><rect width="1200" height="675" fill="url(#bg)"/><rect x="24" y="24" width="1152" height="627" rx="34" fill="none" stroke="#1dd7ff" stroke-opacity=".35"/>
+<text x="70" y="90" fill="#e8f7ff" font-family="Inter,Segoe UI,Arial" font-size="40" font-weight="800">A safer Runtime 2.0 rollout pattern</text>
+<text x="70" y="128" fill="#9eddf3" font-family="Inter,Segoe UI,Arial" font-size="21">Move important Spark workloads through a validation lane before changing defaults.</text>
+<g font-family="Inter,Segoe UI,Arial" font-size="22">
+<rect x="85" y="220" width="190" height="130" rx="22" fill="#10243a" stroke="#36d7ff"/><text x="118" y="270" fill="#fff" font-weight="700">Inventory</text><text x="118" y="307" fill="#bdefff" font-size="18">Jobs and libs</text>
+<rect x="335" y="220" width="190" height="130" rx="22" fill="#10243a" stroke="#36d7ff"/><text x="368" y="270" fill="#fff" font-weight="700">Clone</text><text x="368" y="307" fill="#bdefff" font-size="18">Environment item</text>
+<rect x="585" y="220" width="190" height="130" rx="22" fill="#10243a" stroke="#36d7ff"/><text x="618" y="270" fill="#fff" font-weight="700">Republish</text><text x="618" y="307" fill="#bdefff" font-size="18">Libraries cleanly</text>
+<rect x="835" y="220" width="250" height="130" rx="22" fill="#10243a" stroke="#36d7ff"/><text x="868" y="270" fill="#fff" font-weight="700">Compare</text><text x="868" y="307" fill="#bdefff" font-size="18">Output and timing</text>
+<path d="M275 285 H335 M525 285 H585 M775 285 H835" stroke="#5be7ff" stroke-width="5" stroke-linecap="round"/>
+<rect x="210" y="455" width="780" height="92" rx="22" fill="#071728" stroke="#71f2ff" stroke-opacity=".5"/>
+<text x="248" y="496" fill="#fff" font-size="24" font-weight="700">Promote only after data quality, performance, and dependency checks pass</text>
+</g></svg>
