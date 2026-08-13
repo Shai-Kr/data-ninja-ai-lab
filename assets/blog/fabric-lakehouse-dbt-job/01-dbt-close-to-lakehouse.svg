@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+<title id="title">dbt jobs running close to Fabric Lakehouse data</title>
+<desc id="desc">A dark technical diagram showing source data, Fabric Lakehouse, dbt job, tests, and downstream semantic models.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#08111f"/><stop offset="0.55" stop-color="#101827"/><stop offset="1" stop-color="#051b2b"/></linearGradient><linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#13223a"/><stop offset="1" stop-color="#0c1526"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="1280" height="720" fill="url(#bg)"/><circle cx="1080" cy="120" r="230" fill="#00e5ff" opacity="0.08"/><circle cx="140" cy="620" r="260" fill="#8b5cf6" opacity="0.08"/>
+<text x="70" y="86" fill="#f8fbff" font-family="Inter,Segoe UI,Arial" font-size="38" font-weight="800">Fabric Lakehouse + dbt jobs</text>
+<text x="70" y="128" fill="#9fb3c8" font-family="Inter,Segoe UI,Arial" font-size="22">Transformation logic moves closer to the data foundation, with tests and ownership beside it.</text>
+<g font-family="Inter,Segoe UI,Arial" font-size="21" font-weight="700" text-anchor="middle">
+<rect x="70" y="250" width="205" height="126" rx="24" fill="url(#card)" stroke="#31455f"/><text x="172" y="305" fill="#f8fbff">Source data</text><text x="172" y="338" fill="#8aa1b8" font-size="17" font-weight="500">apps, files, APIs</text>
+<path d="M285 313 H390" stroke="#38bdf8" stroke-width="5" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="400" y="220" width="250" height="186" rx="28" fill="#092f46" stroke="#00d4ff" stroke-width="2" filter="url(#glow)"/><text x="525" y="288" fill="#f8fbff">Fabric Lakehouse</text><text x="525" y="323" fill="#aeeafd" font-size="17" font-weight="500">OneLake tables</text><text x="525" y="353" fill="#aeeafd" font-size="17" font-weight="500">schemas, shortcuts</text>
+<path d="M660 313 H765" stroke="#38bdf8" stroke-width="5" stroke-linecap="round"/>
+<rect x="775" y="220" width="220" height="186" rx="28" fill="#1b1736" stroke="#a78bfa" stroke-width="2"/><text x="885" y="285" fill="#f8fbff">dbt job</text><text x="885" y="320" fill="#c4b5fd" font-size="17" font-weight="500">models</text><text x="885" y="350" fill="#c4b5fd" font-size="17" font-weight="500">tests</text>
+<path d="M1005 313 H1110" stroke="#38bdf8" stroke-width="5" stroke-linecap="round"/>
+<rect x="1120" y="250" width="95" height="126" rx="24" fill="url(#card)" stroke="#31455f"/><text x="1168" y="306" fill="#f8fbff" font-size="18">BI</text><text x="1168" y="336" fill="#8aa1b8" font-size="15" font-weight="500">models</text>
+</g>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#38bdf8"/></marker></defs>
+<g font-family="Inter,Segoe UI,Arial" font-size="18" fill="#d7e7f7">
+<rect x="180" y="505" width="920" height="86" rx="24" fill="#0b1425" stroke="#26384f"/><text x="220" y="558">The opportunity: keep transformation code, testing, and Lakehouse ownership in the same operating model.</text>
+</g>
+</svg>
