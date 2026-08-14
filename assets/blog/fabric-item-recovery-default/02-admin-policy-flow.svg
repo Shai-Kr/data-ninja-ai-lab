@@ -1,34 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
   <title id="title">Default policy decision flow for Fabric admins</title>
-  <desc id="desc">A decision flow showing whether a Fabric tenant has an explicit Item Recovery setting and how admins choose retention policy.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#081020"/><stop offset="1" stop-color="#101c33"/></linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity="0.32"/></filter>
-  </defs>
+  <desc id="desc">A readable decision flow showing explicit policy, default enablement, and admin retention choice.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#081020"/><stop offset="1" stop-color="#101c33"/></linearGradient></defs>
   <rect width="1200" height="675" fill="url(#bg)"/>
-  <text x="70" y="82" fill="#eff9ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="38" font-weight="800">The admin policy flow</text>
-  <text x="70" y="118" fill="#9db9d3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21">The new default helps unconfigured tenants, but admins still own the decision.</text>
-  <g filter="url(#shadow)" font-family="Inter, Segoe UI, Arial, sans-serif">
-    <rect x="90" y="235" width="270" height="118" rx="24" fill="#10243d" stroke="#2b4f73"/>
-    <text x="126" y="284" fill="#e6f6ff" font-size="24" font-weight="750">Tenant setting</text>
-    <text x="126" y="319" fill="#a9c7dc" font-size="18">Explicitly configured?</text>
-    <rect x="470" y="170" width="280" height="118" rx="24" fill="#132d4d" stroke="#60a5fa"/>
-    <text x="510" y="219" fill="#e6f6ff" font-size="24" font-weight="750">Yes</text>
-    <text x="510" y="254" fill="#a9c7dc" font-size="18">Preserve existing policy</text>
-    <rect x="470" y="370" width="280" height="118" rx="24" fill="#123548" stroke="#2dd4bf"/>
-    <text x="510" y="419" fill="#e6f6ff" font-size="24" font-weight="750">No</text>
-    <text x="510" y="454" fill="#a9c7dc" font-size="18">Enable default recovery</text>
-    <rect x="850" y="235" width="270" height="118" rx="24" fill="#10243d" stroke="#2b4f73"/>
-    <text x="886" y="282" fill="#e6f6ff" font-size="24" font-weight="750">Admin choice</text>
-    <text x="886" y="316" fill="#a9c7dc" font-size="18">3 to 90 days, or off</text>
-  </g>
-  <path d="M370 294 H450" stroke="#60a5fa" stroke-width="5" stroke-linecap="round"/>
-  <path d="M438 280 L462 294 L438 308" fill="none" stroke="#60a5fa" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M370 294 C420 294 420 429 450 429" fill="none" stroke="#2dd4bf" stroke-width="5" stroke-linecap="round"/>
-  <path d="M438 415 L462 429 L438 443" fill="none" stroke="#2dd4bf" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M760 230 C815 230 815 294 830 294" fill="none" stroke="#60a5fa" stroke-width="5" stroke-linecap="round"/>
-  <path d="M818 280 L842 294 L818 308" fill="none" stroke="#60a5fa" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M760 429 C815 429 815 294 830 294" fill="none" stroke="#2dd4bf" stroke-width="5" stroke-linecap="round"/>
-  <rect x="190" y="555" width="820" height="58" rx="18" fill="#091525" stroke="#244463"/>
-  <text x="255" y="592" fill="#dff6ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Default safety net first. Deliberate tenant policy next.</text>
+  <text x="70" y="92" fill="#eff9ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="48" font-weight="800">Admin policy flow</text>
+  <text x="70" y="140" fill="#9db9d3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28">Default safety net first. Deliberate policy next.</text>
+  <rect x="85" y="230" width="275" height="150" rx="28" fill="#10243d" stroke="#2b4f73"/>
+  <text x="125" y="292" fill="#e6f6ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="32" font-weight="800">Tenant</text>
+  <text x="125" y="340" fill="#a9c7dc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26">Setting exists?</text>
+  <rect x="465" y="170" width="285" height="130" rx="26" fill="#132d4d" stroke="#60a5fa" stroke-width="3"/>
+  <text x="512" y="224" fill="#e6f6ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">Yes</text>
+  <text x="512" y="268" fill="#a9c7dc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25">Keep policy</text>
+  <rect x="465" y="385" width="285" height="130" rx="26" fill="#123548" stroke="#2dd4bf" stroke-width="3"/>
+  <text x="512" y="439" fill="#e6f6ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">No</text>
+  <text x="512" y="483" fill="#a9c7dc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25">Enable default</text>
+  <rect x="845" y="230" width="280" height="150" rx="28" fill="#10243d" stroke="#2b4f73"/>
+  <text x="890" y="292" fill="#e6f6ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="32" font-weight="800">Admin</text>
+  <text x="890" y="340" fill="#a9c7dc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26">3 to 90 days</text>
+  <path d="M380 305 H445" stroke="#60a5fa" stroke-width="8" stroke-linecap="round"/><path d="M432 286 L462 305 L432 324" fill="none" stroke="#60a5fa" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M380 305 C420 305 420 450 445 450" fill="none" stroke="#2dd4bf" stroke-width="8" stroke-linecap="round"/><path d="M432 431 L462 450 L432 469" fill="none" stroke="#2dd4bf" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M765 235 C820 235 820 305 825 305" fill="none" stroke="#60a5fa" stroke-width="8" stroke-linecap="round"/>
+  <path d="M765 450 C820 450 820 305 825 305" fill="none" stroke="#2dd4bf" stroke-width="8" stroke-linecap="round"/>
 </svg>

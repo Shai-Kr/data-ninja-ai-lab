@@ -12,7 +12,7 @@ author_url: https://www.linkedin.com/in/shai-kr
   .site-shell { width: min(var(--max), calc(100% - 18px)); }
   .site-header { gap: 12px; margin-bottom: 22px; }
   .brand { font-size: 0.95rem; }
-  .nav { gap: 10px; font-size: 0.86rem; }
+  .nav { display: none; }
   .article { max-width: 100%; }
   .article-header { padding: 22px 14px; border-radius: 18px; }
   .article-header h1 { font-size: clamp(1.32rem, 6vw, 1.74rem); line-height: 1.17; letter-spacing: -0.035em; overflow-wrap: anywhere; }
