@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Scheduled User Data Functions operating loop</title>
+<desc id="desc">A Fabric workspace loop for function code, schedule, monitoring, and downstream action.</desc>
+<rect width="1200" height="720" rx="38" fill="#07111f"/>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#20d9ff"/><stop offset="1" stop-color="#7c3aed"/></linearGradient><filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000" flood-opacity="0.35"/></filter></defs>
+<rect x="48" y="46" width="1104" height="628" rx="30" fill="#0b1527" stroke="#1d355a"/>
+<text x="80" y="104" fill="#e6f7ff" font-family="Arial, sans-serif" font-size="42" font-weight="700">Recurring logic can now stay closer to Fabric</text>
+<text x="82" y="146" fill="#8fb3d9" font-family="Arial, sans-serif" font-size="22">Schedule the function. Pass parameters. Monitor the job. Keep the runbook in the workspace.</text>
+<g filter="url(#shadow)" font-family="Arial, sans-serif">
+<rect x="88" y="234" width="225" height="132" rx="24" fill="#10233d" stroke="#20d9ff"/>
+<text x="116" y="284" fill="#e6f7ff" font-size="24" font-weight="700">User Data Function</text>
+<text x="116" y="320" fill="#9fc1e5" font-size="18">Reusable Python logic</text>
+<text x="116" y="348" fill="#9fc1e5" font-size="18">owned as a Fabric item</text>
+<rect x="365" y="234" width="225" height="132" rx="24" fill="#10233d" stroke="#4fd1c5"/>
+<text x="393" y="284" fill="#e6f7ff" font-size="24" font-weight="700">Schedule</text>
+<text x="393" y="320" fill="#9fc1e5" font-size="18">Frequency and</text>
+<text x="393" y="348" fill="#9fc1e5" font-size="18">parameter values</text>
+<rect x="642" y="234" width="225" height="132" rx="24" fill="#10233d" stroke="#a78bfa"/>
+<text x="670" y="284" fill="#e6f7ff" font-size="24" font-weight="700">Job run</text>
+<text x="670" y="320" fill="#9fc1e5" font-size="18">Automatic execution</text>
+<text x="670" y="348" fill="#9fc1e5" font-size="18">inside Fabric</text>
+<rect x="919" y="234" width="195" height="132" rx="24" fill="#10233d" stroke="#f59e0b"/>
+<text x="947" y="284" fill="#e6f7ff" font-size="24" font-weight="700">Action</text>
+<text x="947" y="320" fill="#9fc1e5" font-size="18">Validate, sync,</text>
+<text x="947" y="348" fill="#9fc1e5" font-size="18">notify, publish</text>
+</g>
+<g stroke="url(#g)" stroke-width="5" fill="none" stroke-linecap="round"><path d="M313 300 H365"/><path d="M590 300 H642"/><path d="M867 300 H919"/></g>
+<g fill="#132846" stroke="#284d78" font-family="Arial, sans-serif">
+<rect x="154" y="472" width="892" height="90" rx="24"/>
+<text x="192" y="515" fill="#e6f7ff" font-size="24" font-weight="700">The useful shift</text>
+<text x="192" y="548" fill="#9fc1e5" font-size="20">Less glue code around Fabric. More visible ownership, monitoring, and repeatable operational logic.</text>
+</g></svg>
