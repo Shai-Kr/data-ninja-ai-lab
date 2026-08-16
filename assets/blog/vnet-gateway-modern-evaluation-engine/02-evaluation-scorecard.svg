@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Evaluation scorecard for modern VNet gateway engine</title>
+  <desc id="desc">A scorecard showing metrics to compare before and after enabling the modern evaluation engine on selected VNet data gateways.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07101f"/><stop offset="1" stop-color="#142a49"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000" flood-opacity="0.35"/></filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <text x="70" y="82" font-family="Inter,Segoe UI,Arial" font-size="34" font-weight="800" fill="#f5fbff">What to measure before expanding the preview</text>
+  <text x="70" y="122" font-family="Inter,Segoe UI,Arial" font-size="18" fill="#bac8d9">Do not turn a performance feature into a production surprise. Run a small scorecard first.</text>
+  <g filter="url(#shadow)" font-family="Inter,Segoe UI,Arial">
+    <rect x="70" y="172" width="1060" height="420" rx="30" fill="#0b1b31" stroke="#284966"/>
+    <rect x="100" y="210" width="1000" height="58" rx="18" fill="#102b48"/>
+    <text x="132" y="246" font-size="18" font-weight="800" fill="#ffffff">Measure</text>
+    <text x="445" y="246" font-size="18" font-weight="800" fill="#ffffff">Why it matters</text>
+    <text x="815" y="246" font-size="18" font-weight="800" fill="#ffffff">Decision signal</text>
+    <g font-size="16" fill="#c2d2e4">
+      <text x="132" y="308" font-weight="800" fill="#8fe8ff">Refresh duration</text>
+      <text x="445" y="308">Large semantic models and Dataflow Gen2 jobs need repeatable gains.</text>
+      <text x="815" y="308">Faster across normal runs</text>
+      <line x1="100" y1="333" x2="1100" y2="333" stroke="#223f5f"/>
+      <text x="132" y="378" font-weight="800" fill="#8fe8ff">Cold start behavior</text>
+      <text x="445" y="378">DirectQuery users feel first-query latency immediately.</text>
+      <text x="815" y="378">Lower first-hit delay</text>
+      <line x1="100" y1="403" x2="1100" y2="403" stroke="#223f5f"/>
+      <text x="132" y="448" font-weight="800" fill="#8fe8ff">Source pressure</text>
+      <text x="445" y="448">A faster gateway path is not helpful if it overloads the source.</text>
+      <text x="815" y="448">No harmful source spike</text>
+      <line x1="100" y1="473" x2="1100" y2="473" stroke="#223f5f"/>
+      <text x="132" y="518" font-weight="800" fill="#8fe8ff">Failure pattern</text>
+      <text x="445" y="518">Preview evaluation should catch connector or logic differences early.</text>
+      <text x="815" y="518">No new failure class</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Modern evaluation engine path for VNet data gateways</title>
+  <desc id="desc">A private Fabric workload route from semantic models and Dataflow Gen2 through a VNet data gateway to protected data sources, with a modern evaluation engine option inside the gateway path.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06111f"/><stop offset="0.55" stop-color="#0b1730"/><stop offset="1" stop-color="#13234b"/></linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#102341"/><stop offset="1" stop-color="#0b1930"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000" flood-opacity="0.35"/></filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 Z" fill="#54d5ff"/></marker>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1040" cy="80" r="190" fill="#2f8cff" opacity="0.10"/>
+  <circle cx="160" cy="620" r="230" fill="#37e0b1" opacity="0.09"/>
+  <text x="70" y="82" font-family="Inter,Segoe UI,Arial" font-size="34" font-weight="800" fill="#f4fbff">Private Fabric connectivity, faster evaluation path</text>
+  <text x="70" y="122" font-family="Inter,Segoe UI,Arial" font-size="18" fill="#b8c7da">The network model stays private. The workload path gets a testable execution option.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="74" y="202" width="250" height="160" rx="28" fill="url(#card)" stroke="#284565"/>
+    <text x="104" y="250" font-family="Inter,Segoe UI,Arial" font-size="22" font-weight="800" fill="#ffffff">Fabric workloads</text>
+    <text x="104" y="288" font-family="Inter,Segoe UI,Arial" font-size="17" fill="#b9c9dc">Semantic models</text>
+    <text x="104" y="316" font-family="Inter,Segoe UI,Arial" font-size="17" fill="#b9c9dc">Dataflow Gen2</text>
+    <text x="104" y="344" font-family="Inter,Segoe UI,Arial" font-size="17" fill="#b9c9dc">DirectQuery scenarios</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="475" y="183" width="285" height="200" rx="30" fill="#0f2b49" stroke="#54d5ff" stroke-width="2"/>
+    <text x="515" y="232" font-family="Inter,Segoe UI,Arial" font-size="23" font-weight="800" fill="#ffffff">VNet data gateway</text>
+    <rect x="515" y="264" width="205" height="56" rx="18" fill="#143f63" stroke="#73f6d4"/>
+    <text x="540" y="299" font-family="Inter,Segoe UI,Arial" font-size="18" font-weight="800" fill="#dffff8">Modern engine: opt in</text>
+    <text x="515" y="352" font-family="Inter,Segoe UI,Arial" font-size="16" fill="#bdd1e2">Same private gateway model</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="902" y="202" width="230" height="160" rx="28" fill="url(#card)" stroke="#284565"/>
+    <text x="934" y="250" font-family="Inter,Segoe UI,Arial" font-size="22" font-weight="800" fill="#ffffff">Protected sources</text>
+    <text x="934" y="289" font-family="Inter,Segoe UI,Arial" font-size="17" fill="#b9c9dc">Azure SQL</text>
+    <text x="934" y="317" font-family="Inter,Segoe UI,Arial" font-size="17" fill="#b9c9dc">Private endpoints</text>
+    <text x="934" y="345" font-family="Inter,Segoe UI,Arial" font-size="17" fill="#b9c9dc">Secured networks</text>
+  </g>
+  <path d="M337 282 C382 282, 413 282, 456 282" stroke="#54d5ff" stroke-width="5" fill="none" marker-end="url(#arrow)"/>
+  <path d="M774 282 C820 282, 851 282, 891 282" stroke="#54d5ff" stroke-width="5" fill="none" marker-end="url(#arrow)"/>
+  <g>
+    <rect x="230" y="495" width="740" height="82" rx="24" fill="#09192e" stroke="#25496b"/>
+    <text x="270" y="532" font-family="Inter,Segoe UI,Arial" font-size="20" font-weight="800" fill="#ffffff">Good evaluation rule</text>
+    <text x="270" y="561" font-family="Inter,Segoe UI,Arial" font-size="17" fill="#b7c9de">Test representative refreshes, cold starts, concurrency, source pressure, and gateway timing before expanding.</text>
+  </g>
+</svg>
