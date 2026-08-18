@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06111f"/><stop offset="0.55" stop-color="#0b1830"/><stop offset="1" stop-color="#111827"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1020" cy="120" r="170" fill="#0891b2" opacity="0.14"/>
+  <circle cx="130" cy="570" r="210" fill="#7c3aed" opacity="0.12"/>
+  <text x="70" y="92" fill="#e5f7ff" font-family="Inter,Segoe UI,Arial" font-size="42" font-weight="800">The agent answer contract</text>
+  <text x="72" y="135" fill="#9fb7d1" font-family="Inter,Segoe UI,Arial" font-size="24">A visual answer needs more than a chart</text>
+
+  <rect x="91" y="225" width="315" height="305" rx="28" fill="#0e1b2e" stroke="#22d3ee" stroke-width="2" opacity="0.96"/>
+  <circle cx="133" cy="273" r="17" fill="#22d3ee" filter="url(#glow)"/>
+  <text x="163" y="282" fill="#f8fbff" font-family="Inter,Segoe UI,Arial" font-size="24" font-weight="750">Question</text>
+  <text x="125" y="337" fill="#c8d8ea" font-family="Inter,Segoe UI,Arial" font-size="21">User asks for revenue,</text>
+  <text x="125" y="371" fill="#c8d8ea" font-family="Inter,Segoe UI,Arial" font-size="21">orders, margin, or</text>
+  <text x="125" y="405" fill="#c8d8ea" font-family="Inter,Segoe UI,Arial" font-size="21">operational movement.</text>
+
+  <rect x="442" y="225" width="315" height="305" rx="28" fill="#0e1b2e" stroke="#60a5fa" stroke-width="2" opacity="0.96"/>
+  <circle cx="484" cy="273" r="17" fill="#60a5fa" filter="url(#glow)"/>
+  <text x="514" y="282" fill="#f8fbff" font-family="Inter,Segoe UI,Arial" font-size="24" font-weight="750">Reasoning</text>
+  <text x="476" y="337" fill="#c8d8ea" font-family="Inter,Segoe UI,Arial" font-size="21">Agent selects query shape,</text>
+  <text x="476" y="371" fill="#c8d8ea" font-family="Inter,Segoe UI,Arial" font-size="21">fields, filters, and useful</text>
+  <text x="476" y="405" fill="#c8d8ea" font-family="Inter,Segoe UI,Arial" font-size="21">visual form.</text>
+
+  <rect x="793" y="225" width="315" height="305" rx="28" fill="#0e1b2e" stroke="#a78bfa" stroke-width="2" opacity="0.96"/>
+  <circle cx="835" cy="273" r="17" fill="#a78bfa" filter="url(#glow)"/>
+  <text x="865" y="282" fill="#f8fbff" font-family="Inter,Segoe UI,Arial" font-size="24" font-weight="750">Answer</text>
+  <text x="827" y="337" fill="#c8d8ea" font-family="Inter,Segoe UI,Arial" font-size="21">Text, chart, labels, tooltip</text>
+  <text x="827" y="371" fill="#c8d8ea" font-family="Inter,Segoe UI,Arial" font-size="21">behavior, and source context</text>
+  <text x="827" y="405" fill="#c8d8ea" font-family="Inter,Segoe UI,Arial" font-size="21">land together.</text>
+
+  <text x="70" y="620" fill="#5eead4" font-family="Inter,Segoe UI,Arial" font-size="22" font-weight="700">Data Ninja AI Lab</text>
+</svg>
