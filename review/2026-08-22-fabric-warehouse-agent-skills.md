@@ -7,6 +7,17 @@ author: Shai Karmani
 author_url: https://www.linkedin.com/in/shai-kr
 ---
 
+<style>
+@media (max-width: 760px) {
+  .article { max-width: 100%; overflow-x: hidden; }
+  .article-header { padding: 22px 14px; border-radius: 18px; }
+  .article-header h1 { font-size: clamp(1.3rem, 5.8vw, 1.75rem); line-height: 1.16; overflow-wrap: anywhere; }
+  .article-body { overflow-x: hidden; font-size: 0.98rem; }
+  .article-body img { width: 100%; max-width: 100%; border-radius: 16px; }
+  .subscribe-orbit { display: none; }
+}
+</style>
+
 Microsoft's new preview for agentic Fabric Data Warehouse development is the kind of AI feature that is easy to underestimate.
 
 The obvious headline is that agents can help write SQL. Useful, but not new. Developers have been asking coding assistants for SQL for a while.
