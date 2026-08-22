@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Safe operating pattern for Fabric Warehouse agents</title>
+  <desc id="desc">A four-lane checklist for safe agent-assisted Fabric Warehouse development.</desc>
+  <rect width="1200" height="720" rx="28" fill="#07111f"/>
+  <text x="60" y="72" fill="#e5f8ff" font-family="Inter, Segoe UI, Arial" font-size="34" font-weight="700">The safe pattern for warehouse agents</text>
+  <text x="60" y="112" fill="#9cc9d8" font-family="Inter, Segoe UI, Arial" font-size="19">Treat the agent like a faster junior developer with better tools, not like a release authority.</text>
+  <g font-family="Inter, Segoe UI, Arial">
+    <rect x="70" y="170" width="245" height="400" rx="24" fill="#0b2033" stroke="#22d3ee"/>
+    <text x="102" y="225" fill="#e8fbff" font-size="24" font-weight="700">Scope</text>
+    <text x="102" y="272" fill="#b7d9e6" font-size="18">One workspace</text><text x="102" y="306" fill="#b7d9e6" font-size="18">Read-first access</text><text x="102" y="340" fill="#b7d9e6" font-size="18">Named task types</text>
+    <rect x="350" y="170" width="245" height="400" rx="24" fill="#0b2033" stroke="#38bdf8"/>
+    <text x="382" y="225" fill="#e8fbff" font-size="24" font-weight="700">Generate</text>
+    <text x="382" y="272" fill="#b7d9e6" font-size="18">T-SQL drafts</text><text x="382" y="306" fill="#b7d9e6" font-size="18">Object changes</text><text x="382" y="340" fill="#b7d9e6" font-size="18">Query plans</text>
+    <rect x="630" y="170" width="245" height="400" rx="24" fill="#0b2033" stroke="#a78bfa"/>
+    <text x="662" y="225" fill="#e8fbff" font-size="24" font-weight="700">Validate</text>
+    <text x="662" y="272" fill="#b7d9e6" font-size="18">Run tests</text><text x="662" y="306" fill="#b7d9e6" font-size="18">Check results</text><text x="662" y="340" fill="#b7d9e6" font-size="18">Review cost impact</text>
+    <rect x="910" y="170" width="220" height="400" rx="24" fill="#0b2033" stroke="#34d399"/>
+    <text x="942" y="225" fill="#e8fbff" font-size="24" font-weight="700">Approve</text>
+    <text x="942" y="272" fill="#b7d9e6" font-size="18">Human review</text><text x="942" y="306" fill="#b7d9e6" font-size="18">PR or ticket</text><text x="942" y="340" fill="#b7d9e6" font-size="18">Deploy gate</text>
+  </g>
+  <g stroke="#5eead4" stroke-width="4" fill="none" stroke-linecap="round"><path d="M315 370 H350"/><path d="M595 370 H630"/><path d="M875 370 H910"/></g>
+  <g fill="#5eead4"><polygon points="344,362 362,370 344,378"/><polygon points="624,362 642,370 624,378"/><polygon points="904,362 922,370 904,378"/></g>
+  <rect x="115" y="610" width="970" height="58" rx="18" fill="#0f2940" stroke="#1f9bb5"/>
+  <text x="150" y="648" fill="#e5f8ff" font-family="Inter, Segoe UI, Arial" font-size="20">Best first use cases: explain a query, draft T-SQL, compare result sets, find warehouse objects, and propose index-free design changes.</text>
+</svg>

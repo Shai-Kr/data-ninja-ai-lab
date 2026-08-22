@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Agentic warehouse workflow with MCP and Skills for Fabric</title>
+  <desc id="desc">A workflow showing user intent moving through AI tool, Skills for Fabric, MCP tools, Fabric Warehouse, and validation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07111f"/><stop offset="1" stop-color="#111827"/></linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f2940"/><stop offset="1" stop-color="#132033"/></linearGradient>
+    <filter id="glow"><feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#22d3ee" flood-opacity="0.45"/></filter>
+  </defs>
+  <rect width="1200" height="720" rx="28" fill="url(#bg)"/>
+  <text x="60" y="72" fill="#e5f8ff" font-family="Inter, Segoe UI, Arial" font-size="34" font-weight="700">Fabric Warehouse agent loop</text>
+  <text x="60" y="112" fill="#9cc9d8" font-family="Inter, Segoe UI, Arial" font-size="19">MCP gives the agent tools. Skills give it Fabric-specific judgment.</text>
+  <g font-family="Inter, Segoe UI, Arial" font-size="19" fill="#e8fbff">
+    <rect x="60" y="185" width="190" height="120" rx="18" fill="url(#card)" stroke="#22d3ee" filter="url(#glow)"/>
+    <text x="88" y="232" font-weight="700">1. Intent</text><text x="88" y="265" fill="#b7d9e6">Build, query,</text><text x="88" y="292" fill="#b7d9e6">or troubleshoot</text>
+    <rect x="310" y="185" width="190" height="120" rx="18" fill="url(#card)" stroke="#38bdf8"/>
+    <text x="338" y="232" font-weight="700">2. AI tool</text><text x="338" y="265" fill="#b7d9e6">Copilot CLI,</text><text x="338" y="292" fill="#b7d9e6">Cursor, Claude</text>
+    <rect x="560" y="185" width="190" height="120" rx="18" fill="url(#card)" stroke="#a78bfa"/>
+    <text x="588" y="232" font-weight="700">3. Skill</text><text x="588" y="265" fill="#b7d9e6">Warehouse</text><text x="588" y="292" fill="#b7d9e6">instructions</text>
+    <rect x="810" y="185" width="190" height="120" rx="18" fill="url(#card)" stroke="#34d399"/>
+    <text x="838" y="232" font-weight="700">4. MCP</text><text x="838" y="265" fill="#b7d9e6">Live tools and</text><text x="838" y="292" fill="#b7d9e6">workspace access</text>
+    <rect x="420" y="430" width="360" height="135" rx="20" fill="#081a2b" stroke="#22d3ee"/>
+    <text x="468" y="481" font-size="24" font-weight="700">Fabric Data Warehouse</text><text x="468" y="520" fill="#b7d9e6">Objects, SQL endpoint, query results,</text><text x="468" y="550" fill="#b7d9e6">errors, and performance context</text>
+  </g>
+  <g stroke="#5eead4" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M250 245 H310"/><path d="M500 245 H560"/><path d="M750 245 H810"/>
+    <path d="M905 305 C905 405 780 430 735 430"/><path d="M465 430 C365 400 320 330 325 282"/>
+    <path d="M785 498 C930 500 980 410 970 305"/>
+  </g>
+  <g fill="#5eead4"><polygon points="304,237 322,245 304,253"/><polygon points="554,237 572,245 554,253"/><polygon points="804,237 822,245 804,253"/><polygon points="742,420 724,430 744,439"/><polygon points="330,289 323,270 315,289"/><polygon points="970,315 980,298 987,317"/></g>
+  <text x="850" y="640" fill="#7dd3fc" font-family="Inter, Segoe UI, Arial" font-size="18">Human review closes the loop before changes matter.</text>
+</svg>

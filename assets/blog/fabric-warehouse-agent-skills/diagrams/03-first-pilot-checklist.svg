@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Two week Fabric Warehouse agent pilot checklist</title>
+  <desc id="desc">A two-week checklist for piloting MCP and Skills for Fabric with Fabric Data Warehouse.</desc>
+  <rect width="1200" height="720" rx="28" fill="#07111f"/>
+  <text x="60" y="72" fill="#e5f8ff" font-family="Inter, Segoe UI, Arial" font-size="34" font-weight="700">Two-week warehouse agent pilot</text>
+  <text x="60" y="112" fill="#9cc9d8" font-family="Inter, Segoe UI, Arial" font-size="19">Small enough to run now. Strict enough to learn something real.</text>
+  <g font-family="Inter, Segoe UI, Arial" font-size="19">
+    <rect x="80" y="165" width="480" height="430" rx="24" fill="#0b2033" stroke="#22d3ee"/>
+    <text x="120" y="220" fill="#e8fbff" font-size="28" font-weight="700">Week 1: controlled setup</text>
+    <text x="120" y="280" fill="#b7d9e6">✓ Pick one non-production warehouse</text>
+    <text x="120" y="325" fill="#b7d9e6">✓ Install the relevant Fabric skills</text>
+    <text x="120" y="370" fill="#b7d9e6">✓ Connect MCP with read-first access</text>
+    <text x="120" y="415" fill="#b7d9e6">✓ Define allowed tasks and blocked tasks</text>
+    <text x="120" y="460" fill="#b7d9e6">✓ Capture every prompt and generated query</text>
+    <rect x="640" y="165" width="480" height="430" rx="24" fill="#0b2033" stroke="#34d399"/>
+    <text x="680" y="220" fill="#e8fbff" font-size="28" font-weight="700">Week 2: useful validation</text>
+    <text x="680" y="280" fill="#b7d9e6">✓ Run explain, draft, and troubleshoot tasks</text>
+    <text x="680" y="325" fill="#b7d9e6">✓ Compare answers against known results</text>
+    <text x="680" y="370" fill="#b7d9e6">✓ Review performance and cost signals</text>
+    <text x="680" y="415" fill="#b7d9e6">✓ Decide where human approval is required</text>
+    <text x="680" y="460" fill="#b7d9e6">✓ Write a short operating runbook</text>
+  </g>
+  <rect x="210" y="625" width="780" height="48" rx="16" fill="#0f2940" stroke="#38bdf8"/>
+  <text x="250" y="657" fill="#e8fbff" font-family="Inter, Segoe UI, Arial" font-size="19">Success is not faster SQL generation. Success is faster validated warehouse work.</text>
+</svg>
