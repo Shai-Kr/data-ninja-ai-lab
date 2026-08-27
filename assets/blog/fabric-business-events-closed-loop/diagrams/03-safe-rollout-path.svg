@@ -1,38 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="560" viewBox="0 0 760 560">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061426"/><stop offset="0.55" stop-color="#0c1226"/><stop offset="1" stop-color="#111827"/></linearGradient>
-    <filter id="glow"><feGaussianBlur stdDeviation="6" result="coloredBlur"/><feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061426"/><stop offset="1" stop-color="#111827"/></linearGradient>
     <style>
-      .title{font-family:Inter,Arial,sans-serif;font-weight:800;font-size:42px;fill:#f8fafc}
-      .sub{font-family:Inter,Arial,sans-serif;font-weight:500;font-size:22px;fill:#cbd5e1}
-      .boxTitle{font-family:Inter,Arial,sans-serif;font-weight:750;font-size:24px;fill:#f8fafc}
-      .boxText{font-family:Inter,Arial,sans-serif;font-weight:500;font-size:17px;fill:#cbd5e1}
-      .footer{font-family:JetBrains Mono,monospace;font-weight:600;font-size:18px;fill:#93c5fd}
-      .num{font-family:Inter,Arial,sans-serif;font-weight:800;font-size:28px;fill:#020617}
+      .title{font-family:Inter,Arial,sans-serif;font-weight:800;font-size:34px;fill:#f8fafc}
+      .sub{font-family:Inter,Arial,sans-serif;font-weight:600;font-size:18px;fill:#cbd5e1}
+      .step{font-family:Inter,Arial,sans-serif;font-weight:800;font-size:24px;fill:#f8fafc}
+      .body{font-family:Inter,Arial,sans-serif;font-weight:550;font-size:18px;fill:#cbd5e1}
+      .num{font-family:Inter,Arial,sans-serif;font-weight:800;font-size:22px;fill:#020617}
+      .foot{font-family:JetBrains Mono,monospace;font-weight:650;font-size:16px;fill:#93c5fd}
     </style>
   </defs>
-  <rect width="1280" height="720" rx="34" fill="url(#bg)"/>
-  <circle cx="1070" cy="115" r="155" fill="#2563eb" opacity="0.16"/>
-  <circle cx="180" cy="630" r="185" fill="#7c3aed" opacity="0.14"/>
-  <path d="M70 160 C310 70, 540 90, 770 150 S1120 205,1215 130" fill="none" stroke="#38bdf8" stroke-opacity="0.2" stroke-width="5"/>
-  <text x="70" y="90" class="title">A safer rollout path</text>
-  <text x="72" y="130" class="sub">Start with one narrow event, then expand deliberately</text>
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#7dd3fc"/></marker></defs>  <rect x="120" y="285" width="255" height="170" rx="24" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.9" stroke-width="2"/>
-  <circle cx="154" cy="321" r="19" fill="#38bdf8" filter="url(#glow)"/><text x="145" y="331" class="num">1</text>
-  <text x="185" y="331" class="boxTitle">Pilot event</text>
-  <text x="150" y="371" class="boxText">Pick one high-value</text>
-  <text x="150" y="398" class="boxText">operational moment</text>
-  <path d="M385 370 H425" stroke="#38bdf8" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)" opacity="0.85"/>
-  <rect x="485" y="285" width="255" height="170" rx="24" fill="#0f172a" stroke="#a78bfa" stroke-opacity="0.9" stroke-width="2"/>
-  <circle cx="519" cy="321" r="19" fill="#a78bfa" filter="url(#glow)"/><text x="510" y="331" class="num">2</text>
-  <text x="550" y="331" class="boxTitle">Dry run</text>
-  <text x="515" y="371" class="boxText">Send to Eventhouse first</text>
-  <text x="515" y="398" class="boxText">measure noise and payload quality</text>
-  <path d="M750 370 H790" stroke="#a78bfa" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)" opacity="0.85"/>
-  <rect x="850" y="285" width="255" height="170" rx="24" fill="#0f172a" stroke="#22c55e" stroke-opacity="0.9" stroke-width="2"/>
-  <circle cx="884" cy="321" r="19" fill="#22c55e" filter="url(#glow)"/><text x="875" y="331" class="num">3</text>
-  <text x="915" y="331" class="boxTitle">Controlled action</text>
-  <text x="880" y="371" class="boxText">Add Activator only after</text>
-  <text x="880" y="398" class="boxText">ownership and rollback exist</text>
-  <text x="72" y="660" class="footer">Small event surface, clear owner, observable outcome</text>
+  <rect width="760" height="560" rx="30" fill="url(#bg)"/>
+  <circle cx="660" cy="75" r="110" fill="#2563eb" opacity="0.18"/>
+  <circle cx="80" cy="545" r="125" fill="#7c3aed" opacity="0.16"/>
+  <text x="38" y="62" class="title">Safe rollout path</text>
+  <text x="40" y="98" class="sub">Start narrow, validate, then automate</text>
+  <rect x="40" y="155" width="680" height="72" rx="20" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+  <circle cx="76" cy="191" r="22" fill="#38bdf8"/>
+  <text x="68" y="199" class="num">1</text>
+  <text x="114" y="185" class="step">Pilot event</text>
+  <text x="114" y="212" class="body">Choose one valuable operational moment</text>
+  <rect x="40" y="247" width="680" height="72" rx="20" fill="#0f172a" stroke="#a78bfa" stroke-width="2"/>
+  <circle cx="76" cy="283" r="22" fill="#a78bfa"/>
+  <text x="68" y="291" class="num">2</text>
+  <text x="114" y="277" class="step">Dry run</text>
+  <text x="114" y="304" class="body">Store history before triggering actions</text>
+  <rect x="40" y="339" width="680" height="72" rx="20" fill="#0f172a" stroke="#22c55e" stroke-width="2"/>
+  <circle cx="76" cy="375" r="22" fill="#22c55e"/>
+  <text x="68" y="383" class="num">3</text>
+  <text x="114" y="369" class="step">Controlled action</text>
+  <text x="114" y="396" class="body">Add Activator after ownership is clear</text>
+  <text x="42" y="526" class="foot">Small surface · clear owner · observable outcome</text>
 </svg>
