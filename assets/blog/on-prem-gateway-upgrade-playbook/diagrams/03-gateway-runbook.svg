@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title>Gateway runbook for BI teams</title><desc>A small checklist keeps gateway maintenance out of firefighting mode.</desc>
+<rect width="1200" height="720" fill="#07111f"/>
+<circle cx="1040" cy="100" r="210" fill="#0b5d78" opacity="0.18"/>
+<circle cx="130" cy="650" r="260" fill="#1b3b88" opacity="0.18"/>
+<rect x="46" y="42" width="1108" height="636" rx="34" fill="#0d1b2d" stroke="#214866" stroke-width="2"/>
+<text x="86" y="104" fill="#ecf7ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="42" font-weight="800">Gateway runbook for BI teams</text>
+<text x="88" y="146" fill="#a8c3d8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">A small checklist keeps gateway maintenance out of firefighting mode.</text>
+<rect x="86" y="198" width="485" height="150" rx="22" fill="#102640" stroke="#36d7ff" stroke-width="2"/>
+<text x="114" y="240" fill="#36d7ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="800">Before upgrade</text>
+<text x="114" y="280" fill="#ecf7ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">List impacted datasets and Fabric items</text>
+<text x="114" y="312" fill="#ecf7ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Confirm owner, window, and recovery path</text>
+<rect x="626" y="198" width="488" height="150" rx="22" fill="#102640" stroke="#76f7b2" stroke-width="2"/>
+<text x="654" y="240" fill="#76f7b2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="800">During upgrade</text>
+<text x="654" y="280" fill="#ecf7ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Update one cluster member at a time</text>
+<text x="654" y="312" fill="#ecf7ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Run representative refresh tests</text>
+<rect x="86" y="400" width="485" height="150" rx="22" fill="#102640" stroke="#b994ff" stroke-width="2"/>
+<text x="114" y="442" fill="#b994ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="800">After upgrade</text>
+<text x="114" y="482" fill="#ecf7ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Check logs and credential prompts</text>
+<text x="114" y="514" fill="#ecf7ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Record version, date, and evidence</text>
+<rect x="626" y="400" width="488" height="150" rx="22" fill="#102640" stroke="#ffbd66" stroke-width="2"/>
+<text x="654" y="442" fill="#ffbd66" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="800">Monthly habit</text>
+<text x="654" y="482" fill="#ecf7ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Review support window and identity changes</text>
+<text x="654" y="514" fill="#ecf7ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Keep gateway work in the platform calendar</text>
+<text x="86" y="642" fill="#76f7b2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700">Small runbook. Big reduction in Friday afternoon refresh incidents.</text>
+</svg>
