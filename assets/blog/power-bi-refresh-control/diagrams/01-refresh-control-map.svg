@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800" role="img" aria-label="Power BI refresh control map">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061a2f"/><stop offset="1" stop-color="#0b1020"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <rect width="1400" height="800" fill="url(#bg)"/>
+  <text x="70" y="86" fill="#e6f7ff" font-family="Inter,Arial" font-size="48" font-weight="800">Power BI refresh now has sharper choices</text>
+  <text x="72" y="130" fill="#9ac7d8" font-family="Inter,Arial" font-size="24">Use the smallest refresh action that matches the change.</text>
+  <g font-family="Inter,Arial">
+    <rect x="70" y="190" width="285" height="430" rx="28" fill="#0d2a42" stroke="#22d3ee" stroke-width="3"/>
+    <text x="105" y="245" fill="#67e8f9" font-size="30" font-weight="800">Schema + data</text>
+    <text x="105" y="292" fill="#e6f7ff" font-size="24">Use when model shape</text><text x="105" y="324" fill="#e6f7ff" font-size="24">and stored data both</text><text x="105" y="356" fill="#e6f7ff" font-size="24">need a full update.</text>
+    <text x="105" y="425" fill="#a7f3d0" font-size="22">Best for:</text><text x="105" y="460" fill="#d7f5ff" font-size="22">new columns</text><text x="105" y="492" fill="#d7f5ff" font-size="22">relationship changes</text><text x="105" y="524" fill="#d7f5ff" font-size="22">major source updates</text>
+    <rect x="395" y="190" width="285" height="430" rx="28" fill="#0d2a42" stroke="#22c55e" stroke-width="3"/>
+    <text x="430" y="245" fill="#86efac" font-size="30" font-weight="800">Sync schema</text>
+    <text x="430" y="292" fill="#e6f7ff" font-size="24">Use when metadata</text><text x="430" y="324" fill="#e6f7ff" font-size="24">changed but data does</text><text x="430" y="356" fill="#e6f7ff" font-size="24">not need reload.</text>
+    <text x="430" y="425" fill="#a7f3d0" font-size="22">Best for:</text><text x="430" y="460" fill="#d7f5ff" font-size="22">field changes</text><text x="430" y="492" fill="#d7f5ff" font-size="22">metadata checks</text><text x="430" y="524" fill="#d7f5ff" font-size="22">safe validation</text>
+    <rect x="720" y="190" width="285" height="430" rx="28" fill="#0d2a42" stroke="#a78bfa" stroke-width="3"/>
+    <text x="755" y="245" fill="#c4b5fd" font-size="30" font-weight="800">Refresh data</text>
+    <text x="755" y="292" fill="#e6f7ff" font-size="24">Use when values</text><text x="755" y="324" fill="#e6f7ff" font-size="24">changed but the model</text><text x="755" y="356" fill="#e6f7ff" font-size="24">contract stayed stable.</text>
+    <text x="755" y="425" fill="#a7f3d0" font-size="22">Best for:</text><text x="755" y="460" fill="#d7f5ff" font-size="22">daily reloads</text><text x="755" y="492" fill="#d7f5ff" font-size="22">fact table updates</text><text x="755" y="524" fill="#d7f5ff" font-size="22">known schema</text>
+    <rect x="1045" y="190" width="285" height="430" rx="28" fill="#0d2a42" stroke="#f59e0b" stroke-width="3"/>
+    <text x="1080" y="245" fill="#fbbf24" font-size="30" font-weight="800">Table level</text>
+    <text x="1080" y="292" fill="#e6f7ff" font-size="24">Use when only one</text><text x="1080" y="324" fill="#e6f7ff" font-size="24">table or dependency</text><text x="1080" y="356" fill="#e6f7ff" font-size="24">needs attention.</text>
+    <text x="1080" y="425" fill="#a7f3d0" font-size="22">Best for:</text><text x="1080" y="460" fill="#d7f5ff" font-size="22">targeted fixes</text><text x="1080" y="492" fill="#d7f5ff" font-size="22">incident triage</text><text x="1080" y="524" fill="#d7f5ff" font-size="22">large models</text>
+  </g>
+  <rect x="250" y="680" width="900" height="58" rx="29" fill="#071827" stroke="#164e63"/>
+  <text x="310" y="718" fill="#e0f2fe" font-family="Inter,Arial" font-size="24" font-weight="700">Operational rule: pick precision before you burn capacity on a full reload.</text>
+</svg>

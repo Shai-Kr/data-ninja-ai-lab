@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800" role="img" aria-label="Refresh incident triage loop">
+  <rect width="1400" height="800" fill="#07111f"/>
+  <text x="70" y="86" fill="#e6f7ff" font-family="Inter,Arial" font-size="46" font-weight="800">A better refresh incident path</text>
+  <text x="72" y="130" fill="#9ac7d8" font-family="Inter,Arial" font-size="24">Target the change before resetting the whole model.</text>
+  <g font-family="Inter,Arial" font-size="24" font-weight="700">
+    <rect x="90" y="235" width="250" height="130" rx="24" fill="#0d2a42" stroke="#22d3ee" stroke-width="3"/><text x="125" y="288" fill="#e6f7ff">Refresh fails</text><text x="125" y="324" fill="#9ac7d8" font-size="20">Capture error and table</text>
+    <rect x="415" y="235" width="250" height="130" rx="24" fill="#0d2a42" stroke="#22c55e" stroke-width="3"/><text x="450" y="288" fill="#e6f7ff">Classify change</text><text x="450" y="324" fill="#9ac7d8" font-size="20">Schema, data, table</text>
+    <rect x="740" y="235" width="250" height="130" rx="24" fill="#0d2a42" stroke="#a78bfa" stroke-width="3"/><text x="775" y="288" fill="#e6f7ff">Run small action</text><text x="775" y="324" fill="#9ac7d8" font-size="20">Use targeted refresh</text>
+    <rect x="1065" y="235" width="250" height="130" rx="24" fill="#0d2a42" stroke="#f59e0b" stroke-width="3"/><text x="1100" y="288" fill="#e6f7ff">Validate report</text><text x="1100" y="324" fill="#9ac7d8" font-size="20">Check totals and users</text>
+    <path d="M342 300 H405" stroke="#67e8f9" stroke-width="8"/><path d="M667 300 H730" stroke="#67e8f9" stroke-width="8"/><path d="M992 300 H1055" stroke="#67e8f9" stroke-width="8"/>
+  </g>
+  <g font-family="Inter,Arial">
+    <rect x="170" y="500" width="1060" height="130" rx="30" fill="#0b1f33" stroke="#164e63" stroke-width="2"/>
+    <text x="220" y="552" fill="#f8fafc" font-size="30" font-weight="800">What changes in practice</text>
+    <text x="220" y="596" fill="#d7f5ff" font-size="24">Less blind full refresh. Less capacity waste. Faster diagnosis when a model is large.</text>
+  </g>
+</svg>
