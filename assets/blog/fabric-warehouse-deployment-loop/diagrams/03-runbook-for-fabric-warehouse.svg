@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+<title id="title">A Practical Warehouse Runbook</title><desc id="desc">Keep the process small enough that teams will actually use it.</desc>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#09233a"/><stop offset="1" stop-color="#03101b"/></linearGradient><filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#000" flood-opacity="0.35"/></filter></defs>
+<rect width="1280" height="720" fill="url(#g)"/>
+<circle cx="1080" cy="80" r="170" fill="#103d5e" opacity="0.35"/><circle cx="160" cy="650" r="210" fill="#0d3a48" opacity="0.28"/>
+<text x="70" y="88" font-family="Inter, Segoe UI, Arial" font-size="44" font-weight="800" fill="#eaf7ff">A Practical Warehouse Runbook</text>
+<text x="72" y="132" font-family="Inter, Segoe UI, Arial" font-size="22" fill="#9dc8d8">Keep the process small enough that teams will actually use it.</text>
+<rect x="88" y="230" width="340" height="300" rx="28" fill="#0b2235" stroke="#1d8fb8" stroke-width="2" filter="url(#shadow)"/>
+<text x="116" y="285" font-family="Inter, Segoe UI, Arial" font-size="28" font-weight="800" fill="#38d9ff">Design</text>
+<text x="116" y="335" font-family="Inter, Segoe UI, Arial" font-size="23" fill="#eaf7ff">One feature branch</text>
+<text x="116" y="375" font-family="Inter, Segoe UI, Arial" font-size="23" fill="#eaf7ff">one schema change</text>
+<text x="116" y="415" font-family="Inter, Segoe UI, Arial" font-size="23" fill="#eaf7ff">one owner</text>
+<path d="M 438 380 L 460 380" stroke="#80f0c8" stroke-width="5" stroke-linecap="round"/>
+<path d="M 450 368 L 466 380 L 450 392" fill="none" stroke="#80f0c8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="470" y="230" width="340" height="300" rx="28" fill="#0b2235" stroke="#1d8fb8" stroke-width="2" filter="url(#shadow)"/>
+<text x="498" y="285" font-family="Inter, Segoe UI, Arial" font-size="28" font-weight="800" fill="#38d9ff">Validate</text>
+<text x="498" y="335" font-family="Inter, Segoe UI, Arial" font-size="23" fill="#eaf7ff">Build project</text>
+<text x="498" y="375" font-family="Inter, Segoe UI, Arial" font-size="23" fill="#eaf7ff">compare schema</text>
+<text x="498" y="415" font-family="Inter, Segoe UI, Arial" font-size="23" fill="#eaf7ff">run smoke queries</text>
+<path d="M 820 380 L 842 380" stroke="#80f0c8" stroke-width="5" stroke-linecap="round"/>
+<path d="M 832 368 L 848 380 L 832 392" fill="none" stroke="#80f0c8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="852" y="230" width="340" height="300" rx="28" fill="#0b2235" stroke="#1d8fb8" stroke-width="2" filter="url(#shadow)"/>
+<text x="880" y="285" font-family="Inter, Segoe UI, Arial" font-size="28" font-weight="800" fill="#38d9ff">Deploy</text>
+<text x="880" y="335" font-family="Inter, Segoe UI, Arial" font-size="23" fill="#eaf7ff">Promote with log</text>
+<text x="880" y="375" font-family="Inter, Segoe UI, Arial" font-size="23" fill="#eaf7ff">verify consumers</text>
+<text x="880" y="415" font-family="Inter, Segoe UI, Arial" font-size="23" fill="#eaf7ff">record rollback path</text>
+<text x="70" y="640" font-family="Inter, Segoe UI, Arial" font-size="24" fill="#80f0c8">Data Ninja AI Lab | Microsoft Fabric Warehouse engineering pattern</text>
+</svg>
