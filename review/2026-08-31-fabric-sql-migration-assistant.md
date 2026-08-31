@@ -13,9 +13,7 @@ author_url: https://www.linkedin.com/in/shai-kr
   .site-header { gap: 12px; margin-bottom: 18px; }
   .brand { font-size: 0.94rem; }
   .brand-mark { width: 32px; height: 32px; border-radius: 10px; }
-  .nav { width: 100%; gap: 6px; font-size: 0.82rem; justify-content: flex-start; flex-direction: column; align-items: flex-start; }
-  .nav a { padding: 1px 0; }
-  .nav-subscribe { padding: 3px 8px; margin-left: 0; }
+  .nav { display: none; }
   .article { max-width: 100%; overflow-x: hidden; }
   .article-header { padding: 20px 14px; border-radius: 18px; }
   .article-header h1 { font-size: clamp(1.14rem, 5vw, 1.6rem); line-height: 1.17; letter-spacing: -0.025em; overflow-wrap: normal; }
