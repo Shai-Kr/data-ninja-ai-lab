@@ -23,7 +23,7 @@ author_url: https://www.linkedin.com/in/shai-kr
   .article-body p:has(> img) { max-width: 100%; width: 100%; }
   .subscribe-orbit { display: none; }
 }
-.review-visual { max-width: 100%; width: 100%; margin: 34px auto 10px; overflow: hidden; }
+.review-visual { width: min(100%, calc(100vw - 32px)); max-width: 900px; margin: 34px auto 10px 50%; transform: translateX(-50%); overflow: hidden; }
 .review-visual img { display: block; width: 100%; max-width: 100%; height: auto; }
 </style>
 
