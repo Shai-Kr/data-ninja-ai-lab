@@ -23,8 +23,8 @@ author_url: https://www.linkedin.com/in/shai-kr
   .article-body p:has(> img) { max-width: 100%; width: 100%; }
   .subscribe-orbit { display: none; }
 }
-.article-body p:has(> img) { max-width: 100%; width: 100%; }
-.article-body p > img { width: 100%; max-width: 100%; }
+.review-visual { max-width: 100%; width: 100%; margin: 34px auto 10px; overflow: hidden; }
+.review-visual img { display: block; width: 100%; max-width: 100%; height: auto; }
 </style>
 
 A driver change does not sound like the kind of update that deserves a content strategy meeting.
@@ -37,7 +37,7 @@ The less obvious headline is operational.
 
 If your team uses Snowflake, Databricks, Azure Databricks, Google BigQuery, Google BigQuery with Microsoft Entra ID, Impala, Spark, or Dremio through Power BI or Fabric, this is not just a connector upgrade. It is a validation window.
 
-![ADBC validation window](/data-ninja-ai-lab/assets/blog/adbc-validation-window/diagrams/01-validation-window.svg)
+<figure class="review-visual"><img src="/data-ninja-ai-lab/assets/blog/adbc-validation-window/diagrams/01-validation-window.svg" alt="ADBC validation window"></figure>
 
 ## The useful move is early validation
 
@@ -70,7 +70,7 @@ That sounds small. It is not.
 
 It means some teams will have a mix of old and new behavior across reports that look identical from the business side. One workspace may inherit the tenant setting. Another may override it for testing. A specific connection may pin a driver in M. A gateway-routed refresh may keep using the gateway's bundled ODBC path and therefore fail to prove what the cloud ADBC path will do.
 
-![How the driver gets selected](/data-ninja-ai-lab/assets/blog/adbc-validation-window/diagrams/02-driver-selection.svg)
+<figure class="review-visual"><img src="/data-ninja-ai-lab/assets/blog/adbc-validation-window/diagrams/02-driver-selection.svg" alt="How the driver gets selected"></figure>
 
 That is where refresh incidents get confusing.
 
@@ -102,7 +102,7 @@ If a workload must defer through a gateway or keep an explicit implementation te
 **6. Decide the tenant default intentionally.**  
 Once the pilot is clean, the admin setting becomes a controlled adoption decision instead of a late reaction.
 
-![ADBC readiness checklist](/data-ninja-ai-lab/assets/blog/adbc-validation-window/diagrams/03-validation-checklist.svg)
+<figure class="review-visual"><img src="/data-ninja-ai-lab/assets/blog/adbc-validation-window/diagrams/03-validation-checklist.svg" alt="ADBC readiness checklist"></figure>
 
 ## Why this is bigger than performance
 
