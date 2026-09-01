@@ -20,8 +20,11 @@ author_url: https://www.linkedin.com/in/shai-kr
   .article-header .dek { font-size: 0.94rem; margin-top: 14px; }
   .article-body { overflow-x: hidden; font-size: 0.98rem; }
   .article-body img { width: 100%; max-width: 100%; border-radius: 16px; }
+  .article-body p:has(> img) { max-width: 100%; width: 100%; }
   .subscribe-orbit { display: none; }
 }
+.article-body p:has(> img) { max-width: 100%; width: 100%; }
+.article-body p > img { width: 100%; max-width: 100%; }
 </style>
 
 A driver change does not sound like the kind of update that deserves a content strategy meeting.
