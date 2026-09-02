@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+<title id="title">Fabric data agent answer loop</title>
+<desc id="desc">A Fabric data agent routes a question to a semantic model, uses model metadata and Prep for AI, generates DAX, inspects results, and returns an answer.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06111f"/><stop offset="1" stop-color="#0b2138"/></linearGradient>
+  <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#112c46"/><stop offset="1" stop-color="#0d1e34"/></linearGradient>
+  <style>
+    .title{font:700 44px Inter,Segoe UI,Arial,sans-serif;fill:#eaf7ff}.sub{font:500 23px Inter,Segoe UI,Arial,sans-serif;fill:#9fd7ff}.h{font:700 26px Inter,Segoe UI,Arial,sans-serif;fill:#f2fbff}.p{font:500 21px Inter,Segoe UI,Arial,sans-serif;fill:#b9d7e8}.small{font:600 18px Inter,Segoe UI,Arial,sans-serif;fill:#7ee7ff}.num{font:800 22px Inter,Segoe UI,Arial,sans-serif;fill:#06111f}.arrow{stroke:#39d9ff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;fill:none}.card{fill:url(#card);stroke:#1f8fb3;stroke-width:2}.pill{fill:#63e6be}.grid{stroke:#173757;stroke-width:1;opacity:.5}
+  </style>
+</defs>
+<rect width="1400" height="820" rx="34" fill="url(#bg)"/>
+<path d="M80 150H1320M80 310H1320M80 470H1320M80 630H1320M210 80V740M430 80V740M650 80V740M870 80V740M1090 80V740" class="grid"/>
+<text x="80" y="86" class="title">Fabric data agents now have a better DAX loop</text>
+<text x="80" y="124" class="sub">The upgrade matters most when the semantic model is prepared for AI first.</text>
+<g transform="translate(80 210)">
+  <rect class="card" width="250" height="175" rx="24"/>
+  <circle class="pill" cx="36" cy="38" r="20"/><text x="29" y="46" class="num">1</text>
+  <text x="70" y="46" class="h">User question</text>
+  <text x="28" y="94" class="p">Plain-English business</text>
+  <text x="28" y="124" class="p">question with hidden</text>
+  <text x="28" y="154" class="p">metric assumptions</text>
+</g>
+<path d="M345 298H430" class="arrow"/><path d="M416 282l22 16-22 16" class="arrow"/>
+<g transform="translate(450 210)">
+  <rect class="card" width="285" height="175" rx="24"/>
+  <circle class="pill" cx="36" cy="38" r="20"/><text x="29" y="46" class="num">2</text>
+  <text x="70" y="46" class="h">Semantic model</text>
+  <text x="28" y="94" class="p">Measures, names, schema,</text>
+  <text x="28" y="124" class="p">verified answers, visual</text>
+  <text x="28" y="154" class="p">metadata, value hints</text>
+</g>
+<path d="M750 298H835" class="arrow"/><path d="M821 282l22 16-22 16" class="arrow"/>
+<g transform="translate(855 210)">
+  <rect class="card" width="250" height="175" rx="24"/>
+  <circle class="pill" cx="36" cy="38" r="20"/><text x="29" y="46" class="num">3</text>
+  <text x="70" y="46" class="h">DAX planning</text>
+  <text x="28" y="94" class="p">Generate, inspect,</text>
+  <text x="28" y="124" class="p">resolve ambiguity,</text>
+  <text x="28" y="154" class="p">then refine</text>
+</g>
+<path d="M1120 298H1205" class="arrow"/><path d="M1191 282l22 16-22 16" class="arrow"/>
+<g transform="translate(1225 210)">
+  <rect class="card" width="95" height="175" rx="24"/>
+  <circle class="pill" cx="48" cy="38" r="20"/><text x="41" y="46" class="num">4</text>
+  <text x="24" y="91" class="h">Answer</text>
+  <text x="23" y="126" class="p">with</text>
+  <text x="19" y="156" class="p">context</text>
+</g>
+<g transform="translate(205 520)">
+  <rect x="0" y="0" width="990" height="128" rx="24" fill="#071827" stroke="#2bffd2" stroke-width="2"/>
+  <text x="34" y="44" class="h">Practical point</text>
+  <text x="34" y="84" class="p">Advanced DAX helps the agent reason better, but the model still needs clear names, scoped schemas,</text>
+  <text x="34" y="114" class="p">verified answers, and tested business questions before anyone trusts it in production.</text>
+</g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+<title id="title">Agent rollout checklist</title>
+<desc id="desc">A production checklist for testing Fabric data agents with semantic models and advanced DAX generation.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06101d"/><stop offset="1" stop-color="#0f2848"/></linearGradient><style>.title{font:700 44px Inter,Segoe UI,Arial,sans-serif;fill:#f0fbff}.sub{font:500 23px Inter,Segoe UI,Arial,sans-serif;fill:#9fd7ff}.h{font:800 26px Inter,Segoe UI,Arial,sans-serif;fill:#edfaff}.p{font:500 21px Inter,Segoe UI,Arial,sans-serif;fill:#b7d8ea}.card{fill:#0d243c;stroke:#26c9ff;stroke-width:2}.check{fill:#5af0bd}.num{font:900 28px Inter,Segoe UI,Arial,sans-serif;fill:#06101d}</style></defs>
+<rect width="1400" height="820" rx="34" fill="url(#bg)"/>
+<text x="78" y="90" class="title">The rollout pattern I would use first</text>
+<text x="78" y="128" class="sub">Do not treat a better DAX tool as automatic trust. Test the agent like a production analytics surface.</text>
+<g transform="translate(88 200)">
+  <rect class="card" width="382" height="185" rx="26"/><circle class="check" cx="46" cy="48" r="23"/><text x="38" y="58" class="num">1</text><text x="88" y="55" class="h">Pick the right model</text><text x="34" y="102" class="p">Start with a model that already has</text><text x="34" y="132" class="p">trusted measures and active business</text><text x="34" y="162" class="p">ownership.</text>
+</g>
+<g transform="translate(510 200)">
+  <rect class="card" width="382" height="185" rx="26"/><circle class="check" cx="46" cy="48" r="23"/><text x="38" y="58" class="num">2</text><text x="88" y="55" class="h">Prepare for AI</text><text x="34" y="102" class="p">Limit schema, clean names, add</text><text x="34" y="132" class="p">synonyms, and verify critical</text><text x="34" y="162" class="p">answers.</text>
+</g>
+<g transform="translate(932 200)">
+  <rect class="card" width="382" height="185" rx="26"/><circle class="check" cx="46" cy="48" r="23"/><text x="38" y="58" class="num">3</text><text x="88" y="55" class="h">Test preview runtime</text><text x="34" y="102" class="p">Run a controlled question set and</text><text x="34" y="132" class="p">compare answers, filters, values,</text><text x="34" y="162" class="p">and latency.</text>
+</g>
+<g transform="translate(88 430)">
+  <rect class="card" width="382" height="185" rx="26"/><circle class="check" cx="46" cy="48" r="23"/><text x="38" y="58" class="num">4</text><text x="88" y="55" class="h">Publish intentionally</text><text x="34" y="102" class="p">Remember that published agents keep</text><text x="34" y="132" class="p">the runtime selected at publish time</text><text x="34" y="162" class="p">until republished.</text>
+</g>
+<g transform="translate(510 430)">
+  <rect class="card" width="382" height="185" rx="26"/><circle class="check" cx="46" cy="48" r="23"/><text x="38" y="58" class="num">5</text><text x="88" y="55" class="h">Track regressions</text><text x="34" y="102" class="p">Keep expected answers, ambiguous</text><text x="34" y="132" class="p">phrases, and escalation rules in</text><text x="34" y="162" class="p">one small runbook.</text>
+</g>
+<g transform="translate(932 430)">
+  <rect class="card" width="382" height="185" rx="26"/><circle class="check" cx="46" cy="48" r="23"/><text x="38" y="58" class="num">6</text><text x="88" y="55" class="h">Use it where it pays</text><text x="34" y="102" class="p">Best fit: high-value questions where</text><text x="34" y="132" class="p">DAX filters and business definitions</text><text x="34" y="162" class="p">must be right.</text>
+</g>
+<text x="90" y="724" class="sub">The win is not a flashier chatbot. The win is governed self-service over measures people already trust.</text>
+</svg>
