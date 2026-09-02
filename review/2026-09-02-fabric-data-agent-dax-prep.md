@@ -39,7 +39,7 @@ If the model is clean, scoped, named well, and prepared for AI, the agent has mu
 
 The upgrade makes the preparation work more valuable.
 
-<figure class="review-visual"><img src="/data-ninja-ai-lab/assets/blog/fabric-data-agent-dax-prep/diagrams/01-answer-loop.svg" alt="Fabric data agent answer loop"></figure>
+<figure class="review-visual"><picture><source media="(max-width: 760px)" srcset="/data-ninja-ai-lab/assets/blog/fabric-data-agent-dax-prep/diagrams/01-answer-loop-mobile.svg"><img src="/data-ninja-ai-lab/assets/blog/fabric-data-agent-dax-prep/diagrams/01-answer-loop.svg" alt="Fabric data agent answer loop"></picture></figure>
 
 ## The useful shift: from single-pass DAX to an answer loop
 
@@ -77,7 +77,7 @@ If the agent is going to answer questions from a semantic model, the model needs
 - value coverage for filters the agent needs to find correctly
 - a known list of questions that can be used for regression testing
 
-<figure class="review-visual"><img src="/data-ninja-ai-lab/assets/blog/fabric-data-agent-dax-prep/diagrams/02-semantic-prep-layers.svg" alt="Semantic model preparation layers for Fabric data agents"></figure>
+<figure class="review-visual"><picture><source media="(max-width: 760px)" srcset="/data-ninja-ai-lab/assets/blog/fabric-data-agent-dax-prep/diagrams/02-semantic-prep-layers-mobile.svg"><img src="/data-ninja-ai-lab/assets/blog/fabric-data-agent-dax-prep/diagrams/02-semantic-prep-layers.svg" alt="Semantic model preparation layers for Fabric data agents"></picture></figure>
 
 This is the part I like about the update.
 
@@ -107,7 +107,7 @@ A good pilot looks like this:
 
 That gives the team evidence instead of vibes.
 
-<figure class="review-visual"><img src="/data-ninja-ai-lab/assets/blog/fabric-data-agent-dax-prep/diagrams/03-agent-rollout-checklist.svg" alt="Production checklist for Fabric data agents with semantic models"></figure>
+<figure class="review-visual"><picture><source media="(max-width: 760px)" srcset="/data-ninja-ai-lab/assets/blog/fabric-data-agent-dax-prep/diagrams/03-agent-rollout-checklist-mobile.svg"><img src="/data-ninja-ai-lab/assets/blog/fabric-data-agent-dax-prep/diagrams/03-agent-rollout-checklist.svg" alt="Production checklist for Fabric data agents with semantic models"></picture></figure>
 
 ## Where this can pay off quickly
 
