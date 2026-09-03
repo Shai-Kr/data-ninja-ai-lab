@@ -1,30 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1150" viewBox="0 0 760 1150" role="img" aria-labelledby="title desc">
-<title id="title">Four storage modes</title><desc id="desc">The benchmark gives teams a better starting map.</desc>
-<rect width="760" height="1150" fill="#07111f"/>
-<circle cx="650" cy="60" r="190" fill="#123f61" opacity="0.35"/>
-<text x="38" y="72" fill="#7df9ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="700">Data Ninja AI Lab</text>
-<text x="38" y="126" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="36" font-weight="800">Four storage modes</text>
-<text x="38" y="171" fill="#a8bdd0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22">The benchmark gives teams a better starting map.</text>
-<rect x="38" y="210" width="684" height="195" rx="24" fill="#0e1b2f" stroke="#8bf5b5" stroke-width="3"/>
-<text x="64" y="258" fill="#8bf5b5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="800">Direct Lake on OneLake</text>
-<text x="64" y="300" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Strong default candidate when Delta</text>
-<text x="64" y="331" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">data can be served through Fabric and</text>
-<text x="64" y="362" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">the workload benefits from repeated</text>
-<text x="64" y="393" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">interactive use.</text>
-<rect x="38" y="427" width="684" height="195" rx="24" fill="#0e1b2f" stroke="#1fcbff" stroke-width="3"/>
-<text x="64" y="475" fill="#1fcbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="800">Direct Lake on mirrored UC</text>
-<text x="64" y="517" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Useful when the team wants OneLake</text>
-<text x="64" y="548" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">access over Unity Catalog tables</text>
-<text x="64" y="579" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">without copying data first.</text>
-<rect x="38" y="644" width="684" height="195" rx="24" fill="#0e1b2f" stroke="#ffd166" stroke-width="3"/>
-<text x="64" y="692" fill="#ffd166" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="800">DirectQuery</text>
-<text x="64" y="734" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Simple live path, but every interaction</text>
-<text x="64" y="764" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">keeps asking the source to work. Test</text>
-<text x="64" y="796" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">it under real report behavior.</text>
-<rect x="38" y="860" width="684" height="195" rx="24" fill="#0e1b2f" stroke="#8bf5b5" stroke-width="3"/>
-<text x="64" y="908" fill="#8bf5b5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="800">Composite + aggregations</text>
-<text x="64" y="950" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Can be fastest when aggregation tables</text>
-<text x="64" y="981" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">match how users actually filter, slice,</text>
-<text x="64" y="1012" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">and summarize.</text>
-<text x="38" y="1110" fill="#a8bdd0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18">Benchmark first. Validate locally.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1180" viewBox="0 0 760 1180" role="img" aria-labelledby="title desc">
+<title id="title">Four storage modes</title><desc id="desc">A cleaner starting map.</desc>
+<rect width="760" height="1180" fill="#07111f"/>
+<circle cx="640" cy="60" r="180" fill="#123f61" opacity="0.35"/>
+<text x="56" y="78" fill="#7df9ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="700">Data Ninja AI Lab</text>
+<text x="56" y="138" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="42" font-weight="800">Four storage modes</text>
+<text x="56" y="184" fill="#a8bdd0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24">A cleaner starting map.</text>
+<rect x="56" y="220" width="648" height="204" rx="26" fill="#0e1b2f" stroke="#8bf5b5" stroke-width="3"/>
+<text x="100" y="284" fill="#8bf5b5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">Direct Lake on OneLake</text>
+<text x="100" y="332" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">Good default candidate for Fabric</text>
+<text x="100" y="366" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">and OneLake reporting.</text>
+<rect x="56" y="448" width="648" height="204" rx="26" fill="#0e1b2f" stroke="#1fcbff" stroke-width="3"/>
+<text x="100" y="512" fill="#1fcbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">Mirrored Unity Catalog</text>
+<text x="100" y="560" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">Use when Databricks ownership</text>
+<text x="100" y="594" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">still matters.</text>
+<rect x="56" y="677" width="648" height="204" rx="26" fill="#0e1b2f" stroke="#ffd166" stroke-width="3"/>
+<text x="100" y="741" fill="#ffd166" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">DirectQuery</text>
+<text x="100" y="789" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">Live path, but every report click</text>
+<text x="100" y="823" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">asks the source to work.</text>
+<rect x="56" y="906" width="648" height="204" rx="26" fill="#0e1b2f" stroke="#8bf5b5" stroke-width="3"/>
+<text x="100" y="970" fill="#8bf5b5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">Composite aggregations</text>
+<text x="100" y="1018" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">Fast when aggregations match real</text>
+<text x="100" y="1052" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">user behavior.</text>
 </svg>

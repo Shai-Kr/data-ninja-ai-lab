@@ -7,22 +7,22 @@
 <text x="70" y="150" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="54" font-weight="800">What to test before choosing</text>
 <text x="70" y="196" fill="#a8bdd0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28">Performance depends on workload shape, not only the engine.</text>
 <rect x="70" y="220" width="616" height="226" rx="28" fill="#0e1b2f" stroke="#1fcbff" stroke-width="3" filter="url(#shadow)"/>
-<text x="102" y="278" fill="#1fcbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="30" font-weight="800">Data volume</text>
-<text x="102" y="330" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25">Small and mid-size models behave differently</text>
-<text x="102" y="366" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25">from billion-row fact tables. Do not</text>
-<text x="102" y="402" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25">extrapolate blindly.</text>
+<text x="110" y="278" fill="#1fcbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">Data volume</text>
+<text x="110" y="330" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">Small and mid-size models behave</text>
+<text x="110" y="366" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">differently from billion-row fact</text>
+<text x="110" y="402" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">tables. Do not extrapolate blindly.</text>
 <rect x="714" y="220" width="616" height="226" rx="28" fill="#0e1b2f" stroke="#ffd166" stroke-width="3" filter="url(#shadow)"/>
-<text x="746" y="278" fill="#ffd166" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="30" font-weight="800">Cache state</text>
-<text x="746" y="330" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25">Warm reports can hide expensive fallback</text>
-<text x="746" y="366" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25">paths. Test cold and warm behavior.</text>
+<text x="754" y="278" fill="#ffd166" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">Cache state</text>
+<text x="754" y="330" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">Warm reports can hide expensive fallback</text>
+<text x="754" y="366" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">paths. Test cold and warm behavior.</text>
 <rect x="70" y="474" width="616" height="226" rx="28" fill="#0e1b2f" stroke="#1fcbff" stroke-width="3" filter="url(#shadow)"/>
-<text x="102" y="532" fill="#1fcbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="30" font-weight="800">Query shape</text>
-<text x="102" y="584" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25">Totals, detail pages, high-cardinality</text>
-<text x="102" y="620" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25">filters, and drill paths stress different</text>
-<text x="102" y="656" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25">parts of the design.</text>
+<text x="110" y="532" fill="#1fcbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">Query shape</text>
+<text x="110" y="584" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">Totals, detail pages, high-cardinality</text>
+<text x="110" y="620" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">filters, and drill paths stress</text>
+<text x="110" y="656" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">different parts of the design.</text>
 <rect x="714" y="474" width="616" height="226" rx="28" fill="#0e1b2f" stroke="#8bf5b5" stroke-width="3" filter="url(#shadow)"/>
-<text x="746" y="532" fill="#8bf5b5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="30" font-weight="800">User behavior</text>
-<text x="746" y="584" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25">Aggregations only pay off when they match</text>
-<text x="746" y="620" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25">what people do in the report.</text>
+<text x="754" y="532" fill="#8bf5b5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">User behavior</text>
+<text x="754" y="584" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">Aggregations only pay off when they</text>
+<text x="754" y="620" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">match what people do in the report.</text>
 <text x="70" y="776" fill="#a8bdd0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24">Power BI on Azure Databricks: use benchmark evidence, then test your own workload.</text>
 </svg>

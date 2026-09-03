@@ -1,26 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1150" viewBox="0 0 760 1150" role="img" aria-labelledby="title desc">
-<title id="title">A practical decision loop</title><desc id="desc">Turn the white paper into a small internal benchmark.</desc>
-<rect width="760" height="1150" fill="#07111f"/>
-<circle cx="650" cy="60" r="190" fill="#123f61" opacity="0.35"/>
-<text x="38" y="72" fill="#7df9ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="700">Data Ninja AI Lab</text>
-<text x="38" y="126" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="36" font-weight="800">A practical decision loop</text>
-<text x="38" y="171" fill="#a8bdd0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22">Turn the white paper into a small internal benchmark.</text>
-<rect x="38" y="210" width="684" height="195" rx="24" fill="#0e1b2f" stroke="#1fcbff" stroke-width="3"/>
-<text x="64" y="258" fill="#1fcbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="800">1. Pick two modes</text>
-<text x="64" y="300" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Shortlist the storage modes that fit</text>
-<text x="64" y="331" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">security, data freshness, and</text>
-<text x="64" y="362" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">ownership.</text>
-<rect x="38" y="427" width="684" height="195" rx="24" fill="#0e1b2f" stroke="#1fcbff" stroke-width="3"/>
-<text x="64" y="475" fill="#1fcbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="800">2. Rebuild one report</text>
-<text x="64" y="517" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Use the same model intent, same</text>
-<text x="64" y="548" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">visuals, and same user scenarios.</text>
-<rect x="38" y="644" width="684" height="195" rx="24" fill="#0e1b2f" stroke="#ffd166" stroke-width="3"/>
-<text x="64" y="692" fill="#ffd166" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="800">3. Measure properly</text>
-<text x="64" y="734" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Track cold load, warm load, slicers,</text>
-<text x="64" y="764" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">drill paths, and source pressure.</text>
-<rect x="38" y="860" width="684" height="195" rx="24" fill="#0e1b2f" stroke="#8bf5b5" stroke-width="3"/>
-<text x="64" y="908" fill="#8bf5b5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="800">4. Decide with tradeoffs</text>
-<text x="64" y="950" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Choose the pattern the team can</text>
-<text x="64" y="981" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">operate, not only the fastest chart.</text>
-<text x="38" y="1110" fill="#a8bdd0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18">Benchmark first. Validate locally.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1180" viewBox="0 0 760 1180" role="img" aria-labelledby="title desc">
+<title id="title">Decision loop</title><desc id="desc">Small test. Better standard.</desc>
+<rect width="760" height="1180" fill="#07111f"/>
+<circle cx="640" cy="60" r="180" fill="#123f61" opacity="0.35"/>
+<text x="56" y="78" fill="#7df9ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="700">Data Ninja AI Lab</text>
+<text x="56" y="138" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="42" font-weight="800">Decision loop</text>
+<text x="56" y="184" fill="#a8bdd0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24">Small test. Better standard.</text>
+<rect x="56" y="220" width="648" height="204" rx="26" fill="#0e1b2f" stroke="#1fcbff" stroke-width="3"/>
+<text x="100" y="284" fill="#1fcbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">Shortlist</text>
+<text x="100" y="332" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">Pick two realistic storage modes.</text>
+<rect x="56" y="448" width="648" height="204" rx="26" fill="#0e1b2f" stroke="#1fcbff" stroke-width="3"/>
+<text x="100" y="512" fill="#1fcbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">Rebuild</text>
+<text x="100" y="560" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">Use the same report intent and</text>
+<text x="100" y="594" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">visuals.</text>
+<rect x="56" y="677" width="648" height="204" rx="26" fill="#0e1b2f" stroke="#ffd166" stroke-width="3"/>
+<text x="100" y="741" fill="#ffd166" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">Measure</text>
+<text x="100" y="789" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">Track load time, slicers, drills,</text>
+<text x="100" y="823" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">and source pressure.</text>
+<rect x="56" y="906" width="648" height="204" rx="26" fill="#0e1b2f" stroke="#8bf5b5" stroke-width="3"/>
+<text x="100" y="970" fill="#8bf5b5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">Decide</text>
+<text x="100" y="1018" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">Choose the pattern the team can</text>
+<text x="100" y="1052" fill="#e8f6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">operate.</text>
 </svg>
