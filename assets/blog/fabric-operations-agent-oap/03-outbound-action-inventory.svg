@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="A practical outbound action inventory">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06111f"/><stop offset="0.55" stop-color="#0b1530"/><stop offset="1" stop-color="#101a3d"/></linearGradient>
+      <radialGradient id="glow" cx="50%" cy="28%" r="60%"><stop offset="0" stop-color="#244fd8" stop-opacity="0.55"/><stop offset="1" stop-color="#244fd8" stop-opacity="0"/></radialGradient>
+    </defs>
+    <rect width="1200" height="675" fill="url(#bg)"/>
+    <rect width="1200" height="675" fill="url(#glow)"/>
+    <circle cx="1040" cy="110" r="130" fill="#42e8f5" opacity="0.08"/>
+    <circle cx="130" cy="560" r="170" fill="#9b7cff" opacity="0.10"/>
+    <text x="70" y="92" fill="#42e8f5" font-size="22" font-weight="800" letter-spacing="3">DATA NINJA AI LAB</text>
+    <text x="70" y="150" fill="#ffffff" font-size="46" font-weight="900">A practical outbound action inventory</text>
+    <text x="70" y="198" fill="#b8c7e6" font-size="25">Start with a small review before scaling agent automation.</text>
+    
+        <rect x="103.0" y="250" width="310" height="245" rx="28" fill="#101b34" stroke="#42e8f5" stroke-width="3"/>
+        <circle cx="145.0" cy="296" r="15" fill="#42e8f5" opacity="0.95"/>
+        <text x="173.0" y="304" fill="#f8fbff" font-size="27" font-weight="800">List</text>
+        <text x="131.0" y="355" fill="#d5e2ff" font-size="23" font-weight="500"><tspan x="131.0" dy="24">Teams channels, APIs, maps,</tspan><tspan x="131.0" dy="24">services, cross-workspace</tspan><tspan x="131.0" dy="24">actions</tspan></text>
+        
+        <rect x="445.0" y="250" width="310" height="245" rx="28" fill="#101b34" stroke="#9b7cff" stroke-width="3"/>
+        <circle cx="487.0" cy="296" r="15" fill="#9b7cff" opacity="0.95"/>
+        <text x="515.0" y="304" fill="#f8fbff" font-size="27" font-weight="800">Classify</text>
+        <text x="473.0" y="355" fill="#d5e2ff" font-size="23" font-weight="500"><tspan x="473.0" dy="24">Allowed, blocked, or needs</tspan><tspan x="473.0" dy="24">review</tspan></text>
+        
+        <rect x="787.0" y="250" width="310" height="245" rx="28" fill="#101b34" stroke="#36d399" stroke-width="3"/>
+        <circle cx="829.0" cy="296" r="15" fill="#36d399" opacity="0.95"/>
+        <text x="857.0" y="304" fill="#f8fbff" font-size="27" font-weight="800">Own</text>
+        <text x="815.0" y="355" fill="#d5e2ff" font-size="23" font-weight="500"><tspan x="815.0" dy="24">Assign approval owner and</tspan><tspan x="815.0" dy="24">review blocked activity</tspan></text>
+        
+    <text x="600" y="616" text-anchor="middle" fill="#92a7ce" font-size="22">A lightweight inventory turns OAP from checkbox to operating model</text>
+    </svg>
