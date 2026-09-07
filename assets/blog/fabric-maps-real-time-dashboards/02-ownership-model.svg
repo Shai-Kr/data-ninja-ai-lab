@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="788" viewBox="0 0 1400 788">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#09101E"/><stop offset=".52" stop-color="#122249"/><stop offset="1" stop-color="#063843"/></linearGradient>
+    <linearGradient id="panel" x1="0" x2="1"><stop offset="0" stop-color="#142851"/><stop offset="1" stop-color="#0C3E4B"/></linearGradient>
+    <style>.title{font:700 38px Inter,Segoe UI,Arial,sans-serif;fill:#F7FBFF}.sub{font:500 20px Inter,Segoe UI,Arial,sans-serif;fill:#BDD9F6}.head{font:700 24px Inter,Segoe UI,Arial,sans-serif;fill:#FFFFFF}.body{font:500 17px Inter,Segoe UI,Arial,sans-serif;fill:#CBE1F2}.tiny{font:600 15px Inter,Segoe UI,Arial,sans-serif;fill:#93F0DD}.panel{fill:url(#panel);stroke:#58E8CF;stroke-opacity:.58;stroke-width:2}.row{fill:#67E8F9;fill-opacity:.09;stroke:#67E8F9;stroke-opacity:.55;stroke-width:1.5}</style>
+  </defs>
+  <rect width="1400" height="788" fill="url(#bg)"/>
+  <text x="70" y="82" class="title">Keep the Map Logic in One Place</text>
+  <text x="70" y="118" class="sub">The dashboard stores a reference. The Fabric Map remains the published source of truth.</text>
+  <rect x="70" y="178" width="590" height="510" rx="30" class="panel"/>
+  <text x="112" y="236" class="head">Fabric Map item</text><text x="112" y="270" class="tiny">OWNED BY MAP AUTHOR</text>
+  <rect x="112" y="310" width="506" height="58" rx="16" class="row"/><text x="140" y="346" class="body">Queries and data sources</text>
+  <rect x="112" y="386" width="506" height="58" rx="16" class="row"/><text x="140" y="422" class="body">Layers and styling</text>
+  <rect x="112" y="462" width="506" height="58" rx="16" class="row"/><text x="140" y="498" class="body">Locked baseline filters</text>
+  <rect x="112" y="538" width="506" height="58" rx="16" class="row"/><text x="140" y="574" class="body">Viewer exploration controls</text>
+  <rect x="112" y="614" width="506" height="42" rx="21" fill="#55F3D1" fill-opacity=".18" stroke="#55F3D1"/><text x="174" y="641" class="tiny">Publish once and maintain deliberately</text>
+  <rect x="740" y="178" width="590" height="510" rx="30" class="panel"/>
+  <text x="782" y="236" class="head">Real-Time Dashboard</text><text x="782" y="270" class="tiny">OWNED BY DASHBOARD AUTHOR</text>
+  <rect x="782" y="310" width="506" height="58" rx="16" class="row"/><text x="810" y="346" class="body">Reference to published map</text>
+  <rect x="782" y="386" width="506" height="58" rx="16" class="row"/><text x="810" y="422" class="body">Tile size and position</text>
+  <rect x="782" y="462" width="506" height="58" rx="16" class="row"/><text x="810" y="498" class="body">Live metrics and KQL visuals</text>
+  <rect x="782" y="538" width="506" height="58" rx="16" class="row"/><text x="810" y="574" class="body">Parameters, alerts, and refresh</text>
+  <rect x="782" y="614" width="506" height="42" rx="21" fill="#55F3D1" fill-opacity=".18" stroke="#55F3D1"/><text x="832" y="641" class="tiny">Compose the monitoring experience</text>
+  <rect x="642" y="360" width="116" height="132" rx="26" fill="#0B263B" stroke="#77EAF6" stroke-width="2"/><text x="667" y="414" class="tiny">REFERENCE</text><text x="679" y="449" class="head">↔</text><text x="667" y="478" class="tiny">NO COPY</text>
+</svg>
