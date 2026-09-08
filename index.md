@@ -31,6 +31,11 @@ description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, 
 <section class="post-list featured home-articles">
   <h2>Latest articles</h2>
   <article class="post-card">
+    <p class="post-meta">Microsoft Fabric · SQL · Data Engineering</p>
+    <h3><a href="{{ '/blog/2026-09-08-fabric-sql-review-workflow.html' | relative_url }}">Turn Fabric SQL Exploration Into Work Your Team Can Reuse</a></h3>
+    <p>A practical workflow for portable SQL, review notes, validation checks, and team handoffs using the latest Fabric SQL Query Editor updates.</p>
+  </article>
+  <article class="post-card">
     <p class="post-meta">Microsoft Fabric · Power BI · Private Connectivity</p>
     <h3><a href="{{ '/blog/2026-08-05-vnet-gateway-autoscaling.html' | relative_url }}">Let Your Fabric Gateway Scale With the Workload</a></h3>
     <p>A practical operating model for VNet data gateway autoscaling: workload inventory, demand baselines, scale limits, cost guardrails, and ownership before private data access becomes a refresh incident.</p>

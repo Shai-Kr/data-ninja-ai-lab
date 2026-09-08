@@ -5,10 +5,7 @@ description: "The September 8 SQL Query Editor updates make warehouse developmen
 date: 2026-09-08
 author: Shai Karmani
 author_url: https://www.linkedin.com/in/shai-kr
-sitemap: false
 ---
-
-[Read the published article]({{ "/blog/2026-09-08-fabric-sql-review-workflow.html" | relative_url }}).
 
 A useful SQL query deserves a better handoff than a screenshot in a chat thread.
 
