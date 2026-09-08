@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="780" viewBox="0 0 640 780" role="img" aria-labelledby="title desc">
+<title id="title">What belongs in a SQL review packet</title><desc id="desc">Purpose, execution context, validation, permitted evidence, and ownership make a query easier to reproduce and maintain.</desc>
+<rect width="640" height="780" rx="24" fill="#0b1424"/>
+<g font-family="Arial, sans-serif">
+<text x="40" y="60" fill="#62e6ed" font-size="27" font-weight="700">The SQL review packet</text>
+<text x="40" y="97" fill="#c5d2e4" font-size="21">Small enough to attach to every handoff</text>
+<g fill="#142840" stroke="#315c79" stroke-width="2">
+<rect x="40" y="128" width="560" height="104" rx="16"/><rect x="40" y="248" width="560" height="104" rx="16"/><rect x="40" y="368" width="560" height="104" rx="16"/><rect x="40" y="488" width="560" height="104" rx="16"/><rect x="40" y="608" width="560" height="104" rx="16"/>
+</g>
+<g fill="#f4f8ff" font-size="26" font-weight="700">
+<text x="64" y="169">Purpose</text><text x="64" y="289">Execution context</text><text x="64" y="409">Validation</text><text x="64" y="529">Permitted evidence</text><text x="64" y="649">Ownership</text>
+</g>
+<g fill="#c5d2e4" font-size="23">
+<text x="64" y="208">Question, output grain, scope</text><text x="64" y="328">Warehouse, parameters, run time</text><text x="64" y="448">Checks performed, known exceptions</text><text x="64" y="568">Minimal sample or aggregate summary</text><text x="64" y="688">Maintainer and reviewed SQL location</text>
+</g>
+<text x="40" y="750" fill="#62e6ed" font-size="21">A saved query is not a reviewed query.</text>
+</g></svg>

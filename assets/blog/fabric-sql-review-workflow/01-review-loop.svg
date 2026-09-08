@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="700" viewBox="0 0 640 700" role="img" aria-labelledby="title desc">
+<title id="title">From exploration to reusable SQL</title><desc id="desc">Define the grain, preserve the SQL, review it with evidence, and choose the next destination.</desc>
+<rect width="640" height="700" rx="24" fill="#0b1424"/>
+<g font-family="Arial, sans-serif">
+<text x="40" y="60" fill="#62e6ed" font-size="27" font-weight="700">A repeatable SQL handoff</text>
+<text x="40" y="97" fill="#c5d2e4" font-size="21">Proposed team workflow</text>
+<g fill="#142840" stroke="#315c79" stroke-width="2">
+<rect x="40" y="130" width="560" height="110" rx="16"/>
+<rect x="40" y="264" width="560" height="110" rx="16"/>
+<rect x="40" y="398" width="560" height="110" rx="16"/>
+<rect x="40" y="532" width="560" height="110" rx="16"/>
+</g>
+<g fill="#f4f8ff" font-size="27" font-weight="700">
+<text x="64" y="172">01  Explore</text><text x="64" y="306">02  Preserve</text><text x="64" y="440">03  Review</text><text x="64" y="574">04  Hand off</text>
+</g>
+<g fill="#c5d2e4" font-size="23">
+<text x="64" y="212">Define the question and row grain.</text><text x="64" y="346">Export SQL. Keep a reviewed version.</text><text x="64" y="480">Pair the query with run context.</text><text x="64" y="614">Choose one destination and owner.</text>
+</g></g></svg>
