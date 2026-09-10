@@ -10,6 +10,8 @@ sitemap: false
 
 **Review draft. Direct link only. Not listed on the blog.**
 
+<style>.article-body pre, .article-body pre code { white-space: pre-wrap; overflow-wrap: anywhere; }</style>
+
 An AI agent can explain a proposed data-platform change much better when it can see what depends on the item being changed.
 
 That is the useful opportunity in Microsoft's September 10 announcement of the **Fabric item relations API, in preview**. Two REST operations expose upstream and downstream item relationships as a graph that code can read. The response includes items, typed relations, and the workspaces referenced by those items.
