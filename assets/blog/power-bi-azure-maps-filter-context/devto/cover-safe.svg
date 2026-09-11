@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="504" viewBox="0 0 1200 504">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111f"/><stop offset="1" stop-color="#10263d"/></linearGradient></defs>
+  <rect width="1200" height="504" fill="url(#bg)"/>
+  <circle cx="1120" cy="40" r="190" fill="#12d7ff" opacity=".08"/>
+  <text x="70" y="85" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#55dcff" letter-spacing="2">POWER BI · AZURE MAPS</text>
+  <text x="70" y="175" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="800" fill="#f5fbff">The map should follow</text>
+  <text x="70" y="242" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="800" fill="#f5fbff">the analysis.</text>
+  <text x="70" y="307" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#a8bfd3">Filter context · Loaded points · Viewport · Totals</text>
+  <rect x="70" y="365" width="455" height="65" rx="18" fill="#102b43" stroke="#2d6688"/>
+  <text x="100" y="407" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#f5fbff">FOUR-CASE ACCEPTANCE TEST</text>
+  <rect x="670" y="70" width="455" height="360" rx="30" fill="#0b1b2d" stroke="#2b5a79" stroke-width="2"/>
+  <path d="M720 340 C780 250 820 300 870 205 C925 105 1010 205 1085 125" fill="none" stroke="#244d68" stroke-width="15" stroke-linecap="round"/>
+  <path d="M710 145 C790 190 840 120 900 180 C970 245 1030 300 1095 255" fill="none" stroke="#1b405a" stroke-width="11" stroke-linecap="round"/>
+  <g fill="#64e3ff" stroke="#d4f8ff" stroke-width="3"><circle cx="770" cy="260" r="12"/><circle cx="845" cy="220" r="12"/><circle cx="910" cy="290" r="12"/><circle cx="985" cy="210" r="12"/><circle cx="1050" cy="165" r="12"/></g>
+</svg>
