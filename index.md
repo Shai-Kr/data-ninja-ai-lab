@@ -31,9 +31,9 @@ description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, 
 <section class="post-list featured home-articles">
   <h2>Latest articles</h2>
   <article class="post-card">
-    <p class="post-meta">Microsoft Fabric · SQL · Data Engineering</p>
-    <h3><a href="{{ '/blog/2026-09-08-fabric-sql-review-workflow.html' | relative_url }}">Turn Fabric SQL Exploration Into Work Your Team Can Reuse</a></h3>
-    <p>A practical workflow for portable SQL, review notes, validation checks, and team handoffs using the latest Fabric SQL Query Editor updates.</p>
+    <p class="post-meta">Microsoft Fabric · AI Agents · Lineage</p>
+    <h3><a href="{{ '/blog/2026-09-10-fabric-lineage-review.html' | relative_url }}">Give Your Fabric AI Agent a Real Dependency Map</a></h3>
+    <p>A read-only review workflow for the Fabric item relations API preview, with typed dependencies, evidence boundaries, and acceptance tests before a person approves a change.</p>
   </article>
   <article class="post-card">
     <p class="post-meta">Microsoft Fabric · Power BI · Private Connectivity</p>
