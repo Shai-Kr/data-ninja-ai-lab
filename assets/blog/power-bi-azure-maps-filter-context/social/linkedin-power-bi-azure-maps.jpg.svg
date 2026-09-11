@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="1" stop-color="#10263d"/>
+    </linearGradient>
+    <linearGradient id="map" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#102c46"/>
+      <stop offset="1" stop-color="#0b1b2d"/>
+    </linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000" flood-opacity=".28"/></filter>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+  <circle cx="1070" cy="120" r="210" fill="#12d7ff" opacity=".07"/>
+  <circle cx="90" cy="1390" r="250" fill="#665cff" opacity=".08"/>
+  <text x="90" y="125" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#55dcff" letter-spacing="3">POWER BI · AZURE MAPS</text>
+  <text x="90" y="220" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800" fill="#f5fbff">The map should follow</text>
+  <text x="90" y="305" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800" fill="#f5fbff">the analysis.</text>
+  <text x="90" y="370" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#a8bfd3">Test filter context, loaded points, viewport, and totals together.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="90" y="435" width="1020" height="535" rx="34" fill="url(#map)" stroke="#2b5a79" stroke-width="2"/>
+  </g>
+  <path d="M200 800 C260 690 355 730 410 635 C480 520 595 610 655 535 C745 425 885 535 965 485" fill="none" stroke="#244d68" stroke-width="18" stroke-linecap="round"/>
+  <path d="M165 540 C285 600 330 480 440 555 C555 635 610 735 735 695 C855 655 905 760 1035 715" fill="none" stroke="#1b405a" stroke-width="12" stroke-linecap="round"/>
+  <path d="M225 900 C335 800 390 920 500 835 C610 750 700 890 795 805 C885 725 950 850 1045 795" fill="none" stroke="#1d455f" stroke-width="10" stroke-linecap="round"/>
+  <g fill="#64e3ff" stroke="#d4f8ff" stroke-width="4">
+    <circle cx="300" cy="700" r="15"/><circle cx="430" cy="620" r="15"/><circle cx="535" cy="735" r="15"/>
+    <circle cx="650" cy="610" r="15"/><circle cx="785" cy="665" r="15"/><circle cx="905" cy="575" r="15"/>
+  </g>
+  <rect x="690" y="760" width="330" height="135" rx="22" fill="#0a1727" stroke="#3aa8cc" stroke-width="2"/>
+  <text x="725" y="810" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#f5fbff">FILTERED SELECTION</text>
+  <text x="725" y="852" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#a8bfd3">Relevant points reload</text>
+  <text x="725" y="884" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#a8bfd3">Viewport fits the result</text>
+
+  <text x="90" y="1060" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#f5fbff">FOUR-CASE ACCEPTANCE TEST</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <g><rect x="90" y="1110" width="240" height="210" rx="24" fill="#102b43" stroke="#2d6688"/><text x="120" y="1160" font-size="24" font-weight="700" fill="#55dcff">01</text><text x="120" y="1210" font-size="28" font-weight="700" fill="#fff">Broad view</text><text x="120" y="1250" font-size="21" fill="#a8bfd3">Record extent</text><text x="120" y="1280" font-size="21" fill="#a8bfd3">and total</text></g>
+    <g><rect x="350" y="1110" width="240" height="210" rx="24" fill="#102b43" stroke="#2d6688"/><text x="380" y="1160" font-size="24" font-weight="700" fill="#55dcff">02</text><text x="380" y="1210" font-size="28" font-weight="700" fill="#fff">Slicer</text><text x="380" y="1250" font-size="21" fill="#a8bfd3">Check reload</text><text x="380" y="1280" font-size="21" fill="#a8bfd3">and zoom</text></g>
+    <g><rect x="610" y="1110" width="240" height="210" rx="24" fill="#102b43" stroke="#2d6688"/><text x="640" y="1160" font-size="24" font-weight="700" fill="#55dcff">03</text><text x="640" y="1210" font-size="28" font-weight="700" fill="#fff">Cross-filter</text><text x="640" y="1250" font-size="21" fill="#a8bfd3">Match context</text><text x="640" y="1280" font-size="21" fill="#a8bfd3">and totals</text></g>
+    <g><rect x="870" y="1110" width="240" height="210" rx="24" fill="#102b43" stroke="#2d6688"/><text x="900" y="1160" font-size="24" font-weight="700" fill="#55dcff">04</text><text x="900" y="1210" font-size="28" font-weight="700" fill="#fff">Reset</text><text x="900" y="1250" font-size="21" fill="#a8bfd3">Return to the</text><text x="900" y="1280" font-size="21" fill="#a8bfd3">default context</text></g>
+  </g>
+  <line x1="90" y1="1380" x2="1110" y2="1380" stroke="#2b5a79" stroke-width="2"/>
+  <text x="90" y="1435" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#c9d9e6">30,000 points is still a rendering boundary. Narrow the question.</text>
+</svg>

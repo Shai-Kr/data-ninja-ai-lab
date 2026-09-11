@@ -31,6 +31,11 @@ description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, 
 <section class="post-list featured home-articles">
   <h2>Latest articles</h2>
   <article class="post-card">
+    <p class="post-meta">Power BI · Azure Maps · Report Design</p>
+    <h3><a href="{{ '/blog/2026-09-11-power-bi-azure-maps-filter-context.html' | relative_url }}">Power BI Maps Can Finally Follow the Analysis</a></h3>
+    <p>A four-case acceptance test for filtered-selection reloads and automatic zoom in Azure Maps, including context, viewport, totals, and the 30,000-point boundary.</p>
+  </article>
+  <article class="post-card">
     <p class="post-meta">Microsoft Fabric · AI Agents · Lineage</p>
     <h3><a href="{{ '/blog/2026-09-10-fabric-lineage-review.html' | relative_url }}">Give Your Fabric AI Agent a Real Dependency Map</a></h3>
     <p>A read-only review workflow for the Fabric item relations API preview, with typed dependencies, evidence boundaries, and acceptance tests before a person approves a change.</p>
