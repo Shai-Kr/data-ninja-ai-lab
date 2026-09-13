@@ -31,6 +31,11 @@ description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, 
 <section class="post-list featured home-articles">
   <h2>Latest articles</h2>
   <article class="post-card">
+    <p class="post-meta">Power BI · Copilot · Report Design</p>
+    <h3><a href="{{ '/blog/2026-09-13-power-bi-copilot-hidden-visuals.html' | relative_url }}">The Hidden Visual Pattern That Gives Power BI Copilot Better Context</a></h3>
+    <p>A practical authoring contract and four-case acceptance test for using display-only bookmark visuals as intentional, governed context for Power BI Copilot.</p>
+  </article>
+  <article class="post-card">
     <p class="post-meta">Power BI · Azure Maps · Report Design</p>
     <h3><a href="{{ '/blog/2026-09-11-power-bi-azure-maps-filter-context.html' | relative_url }}">Power BI Maps Can Finally Follow the Analysis</a></h3>
     <p>A four-case acceptance test for filtered-selection reloads and automatic zoom in Azure Maps, including context, viewport, totals, and the 30,000-point boundary.</p>
