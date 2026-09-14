@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690" role="img" aria-label="Correlation without invented certainty">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06111f"/><stop offset="1" stop-color="#0a1930"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="1200" height="690" rx="28" fill="url(#bg)"/>
+<circle cx="1120" cy="70" r="150" fill="#12375a" opacity=".30"/>
+<text x="52" y="62" fill="#38d9ff" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="2">DATA NINJA AI LAB</text>
+<text x="52" y="112" fill="#f2f7ff" font-family="Arial,sans-serif" font-size="32" font-weight="700">Correlation without invented certainty</text>
+<text x="52" y="148" fill="#a8bdd2" font-family="Arial,sans-serif" font-size="18">Complementary signals connected by asset and time window</text>
+<rect x="70" y="215" width="390" height="210" rx="20" fill="#0d2034" stroke="#38d9ff" stroke-width="2"/>
+<text x="94" y="254" text-anchor="start" fill="#38d9ff" font-family="Arial,sans-serif" font-size="18" font-weight="700">
+<tspan x="94" dy="0">CAPACITY METRICS</tspan>
+</text>
+<text x="94" y="290" text-anchor="start" fill="#a8bdd2" font-family="Arial,sans-serif" font-size="16" font-weight="400">
+<tspan x="94" dy="0">Capacity unit seconds</tspan>
+<tspan x="94" dy="23">Consumption time window</tspan>
+<tspan x="94" dy="23">Costly Fabric item</tspan>
+</text>
+<rect x="740" y="215" width="390" height="210" rx="20" fill="#0d2034" stroke="#5b8cff" stroke-width="2"/>
+<text x="764" y="254" text-anchor="start" fill="#5b8cff" font-family="Arial,sans-serif" font-size="18" font-weight="700">
+<tspan x="764" dy="0">QUERY INSIGHTS</tspan>
+</text>
+<text x="764" y="290" text-anchor="start" fill="#a8bdd2" font-family="Arial,sans-serif" font-size="16" font-weight="400">
+<tspan x="764" dy="0">CPU milliseconds</tspan>
+<tspan x="764" dy="23">Query shape + executions</tspan>
+<tspan x="764" dy="23">Users + applications</tspan>
+</text>
+<path d="M 480 320 H 720" stroke="#28506f" stroke-width="5" stroke-dasharray="10 10"/>
+<rect x="485" y="250" width="230" height="135" rx="18" fill="#112a43" stroke="#56e39f" stroke-width="2"/>
+<text x="600" y="285" text-anchor="middle" fill="#56e39f" font-family="Arial,sans-serif" font-size="16" font-weight="700">
+<tspan x="600" dy="0">SAME FABRIC ITEM</tspan>
+</text>
+<text x="600" y="320" text-anchor="middle" fill="#f2f7ff" font-family="Arial,sans-serif" font-size="16" font-weight="700">
+<tspan x="600" dy="0">OVERLAPPING TIME</tspan>
+</text>
+<text x="600" y="355" text-anchor="middle" fill="#ffca62" font-family="Arial,sans-serif" font-size="16" font-weight="700">
+<tspan x="600" dy="0">CORRELATION</tspan>
+</text>
+<rect x="120" y="500" width="960" height="110" rx="20" fill="#211c21" stroke="#ffca62" stroke-width="2"/>
+<text x="600" y="537" text-anchor="middle" fill="#ffca62" font-family="Arial,sans-serif" font-size="17" font-weight="700">
+<tspan x="600" dy="0">DO NOT JOIN OPERATION ID TO DISTRIBUTED STATEMENT ID</tspan>
+</text>
+<text x="600" y="574" text-anchor="middle" fill="#f2f7ff" font-family="Arial,sans-serif" font-size="18" font-weight="700">
+<tspan x="600" dy="0">Do not convert CU seconds into SQL CPU attribution.</tspan>
+</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1080" viewBox="0 0 640 1080" role="img" aria-label="Correlation needs">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06111f"/><stop offset="1" stop-color="#0a1930"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="640" height="1080" rx="28" fill="url(#bg)"/>
+<circle cx="560" cy="70" r="150" fill="#12375a" opacity=".30"/>
+<text x="52" y="62" fill="#38d9ff" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="2">DATA NINJA AI LAB</text>
+<text x="52" y="112" fill="#f2f7ff" font-family="Arial,sans-serif" font-size="32" font-weight="700">Correlation needs</text>
+<text x="52" y="148" fill="#a8bdd2" font-family="Arial,sans-serif" font-size="18">clear boundaries</text>
+<rect x="55" y="175" width="530" height="180" rx="20" fill="#0d2034" stroke="#38d9ff" stroke-width="2"/>
+<text x="79" y="214" text-anchor="start" fill="#38d9ff" font-family="Arial,sans-serif" font-size="18" font-weight="700">
+<tspan x="79" dy="0">CAPACITY METRICS</tspan>
+</text>
+<text x="79" y="250" text-anchor="start" fill="#a8bdd2" font-family="Arial,sans-serif" font-size="16" font-weight="400">
+<tspan x="79" dy="0">Capacity unit seconds</tspan>
+<tspan x="79" dy="23">Time window + Fabric item</tspan>
+</text>
+<rect x="105" y="390" width="430" height="145" rx="20" fill="#112a43" stroke="#56e39f" stroke-width="2"/>
+<text x="320" y="425" text-anchor="middle" fill="#56e39f" font-family="Arial,sans-serif" font-size="17" font-weight="700">
+<tspan x="320" dy="0">SAME FABRIC ITEM</tspan>
+</text>
+<text x="320" y="462" text-anchor="middle" fill="#f2f7ff" font-family="Arial,sans-serif" font-size="17" font-weight="700">
+<tspan x="320" dy="0">OVERLAPPING TIME</tspan>
+</text>
+<text x="320" y="499" text-anchor="middle" fill="#ffca62" font-family="Arial,sans-serif" font-size="17" font-weight="700">
+<tspan x="320" dy="0">CORRELATION</tspan>
+</text>
+<rect x="55" y="575" width="530" height="180" rx="20" fill="#0d2034" stroke="#5b8cff" stroke-width="2"/>
+<text x="79" y="614" text-anchor="start" fill="#5b8cff" font-family="Arial,sans-serif" font-size="18" font-weight="700">
+<tspan x="79" dy="0">QUERY INSIGHTS</tspan>
+</text>
+<text x="79" y="650" text-anchor="start" fill="#a8bdd2" font-family="Arial,sans-serif" font-size="16" font-weight="400">
+<tspan x="79" dy="0">CPU milliseconds</tspan>
+<tspan x="79" dy="23">Query shape + executions</tspan>
+</text>
+<rect x="55" y="805" width="530" height="190" rx="20" fill="#211c21" stroke="#ffca62" stroke-width="2"/>
+<text x="320" y="850" text-anchor="middle" fill="#ffca62" font-family="Arial,sans-serif" font-size="18" font-weight="700">
+<tspan x="320" dy="0">DO NOT JOIN</tspan>
+</text>
+<text x="320" y="887" text-anchor="middle" fill="#f2f7ff" font-family="Arial,sans-serif" font-size="17" font-weight="700">
+<tspan x="320" dy="0">Operation ID to statement ID</tspan>
+</text>
+<text x="320" y="933" text-anchor="middle" fill="#ffca62" font-family="Arial,sans-serif" font-size="18" font-weight="700">
+<tspan x="320" dy="0">DO NOT CONVERT</tspan>
+</text>
+<text x="320" y="970" text-anchor="middle" fill="#f2f7ff" font-family="Arial,sans-serif" font-size="17" font-weight="700">
+<tspan x="320" dy="0">CU seconds into SQL CPU attribution</tspan>
+</text>
+</svg>

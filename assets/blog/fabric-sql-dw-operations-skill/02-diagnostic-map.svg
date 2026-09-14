@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="The diagnostic map">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06111f"/><stop offset="1" stop-color="#0a1930"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="1200" height="720" rx="28" fill="url(#bg)"/>
+<circle cx="1120" cy="70" r="150" fill="#12375a" opacity=".30"/>
+<text x="52" y="62" fill="#38d9ff" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="2">DATA NINJA AI LAB</text>
+<text x="52" y="112" fill="#f2f7ff" font-family="Arial,sans-serif" font-size="32" font-weight="700">The diagnostic map</text>
+<text x="52" y="148" fill="#a8bdd2" font-family="Arial,sans-serif" font-size="18">Choose checks from the symptom, not from habit</text>
+<rect x="55" y="210" width="350" height="165" rx="20" fill="#0d2034" stroke="#38d9ff" stroke-width="2"/>
+<text x="79" y="249" text-anchor="start" fill="#38d9ff" font-family="Arial,sans-serif" font-size="18" font-weight="700">
+<tspan x="79" dy="0">FAILURES</tspan>
+</text>
+<text x="79" y="285" text-anchor="start" fill="#a8bdd2" font-family="Arial,sans-serif" font-size="16" font-weight="400">
+<tspan x="79" dy="0">Failed vs canceled</tspan>
+<tspan x="79" dy="23">Users + applications</tspan>
+</text>
+<rect x="425" y="210" width="350" height="165" rx="20" fill="#0d2034" stroke="#5b8cff" stroke-width="2"/>
+<text x="449" y="249" text-anchor="start" fill="#5b8cff" font-family="Arial,sans-serif" font-size="18" font-weight="700">
+<tspan x="449" dy="0">RESOURCE CONSUMERS</tspan>
+</text>
+<text x="449" y="285" text-anchor="start" fill="#a8bdd2" font-family="Arial,sans-serif" font-size="16" font-weight="400">
+<tspan x="449" dy="0">Query shape</tspan>
+<tspan x="449" dy="23">Volume vs per-run cost</tspan>
+</text>
+<rect x="795" y="210" width="350" height="165" rx="20" fill="#0d2034" stroke="#56e39f" stroke-width="2"/>
+<text x="819" y="249" text-anchor="start" fill="#56e39f" font-family="Arial,sans-serif" font-size="18" font-weight="700">
+<tspan x="819" dy="0">CAPACITY CORRELATION</tspan>
+</text>
+<text x="819" y="285" text-anchor="start" fill="#a8bdd2" font-family="Arial,sans-serif" font-size="16" font-weight="400">
+<tspan x="819" dy="0">Costly warehouse</tspan>
+<tspan x="819" dy="23">Overlapping SQL activity</tspan>
+</text>
+<rect x="240" y="445" width="350" height="165" rx="20" fill="#0d2034" stroke="#ffca62" stroke-width="2"/>
+<text x="264" y="484" text-anchor="start" fill="#ffca62" font-family="Arial,sans-serif" font-size="18" font-weight="700">
+<tspan x="264" dy="0">POOL PRESSURE</tspan>
+</text>
+<text x="264" y="520" text-anchor="start" fill="#a8bdd2" font-family="Arial,sans-serif" font-size="16" font-weight="400">
+<tspan x="264" dy="0">Pressure intervals</tspan>
+<tspan x="264" dy="23">Requests + workload cost</tspan>
+</text>
+<rect x="610" y="445" width="350" height="165" rx="20" fill="#0d2034" stroke="#38d9ff" stroke-width="2"/>
+<text x="634" y="484" text-anchor="start" fill="#38d9ff" font-family="Arial,sans-serif" font-size="18" font-weight="700">
+<tspan x="634" dy="0">LAKEHOUSE HEALTH</tspan>
+</text>
+<text x="634" y="520" text-anchor="start" fill="#a8bdd2" font-family="Arial,sans-serif" font-size="16" font-weight="400">
+<tspan x="634" dy="0">Small files + deleted rows</tspan>
+<tspan x="634" dy="23">Checkpoint conditions</tspan>
+</text>
+<text x="600" y="665" text-anchor="middle" fill="#a8bdd2" font-family="Arial" font-size="18">Every result cites its measurement source and preserves zero rows as evidence.</text>
+</svg>

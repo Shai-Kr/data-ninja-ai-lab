@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="One question. One evidence trail.">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06111f"/><stop offset="1" stop-color="#0a1930"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="1200" height="675" rx="28" fill="url(#bg)"/>
+<circle cx="1120" cy="70" r="150" fill="#12375a" opacity=".30"/>
+<text x="52" y="62" fill="#38d9ff" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="2">DATA NINJA AI LAB</text>
+<text x="52" y="112" fill="#f2f7ff" font-family="Arial,sans-serif" font-size="32" font-weight="700">One question. One evidence trail.</text>
+<text x="52" y="148" fill="#a8bdd2" font-family="Arial,sans-serif" font-size="18">A bounded workflow for Fabric warehouse incidents</text>
+<rect x="55" y="220" width="175" height="265" rx="20" fill="#0d2034" stroke="#38d9ff" stroke-width="2"/>
+<circle cx="87" cy="254" r="17" fill="#38d9ff"/><text x="87" y="260" text-anchor="middle" fill="#06111f" font-family="Arial" font-size="17" font-weight="700">1</text>
+<text x="115" y="259" text-anchor="start" fill="#38d9ff" font-family="Arial,sans-serif" font-size="18" font-weight="700">
+<tspan x="115" dy="0">SCOPE</tspan>
+</text>
+<text x="79" y="295" text-anchor="start" fill="#a8bdd2" font-family="Arial,sans-serif" font-size="16" font-weight="400">
+<tspan x="79" dy="0">Workspace + item</tspan>
+<tspan x="79" dy="23">UTC time window</tspan>
+<tspan x="79" dy="23">Observed symptom</tspan>
+</text>
+<path d="M 238 353 H 277" stroke="#28506f" stroke-width="4"/><path d="M 272 345 L 284 353 L 272 361" fill="none" stroke="#38d9ff" stroke-width="4"/>
+<rect x="285" y="220" width="175" height="265" rx="20" fill="#0d2034" stroke="#5b8cff" stroke-width="2"/>
+<circle cx="317" cy="254" r="17" fill="#5b8cff"/><text x="317" y="260" text-anchor="middle" fill="#06111f" font-family="Arial" font-size="17" font-weight="700">2</text>
+<text x="345" y="259" text-anchor="start" fill="#5b8cff" font-family="Arial,sans-serif" font-size="18" font-weight="700">
+<tspan x="345" dy="0">DIAGNOSE</tspan>
+</text>
+<text x="309" y="295" text-anchor="start" fill="#a8bdd2" font-family="Arial,sans-serif" font-size="16" font-weight="400">
+<tspan x="309" dy="0">Read-only checks</tspan>
+<tspan x="309" dy="23">Existing permissions</tspan>
+<tspan x="309" dy="23">Fresh query</tspan>
+</text>
+<path d="M 468 353 H 507" stroke="#28506f" stroke-width="4"/><path d="M 502 345 L 514 353 L 502 361" fill="none" stroke="#38d9ff" stroke-width="4"/>
+<rect x="515" y="220" width="175" height="265" rx="20" fill="#0d2034" stroke="#38d9ff" stroke-width="2"/>
+<circle cx="547" cy="254" r="17" fill="#38d9ff"/><text x="547" y="260" text-anchor="middle" fill="#06111f" font-family="Arial" font-size="17" font-weight="700">3</text>
+<text x="575" y="259" text-anchor="start" fill="#38d9ff" font-family="Arial,sans-serif" font-size="18" font-weight="700">
+<tspan x="575" dy="0">CORRELATE</tspan>
+</text>
+<text x="539" y="295" text-anchor="start" fill="#a8bdd2" font-family="Arial,sans-serif" font-size="16" font-weight="400">
+<tspan x="539" dy="0">Capacity + SQL</tspan>
+<tspan x="539" dy="23">Pool pressure</tspan>
+<tspan x="539" dy="23">Table health</tspan>
+</text>
+<path d="M 698 353 H 737" stroke="#28506f" stroke-width="4"/><path d="M 732 345 L 744 353 L 732 361" fill="none" stroke="#38d9ff" stroke-width="4"/>
+<rect x="745" y="220" width="175" height="265" rx="20" fill="#0d2034" stroke="#56e39f" stroke-width="2"/>
+<circle cx="777" cy="254" r="17" fill="#56e39f"/><text x="777" y="260" text-anchor="middle" fill="#06111f" font-family="Arial" font-size="17" font-weight="700">4</text>
+<text x="805" y="259" text-anchor="start" fill="#56e39f" font-family="Arial,sans-serif" font-size="18" font-weight="700">
+<tspan x="805" dy="0">EXPLAIN</tspan>
+</text>
+<text x="769" y="295" text-anchor="start" fill="#a8bdd2" font-family="Arial,sans-serif" font-size="16" font-weight="400">
+<tspan x="769" dy="0">Diagnosis + evidence</tspan>
+<tspan x="769" dy="23">Ruled-out causes</tspan>
+<tspan x="769" dy="23">Known data gaps</tspan>
+</text>
+<path d="M 928 353 H 967" stroke="#28506f" stroke-width="4"/><path d="M 962 345 L 974 353 L 962 361" fill="none" stroke="#38d9ff" stroke-width="4"/>
+<rect x="975" y="220" width="175" height="265" rx="20" fill="#0d2034" stroke="#ffca62" stroke-width="2"/>
+<circle cx="1007" cy="254" r="17" fill="#ffca62"/><text x="1007" y="260" text-anchor="middle" fill="#06111f" font-family="Arial" font-size="17" font-weight="700">5</text>
+<text x="1035" y="259" text-anchor="start" fill="#ffca62" font-family="Arial,sans-serif" font-size="18" font-weight="700">
+<tspan x="1035" dy="0">DECIDE</tspan>
+</text>
+<text x="999" y="295" text-anchor="start" fill="#a8bdd2" font-family="Arial,sans-serif" font-size="16" font-weight="400">
+<tspan x="999" dy="0">Human approval</tspan>
+<tspan x="999" dy="23">Controlled pilot</tspan>
+<tspan x="999" dy="23">Measure again</tspan>
+</text>
+<rect x="220" y="535" width="760" height="70" rx="18" fill="#112a43" stroke="#28506f"/><text x="600" y="578" text-anchor="middle" fill="#f2f7ff" font-family="Arial" font-size="21" font-weight="700">The AI routes the diagnostics. The operator owns the decision.</text>
+</svg>
