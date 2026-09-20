@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1060" viewBox="0 0 720 1060" role="img"><style>.bg{fill:#07111f}.panel{fill:#0e2033;stroke:#1e6f93;stroke-width:2}.accent{fill:#18d1ff}.title{fill:#f3fbff;font:700 34px Arial,sans-serif}.sub{fill:#9fc9db;font:18px Arial,sans-serif}.head{fill:#f3fbff;font:700 22px Arial,sans-serif}.body{fill:#cce9f4;font:17px Arial,sans-serif}.small{fill:#9fc9db;font:15px Arial,sans-serif}.line{stroke:#18d1ff;stroke-width:4;fill:none}.warn{fill:#ffd166}.good{fill:#4ee1a0}</style><rect class="bg" width="720" height="1060" rx="24"/>
+<text class="title" x="50" y="72">EVIDENCE PIPELINE</text><text class="sub" x="50" y="110">Repeatable, complete, reviewable</text>
+<rect class="panel" x="80" y="165" width="560" height="150" rx="18"/><text class="head" x="115" y="210">1  COLLECT</text><text class="body" x="115" y="255">All pages  •  counts  •  timestamp</text>
+<path class="line" d="M360 315 V355"/><polygon class="accent" points="350,355 360,375 370,355"/>
+<rect class="panel" x="80" y="375" width="560" height="150" rx="18"/><text class="head" x="115" y="420">2  PRESERVE</text><text class="body" x="115" y="465">Raw JSON  •  run metadata  •  schema</text>
+<path class="line" d="M360 525 V565"/><polygon class="accent" points="350,565 360,585 370,565"/>
+<rect class="panel" x="80" y="585" width="560" height="150" rx="18"/><text class="head" x="115" y="630">3  NORMALIZE</text><text class="body" x="115" y="675">Posture  •  exceptions  •  ownership</text>
+<path class="line" d="M360 735 V775"/><polygon class="accent" points="350,775 360,795 370,775"/>
+<rect class="panel" x="80" y="795" width="560" height="150" rx="18"/><text class="head" x="115" y="840">4  COMPARE</text><text class="body" x="115" y="885">Before / after  •  drift  •  review</text><text class="small" x="360" y="1010" text-anchor="middle">Gate: all page and workspace counts reconcile</text></svg>
