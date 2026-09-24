@@ -150,11 +150,17 @@ A production notebook should make secret retrieval boring.
 ```python
 from notebookutils import credentials
 
-vault_url = "https://contoso-data-kv.vault.azure.net/"
-api_key = credentials.getSecret(vault_url, "partner-api-key")
+vault = (
+    "https://contoso-data-kv."
+    "vault.azure.net/"
+)
+api_key = credentials.getSecret(
+    vault,
+    "partner-api-key"
+)
 
-# Use api_key only in the client that needs it.
-# Do not print it, return it, persist it, or include it in an exception.
+# Use only in the client that needs it.
+# Never print, return, or persist it.
 ```
 
 The code is intentionally uninteresting. The important work is in identity, permissions, review, and evidence.
