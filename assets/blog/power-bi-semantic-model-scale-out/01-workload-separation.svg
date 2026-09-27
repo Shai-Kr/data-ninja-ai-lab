@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="t d">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111f"/><stop offset="1" stop-color="#102a43"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="8"/></filter></defs>
+<rect width="1200" height="640" rx="28" fill="url(#bg)"/><circle cx="1120" cy="70" r="110" fill="#00d4ff" opacity=".09"/>
+<text id="t" x="44" y="58" fill="#f7fbff" font-family="Arial,sans-serif" font-size="30" font-weight="700">Separate reads from writes</text>
+<text id="d" x="44" y="98" fill="#9ddff2" font-family="Arial,sans-serif" font-size="17">One semantic model, two operating jobs</text>
+<rect x="44.0" y="150.0" width="356.0" height="446.0" rx="20" fill="#0d2033" stroke="#25d6e8" stroke-width="2"/>
+<rect x="62.0" y="168.0" width="8" height="42" rx="4" fill="#25d6e8"/>
+<text x="86.0" y="195.0" fill="#ffffff" font-family="Arial,sans-serif" font-size="20" font-weight="700">Report traffic</text>
+<text x="68.0" y="236.0" fill="#c8d8e8" font-family="Arial,sans-serif" font-size="16">Read-only replicas</text>
+<text x="68.0" y="263.0" fill="#c8d8e8" font-family="Arial,sans-serif" font-size="16">Interactive DAX queries</text>
+<text x="68.0" y="290.0" fill="#c8d8e8" font-family="Arial,sans-serif" font-size="16">Dashboards and live reports</text>
+<rect x="422.0" y="150.0" width="356.0" height="446.0" rx="20" fill="#0d2033" stroke="#7c9cff" stroke-width="2"/>
+<rect x="440.0" y="168.0" width="8" height="42" rx="4" fill="#7c9cff"/>
+<text x="464.0" y="195.0" fill="#ffffff" font-family="Arial,sans-serif" font-size="20" font-weight="700">Synchronization</text>
+<text x="446.0" y="236.0" fill="#c8d8e8" font-family="Arial,sans-serif" font-size="16">Automatic by default</text>
+<text x="446.0" y="263.0" fill="#c8d8e8" font-family="Arial,sans-serif" font-size="16">Manual when controlled</text>
+<text x="446.0" y="290.0" fill="#c8d8e8" font-family="Arial,sans-serif" font-size="16">Publish a tested version</text>
+<rect x="800.0" y="150.0" width="356.0" height="446.0" rx="20" fill="#0d2033" stroke="#7ef2a4" stroke-width="2"/>
+<rect x="818.0" y="168.0" width="8" height="42" rx="4" fill="#7ef2a4"/>
+<text x="842.0" y="195.0" fill="#ffffff" font-family="Arial,sans-serif" font-size="20" font-weight="700">Refresh and writes</text>
+<text x="824.0" y="236.0" fill="#c8d8e8" font-family="Arial,sans-serif" font-size="16">Read-write replica</text>
+<text x="824.0" y="263.0" fill="#c8d8e8" font-family="Arial,sans-serif" font-size="16">Processing and metadata</text>
+<text x="824.0" y="290.0" fill="#c8d8e8" font-family="Arial,sans-serif" font-size="16">Protected primary path</text>
+</svg>
