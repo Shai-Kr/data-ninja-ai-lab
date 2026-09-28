@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800" role="img">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#07111f"/><stop offset="1" stop-color="#0a1d32"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="1400" height="800" fill="url(#g)"/>
+<circle cx="1300" cy="90" r="130" fill="#0d4162" opacity=".23"/>
+<text x="60" y="72" fill="#f5fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="38" font-weight="750" text-anchor="start"><tspan x="60" dy="0">The recovery trust boundary</tspan></text>
+<text x="60" y="112" fill="#a9bfd2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="450" text-anchor="start"><tspan x="60" dy="0">The backup file sits inside a chain of identities, controls, and operators</tspan></text>
+<rect x="55" y="215" width="260" height="360" rx="26" fill="#102a44" stroke="#38d9ff" stroke-width="3"/>
+<text x="79" y="275" fill="#f5fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23" font-weight="750" text-anchor="start"><tspan x="79" dy="0">SEMANTIC MODEL</tspan></text>
+<line x1="79" y1="295" x2="291" y2="295" stroke="#28516f" stroke-width="2"/>
+<text x="79" y="350" fill="#a9bfd2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="500" text-anchor="start"><tspan x="79" dy="0">Premium or PPU</tspan><tspan x="79" dy="25.6">Enhanced V3</tspan><tspan x="79" dy="25.6">Large model restore</tspan></text>
+<rect x="350" y="215" width="260" height="360" rx="26" fill="#102a44" stroke="#38d9ff" stroke-width="3"/>
+<text x="374" y="275" fill="#f5fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23" font-weight="750" text-anchor="start"><tspan x="374" dy="0">XMLA PATH</tspan></text>
+<line x1="374" y1="295" x2="586" y2="295" stroke="#28516f" stroke-width="2"/>
+<text x="374" y="350" fill="#a9bfd2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="500" text-anchor="start"><tspan x="374" dy="0">Read-write enabled</tspan><tspan x="374" dy="25.6">SSMS or automation</tspan><tspan x="374" dy="25.6">Operator identity</tspan></text>
+<rect x="645" y="215" width="260" height="360" rx="26" fill="#102a44" stroke="#38d9ff" stroke-width="3"/>
+<text x="669" y="275" fill="#f5fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23" font-weight="750" text-anchor="start"><tspan x="669" dy="0">ADLS GEN2</tspan></text>
+<line x1="669" y1="295" x2="881" y2="295" stroke="#28516f" stroke-width="2"/>
+<text x="669" y="350" fill="#a9bfd2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="500" text-anchor="start"><tspan x="669" dy="0">power-bi-backup</tspan><tspan x="669" dy="25.6">Workspace folder</tspan><tspan x="669" dy="25.6">Retention and access</tspan></text>
+<rect x="940" y="215" width="260" height="360" rx="26" fill="#102a44" stroke="#38d9ff" stroke-width="3"/>
+<text x="964" y="275" fill="#f5fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23" font-weight="750" text-anchor="start"><tspan x="964" dy="0">RESTORE TARGET</tspan></text>
+<line x1="964" y1="295" x2="1176" y2="295" stroke="#28516f" stroke-width="2"/>
+<text x="964" y="350" fill="#a9bfd2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="500" text-anchor="start"><tspan x="964" dy="0">Workspace admin</tspan><tspan x="964" dy="25.6">Capacity memory</tspan><tspan x="964" dy="25.6">New model or overwrite</tspan></text>
+<path d="M 315 395 H 345" stroke="#4f8cff" stroke-width="5"/>
+<path d="M 337 386 L 348 395 L 337 404" fill="none" stroke="#4f8cff" stroke-width="5"/>
+<path d="M 610 395 H 640" stroke="#4f8cff" stroke-width="5"/>
+<path d="M 632 386 L 643 395 L 632 404" fill="none" stroke="#4f8cff" stroke-width="5"/>
+<path d="M 905 395 H 935" stroke="#4f8cff" stroke-width="5"/>
+<path d="M 927 386 L 938 395 L 927 404" fill="none" stroke="#4f8cff" stroke-width="5"/>
+<rect x="250" y="635" width="900" height="92" rx="22" fill="#0a192b" stroke="#41e6a3" stroke-width="2"/>
+<text x="700" y="675" fill="#a9bfd2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="600" text-anchor="middle"><tspan x="700" dy="0">Validation owner</tspan></text>
+<text x="700" y="708" fill="#41e6a3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23" font-weight="700" text-anchor="middle"><tspan x="700" dy="0">Known value + security personas + critical reports + refresh path</tspan></text>
+</svg>

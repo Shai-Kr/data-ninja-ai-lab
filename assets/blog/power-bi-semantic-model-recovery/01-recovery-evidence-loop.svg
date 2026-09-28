@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#07111f"/><stop offset="1" stop-color="#0a1d32"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="1400" height="760" fill="url(#g)"/>
+<circle cx="1300" cy="90" r="130" fill="#0d4162" opacity=".23"/>
+<text x="60" y="72" fill="#f5fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="38" font-weight="750" text-anchor="start"><tspan x="60" dy="0">Recovery is an evidence loop</tspan></text>
+<text x="60" y="112" fill="#a9bfd2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="450" text-anchor="start"><tspan x="60" dy="0">Each stage produces proof for the next decision</tspan></text>
+<rect x="55" y="230" width="235" height="300" rx="28" fill="#102a44" stroke="#38d9ff" stroke-width="3"/>
+<rect x="73" y="248" width="54" height="38" rx="19" fill="#0a192b" stroke="#38d9ff" stroke-width="2"/><text x="100.0" y="274" fill="#38d9ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle"><tspan x="100.0" dy="0">1</tspan></text>
+<text x="77" y="330" fill="#f5fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="750" text-anchor="start"><tspan x="77" dy="0">BACK UP</tspan></text>
+<text x="77" y="384" fill="#a9bfd2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="500" text-anchor="start"><tspan x="77" dy="0">XMLA result</tspan><tspan x="77" dy="26.9">Artifact ID</tspan></text>
+<path d="M 292 380 H 312" stroke="#38d9ff" stroke-width="5" stroke-linecap="round"/>
+<path d="M 305 372 L 315 380 L 305 388" fill="none" stroke="#38d9ff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="322" y="230" width="235" height="300" rx="28" fill="#102a44" stroke="#38d9ff" stroke-width="3"/>
+<rect x="340" y="248" width="54" height="38" rx="19" fill="#0a192b" stroke="#38d9ff" stroke-width="2"/><text x="367.0" y="274" fill="#38d9ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle"><tspan x="367.0" dy="0">2</tspan></text>
+<text x="344" y="330" fill="#f5fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="750" text-anchor="start"><tspan x="344" dy="0">PROTECT</tspan></text>
+<text x="344" y="384" fill="#a9bfd2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="500" text-anchor="start"><tspan x="344" dy="0">Access</tspan><tspan x="344" dy="26.9">Retention</tspan></text>
+<path d="M 559 380 H 579" stroke="#38d9ff" stroke-width="5" stroke-linecap="round"/>
+<path d="M 572 372 L 582 380 L 572 388" fill="none" stroke="#38d9ff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="589" y="230" width="235" height="300" rx="28" fill="#102a44" stroke="#38d9ff" stroke-width="3"/>
+<rect x="607" y="248" width="54" height="38" rx="19" fill="#0a192b" stroke="#38d9ff" stroke-width="2"/><text x="634.0" y="274" fill="#38d9ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle"><tspan x="634.0" dy="0">3</tspan></text>
+<text x="611" y="330" fill="#f5fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="750" text-anchor="start"><tspan x="611" dy="0">RESTORE</tspan></text>
+<text x="611" y="384" fill="#a9bfd2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="500" text-anchor="start"><tspan x="611" dy="0">Isolated target</tspan><tspan x="611" dy="26.9">Command result</tspan></text>
+<path d="M 826 380 H 846" stroke="#38d9ff" stroke-width="5" stroke-linecap="round"/>
+<path d="M 839 372 L 849 380 L 839 388" fill="none" stroke="#38d9ff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="856" y="230" width="235" height="300" rx="28" fill="#102a44" stroke="#38d9ff" stroke-width="3"/>
+<rect x="874" y="248" width="54" height="38" rx="19" fill="#0a192b" stroke="#38d9ff" stroke-width="2"/><text x="901.0" y="274" fill="#38d9ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle"><tspan x="901.0" dy="0">4</tspan></text>
+<text x="878" y="330" fill="#f5fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="750" text-anchor="start"><tspan x="878" dy="0">VALIDATE</tspan></text>
+<text x="878" y="384" fill="#a9bfd2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="500" text-anchor="start"><tspan x="878" dy="0">Data</tspan><tspan x="878" dy="26.9">Security</tspan></text>
+<path d="M 1093 380 H 1113" stroke="#38d9ff" stroke-width="5" stroke-linecap="round"/>
+<path d="M 1106 372 L 1116 380 L 1106 388" fill="none" stroke="#38d9ff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1123" y="230" width="235" height="300" rx="28" fill="#102a44" stroke="#41e6a3" stroke-width="3"/>
+<rect x="1141" y="248" width="54" height="38" rx="19" fill="#0a192b" stroke="#41e6a3" stroke-width="2"/><text x="1168.0" y="274" fill="#41e6a3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle"><tspan x="1168.0" dy="0">5</tspan></text>
+<text x="1145" y="330" fill="#f5fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="750" text-anchor="start"><tspan x="1145" dy="0">RETURN</tspan></text>
+<text x="1145" y="384" fill="#a9bfd2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="500" text-anchor="start"><tspan x="1145" dy="0">Reports</tspan><tspan x="1145" dy="26.9">Business sign-off</tspan></text>
+<rect x="120" y="600" width="1160" height="90" rx="22" fill="#0a192b" stroke="#41e6a3" stroke-width="2"/>
+<text x="700" y="655" fill="#41e6a3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" text-anchor="middle"><tspan x="700" dy="0">Backup success is an event. Recovery success is a tested business outcome.</tspan></text>
+</svg>

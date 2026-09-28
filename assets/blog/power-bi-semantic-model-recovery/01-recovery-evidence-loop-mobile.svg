@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1160" viewBox="0 0 760 1160" role="img">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#07111f"/><stop offset="1" stop-color="#0a1d32"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="760" height="1160" fill="url(#g)"/>
+<circle cx="660" cy="90" r="130" fill="#0d4162" opacity=".23"/>
+<text x="60" y="72" fill="#f5fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="38" font-weight="750" text-anchor="start"><tspan x="60" dy="0">Recovery evidence loop</tspan></text>
+<text x="60" y="112" fill="#a9bfd2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="450" text-anchor="start"><tspan x="60" dy="0">Proof moves with the recovery decision</tspan></text>
+<rect x="55" y="165" width="650" height="140" rx="24" fill="#102a44" stroke="#38d9ff" stroke-width="3"/>
+<rect x="78" y="185" width="54" height="38" rx="19" fill="#0a192b" stroke="#38d9ff" stroke-width="2"/><text x="105.0" y="211" fill="#38d9ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle"><tspan x="105.0" dy="0">1</tspan></text>
+<text x="180" y="217" fill="#f5fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="750" text-anchor="start"><tspan x="180" dy="0">BACK UP</tspan></text>
+<text x="180" y="253" fill="#a9bfd2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="500" text-anchor="start"><tspan x="180" dy="0">XMLA result • Artifact ID</tspan></text>
+<path d="M 380 307 V 333" stroke="#38d9ff" stroke-width="5"/>
+<path d="M 371 323 L 380 334 L 389 323" fill="none" stroke="#38d9ff" stroke-width="5"/>
+<rect x="55" y="339" width="650" height="140" rx="24" fill="#102a44" stroke="#38d9ff" stroke-width="3"/>
+<rect x="78" y="359" width="54" height="38" rx="19" fill="#0a192b" stroke="#38d9ff" stroke-width="2"/><text x="105.0" y="385" fill="#38d9ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle"><tspan x="105.0" dy="0">2</tspan></text>
+<text x="180" y="391" fill="#f5fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="750" text-anchor="start"><tspan x="180" dy="0">PROTECT</tspan></text>
+<text x="180" y="427" fill="#a9bfd2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="500" text-anchor="start"><tspan x="180" dy="0">Access • Retention</tspan></text>
+<path d="M 380 481 V 507" stroke="#38d9ff" stroke-width="5"/>
+<path d="M 371 497 L 380 508 L 389 497" fill="none" stroke="#38d9ff" stroke-width="5"/>
+<rect x="55" y="513" width="650" height="140" rx="24" fill="#102a44" stroke="#38d9ff" stroke-width="3"/>
+<rect x="78" y="533" width="54" height="38" rx="19" fill="#0a192b" stroke="#38d9ff" stroke-width="2"/><text x="105.0" y="559" fill="#38d9ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle"><tspan x="105.0" dy="0">3</tspan></text>
+<text x="180" y="565" fill="#f5fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="750" text-anchor="start"><tspan x="180" dy="0">RESTORE</tspan></text>
+<text x="180" y="601" fill="#a9bfd2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="500" text-anchor="start"><tspan x="180" dy="0">Isolated target • Command result</tspan></text>
+<path d="M 380 655 V 681" stroke="#38d9ff" stroke-width="5"/>
+<path d="M 371 671 L 380 682 L 389 671" fill="none" stroke="#38d9ff" stroke-width="5"/>
+<rect x="55" y="687" width="650" height="140" rx="24" fill="#102a44" stroke="#38d9ff" stroke-width="3"/>
+<rect x="78" y="707" width="54" height="38" rx="19" fill="#0a192b" stroke="#38d9ff" stroke-width="2"/><text x="105.0" y="733" fill="#38d9ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle"><tspan x="105.0" dy="0">4</tspan></text>
+<text x="180" y="739" fill="#f5fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="750" text-anchor="start"><tspan x="180" dy="0">VALIDATE</tspan></text>
+<text x="180" y="775" fill="#a9bfd2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="500" text-anchor="start"><tspan x="180" dy="0">Data • Security</tspan></text>
+<path d="M 380 829 V 855" stroke="#38d9ff" stroke-width="5"/>
+<path d="M 371 845 L 380 856 L 389 845" fill="none" stroke="#38d9ff" stroke-width="5"/>
+<rect x="55" y="861" width="650" height="140" rx="24" fill="#102a44" stroke="#41e6a3" stroke-width="3"/>
+<rect x="78" y="881" width="54" height="38" rx="19" fill="#0a192b" stroke="#41e6a3" stroke-width="2"/><text x="105.0" y="907" fill="#41e6a3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle"><tspan x="105.0" dy="0">5</tspan></text>
+<text x="180" y="913" fill="#f5fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="750" text-anchor="start"><tspan x="180" dy="0">RETURN</tspan></text>
+<text x="180" y="949" fill="#a9bfd2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="500" text-anchor="start"><tspan x="180" dy="0">Reports • Business sign-off</tspan></text>
+<rect x="55" y="1050" width="650" height="70" rx="20" fill="#0a192b" stroke="#41e6a3" stroke-width="2"/>
+<text x="380" y="1093" fill="#41e6a3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" text-anchor="middle"><tspan x="380" dy="0">Test the outcome, not only the command.</tspan></text>
+</svg>

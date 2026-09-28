@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1420" viewBox="0 0 760 1420" role="img">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#07111f"/><stop offset="1" stop-color="#0a1d32"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="760" height="1420" fill="url(#g)"/>
+<circle cx="660" cy="90" r="130" fill="#0d4162" opacity=".23"/>
+<text x="60" y="72" fill="#f5fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="38" font-weight="750" text-anchor="start"><tspan x="60" dy="0">Six recovery drill gates</tspan></text>
+<text x="60" y="112" fill="#a9bfd2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="450" text-anchor="start"><tspan x="60" dy="0">Technical proof plus business acceptance</tspan></text>
+<rect x="55" y="150" width="650" height="160" rx="24" fill="#102a44" stroke="#38d9ff" stroke-width="3"/>
+<rect x="78" y="172" width="54" height="38" rx="19" fill="#0a192b" stroke="#38d9ff" stroke-width="2"/><text x="105.0" y="198" fill="#38d9ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle"><tspan x="105.0" dy="0">01</tspan></text>
+<text x="180" y="203" fill="#f5fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23" font-weight="750" text-anchor="start"><tspan x="180" dy="0">ARTIFACT</tspan></text>
+<text x="180" y="245" fill="#a9bfd2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="500" text-anchor="start"><tspan x="180" dy="0">Timestamp • Size • Recovery point</tspan></text>
+<rect x="55" y="346" width="650" height="160" rx="24" fill="#102a44" stroke="#38d9ff" stroke-width="3"/>
+<rect x="78" y="368" width="54" height="38" rx="19" fill="#0a192b" stroke="#38d9ff" stroke-width="2"/><text x="105.0" y="394" fill="#38d9ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle"><tspan x="105.0" dy="0">02</tspan></text>
+<text x="180" y="399" fill="#f5fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23" font-weight="750" text-anchor="start"><tspan x="180" dy="0">RESTORE</tspan></text>
+<text x="180" y="441" fill="#a9bfd2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="500" text-anchor="start"><tspan x="180" dy="0">Target • Elapsed time • Command result</tspan></text>
+<rect x="55" y="542" width="650" height="160" rx="24" fill="#102a44" stroke="#38d9ff" stroke-width="3"/>
+<rect x="78" y="564" width="54" height="38" rx="19" fill="#0a192b" stroke="#38d9ff" stroke-width="2"/><text x="105.0" y="590" fill="#38d9ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle"><tspan x="105.0" dy="0">03</tspan></text>
+<text x="180" y="595" fill="#f5fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23" font-weight="750" text-anchor="start"><tspan x="180" dy="0">STRUCTURE</tspan></text>
+<text x="180" y="637" fill="#a9bfd2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="500" text-anchor="start"><tspan x="180" dy="0">Tables • Measures • Roles</tspan></text>
+<rect x="55" y="738" width="650" height="160" rx="24" fill="#102a44" stroke="#38d9ff" stroke-width="3"/>
+<rect x="78" y="760" width="54" height="38" rx="19" fill="#0a192b" stroke="#38d9ff" stroke-width="2"/><text x="105.0" y="786" fill="#38d9ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle"><tspan x="105.0" dy="0">04</tspan></text>
+<text x="180" y="791" fill="#f5fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23" font-weight="750" text-anchor="start"><tspan x="180" dy="0">DATA</tspan></text>
+<text x="180" y="833" fill="#a9bfd2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="500" text-anchor="start"><tspan x="180" dy="0">Known batch • Totals • Freshness</tspan></text>
+<rect x="55" y="934" width="650" height="160" rx="24" fill="#102a44" stroke="#38d9ff" stroke-width="3"/>
+<rect x="78" y="956" width="54" height="38" rx="19" fill="#0a192b" stroke="#38d9ff" stroke-width="2"/><text x="105.0" y="982" fill="#38d9ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle"><tspan x="105.0" dy="0">05</tspan></text>
+<text x="180" y="987" fill="#f5fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23" font-weight="750" text-anchor="start"><tspan x="180" dy="0">SECURITY</tspan></text>
+<text x="180" y="1029" fill="#a9bfd2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="500" text-anchor="start"><tspan x="180" dy="0">RLS / OLS • Personas • Exceptions</tspan></text>
+<rect x="55" y="1130" width="650" height="160" rx="24" fill="#102a44" stroke="#41e6a3" stroke-width="3"/>
+<rect x="78" y="1152" width="54" height="38" rx="19" fill="#0a192b" stroke="#41e6a3" stroke-width="2"/><text x="105.0" y="1178" fill="#41e6a3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle"><tspan x="105.0" dy="0">06</tspan></text>
+<text x="180" y="1183" fill="#f5fbff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23" font-weight="750" text-anchor="start"><tspan x="180" dy="0">CONSUMPTION</tspan></text>
+<text x="180" y="1225" fill="#a9bfd2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="500" text-anchor="start"><tspan x="180" dy="0">Credentials • Gateway • Critical reports</tspan></text>
+<rect x="55" y="1330" width="650" height="58" rx="18" fill="#0a192b" stroke="#41e6a3" stroke-width="2"/>
+<text x="380" y="1367" fill="#41e6a3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="700" text-anchor="middle"><tspan x="380" dy="0">Evidence + owner + decision</tspan></text>
+</svg>
