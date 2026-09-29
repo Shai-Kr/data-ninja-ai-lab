@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img">
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#33d6ff"/></marker></defs>
+<rect width="1200" height="700" rx="28" fill="#07111f"/>
+<rect x="18" y="18" width="1164" height="664" rx="24" fill="none" stroke="#17324a" stroke-width="2"/>
+<text x="600.0" y="62" text-anchor="middle" fill="#eef8ff" font-family="Arial,sans-serif" font-weight="700" font-size="30">Fabric deployment plan as a release contract</text>
+<text x="600.0" y="94" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="16">Intent becomes ordered, executable, and reviewable</text>
+<rect x="55" y="170" width="170" height="165" rx="18" fill="#0d1b2f" stroke="#4f8cff" stroke-width="2"/>
+<circle cx="87" cy="204" r="18" fill="#4f8cff"/>
+<text x="87" y="210" text-anchor="middle" fill="#07111f" font-family="Arial,sans-serif" font-size="16" font-weight="700">1</text>
+<text x="140.0" y="212" text-anchor="middle" fill="#4f8cff" font-family="Arial,sans-serif" font-size="18" font-weight="700">DEFINE</text>
+<text x="140.0" y="252" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">YAML is the</text>
+<text x="140.0" y="275" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">source of truth</text>
+<path d="M 231 252 H 273" stroke="#2c5872" stroke-width="4" marker-end="url(#a)"/>
+<rect x="285" y="170" width="170" height="165" rx="18" fill="#0d1b2f" stroke="#33d6ff" stroke-width="2"/>
+<circle cx="317" cy="204" r="18" fill="#33d6ff"/>
+<text x="317" y="210" text-anchor="middle" fill="#07111f" font-family="Arial,sans-serif" font-size="16" font-weight="700">2</text>
+<text x="370.0" y="212" text-anchor="middle" fill="#33d6ff" font-family="Arial,sans-serif" font-size="18" font-weight="700">ORDER</text>
+<text x="370.0" y="252" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">Group items into</text>
+<text x="370.0" y="275" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">deployment sets</text>
+<path d="M 461 252 H 503" stroke="#2c5872" stroke-width="4" marker-end="url(#a)"/>
+<rect x="515" y="170" width="170" height="165" rx="18" fill="#0d1b2f" stroke="#5ee0a0" stroke-width="2"/>
+<circle cx="547" cy="204" r="18" fill="#5ee0a0"/>
+<text x="547" y="210" text-anchor="middle" fill="#07111f" font-family="Arial,sans-serif" font-size="16" font-weight="700">3</text>
+<text x="600.0" y="212" text-anchor="middle" fill="#5ee0a0" font-family="Arial,sans-serif" font-size="18" font-weight="700">ACT</text>
+<text x="600.0" y="252" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">Run notebook or</text>
+<text x="600.0" y="275" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">pipeline, dataflow,</text>
+<text x="600.0" y="298" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">copy job, or UDF</text>
+<path d="M 691 252 H 733" stroke="#2c5872" stroke-width="4" marker-end="url(#a)"/>
+<rect x="745" y="170" width="170" height="165" rx="18" fill="#0d1b2f" stroke="#33d6ff" stroke-width="2"/>
+<circle cx="777" cy="204" r="18" fill="#33d6ff"/>
+<text x="777" y="210" text-anchor="middle" fill="#07111f" font-family="Arial,sans-serif" font-size="16" font-weight="700">4</text>
+<text x="830.0" y="212" text-anchor="middle" fill="#33d6ff" font-family="Arial,sans-serif" font-size="18" font-weight="700">VERIFY</text>
+<text x="830.0" y="252" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">Check data, schema,</text>
+<text x="830.0" y="275" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">security, and workload</text>
+<path d="M 921 252 H 963" stroke="#2c5872" stroke-width="4" marker-end="url(#a)"/>
+<rect x="975" y="170" width="170" height="165" rx="18" fill="#0d1b2f" stroke="#ffc857" stroke-width="2"/>
+<circle cx="1007" cy="204" r="18" fill="#ffc857"/>
+<text x="1007" y="210" text-anchor="middle" fill="#07111f" font-family="Arial,sans-serif" font-size="16" font-weight="700">5</text>
+<text x="1060.0" y="212" text-anchor="middle" fill="#ffc857" font-family="Arial,sans-serif" font-size="18" font-weight="700">DECIDE</text>
+<text x="1060.0" y="252" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">Promote, stop,</text>
+<text x="1060.0" y="275" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">or roll back</text>
+<rect x="120" y="410" width="960" height="160" rx="22" fill="#10243a" stroke="#234e69" stroke-width="2"/>
+<text x="600" y="452" text-anchor="middle" fill="#eef8ff" font-family="Arial,sans-serif" font-size="21" font-weight="700">Evidence produced by every run</text>
+<text x="250" y="506" text-anchor="middle" fill="#eef8ff" font-family="Arial,sans-serif" font-size="15" font-weight="700">Plan version</text>
+<text x="250" y="532" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="14" font-weight="400">What was intended</text>
+<text x="480" y="506" text-anchor="middle" fill="#eef8ff" font-family="Arial,sans-serif" font-size="15" font-weight="700">Run result</text>
+<text x="480" y="532" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="14" font-weight="400">What completed</text>
+<text x="720" y="506" text-anchor="middle" fill="#eef8ff" font-family="Arial,sans-serif" font-size="15" font-weight="700">Validation</text>
+<text x="720" y="532" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="14" font-weight="400">What was proven</text>
+<text x="950" y="506" text-anchor="middle" fill="#eef8ff" font-family="Arial,sans-serif" font-size="15" font-weight="700">Owner decision</text>
+<text x="950" y="532" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="14" font-weight="400">What happens next</text>
+</svg>

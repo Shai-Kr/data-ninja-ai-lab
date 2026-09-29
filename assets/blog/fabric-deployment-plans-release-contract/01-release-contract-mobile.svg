@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1120" viewBox="0 0 720 1120" role="img">
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#33d6ff"/></marker></defs>
+<rect width="720" height="1120" rx="28" fill="#07111f"/>
+<rect x="18" y="18" width="684" height="1084" rx="24" fill="none" stroke="#17324a" stroke-width="2"/>
+<text x="360.0" y="62" text-anchor="middle" fill="#eef8ff" font-family="Arial,sans-serif" font-weight="700" font-size="30">Deployment plan</text>
+<text x="360.0" y="94" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="16">An executable release contract</text>
+<rect x="150" y="135" width="420" height="126" rx="18" fill="#0d1b2f" stroke="#4f8cff" stroke-width="2"/>
+<circle cx="182" cy="169" r="18" fill="#4f8cff"/>
+<text x="182" y="175" text-anchor="middle" fill="#07111f" font-family="Arial,sans-serif" font-size="16" font-weight="700">1</text>
+<text x="360.0" y="177" text-anchor="middle" fill="#4f8cff" font-family="Arial,sans-serif" font-size="18" font-weight="700">DEFINE</text>
+<text x="360.0" y="217" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">YAML is the</text>
+<text x="360.0" y="240" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">source of truth</text>
+<path d="M 360 267 V 293" stroke="#2c5872" stroke-width="4" marker-end="url(#a)"/>
+<rect x="150" y="301" width="420" height="126" rx="18" fill="#0d1b2f" stroke="#33d6ff" stroke-width="2"/>
+<circle cx="182" cy="335" r="18" fill="#33d6ff"/>
+<text x="182" y="341" text-anchor="middle" fill="#07111f" font-family="Arial,sans-serif" font-size="16" font-weight="700">2</text>
+<text x="360.0" y="343" text-anchor="middle" fill="#33d6ff" font-family="Arial,sans-serif" font-size="18" font-weight="700">ORDER</text>
+<text x="360.0" y="383" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">Group items into</text>
+<text x="360.0" y="406" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">deployment sets</text>
+<path d="M 360 433 V 459" stroke="#2c5872" stroke-width="4" marker-end="url(#a)"/>
+<rect x="150" y="467" width="420" height="126" rx="18" fill="#0d1b2f" stroke="#5ee0a0" stroke-width="2"/>
+<circle cx="182" cy="501" r="18" fill="#5ee0a0"/>
+<text x="182" y="507" text-anchor="middle" fill="#07111f" font-family="Arial,sans-serif" font-size="16" font-weight="700">3</text>
+<text x="360.0" y="509" text-anchor="middle" fill="#5ee0a0" font-family="Arial,sans-serif" font-size="18" font-weight="700">ACT</text>
+<text x="360.0" y="549" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">Run notebook or</text>
+<text x="360.0" y="572" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">pipeline, dataflow,</text>
+<text x="360.0" y="595" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">copy job, or UDF</text>
+<path d="M 360 599 V 625" stroke="#2c5872" stroke-width="4" marker-end="url(#a)"/>
+<rect x="150" y="633" width="420" height="126" rx="18" fill="#0d1b2f" stroke="#33d6ff" stroke-width="2"/>
+<circle cx="182" cy="667" r="18" fill="#33d6ff"/>
+<text x="182" y="673" text-anchor="middle" fill="#07111f" font-family="Arial,sans-serif" font-size="16" font-weight="700">4</text>
+<text x="360.0" y="675" text-anchor="middle" fill="#33d6ff" font-family="Arial,sans-serif" font-size="18" font-weight="700">VERIFY</text>
+<text x="360.0" y="715" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">Check data, schema,</text>
+<text x="360.0" y="738" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">security, and workload</text>
+<path d="M 360 765 V 791" stroke="#2c5872" stroke-width="4" marker-end="url(#a)"/>
+<rect x="150" y="799" width="420" height="126" rx="18" fill="#0d1b2f" stroke="#ffc857" stroke-width="2"/>
+<circle cx="182" cy="833" r="18" fill="#ffc857"/>
+<text x="182" y="839" text-anchor="middle" fill="#07111f" font-family="Arial,sans-serif" font-size="16" font-weight="700">5</text>
+<text x="360.0" y="841" text-anchor="middle" fill="#ffc857" font-family="Arial,sans-serif" font-size="18" font-weight="700">DECIDE</text>
+<text x="360.0" y="881" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">Promote, stop,</text>
+<text x="360.0" y="904" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">or roll back</text>
+<rect x="70" y="970" width="580" height="90" rx="18" fill="#10243a" stroke="#234e69" stroke-width="2"/>
+<text x="360" y="1003" text-anchor="middle" fill="#eef8ff" font-family="Arial,sans-serif" font-size="17" font-weight="700">Every run leaves evidence:</text>
+<text x="360" y="1029" text-anchor="middle" fill="#eef8ff" font-family="Arial,sans-serif" font-size="17" font-weight="700">plan version, result, validation, decision</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1120" viewBox="0 0 720 1120" role="img">
+<rect width="720" height="1120" rx="28" fill="#07111f"/>
+<rect x="18" y="18" width="684" height="1084" rx="24" fill="none" stroke="#17324a" stroke-width="2"/>
+<text x="360.0" y="62" text-anchor="middle" fill="#eef8ff" font-family="Arial,sans-serif" font-weight="700" font-size="30">Dependency boundary</text>
+<text x="360.0" y="94" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="16">What is detected vs. what must be declared</text>
+<rect x="100" y="135" width="520" height="175" rx="18" fill="#0d1b2f" stroke="#5ee0a0" stroke-width="2"/>
+<text x="360.0" y="177" text-anchor="middle" fill="#5ee0a0" font-family="Arial,sans-serif" font-size="18" font-weight="700">Detected dependency</text>
+<text x="360.0" y="217" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">Fabric item references</text>
+<text x="360.0" y="240" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">Known item relationships</text>
+<text x="360.0" y="263" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">Automatic ordering signal</text>
+<rect x="100" y="340" width="520" height="175" rx="18" fill="#0d1b2f" stroke="#ffc857" stroke-width="2"/>
+<text x="360.0" y="382" text-anchor="middle" fill="#ffc857" font-family="Arial,sans-serif" font-size="18" font-weight="700">Hidden dependency</text>
+<text x="360.0" y="422" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">Runtime state or data</text>
+<text x="360.0" y="445" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">Tables must exist</text>
+<text x="360.0" y="468" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">Reference data must be loaded</text>
+<rect x="100" y="545" width="520" height="175" rx="18" fill="#0d1b2f" stroke="#33d6ff" stroke-width="2"/>
+<text x="360.0" y="587" text-anchor="middle" fill="#33d6ff" font-family="Arial,sans-serif" font-size="18" font-weight="700">Operational action</text>
+<text x="360.0" y="627" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">Work needed between sets</text>
+<text x="360.0" y="650" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">Run notebook or pipeline</text>
+<text x="360.0" y="673" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">Hydrate or transform data</text>
+<rect x="100" y="750" width="520" height="175" rx="18" fill="#0d1b2f" stroke="#4f8cff" stroke-width="2"/>
+<text x="360.0" y="792" text-anchor="middle" fill="#4f8cff" font-family="Arial,sans-serif" font-size="18" font-weight="700">Acceptance proof</text>
+<text x="360.0" y="832" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">Business-ready result</text>
+<text x="360.0" y="855" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">Known-value query</text>
+<text x="360.0" y="878" text-anchor="middle" fill="#9db4c8" font-family="Arial,sans-serif" font-size="15" font-weight="400">Security and report checks</text>
+<rect x="80" y="970" width="560" height="92" rx="18" fill="#10243a" stroke="#33d6ff" stroke-width="2"/>
+<text x="360" y="1005" text-anchor="middle" fill="#eef8ff" font-family="Arial,sans-serif" font-size="18" font-weight="700">Declare hidden prerequisites,</text>
+<text x="360" y="1033" text-anchor="middle" fill="#eef8ff" font-family="Arial,sans-serif" font-size="18" font-weight="700">actions, and acceptance proof.</text>
+</svg>
