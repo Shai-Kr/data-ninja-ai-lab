@@ -10,6 +10,18 @@ sitemap: false
 
 **Review draft. Direct link only. Not listed on the blog.**
 
+<style>
+@media (max-width: 600px) {
+  article pre,
+  article .highlight {
+    max-width: 100%;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+}
+</style>
+
 Power BI semantic models are getting a new way to work with text.
 
 The September 2026 Power BI feature summary announced full-text indexing and two new DAX functions: `TEXTCONTAINS` and `TEXTSIMILARITY`. Instead of limiting a search to exact character sequences, a model can use language-aware tokenization, stemming, phrase matching, typo-tolerant matching, and lexical relevance ranking.
