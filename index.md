@@ -31,6 +31,11 @@ description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, 
 <section class="post-list featured home-articles">
   <h2>Latest articles</h2>
   <article class="post-card">
+    <p class="post-meta">Power BI · Semantic Models · Deployment</p>
+    <h3><a href="{{ '/blog/2026-10-03-fabric-api-purge-data-deployment.html' | relative_url }}">The Fabric API Option That Unlocks Complex Power BI Deployments</a></h3>
+    <p>A practical release pattern for using <code>allowPurgeData</code> safely when semantic model definition changes cannot preserve loaded data.</p>
+  </article>
+  <article class="post-card">
     <p class="post-meta">Power BI · Copilot · Report Design</p>
     <h3><a href="{{ '/blog/2026-09-13-power-bi-copilot-hidden-visuals.html' | relative_url }}">The Hidden Visual Pattern That Gives Power BI Copilot Better Context</a></h3>
     <p>A practical authoring contract and four-case acceptance test for using display-only bookmark visuals as intentional, governed context for Power BI Copilot.</p>
