@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1040" viewBox="0 0 720 1040" role="img" aria-labelledby="t d">
+<title id="t">Six gates before notebook promotion</title><desc id="d">Two checks per stage keep the workflow fast, reviewable, and bounded.</desc>
+<rect width="720" height="1040" rx="28" fill="#07111f"/>
+<text x="60" y="72" fill="#37d8ff" font-family="Arial,sans-serif" font-size="22" font-weight="700">MICROSOFT FABRIC</text>
+<text x="60" y="122" fill="#f4f8ff" font-family="Arial,sans-serif" font-size="34" font-weight="700">Six gates before notebook promotion</text>
+<text x="60" y="158" fill="#a9bdd3" font-family="Arial,sans-serif" font-size="18">Two checks per stage keep the workflow fast, reviewable, and bounded.</text>
+<rect x="54" y="188" width="612" height="130" rx="22" fill="#101f33" stroke="#27415e" stroke-width="2"/>
+<circle cx="92" cy="228" r="20" fill="#37d8ff"/><text x="92" y="235" text-anchor="middle" fill="#07111f" font-family="Arial" font-size="18" font-weight="700">1</text>
+<text x="126" y="235" fill="#f4f8ff" font-family="Arial" font-size="22" font-weight="700">Identity + target</text>
+<text x="82" y="276" fill="#a9bdd3" font-family="Arial" font-size="17">Principal and permissions</text>
+<text x="82" y="307" fill="#a9bdd3" font-family="Arial" font-size="17">Workspace, notebook, context</text>
+<rect x="54" y="342" width="612" height="130" rx="22" fill="#101f33" stroke="#27415e" stroke-width="2"/>
+<circle cx="92" cy="382" r="20" fill="#4385ff"/><text x="92" y="389" text-anchor="middle" fill="#07111f" font-family="Arial" font-size="18" font-weight="700">2</text>
+<text x="126" y="389" fill="#f4f8ff" font-family="Arial" font-size="22" font-weight="700">Diff + execution</text>
+<text x="82" y="430" fill="#a9bdd3" font-family="Arial" font-size="17">Only approved changes</text>
+<text x="82" y="461" fill="#a9bdd3" font-family="Arial" font-size="17">Trace, status, diagnostics</text>
+<rect x="54" y="496" width="612" height="130" rx="22" fill="#101f33" stroke="#27415e" stroke-width="2"/>
+<circle cx="92" cy="536" r="20" fill="#52e3a4"/><text x="92" y="543" text-anchor="middle" fill="#07111f" font-family="Arial" font-size="18" font-weight="700">3</text>
+<text x="126" y="543" fill="#f4f8ff" font-family="Arial" font-size="22" font-weight="700">Data + promotion</text>
+<text x="82" y="584" fill="#a9bdd3" font-family="Arial" font-size="17">Schema and known values</text>
+<text x="82" y="615" fill="#a9bdd3" font-family="Arial" font-size="17">Human approval through CI/CD</text>
+<text x="60" y="998" fill="#a9bdd3" font-family="Arial" font-size="16">Shai Karmani • Review model for agent-assisted notebook work</text>
+</svg>

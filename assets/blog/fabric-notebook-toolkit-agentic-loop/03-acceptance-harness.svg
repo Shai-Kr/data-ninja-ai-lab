@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="t d">
+<title id="t">Six gates before notebook promotion</title><desc id="d">Two checks per stage keep the workflow fast, reviewable, and bounded.</desc>
+<rect width="1200" height="680" rx="28" fill="#07111f"/>
+<text x="60" y="72" fill="#37d8ff" font-family="Arial,sans-serif" font-size="22" font-weight="700">MICROSOFT FABRIC</text>
+<text x="60" y="122" fill="#f4f8ff" font-family="Arial,sans-serif" font-size="34" font-weight="700">Six gates before notebook promotion</text>
+<text x="60" y="158" fill="#a9bdd3" font-family="Arial,sans-serif" font-size="18">Two checks per stage keep the workflow fast, reviewable, and bounded.</text>
+<rect x="60.0" y="220" width="344.0" height="300" rx="22" fill="#101f33" stroke="#27415e" stroke-width="2"/>
+<circle cx="98.0" cy="260" r="20" fill="#37d8ff"/><text x="98.0" y="267" text-anchor="middle" fill="#07111f" font-family="Arial" font-size="18" font-weight="700">1</text>
+<text x="132.0" y="267" fill="#f4f8ff" font-family="Arial" font-size="22" font-weight="700">Identity + target</text>
+<text x="88.0" y="308" fill="#a9bdd3" font-family="Arial" font-size="17">Principal and permissions</text>
+<text x="88.0" y="339" fill="#a9bdd3" font-family="Arial" font-size="17">Workspace, notebook, context</text>
+<path d="M 409.0 370 L 420.0 370" stroke="#37d8ff" stroke-width="4"/><path d="M 410.0 361 L 420.0 370 L 410.0 379" fill="none" stroke="#37d8ff" stroke-width="4"/>
+<rect x="428.0" y="220" width="344.0" height="300" rx="22" fill="#101f33" stroke="#27415e" stroke-width="2"/>
+<circle cx="466.0" cy="260" r="20" fill="#4385ff"/><text x="466.0" y="267" text-anchor="middle" fill="#07111f" font-family="Arial" font-size="18" font-weight="700">2</text>
+<text x="500.0" y="267" fill="#f4f8ff" font-family="Arial" font-size="22" font-weight="700">Diff + execution</text>
+<text x="456.0" y="308" fill="#a9bdd3" font-family="Arial" font-size="17">Only approved changes</text>
+<text x="456.0" y="339" fill="#a9bdd3" font-family="Arial" font-size="17">Trace, status, diagnostics</text>
+<path d="M 777.0 370 L 788.0 370" stroke="#37d8ff" stroke-width="4"/><path d="M 778.0 361 L 788.0 370 L 778.0 379" fill="none" stroke="#37d8ff" stroke-width="4"/>
+<rect x="796.0" y="220" width="344.0" height="300" rx="22" fill="#101f33" stroke="#27415e" stroke-width="2"/>
+<circle cx="834.0" cy="260" r="20" fill="#52e3a4"/><text x="834.0" y="267" text-anchor="middle" fill="#07111f" font-family="Arial" font-size="18" font-weight="700">3</text>
+<text x="868.0" y="267" fill="#f4f8ff" font-family="Arial" font-size="22" font-weight="700">Data + promotion</text>
+<text x="824.0" y="308" fill="#a9bdd3" font-family="Arial" font-size="17">Schema and known values</text>
+<text x="824.0" y="339" fill="#a9bdd3" font-family="Arial" font-size="17">Human approval through CI/CD</text>
+<text x="60" y="638" fill="#a9bdd3" font-family="Arial" font-size="16">Shai Karmani • Review model for agent-assisted notebook work</text>
+</svg>

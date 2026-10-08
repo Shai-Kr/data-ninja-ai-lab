@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1040" viewBox="0 0 720 1040" role="img" aria-labelledby="t d">
+<title id="t">Make the agent change contract explicit</title><desc id="d">Authority should be narrower than the toolkit capability.</desc>
+<rect width="720" height="1040" rx="28" fill="#07111f"/>
+<text x="60" y="72" fill="#37d8ff" font-family="Arial,sans-serif" font-size="22" font-weight="700">MICROSOFT FABRIC</text>
+<text x="60" y="122" fill="#f4f8ff" font-family="Arial,sans-serif" font-size="34" font-weight="700">Make the agent change contract explicit</text>
+<text x="60" y="158" fill="#a9bdd3" font-family="Arial,sans-serif" font-size="18">Authority should be narrower than the toolkit capability.</text>
+<rect x="54" y="188" width="612" height="130" rx="22" fill="#101f33" stroke="#27415e" stroke-width="2"/>
+<circle cx="92" cy="228" r="20" fill="#37d8ff"/><text x="92" y="235" text-anchor="middle" fill="#07111f" font-family="Arial" font-size="18" font-weight="700">1</text>
+<text x="126" y="235" fill="#f4f8ff" font-family="Arial" font-size="22" font-weight="700">Approved target</text>
+<text x="82" y="276" fill="#a9bdd3" font-family="Arial" font-size="17">Workspace + artifact ID</text>
+<text x="82" y="307" fill="#a9bdd3" font-family="Arial" font-size="17">Named cell or insertion point</text>
+<rect x="54" y="342" width="612" height="130" rx="22" fill="#101f33" stroke="#27415e" stroke-width="2"/>
+<circle cx="92" cy="382" r="20" fill="#52e3a4"/><text x="92" y="389" text-anchor="middle" fill="#07111f" font-family="Arial" font-size="18" font-weight="700">2</text>
+<text x="126" y="389" fill="#f4f8ff" font-family="Arial" font-size="22" font-weight="700">Allowed action</text>
+<text x="82" y="430" fill="#a9bdd3" font-family="Arial" font-size="17">Update one scoped cell</text>
+<text x="82" y="461" fill="#a9bdd3" font-family="Arial" font-size="17">Run in development</text>
+<rect x="54" y="496" width="612" height="130" rx="22" fill="#101f33" stroke="#27415e" stroke-width="2"/>
+<circle cx="92" cy="536" r="20" fill="#4385ff"/><text x="92" y="543" text-anchor="middle" fill="#07111f" font-family="Arial" font-size="18" font-weight="700">3</text>
+<text x="126" y="543" fill="#f4f8ff" font-family="Arial" font-size="22" font-weight="700">Protected state</text>
+<text x="82" y="584" fill="#a9bdd3" font-family="Arial" font-size="17">No delete or full rewrite</text>
+<text x="82" y="615" fill="#a9bdd3" font-family="Arial" font-size="17">No resource or prod changes</text>
+<rect x="54" y="650" width="612" height="130" rx="22" fill="#101f33" stroke="#27415e" stroke-width="2"/>
+<circle cx="92" cy="690" r="20" fill="#37d8ff"/><text x="92" y="697" text-anchor="middle" fill="#07111f" font-family="Arial" font-size="18" font-weight="700">4</text>
+<text x="126" y="697" fill="#f4f8ff" font-family="Arial" font-size="22" font-weight="700">Required proof</text>
+<text x="82" y="738" fill="#a9bdd3" font-family="Arial" font-size="17">Exact diff + run status</text>
+<text x="82" y="769" fill="#a9bdd3" font-family="Arial" font-size="17">Known-answer data checks</text>
+<text x="60" y="998" fill="#a9bdd3" font-family="Arial" font-size="16">Shai Karmani • Review model for agent-assisted notebook work</text>
+</svg>

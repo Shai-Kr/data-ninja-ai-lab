@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="t d">
+<title id="t">Close the notebook development loop</title><desc id="d">Code generation becomes useful when context, execution, and evidence travel with it.</desc>
+<rect width="1200" height="680" rx="28" fill="#07111f"/>
+<text x="60" y="72" fill="#37d8ff" font-family="Arial,sans-serif" font-size="22" font-weight="700">MICROSOFT FABRIC</text>
+<text x="60" y="122" fill="#f4f8ff" font-family="Arial,sans-serif" font-size="34" font-weight="700">Close the notebook development loop</text>
+<text x="60" y="158" fill="#a9bdd3" font-family="Arial,sans-serif" font-size="18">Code generation becomes useful when context, execution, and evidence travel with it.</text>
+<rect x="60.0" y="220" width="252.0" height="300" rx="22" fill="#101f33" stroke="#27415e" stroke-width="2"/>
+<circle cx="98.0" cy="260" r="20" fill="#37d8ff"/><text x="98.0" y="267" text-anchor="middle" fill="#07111f" font-family="Arial" font-size="18" font-weight="700">1</text>
+<text x="132.0" y="267" fill="#f4f8ff" font-family="Arial" font-size="22" font-weight="700">Discover</text>
+<text x="88.0" y="308" fill="#a9bdd3" font-family="Arial" font-size="17">Identity, workspace, notebook</text>
+<text x="88.0" y="339" fill="#a9bdd3" font-family="Arial" font-size="17">Lakehouse, runtime, cell</text>
+<path d="M 317.0 370 L 328.0 370" stroke="#37d8ff" stroke-width="4"/><path d="M 318.0 361 L 328.0 370 L 318.0 379" fill="none" stroke="#37d8ff" stroke-width="4"/>
+<rect x="336.0" y="220" width="252.0" height="300" rx="22" fill="#101f33" stroke="#27415e" stroke-width="2"/>
+<circle cx="374.0" cy="260" r="20" fill="#4385ff"/><text x="374.0" y="267" text-anchor="middle" fill="#07111f" font-family="Arial" font-size="18" font-weight="700">2</text>
+<text x="408.0" y="267" fill="#f4f8ff" font-family="Arial" font-size="22" font-weight="700">Change</text>
+<text x="364.0" y="308" fill="#a9bdd3" font-family="Arial" font-size="17">Small approved mutation</text>
+<text x="364.0" y="339" fill="#a9bdd3" font-family="Arial" font-size="17">Protected notebook state</text>
+<path d="M 593.0 370 L 604.0 370" stroke="#37d8ff" stroke-width="4"/><path d="M 594.0 361 L 604.0 370 L 594.0 379" fill="none" stroke="#37d8ff" stroke-width="4"/>
+<rect x="612.0" y="220" width="252.0" height="300" rx="22" fill="#101f33" stroke="#27415e" stroke-width="2"/>
+<circle cx="650.0" cy="260" r="20" fill="#52e3a4"/><text x="650.0" y="267" text-anchor="middle" fill="#07111f" font-family="Arial" font-size="18" font-weight="700">3</text>
+<text x="684.0" y="267" fill="#f4f8ff" font-family="Arial" font-size="22" font-weight="700">Run</text>
+<text x="640.0" y="308" fill="#a9bdd3" font-family="Arial" font-size="17">Remote execution</text>
+<text x="640.0" y="339" fill="#a9bdd3" font-family="Arial" font-size="17">Spark status and logs</text>
+<path d="M 869.0 370 L 880.0 370" stroke="#37d8ff" stroke-width="4"/><path d="M 870.0 361 L 880.0 370 L 870.0 379" fill="none" stroke="#37d8ff" stroke-width="4"/>
+<rect x="888.0" y="220" width="252.0" height="300" rx="22" fill="#101f33" stroke="#27415e" stroke-width="2"/>
+<circle cx="926.0" cy="260" r="20" fill="#37d8ff"/><text x="926.0" y="267" text-anchor="middle" fill="#07111f" font-family="Arial" font-size="18" font-weight="700">4</text>
+<text x="960.0" y="267" fill="#f4f8ff" font-family="Arial" font-size="22" font-weight="700">Prove</text>
+<text x="916.0" y="308" fill="#a9bdd3" font-family="Arial" font-size="17">Data assertions and diff</text>
+<text x="916.0" y="339" fill="#a9bdd3" font-family="Arial" font-size="17">Human review</text>
+<text x="60" y="638" fill="#a9bdd3" font-family="Arial" font-size="16">Shai Karmani • Review model for agent-assisted notebook work</text>
+</svg>
