@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="1040" viewBox="0 0 720 1040" role="img" aria-labelledby="t d">
-<title id="t">Close the notebook development loop</title><desc id="d">Code generation becomes useful when context, execution, and evidence travel with it.</desc>
+<title id="t">Close the notebook development loop</title><desc id="d">Context, execution, and evidence complete the loop.</desc>
 <rect width="720" height="1040" rx="28" fill="#07111f"/>
 <text x="60" y="72" fill="#37d8ff" font-family="Arial,sans-serif" font-size="22" font-weight="700">MICROSOFT FABRIC</text>
 <text x="60" y="122" fill="#f4f8ff" font-family="Arial,sans-serif" font-size="34" font-weight="700">Close the notebook development loop</text>
-<text x="60" y="158" fill="#a9bdd3" font-family="Arial,sans-serif" font-size="18">Code generation becomes useful when context, execution, and evidence travel with it.</text>
+<text x="60" y="158" fill="#a9bdd3" font-family="Arial,sans-serif" font-size="18">Context, execution, and evidence complete the loop.</text>
 <rect x="54" y="188" width="612" height="130" rx="22" fill="#101f33" stroke="#27415e" stroke-width="2"/>
 <circle cx="92" cy="228" r="20" fill="#37d8ff"/><text x="92" y="235" text-anchor="middle" fill="#07111f" font-family="Arial" font-size="18" font-weight="700">1</text>
 <text x="126" y="235" fill="#f4f8ff" font-family="Arial" font-size="22" font-weight="700">Discover</text>
-<text x="82" y="276" fill="#a9bdd3" font-family="Arial" font-size="17">Identity, workspace, notebook</text>
+<text x="82" y="276" fill="#a9bdd3" font-family="Arial" font-size="17">Identity, workspace, target</text>
 <text x="82" y="307" fill="#a9bdd3" font-family="Arial" font-size="17">Lakehouse, runtime, cell</text>
 <rect x="54" y="342" width="612" height="130" rx="22" fill="#101f33" stroke="#27415e" stroke-width="2"/>
 <circle cx="92" cy="382" r="20" fill="#4385ff"/><text x="92" y="389" text-anchor="middle" fill="#07111f" font-family="Arial" font-size="18" font-weight="700">2</text>
