@@ -22,7 +22,10 @@ This is a useful shift. A planning sheet can become the start of an observable b
 
 The feature will be valuable when teams treat the trigger as an operational contract.
 
-<img src="{{ '/assets/blog/fabric-planning-event-triggers/01-event-contract.svg' | relative_url }}" alt="Fabric Planning event contract showing a writeback event moving through trigger, routing, and proof stages.">
+<picture>
+  <source media="(max-width: 600px)" srcset="{{ '/assets/blog/fabric-planning-event-triggers/01-event-contract-mobile.svg' | relative_url }}">
+  <img src="{{ '/assets/blog/fabric-planning-event-triggers/01-event-contract.svg' | relative_url }}" alt="Fabric Planning event contract showing a writeback event moving through trigger, routing, and proof stages.">
+</picture>
 
 ## Start with the business outcome
 
@@ -68,7 +71,10 @@ Do not pass every planning value simply because it is available. Pass the minimu
 
 The plan remains the system of record. The event describes what changed and how to process it.
 
-<img src="{{ '/assets/blog/fabric-planning-event-triggers/02-event-envelope.svg' | relative_url }}" alt="Planning event envelope divided into business context, execution context, and control context.">
+<picture>
+  <source media="(max-width: 600px)" srcset="{{ '/assets/blog/fabric-planning-event-triggers/02-event-envelope-mobile.svg' | relative_url }}">
+  <img src="{{ '/assets/blog/fabric-planning-event-triggers/02-event-envelope.svg' | relative_url }}" alt="Planning event envelope divided into business context, execution context, and control context.">
+</picture>
 
 ## Make retries safe
 
@@ -124,7 +130,10 @@ This is where Planning connects to the broader Fabric operating model. Pipelines
 
 The acceptance check should cross those boundaries.
 
-<img src="{{ '/assets/blog/fabric-planning-event-triggers/03-acceptance-gates.svg' | relative_url }}" alt="Seven acceptance gates for Fabric Planning automation across authorization, schema, duplicates, observability, retries, data proof, and recovery.">
+<picture>
+  <source media="(max-width: 600px)" srcset="{{ '/assets/blog/fabric-planning-event-triggers/03-acceptance-gates-mobile.svg' | relative_url }}">
+  <img src="{{ '/assets/blog/fabric-planning-event-triggers/03-acceptance-gates.svg' | relative_url }}" alt="Seven acceptance gates for Fabric Planning automation across authorization, schema, duplicates, observability, retries, data proof, and recovery.">
+</picture>
 
 ## Test the workflow as a state machine
 
