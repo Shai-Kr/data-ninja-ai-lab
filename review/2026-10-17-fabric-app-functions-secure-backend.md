@@ -27,6 +27,8 @@ author_url: https://www.linkedin.com/in/shai-kr
 .review-visual img { display: block; width: 100%; max-width: 100%; height: auto; }
 </style>
 
+**Review draft. Direct link only.**
+
 Fabric Apps just gained the layer that turns a useful interface into a real application.
 
 Fabric App functions are TypeScript functions that run on the server alongside a Fabric app. They can call external APIs, use protected resources, run orchestration, work with secrets, and execute logic that should never sit in browser code. The frontend calls them through a typed client, while Fabric handles the function endpoint and token flow.
