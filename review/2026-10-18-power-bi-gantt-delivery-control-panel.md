@@ -57,7 +57,7 @@ The distinction between baseline and forecast matters. If the model keeps only t
 
 The same applies to progress. A manually entered \`80%\` may be useful, but it is not the same evidence as completed work items, approved deliverables, or actual effort. Label the method in the model so the reader knows what the bar represents.
 
-<figure class="review-visual"><img src="/data-ninja-ai-lab/assets/blog/power-bi-gantt-delivery-control-panel/01-task-contract.svg" alt="A governed Power BI Gantt task contract covering identity, dates, progress, ownership, risk, and source evidence"></figure>
+<figure class="review-visual"><picture><source media="(max-width: 600px)" srcset="/data-ninja-ai-lab/assets/blog/power-bi-gantt-delivery-control-panel/01-task-contract-mobile.svg"><img src="/data-ninja-ai-lab/assets/blog/power-bi-gantt-delivery-control-panel/01-task-contract.svg" alt="A governed Power BI Gantt task contract covering identity, dates, progress, ownership, risk, and source evidence"></picture></figure>
 
 ## Use the Gantt as the middle layer of the decision page
 
@@ -131,7 +131,7 @@ These measures answer three different questions:
 
 That is enough to keep a delivery review focused on exceptions instead of reading every task row.
 
-<figure class="review-visual"><img src="/data-ninja-ai-lab/assets/blog/power-bi-gantt-delivery-control-panel/02-decision-page.svg" alt="A Power BI delivery decision page with portfolio signals, a governed Gantt timeline, and evidence for schedule exceptions"></figure>
+<figure class="review-visual"><picture><source media="(max-width: 600px)" srcset="/data-ninja-ai-lab/assets/blog/power-bi-gantt-delivery-control-panel/02-decision-page-mobile.svg"><img src="/data-ninja-ai-lab/assets/blog/power-bi-gantt-delivery-control-panel/02-decision-page.svg" alt="A Power BI delivery decision page with portfolio signals, a governed Gantt timeline, and evidence for schedule exceptions"></picture></figure>
 
 ## Design the page around questions
 
@@ -159,7 +159,7 @@ That last point is important. A portfolio may contain tens of thousands of tasks
 
 The visual is also in preview. Treat the page as a controlled release: document the Desktop version, test after monthly updates, and keep a simple fallback table for critical reviews until the feature is ready for your production standard.
 
-<figure class="review-visual"><img src="/data-ninja-ai-lab/assets/blog/power-bi-gantt-delivery-control-panel/03-release-gates.svg" alt="Five release gates for a Power BI Gantt delivery control panel covering dates, milestones, progress, filters, and scale"></figure>
+<figure class="review-visual"><picture><source media="(max-width: 600px)" srcset="/data-ninja-ai-lab/assets/blog/power-bi-gantt-delivery-control-panel/03-release-gates-mobile.svg"><img src="/data-ninja-ai-lab/assets/blog/power-bi-gantt-delivery-control-panel/03-release-gates.svg" alt="Five release gates for a Power BI Gantt delivery control panel covering dates, milestones, progress, filters, and scale"></picture></figure>
 
 ## Where this pattern fits
 
