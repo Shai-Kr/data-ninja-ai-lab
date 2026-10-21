@@ -180,7 +180,7 @@ This approach also helps when consolidating objects from SQL Server, Azure Synap
 
 Incremental migration makes Fabric Warehouse modernization easier to stage around real delivery constraints.
 
-The strongest pattern is not one enormous migration run. It is a sequence of small, reviewable releases where every wave has a business boundary, an object manifest, explicit conflict decisions, a separate data-load plan, and evidence from the workloads that depend on it.
+Use a sequence of small, reviewable releases. Every wave should have a business boundary, an object manifest, explicit conflict decisions, a separate data-load plan, and evidence from the workloads that depend on it.
 
 That gives teams something more useful than a faster wizard. It gives them a migration process they can repeat without losing control of the destination.
 
