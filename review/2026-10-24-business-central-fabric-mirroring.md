@@ -51,7 +51,7 @@ The stronger model has three layers:
 
 The boundary matters. Mirrored tables are analytical replicas, not a write-back surface. The open mirrored database also gets a SQL analytics endpoint for queries, views, inline table-valued functions, and stored procedures over the Delta tables.
 
-<figure class="review-visual"><img src="/data-ninja-ai-lab/assets/blog/business-central-fabric-mirroring/01-shared-data-path.svg" alt="Business Central sends selected companies and tables through open mirroring into OneLake for shared Fabric analytics consumers"></figure>
+<figure class="review-visual"><picture><source media="(max-width: 600px)" srcset="/data-ninja-ai-lab/assets/blog/business-central-fabric-mirroring/01-shared-data-path-mobile.svg"><img src="/data-ninja-ai-lab/assets/blog/business-central-fabric-mirroring/01-shared-data-path.svg" alt="Business Central sends selected companies and tables through open mirroring into OneLake for shared Fabric analytics consumers"></picture></figure>
 
 ## Start with a business-domain contract
 
@@ -107,7 +107,7 @@ That is enough to build a useful control page with four signals:
 
 The configuration can stop synchronization after one to five consecutive failed runs. The default is two. Treat that threshold as an incident policy. Someone needs to own the alert, root cause, restart, and validation.
 
-<figure class="review-visual"><img src="/data-ninja-ai-lab/assets/blog/business-central-fabric-mirroring/02-operational-contract.svg" alt="An operational contract combines scope, identity, freshness, row movement, failure handling, and business validation"></figure>
+<figure class="review-visual"><picture><source media="(max-width: 600px)" srcset="/data-ninja-ai-lab/assets/blog/business-central-fabric-mirroring/02-operational-contract-mobile.svg"><img src="/data-ninja-ai-lab/assets/blog/business-central-fabric-mirroring/02-operational-contract.svg" alt="An operational contract combines scope, identity, freshness, row movement, failure handling, and business validation"></picture></figure>
 
 ## Validate business truth after technical delivery
 
@@ -142,7 +142,7 @@ Before a reset, capture the latest run IDs, watermarks, selected companies and t
 
 The documented flow also does not allow changing the Fabric workspace or open mirrored database while export is enabled. Moving the destination is a migration event, not a casual configuration edit.
 
-<figure class="review-visual"><img src="/data-ninja-ai-lab/assets/blog/business-central-fabric-mirroring/03-acceptance-path.svg" alt="A five-gate path validates scope, connection, synchronization evidence, business reconciliation, and downstream release"></figure>
+<figure class="review-visual"><picture><source media="(max-width: 600px)" srcset="/data-ninja-ai-lab/assets/blog/business-central-fabric-mirroring/03-acceptance-path-mobile.svg"><img src="/data-ninja-ai-lab/assets/blog/business-central-fabric-mirroring/03-acceptance-path.svg" alt="A five-gate path validates scope, connection, synchronization evidence, business reconciliation, and downstream release"></picture></figure>
 
 ## A practical pilot plan
 
