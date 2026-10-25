@@ -1,0 +1,184 @@
+---
+layout: post
+title: "The Small Power BI Icon That Can Raise Mobile Report Quality"
+date: 2026-10-25
+description: Power BI now marks report pages that have a mobile layout. This guide turns that visibility into a practical coverage, testing, and release workflow.
+author: Shai Karmani
+author_url: https://www.linkedin.com/in/shai-kr
+sitemap: false
+---
+
+<style>
+@media (max-width: 760px) {
+  .site-shell { width: min(100% - 24px, var(--max)); }
+  .site-header { gap: 12px; margin-bottom: 18px; }
+  .brand { font-size: 0.94rem; }
+  .brand-mark { width: 32px; height: 32px; border-radius: 10px; }
+  .nav { display: none; }
+  .article { max-width: 100%; overflow-x: hidden; }
+  .article-header { padding: 20px 14px; border-radius: 18px; }
+  .article-header h1 { font-size: clamp(1.12rem, 5vw, 1.6rem); line-height: 1.17; }
+  .article-header .dek { font-size: 0.94rem; margin-top: 14px; }
+  .article-body { overflow-x: hidden; font-size: 0.98rem; }
+  .article-body img { width: 100%; max-width: 100%; height: auto; border-radius: 16px; }
+  .subscribe-orbit { display: none; }
+}
+.review-visual { width: 100%; max-width: 100%; margin: 34px 0 10px; overflow: hidden; }
+.review-visual img { display: block; width: 100%; max-width: 100%; height: auto; }
+</style>
+
+**Review draft. Direct link only.**
+
+Power BI added a small icon to report page tabs in October 2026. The icon shows which pages already have a mobile layout.
+
+That sounds like a minor authoring convenience. It can become something more useful: a visible coverage map for a report that people are expected to use on phones.
+
+Before this change, mobile readiness was easy to treat as a vague report-level property. A report had a phone layout somewhere, so it looked mobile-ready. The new page-level signal makes the incomplete work visible. Page 1 may be optimized, while drillthrough, detail, and exception pages still fall back to a reduced desktop canvas.
+
+The practical opportunity is to turn the icon into a release gate.
+
+## Coverage is measured by page, not by report
+
+Power BI checks for a phone-optimized view when a report opens on a phone. If the current page has one, the app uses it automatically in portrait orientation. If it does not, the user sees a small version of the regular report page and has to rotate or zoom.
+
+That difference matters most in operational reports. The landing page may look fine, but the user often reaches the real decision through a button, bookmark, drillthrough action, or hidden navigation path.
+
+A useful coverage measure is:
+
+**Mobile coverage = tested mobile-ready pages / in-scope pages**
+
+The phrase *in-scope* matters. A tooltip page or a desktop-only administration page may not need a phone layout. Exclude it deliberately and record why. Do not quietly count it as complete.
+
+<figure class="review-visual"><picture><source media="(max-width: 600px)" srcset="/data-ninja-ai-lab/assets/blog/power-bi-mobile-coverage/01-page-coverage-mobile.svg"><img src="/data-ninja-ai-lab/assets/blog/power-bi-mobile-coverage/01-page-coverage.svg" alt="A Power BI report moves from page inventory to mobile layout coverage, functional testing, and release evidence"></picture></figure>
+
+## Build a page inventory before fixing layouts
+
+Start with a small table. One row per report page.
+
+| Field | What to record |
+|---|---|
+| Page | Visible name and internal purpose |
+| Entry path | Tab, button, bookmark, drillthrough, or direct link |
+| Mobile required | Yes, no, or conditional |
+| Layout present | The new page-tab icon provides the first check |
+| Critical actions | Filters, slicers, drill, navigation, export, or reset |
+| Test state | Not tested, failed, passed, or excluded |
+| Owner | Person responsible for the page |
+
+The icon answers one narrow question: does the page have a mobile layout? It does not prove that the layout is useful, current, or functionally complete.
+
+That distinction prevents a weak metric. A report with icons on every page can still fail on a phone because labels are too small, navigation is missing, bookmarks expose the wrong state, or a critical visual was never placed on the mobile canvas.
+
+## Use auto-create as a starting point
+
+Power BI can automatically generate a mobile layout from an existing report page. It considers the position, size, type, and order of visuals in the desktop layout. It also places visible and hidden visuals so bookmark-driven behavior can continue to work.
+
+That is useful for coverage work because it reduces the cost of producing an initial layout across many pages.
+
+It is not an acceptance test.
+
+Microsoft documents several conditions that can reduce the quality of the generated layout. Strong vertical desktop navigation, background images, heavy overlap, and large numbers of images can produce weaker results. Hidden images also consume space even when the canvas appears to have room.
+
+Use this sequence:
+
+1. Generate the initial mobile layout.
+2. Remove visuals that do not support the mobile task.
+3. Put the decision and primary action near the top.
+4. Check that hidden visuals and bookmarks still behave correctly.
+5. Review every unplaced visual before calling the page complete.
+
+The goal is not to reproduce the desktop page in a narrower column. The goal is to preserve the user's task.
+
+## Test the path, not only the canvas
+
+Mobile QA needs to follow the route a user takes through the report.
+
+For each in-scope page, test:
+
+- the page opens in portrait with the intended mobile layout
+- text and data labels are readable without zoom
+- the main KPI or decision is visible early
+- slicers show the right default state
+- filter context survives navigation and drillthrough
+- buttons and bookmarks expose the correct state
+- drill down, drill up, and focus mode still make sense
+- reset behavior returns the user to a known state
+- the page remains usable after a narrow-screen check
+- landscape fallback is acceptable where it is part of the design
+
+Power BI's mobile layout canvas is interactive, which helps authors test buttons, slicers, and visuals before publishing. The mobile app remains the final check because device interaction, footer actions, portrait behavior, and focus mode are part of the user experience.
+
+<figure class="review-visual"><picture><source media="(max-width: 600px)" srcset="/data-ninja-ai-lab/assets/blog/power-bi-mobile-coverage/02-acceptance-matrix-mobile.svg"><img src="/data-ninja-ai-lab/assets/blog/power-bi-mobile-coverage/02-acceptance-matrix.svg" alt="A mobile report acceptance matrix checks readability, filters, navigation, interaction, and evidence for every in-scope page"></picture></figure>
+
+## Separate layout presence from release evidence
+
+I would use four states instead of a single yes or no flag:
+
+1. **Missing:** no mobile layout exists for an in-scope page.
+2. **Generated:** a layout exists, but no human has reviewed it.
+3. **Validated:** the page passed the defined mobile checks.
+4. **Released:** the validated page is included in the published report version.
+
+The new icon helps teams find state 1. The rest still needs a lightweight operating process.
+
+For an important report, keep a release record with the report version, page inventory, device or viewport tested, failed checks, excluded pages, reviewer, and approval date. A screenshot of the page-tab coverage can support the record, but it should not replace functional evidence.
+
+This is especially useful when reports change frequently. Adding one new detail page should not silently reduce the report's mobile coverage from complete to partial.
+
+## Prioritize pages by mobile task
+
+Not every page deserves the same effort.
+
+Start with pages used when someone is away from a desk:
+
+- executive status and exception summaries
+- sales, service, inventory, and operations views
+- drillthrough pages used to explain a red KPI
+- pages opened from alerts, email, Teams, or direct links
+- pages that support a quick approve, call, visit, or follow-up decision
+
+Delay dense analytical workspaces that depend on wide matrices or long exploratory sessions unless mobile usage is a real requirement.
+
+A practical priority score can use three inputs: frequency of mobile access, consequence of a poor decision, and effort to optimize. This makes the backlog defendable. It also stops the team from spending a day polishing a rarely used page while the main exception route still opens as a tiny desktop canvas.
+
+<figure class="review-visual"><picture><source media="(max-width: 600px)" srcset="/data-ninja-ai-lab/assets/blog/power-bi-mobile-coverage/03-release-flow-mobile.svg"><img src="/data-ninja-ai-lab/assets/blog/power-bi-mobile-coverage/03-release-flow.svg" alt="A five-step mobile release flow covers inventory, generation, task-focused design, device validation, and controlled release"></picture></figure>
+
+## A practical release checklist
+
+Before publishing a report intended for phone use:
+
+1. List every page and its entry path.
+2. Mark each page as required, conditional, or excluded for mobile.
+3. Use the page-tab icons to identify missing layouts.
+4. Generate initial layouts where useful.
+5. Reduce each page to the task a phone user needs to complete.
+6. Test filters, bookmarks, buttons, drillthrough, and focus mode.
+7. Validate the full navigation path in the mobile app.
+8. Record failures and exclusions.
+9. Publish the tested report version.
+10. Recheck coverage whenever pages or navigation change.
+
+The icon makes the first gap visible. A small checklist turns it into quality control.
+
+## The practical takeaway
+
+The October update gives Power BI authors an immediate view of which pages have mobile layouts. That is useful on its own.
+
+Its bigger value is operational. Use the page-level signal to inventory coverage, prioritize real mobile tasks, test the paths users follow, and preserve evidence with each release.
+
+A mobile-ready report is not a report with one phone layout. It is a set of in-scope pages whose critical tasks still work on the device people actually carry.
+
+## Sources
+
+- [Fabric Updates Blog](https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/bg-p/fbc_fabricupdatesblogs)
+- [Power BI Updates Blog](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
+- [What's new in the Power BI mobile apps: October 2026](https://learn.microsoft.com/en-us/power-bi/explore-reports/mobile/mobile-whats-new-in-the-mobile-apps#october-2026)
+- [Create mobile-optimized report pages](https://learn.microsoft.com/en-us/power-bi/create-reports/power-bi-create-mobile-optimized-report-mobile-layout-view)
+- [Explore reports in the Power BI mobile apps](https://learn.microsoft.com/en-us/power-bi/explore-reports/mobile/mobile-reports-in-the-mobile-apps)
+- [View Power BI reports optimized for your phone](https://learn.microsoft.com/en-us/power-bi/explore-reports/mobile/mobile-apps-view-phone-report)
+
+---
+
+Written by **[Shai Karmani](https://www.linkedin.com/in/shai-kr)**.
+
+If you work on Microsoft Fabric, Power BI, data engineering, or practical AI systems, feel free to [connect with me on LinkedIn](https://www.linkedin.com/in/shai-kr).
