@@ -31,6 +31,11 @@ description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, 
 <section class="post-list featured home-articles">
   <h2>Latest articles</h2>
   <article class="post-card">
+    <p class="post-meta">Microsoft Fabric · Data Governance · Platform Automation</p>
+    <h3><a href="{{ '/blog/2026-10-27-fabric-admin-connections.html' | relative_url }}">Turn Every Fabric Connection Into Governed Inventory</a></h3>
+    <p>The new Fabric Admin Connections REST APIs give administrators tenant-wide connection visibility. This guide turns that access into a practical inventory, review, and controlled-remediation workflow.</p>
+  </article>
+  <article class="post-card">
     <p class="post-meta">Power BI · Semantic Models · Deployment</p>
     <h3><a href="{{ '/blog/2026-10-03-fabric-api-purge-data-deployment.html' | relative_url }}">The Fabric API Option That Unlocks Complex Power BI Deployments</a></h3>
     <p>A practical release pattern for using <code>allowPurgeData</code> safely when semantic model definition changes cannot preserve loaded data.</p>
