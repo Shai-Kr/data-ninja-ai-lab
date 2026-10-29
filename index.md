@@ -31,6 +31,11 @@ description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, 
 <section class="post-list featured home-articles">
   <h2>Latest articles</h2>
   <article class="post-card">
+    <p class="post-meta">Microsoft Fabric · Data Engineering · AI Agents</p>
+    <h3><a href="{{ '/blog/2026-10-29-project-osmos-trusted-autonomy.html' | relative_url }}">Build Data Engineering Agents That Prove Their Work in Fabric</a></h3>
+    <p>Project Osmos brings persistent, data-aware agent tasks to Microsoft Fabric. This guide turns its autonomy, guardrails, and validation model into a practical production pilot.</p>
+  </article>
+  <article class="post-card">
     <p class="post-meta">Microsoft Fabric · Data Governance · Platform Automation</p>
     <h3><a href="{{ '/blog/2026-10-27-fabric-admin-connections.html' | relative_url }}">Turn Every Fabric Connection Into Governed Inventory</a></h3>
     <p>The new Fabric Admin Connections REST APIs give administrators tenant-wide connection visibility. This guide turns that access into a practical inventory, review, and controlled-remediation workflow.</p>
