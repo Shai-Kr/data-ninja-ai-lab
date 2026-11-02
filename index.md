@@ -31,6 +31,11 @@ description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, 
 <section class="post-list featured home-articles">
   <h2>Latest articles</h2>
   <article class="post-card">
+    <p class="post-meta">Microsoft Fabric · Power BI · Fabric Apps</p>
+    <h3><a href="{{ '/blog/2026-11-02-fabric-action-hub.html' | relative_url }}">Build a Fabric Action Hub People Can Actually Use</a></h3>
+    <p>Fabric Apps can now sit beside Power BI reports and other supported content in Org apps. Here is a practical operating model for moving from insight to action in one role-based destination.</p>
+  </article>
+  <article class="post-card">
     <p class="post-meta">Microsoft Fabric · Data Engineering · AI Agents</p>
     <h3><a href="{{ '/blog/2026-10-29-project-osmos-trusted-autonomy.html' | relative_url }}">Build Data Engineering Agents That Prove Their Work in Fabric</a></h3>
     <p>Project Osmos brings persistent, data-aware agent tasks to Microsoft Fabric. This guide turns its autonomy, guardrails, and validation model into a practical production pilot.</p>
