@@ -12,6 +12,8 @@ image: /assets/blog/power-bi-agent-skills/diagrams/01-agent-skills-workflow.svg
 
 ![Power BI agent skills workflow](../assets/blog/power-bi-agent-skills/diagrams/01-agent-skills-workflow.svg)
 
+{% include yt-embed.html id="nTnlCX3A_UM" title="AI Skills for Power BI: One Prompt Redesigned My Report" duration="8:46" kicker="Watch: the skills redesign a real report from one prompt" %}
+
 Microsoft just opened a very interesting door for Power BI teams.
 
 AI-powered Power BI reporting with agent skills is now in preview, and this is one of the most practical AI announcements in the Power BI space right now.

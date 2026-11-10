@@ -12,6 +12,8 @@ image: /assets/blog/fabric-warehouse-ai-functions/diagrams/01-ai-functions-map-v
 
 ![Fabric Warehouse AI functions map](../assets/blog/fabric-warehouse-ai-functions/diagrams/01-ai-functions-map-v2.svg)
 
+{% include yt-embed.html id="tG6wGB8_YcI" title="ChatGPT Inside Your SQL Query: Fabric AI Functions" duration="8:40" kicker="Watch: these functions running on real reviews" %}
+
 Fabric Data Warehouse now has preview AI functions that let you classify, summarize, translate, extract, and improve text directly from T-SQL.
 
 That is a bigger shift than it first looks.

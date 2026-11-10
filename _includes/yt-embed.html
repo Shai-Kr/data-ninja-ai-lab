@@ -1,0 +1,9 @@
+{%- comment -%}
+A YouTube video inside an article. Loads only a thumbnail; the player (youtube-nocookie) loads on click (assets/js/yt.js).
+Usage: include yt-embed.html with id="VIDEO_ID" title="Video title" duration="8:40" kicker="Watch the video" (variant="feature" optional)
+{%- endcomment -%}
+{%- assign yt = site.data.youtube.channel -%}
+<figure class="yt-embed{% if include.variant %} yt-embed--{{ include.variant }}{% endif %}">
+<div class="yt-frame"><a class="yt-lite" href="https://www.youtube.com/watch?v={{ include.id }}" data-yt="{{ include.id }}" target="_blank" rel="noopener" aria-label="Play video: {{ include.title }}"><img src="https://i.ytimg.com/vi/{{ include.id }}/maxresdefault.jpg" alt="" loading="lazy" width="1280" height="720"><span class="yt-lite-play" aria-hidden="true"></span>{% if include.duration %}<span class="yt-dur">{{ include.duration }}</span>{% endif %}</a></div>
+<figcaption><span class="yt-cap-kicker"><span class="yt-dot" aria-hidden="true"></span>{{ include.kicker | default: "Watch the video" }}</span><strong>{{ include.title }}</strong><a class="yt-cap-sub" href="{{ yt.subscribe }}" target="_blank" rel="noopener">Subscribe to {{ yt.name }}</a></figcaption>
+</figure>

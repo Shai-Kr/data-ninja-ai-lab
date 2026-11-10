@@ -4,6 +4,8 @@ title: Data Ninja AI Lab
 description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, and AI lab by Shai Karmani.
 ---
 
+{% include yt-channel.html %}
+
 <section class="hero home-hero">
   <div class="hero-copy">
     <p class="eyebrow">Data Ninja AI Lab</p>

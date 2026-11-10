@@ -12,6 +12,8 @@ image: /assets/blog/user-aware-calculated-columns/01-expression-context-setting.
 
 ![Power BI Expression Context setting showing Standard and User Context](../assets/blog/user-aware-calculated-columns/01-expression-context-setting.png)
 
+{% include yt-embed.html id="m5PyxkMSYhI" title="Power BI User-Aware Calculated Columns: 3 Real Uses" duration="7:44" kicker="Watch: three real uses, built in Power BI Desktop" %}
+
 Power BI calculated columns are getting a new design option that is easy to underestimate.
 
 The setting is called **Expression Context**.
@@ -176,6 +178,8 @@ For a restricted user, the same report still renders, but the sensitive values b
 Screenshot source: [SQLBI](https://www.sqlbi.com/articles/introducing-user-aware-calculated-columns-in-power-bi/)
 
 This is not a replacement for every object-level security scenario. Restricted users can still see that the column exists. But for reports where the layout must keep working while sensitive values are redacted, it is a useful pattern to test.
+
+{% include yt-embed.html id="6vz2SXUkJ68" title="Power BI Object-Level Security (OLS) in Under 8 Min: Zero Errors" duration="7:31" kicker="When you do need OLS: hide columns without breaking visuals" %}
 
 ## How I would evaluate this in a real model
 

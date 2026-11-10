@@ -19,6 +19,8 @@ This is the checklist I would use before moving a Fabric AI Agent past pilot sta
 
 ![Medium hero](../assets/blog/fabric-ai-agent-production-checklist/01-medium-hero-ai-agent-checklist.png)
 
+{% include yt-embed.html id="KOMo49vQUAc" title="Build a Fabric Data Agent in 5 Minutes (+ Prod Checklist)" duration="9:39" kicker="Watch: build the agent, then run this checklist" %}
+
 ## 1. Give the agent its own identity
 
 A demo can run under a human account. Production should not.
@@ -117,6 +119,8 @@ They should still trigger a review.
 Every new data source changes the agent’s scope. That means the identity, permissions, audit path, and owner should be checked again.
 
 ![Demo to production](../assets/blog/fabric-ai-agent-production-checklist/04-demo-to-production-map.png)
+
+{% include yt-embed.html id="FdP5rTgeqC4" title="Connect ChatGPT to Power BI with a Fabric Data Agent (MCP)" duration="8:31" kicker="Next step: put the agent in front of ChatGPT (MCP)" %}
 
 ## The short version
 

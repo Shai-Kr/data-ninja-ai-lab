@@ -202,6 +202,8 @@ That matters because RAG quality starts before the chat interface. It starts wit
 
 ![Good use cases for Fabric AI Functions](../assets/blog/fabric-ai-functions-data-workflows/03-use-case-map.svg)
 
+{% include yt-embed.html id="tG6wGB8_YcI" title="ChatGPT Inside Your SQL Query: Fabric AI Functions" duration="8:40" kicker="Related video: the same idea in T-SQL" %}
+
 ## Where I would be careful
 
 Positive does not mean careless.

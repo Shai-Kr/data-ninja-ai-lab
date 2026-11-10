@@ -1,0 +1,42 @@
+{%- assign yt = site.data.youtube.channel -%}
+{%- assign vids = site.data.youtube.videos -%}
+<section class="yt-channel" aria-label="{{ yt.name }} on YouTube">
+<div class="yt-banner"><img src="{{ '/assets/img/youtube/pbi101-banner.jpg' | relative_url }}" alt="PBI 101 channel banner: Data + AI. Predict, build, inspire." width="1400" height="378"><span class="yt-banner-shine" aria-hidden="true"></span></div>
+<div class="yt-head">
+<a class="yt-avatar" href="{{ yt.url }}" target="_blank" rel="noopener" aria-label="{{ yt.name }} on YouTube"><img src="{{ '/assets/img/youtube/pbi101-avatar.jpg' | relative_url }}" alt="" width="88" height="88"></a>
+<div class="yt-id">
+<p class="yt-kicker"><span class="yt-dot" aria-hidden="true"></span>Now on YouTube</p>
+<h2><a href="{{ yt.url }}" target="_blank" rel="noopener">{{ yt.name }}</a></h2>
+<p class="yt-handle">{{ yt.handle }} · {{ vids.size }} videos · Power BI, Fabric and AI agents</p>
+</div>
+<a class="yt-subscribe" href="{{ yt.subscribe }}" target="_blank" rel="noopener"><svg class="yt-logo" viewBox="0 0 28 20" aria-hidden="true"><path fill="currentColor" d="M27.4 3.1A3.5 3.5 0 0 0 25 .6C22.8 0 14 0 14 0S5.2 0 3 .6A3.5 3.5 0 0 0 .6 3.1C0 5.3 0 10 0 10s0 4.7.6 6.9A3.5 3.5 0 0 0 3 19.4c2.2.6 11 .6 11 .6s8.8 0 11-.6a3.5 3.5 0 0 0 2.4-2.5c.6-2.2.6-6.9.6-6.9s0-4.7-.6-6.9Z"/><path fill="#ff0033" d="M11.2 14.3 18.5 10l-7.3-4.3v8.6Z"/></svg><span>Subscribe</span><svg class="yt-bell" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 22a2.4 2.4 0 0 0 2.4-2.4H9.6A2.4 2.4 0 0 0 12 22Zm7-6V11a7 7 0 0 0-5.5-6.8V3.5a1.5 1.5 0 0 0-3 0v.7A7 7 0 0 0 5 11v5l-2 2v1h18v-1l-2-2Z"/></svg></a>
+</div>
+<div class="yt-body">
+<div class="yt-pitch">
+<h3>Data + AI, <span>minus the boring part.</span></h3>
+<p>Short videos where I build real things in Power BI and Microsoft Fabric and let AI do the heavy lifting. ChatGPT asking a Power BI model, a data agent that writes its own DAX, AI functions inside T-SQL, a report redesigned from one prompt.</p>
+<ul class="yt-promises">
+<li><span aria-hidden="true">▶</span> Every demo is a real result on screen</li>
+<li><span aria-hidden="true">▶</span> Every project's files are free on GitHub</li>
+<li><span aria-hidden="true">▶</span> One idea per video, 5 to 10 minutes</li>
+</ul>
+<ul class="yt-topics" aria-label="Topics">
+<li>Power BI</li><li>Microsoft Fabric</li><li>AI agents</li><li>MCP</li><li>DAX</li><li>T-SQL</li>
+</ul>
+</div>
+<div class="yt-feature">
+{%- include yt-embed.html id=yt.trailer.id title=yt.trailer.title duration=yt.trailer.duration kicker="Channel trailer · 1 minute" variant="feature" -%}
+</div>
+</div>
+<div class="yt-rail-head"><h3>Latest videos</h3><a href="{{ yt.videos_url }}" target="_blank" rel="noopener">See all on YouTube →</a></div>
+<div class="yt-rail">
+{%- for v in vids %}
+<article class="yt-card" style="--i: {{ forloop.index0 }}">
+<a class="yt-thumb" href="https://www.youtube.com/watch?v={{ v.id }}" target="_blank" rel="noopener" aria-label="Watch on YouTube: {{ v.title }}"><img src="https://i.ytimg.com/vi/{{ v.id }}/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"><span class="yt-dur">{{ v.duration }}</span><span class="yt-thumb-play" aria-hidden="true"></span></a>
+<p class="yt-card-tag">{{ v.tag }}</p>
+<h4><a href="https://www.youtube.com/watch?v={{ v.id }}" target="_blank" rel="noopener">{{ v.title }}</a></h4>
+{%- if v.post %}<a class="yt-read" href="{{ v.post | relative_url }}">Read the article →</a>{% endif %}
+</article>
+{%- endfor %}
+</div>
+</section>
