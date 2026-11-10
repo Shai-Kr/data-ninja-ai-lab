@@ -68,7 +68,17 @@
 .yt-rail-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; padding: 22px 30px 0; }
 .yt-rail-head h3 { margin: 0; font-size: 1.25rem; }
 .yt-rail-head a { font-weight: 700; font-size: 0.92rem; color: #ff8fa3; }
-.yt-rail { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px 18px; padding: 14px 30px 30px; }
+/* Latest videos: one row, newest on the left, 3 visible on desktop, arrows page through the rest (assets/js/yt.js) */
+.yt-carousel { position: relative; --yt-gap: 18px; --yt-pad: 30px; }
+.yt-rail { display: grid; grid-auto-flow: column; grid-auto-columns: calc((100% - 2 * var(--yt-gap)) / 3); gap: var(--yt-gap); padding: 14px var(--yt-pad) 30px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding-inline: var(--yt-pad); scroll-behavior: smooth; overscroll-behavior-x: contain; scrollbar-width: none; }
+.yt-rail::-webkit-scrollbar { display: none; }
+.yt-arrow { position: absolute; top: var(--yt-arrow-top, 34%); z-index: 4; display: grid; place-items: center; width: 46px; height: 46px; margin-top: -23px; padding: 0; border-radius: 999px; cursor: pointer; color: #fff; border: 1px solid rgba(255,255,255,0.18); background: rgba(8,14,28,0.86); backdrop-filter: blur(6px); box-shadow: 0 10px 30px rgba(0,0,0,0.55), 0 0 22px rgba(255,0,51,0.25); transition: opacity 0.2s ease, transform 0.2s ease, background 0.2s ease; }
+.yt-arrow svg { width: 20px; height: 20px; }
+.yt-arrow:hover { background: var(--yt-red); transform: scale(1.08); }
+.yt-arrow:focus-visible { outline: 2px solid #4dd8ff; outline-offset: 2px; }
+.yt-arrow--prev { left: 8px; }
+.yt-arrow--next { right: 8px; }
+.yt-carousel.at-start .yt-arrow--prev, .yt-carousel.at-end .yt-arrow--next { opacity: 0; pointer-events: none; }
 .yt-card { scroll-snap-align: start; min-width: 0; opacity: 0; animation: yt-rise 0.6s ease forwards; animation-delay: calc(var(--i) * 90ms + 200ms); }
 .yt-thumb { position: relative; display: block; overflow: hidden; border-radius: 14px; aspect-ratio: 16 / 9; background: #0a1424; border: 1px solid rgba(255,255,255,0.06); transition: transform 0.25s ease, box-shadow 0.25s ease; }
 .yt-thumb img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform 0.45s ease; }
@@ -117,12 +127,13 @@
 .yt-strip + .article-subscribe { margin-top: 18px; }
 
 /* header link */
-.nav-yt { display: inline-flex; align-items: center; gap: 6px; }
+.nav { align-items: center; }  /* keeps YouTube, GitHub, LinkedIn and the Subscribe pill on one line */
+.nav-yt { display: inline-flex; align-items: center; gap: 6px; line-height: inherit; }
 .nav-yt::before { content: ""; width: 16px; height: 11px; border-radius: 3px; background: var(--yt-red) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 11'%3E%3Cpath fill='%23fff' d='M6.4 7.9 10.6 5.5 6.4 3.1z'/%3E%3C/svg%3E") center / 100% no-repeat; box-shadow: 0 0 10px rgba(255,0,51,0.5); }
 
 @media (max-width: 860px) {
   .yt-body { grid-template-columns: 1fr; }
-  .yt-rail { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .yt-rail { grid-auto-columns: calc((100% - var(--yt-gap)) / 2); }
   .yt-feature { animation: none; }
 }
 @media (max-width: 600px) {
@@ -132,7 +143,9 @@
   .yt-head .yt-subscribe { margin-top: 4px; width: 100%; justify-content: center; }
   .yt-body { padding: 20px 18px 4px; }
   .yt-rail-head { padding: 18px 18px 0; }
-  .yt-rail { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 78%; padding: 12px 18px 22px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding-inline: 18px; scrollbar-width: thin; scrollbar-color: rgba(255,0,51,0.5) transparent; }
+  .yt-carousel { --yt-pad: 18px; --yt-gap: 14px; }
+  .yt-rail { grid-auto-columns: 80%; padding: 12px var(--yt-pad) 22px; }
+  .yt-arrow { width: 40px; height: 40px; margin-top: -20px; }
   .yt-strip { flex-wrap: wrap; }
   .yt-strip .yt-subscribe { width: 100%; justify-content: center; }
   .yt-lite-play { width: 64px; height: 45px; }

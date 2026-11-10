@@ -7,7 +7,7 @@
 <div class="yt-id">
 <p class="yt-kicker"><span class="yt-dot" aria-hidden="true"></span>Now on YouTube</p>
 <h2><a href="{{ yt.url }}" target="_blank" rel="noopener">{{ yt.name }}</a></h2>
-<p class="yt-handle">{{ yt.handle }} · {{ vids.size | plus: 1 }} videos · Power BI, Fabric and AI agents</p>
+<p class="yt-handle">{{ yt.handle }} · Power BI, Fabric and AI agents</p>
 </div>
 <a class="yt-subscribe" href="{{ yt.subscribe }}" target="_blank" rel="noopener"><svg class="yt-logo" viewBox="0 0 28 20" aria-hidden="true"><path fill="currentColor" d="M27.4 3.1A3.5 3.5 0 0 0 25 .6C22.8 0 14 0 14 0S5.2 0 3 .6A3.5 3.5 0 0 0 .6 3.1C0 5.3 0 10 0 10s0 4.7.6 6.9A3.5 3.5 0 0 0 3 19.4c2.2.6 11 .6 11 .6s8.8 0 11-.6a3.5 3.5 0 0 0 2.4-2.5c.6-2.2.6-6.9.6-6.9s0-4.7-.6-6.9Z"/><path fill="#ff0033" d="M11.2 14.3 18.5 10l-7.3-4.3v8.6Z"/></svg><span>Subscribe</span><svg class="yt-bell" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 22a2.4 2.4 0 0 0 2.4-2.4H9.6A2.4 2.4 0 0 0 12 22Zm7-6V11a7 7 0 0 0-5.5-6.8V3.5a1.5 1.5 0 0 0-3 0v.7A7 7 0 0 0 5 11v5l-2 2v1h18v-1l-2-2Z"/></svg></a>
 </div>
@@ -29,6 +29,8 @@
 </div>
 </div>
 <div class="yt-rail-head"><h3>Latest videos</h3><a href="{{ yt.videos_url }}" target="_blank" rel="noopener">See all on YouTube →</a></div>
+<div class="yt-carousel">
+<button class="yt-arrow yt-arrow--prev" type="button" aria-label="Previous videos"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" d="M15 5l-7 7 7 7"/></svg></button>
 <div class="yt-rail">
 {%- for v in vids %}
 <article class="yt-card" style="--i: {{ forloop.index0 }}">
@@ -38,5 +40,7 @@
 {%- if v.post %}<a class="yt-read" href="{{ v.post | relative_url }}">Read the article →</a>{% endif %}
 </article>
 {%- endfor %}
+</div>
+<button class="yt-arrow yt-arrow--next" type="button" aria-label="Next videos"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></button>
 </div>
 </section>
