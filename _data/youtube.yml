@@ -13,6 +13,11 @@ channel:
 
 # Newest first. `post` = the blog article that goes with the video (shown as "Read the article").
 videos:
+  - id: "Ybn1boUXbt4"
+    title: "Make Power BI Copilot Answer Right: Prep Data for AI"
+    duration: "8:38"
+    tag: "Power BI · Copilot · Prep data for AI"
+    post: "/blog/2026-05-20-copilot-metadata-source-control.html"
   - id: "FdP5rTgeqC4"
     title: "Connect ChatGPT to Power BI with a Fabric Data Agent (MCP)"
     duration: "8:31"

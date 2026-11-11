@@ -50,6 +50,8 @@ Power BI now gives model owners tools such as:
 
 ![Prep data for AI in Power BI Desktop](../assets/blog/copilot-metadata-source-control/screenshots/01-prep-data-button.jpg)
 
+{% include yt-embed.html id="Ybn1boUXbt4" title="Make Power BI Copilot Answer Right: Prep Data for AI" duration="8:38" kicker="Watch: these tools fixing a real wrong Copilot answer" %}
+
 This is not report polish.
 
 This is semantic engineering.
