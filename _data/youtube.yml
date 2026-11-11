@@ -13,6 +13,11 @@ channel:
 
 # Newest first. `post` = the blog article that goes with the video (shown as "Read the article").
 videos:
+  - id: "6HiZLJL3kQI"
+    title: "Copilot Built My Power BI Report in 17 Seconds (1 Trap)"
+    duration: "8:32"
+    tag: "Power BI · Copilot · Self-service BI"
+    post: "/blog/2026-05-20-copilot-metadata-source-control.html"
   - id: "Ybn1boUXbt4"
     title: "Make Power BI Copilot Answer Right: Prep Data for AI"
     duration: "8:38"

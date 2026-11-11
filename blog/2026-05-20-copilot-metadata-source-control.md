@@ -115,6 +115,8 @@ This is especially important for models used across multiple reports or apps. Wh
 
 ![Prep data for AI options](../assets/blog/copilot-metadata-source-control/screenshots/04-prep-data-service.jpg)
 
+{% include yt-embed.html id="6HiZLJL3kQI" title="Copilot Built My Power BI Report in 17 Seconds (1 Trap)" duration="8:32" kicker="Next step: Copilot builds a report on the same model (and the date trap)" %}
+
 ## What should go through review
 
 If a team is using PBIP and Git, Copilot metadata should not be treated as noise in the repo.
