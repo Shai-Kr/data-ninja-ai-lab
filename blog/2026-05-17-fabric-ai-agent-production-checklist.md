@@ -122,6 +122,8 @@ Every new data source changes the agent’s scope. That means the identity, perm
 
 {% include yt-embed.html id="FdP5rTgeqC4" title="Connect ChatGPT to Power BI with a Fabric Data Agent (MCP)" duration="8:31" kicker="Next step: put the agent in front of ChatGPT (MCP)" %}
 
+{% include yt-embed.html id="8n7tPQphRkA" title="I Asked My Power BI Data Out Loud. It Answered." duration="4:36" kicker="And then: ask the same agent out loud (ChatGPT voice)" %}
+
 ## The short version
 
 Before a Fabric AI Agent goes live, I would want these six checks done:

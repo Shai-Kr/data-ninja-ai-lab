@@ -13,6 +13,11 @@ channel:
 
 # Newest first. `post` = the blog article that goes with the video (shown as "Read the article").
 videos:
+  - id: "8n7tPQphRkA"
+    title: "I Asked My Power BI Data Out Loud. It Answered."
+    duration: "4:36"
+    tag: "Power BI · Fabric data agent · Voice"
+    post: "/blog/2026-05-17-fabric-ai-agent-production-checklist.html"
   - id: "6HiZLJL3kQI"
     title: "Copilot Built My Power BI Report in 17 Seconds (1 Trap)"
     duration: "8:32"
