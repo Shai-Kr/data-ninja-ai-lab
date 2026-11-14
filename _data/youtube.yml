@@ -13,6 +13,16 @@ channel:
 
 # Newest first. `post` = the blog article that goes with the video (shown as "Read the article").
 videos:
+  - id: "1_e6TUSKjxs"
+    title: "Real Weather in Fabric: Rain Alert + AI Agent in Teams"
+    duration: "9:17"
+    tag: "Fabric · Real-Time Intelligence · AI agents"
+    post: "/blog/2026-11-13-fabric-real-time-alert-agent-guide.html"
+  - id: "X25d1Z-HTrw"
+    title: "Real-Time Orders in Fabric: Teams Alert + AI Agent"
+    duration: "10:27"
+    tag: "Fabric · Real-Time Intelligence · Copilot Studio"
+    post: "/blog/2026-11-13-fabric-real-time-alert-agent-guide.html"
   - id: "8n7tPQphRkA"
     title: "I Asked My Power BI Data Out Loud. It Answered."
     duration: "4:36"

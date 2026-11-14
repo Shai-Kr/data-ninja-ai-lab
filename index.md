@@ -33,6 +33,11 @@ description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, 
 <section class="post-list featured home-articles">
   <h2>Latest articles</h2>
   <article class="post-card">
+    <p class="post-meta">Microsoft Fabric · Real-Time Intelligence · AI Agents</p>
+    <h3><a href="{{ '/blog/2026-11-13-fabric-real-time-alert-agent-guide.html' | relative_url }}">Real-Time Orders, a Teams Alert and an AI Agent in Microsoft Fabric: The Full Build Guide</a></h3>
+    <p>A step-by-step build: orders flow into Fabric as they happen, a rule watches them, and an AI agent in Teams explains the alert. Then real weather joins in. Every step, with screenshots, code and two videos.</p>
+  </article>
+  <article class="post-card">
     <p class="post-meta">Microsoft Fabric · Power BI · Fabric Apps</p>
     <h3><a href="{{ '/blog/2026-11-02-fabric-action-hub.html' | relative_url }}">Build a Fabric Action Hub People Can Actually Use</a></h3>
     <p>Fabric Apps can now sit beside Power BI reports and other supported content in Org apps. Here is a practical operating model for moving from insight to action in one role-based destination.</p>
