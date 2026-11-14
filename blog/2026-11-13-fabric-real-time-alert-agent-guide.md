@@ -103,12 +103,19 @@ When a step asks you to paste something, a coloured label says **where it goes**
 <div class="g-where"><b class="txt">Text</b><span>is plain text for a box in the product: instructions for an agent, or a message.</span></div>
 </div>
 
+<div class="g-box ok" markdown="1">
+### In a hurry? One notebook builds the whole Fabric part
+
+You can click through steps 1 to 7 below and see how every piece is made. Or you can let **one notebook** make all of them in about three minutes, with nothing to paste. Both roads end in the same place. [Jump to the fast path](#fast-path).
+</div>
+
 <div class="g-box" markdown="1">
 ### What is in this guide
 {: .no_toc}
 
 <ol class="g-toc">
 <li><a href="#what-you-build">What you build</a></li>
+<li><a href="#fast-path">The fast path: one notebook</a></li>
 <li><a href="#before-you-start">Before you start</a></li>
 <li><a href="#step-1">The Eventhouse and the table</a></li>
 <li><a href="#step-2">The Eventstream</a></li>
@@ -171,6 +178,87 @@ The store is **simulated**: a notebook sends the orders. The stream, the databas
 </div>
 
 Steps 1 to 7 happen in Fabric. Steps 8 and 9 happen in Copilot Studio and Power Automate. If you only want the data, the dashboard and the alert, you can stop after step 7.
+
+<div class="g-part" id="fast-path"><h2>The fast path: one notebook builds it all</h2><p>For the Fabric part only (steps 1 to 7, and the Fabric side of part 2). You paste nothing and you click one button.</p></div>
+
+The notebook runs **inside Fabric**, with your own permissions, in the workspace you put it in. It creates the Eventhouse and its tables, both Eventstreams, a month of history, the dashboard, the data agent and the two rules. Then it opens the store.
+
+**1. Get the file.** Open [Aurora_Everything.ipynb on GitHub](https://github.com/Shai-Kr/pbi101-youtube/blob/main/videos/11-live-orders-alert/in_fabric/Aurora_Everything.ipynb) and click the **download** button (the arrow at the top right of the file).
+
+**2. Import it into an empty workspace.** In the workspace click **Import**, then **Notebook**, then **From this computer**. Click **Upload** and choose the file.
+
+<figure class="g-shot small"><img src="{{ '/assets/blog/fabric-real-time-alert-agent/ui-13-import-notebook.webp' | relative_url }}" alt="The workspace Import menu: Notebook, From this computer" loading="lazy"></figure>
+
+**3. Open the notebook and click Run all.** You do not have to change anything. The four settings in the first cell are optional.
+
+<figure class="g-shot"><img src="{{ '/assets/blog/fabric-real-time-alert-agent/ui-40-fast-notebook.webp' | relative_url }}" alt="The notebook Aurora_Everything: a short settings cell, and Run all" loading="lazy"></figure>
+
+**4. Wait about three minutes.** This is what the notebook prints:
+
+<div class="g-where"><b class="txt">Text</b><span>What you should see (nothing to copy)</span></div>
+{% raw %}
+```text
+1. Eventhouse and tables
+  [ok] Eventhouse AuroraLive
+  [ok] table OrdersLive
+  [ok] table WeatherLive
+2. Eventstreams
+  [ok] Eventstream AuroraOrders
+  [ok] Eventstream AuroraWeather
+3. History
+  [ok] 28 days of orders: 810,497 rows
+4. Dashboard
+  [ok] dashboard Aurora Live Orders
+5. Rules in Activator
+  [ok] Activator AuroraOrdersWatch: the rules exist and are STOPPED. Start them when you want to test (the guide shows where)
+6. Data agent
+  [ok] data agent Aurora Live Agent (published)
+
+Everything is in place. The next cell opens the store.
+First run: sending 28 days of real weather history...
+  11,492 hourly readings are in, and the history's shoppers have reacted to them.
+The store is open. The weather feed is on.
+03:05:09 UTC  orders sent: 2 + 2 because of the weather | raining now: Vancouver
+03:06:08 UTC  orders sent: 13 + 2 because of the weather
+```
+{% endraw %}
+
+**5. Look at what you got.** Go back to the workspace: everything is there.
+
+<figure class="g-shot"><img src="{{ '/assets/blog/fabric-real-time-alert-agent/ui-41-fast-workspace.webp' | relative_url }}" alt="The top of the workspace list after the notebook ran: data agent, dashboard, the notebook, Eventhouse, database and Eventstream" loading="lazy"><figcaption>The list goes on with <strong>AuroraOrdersWatch</strong> (the rules) and <strong>AuroraWeather</strong> (the second Eventstream).</figcaption></figure>
+
+Open **Aurora Live Orders**. The dashboard is already live:
+
+<figure class="g-shot"><img src="{{ '/assets/blog/fabric-real-time-alert-agent/ui-42-fast-dashboard.webp' | relative_url }}" alt="The dashboard the notebook created: orders in the last minute, orders per minute by region, the latest orders, and the weather map" loading="lazy"></figure>
+
+Open **Aurora Live Agent** and ask it something. It already knows both tables:
+
+<figure class="g-shot"><img src="{{ '/assets/blog/fabric-real-time-alert-agent/ui-43-fast-agent.webp' | relative_url }}" alt="The data agent the notebook created, answering a question about rain jackets in rainy and dry hours" loading="lazy"><figcaption><strong>19 seconds.</strong> Orders of the rain jacket per hour in Vancouver: 26.84 in rainy hours, 8.55 in dry ones. A direct query gave the same ratio (37.9 and 11.9 units an hour: the agent counted orders, the query counted units).</figcaption></figure>
+
+**6. Start the rules when you want alerts.** The notebook creates both rules **stopped**, so that nothing is sent before you are ready. Open **AuroraOrdersWatch**, click a rule, and click **Start**. The alert is a Teams message to you.
+
+<figure class="g-shot"><img src="{{ '/assets/blog/fabric-real-time-alert-agent/ui-44-fast-rule.webp' | relative_url }}" alt="The rule the notebook created: orders in the last 10 minutes per region, decreases below 1, and the Start button" loading="lazy"></figure>
+
+The notebook's rules look a little different from the one you build by hand in step 7. Each rule watches a number (orders per region in the last 10 minutes, or wet readings per city in the last 30) and fires when the number crosses a line: **decreases below 1** for orders, **increases above 0** for rain. The result is the same alert.
+
+I tested it: I started the orders rule the notebook had created, with the store stopped for a while. The rule's history showed two activations, Europe and North America.
+
+<div class="g-box" markdown="1">
+### Good to know about the fast path
+
+- **Who can run it:** anyone who may create items in the workspace (Admin, Member or Contributor).
+- **Running it again is safe.** Whatever already exists is left as it is, and the store simply opens again. That is also how you restart the store after its two hours.
+- **Orders only?** Set `INCLUDE_WEATHER = False` in the first cell before the first run.
+- **To stage an outage:** click **Interrupt kernel**, write a region in `MUTE_REGION`, and Run all again.
+- **Stop the rules before you stop the store**, or every region "stops ordering" at once.
+- The notebook does **not** create the agent in Teams and the flow. Those live outside Fabric: continue with [step 8](#step-8).
+</div>
+
+This is the output of a second run. Everything is found, nothing is made twice:
+
+<figure class="g-shot"><img src="{{ '/assets/blog/fabric-real-time-alert-agent/ui-45-fast-rerun.webp' | relative_url }}" alt="The notebook output on a second run: every item is already there" loading="lazy"></figure>
+
+Steps 1 to 7 below build the same things by hand, one click at a time. Read them if you want to know what the notebook did, or if you prefer to build it yourself.
 
 <div class="g-step"><span class="n">1</span><div><small>Part 1 · the data</small><h2 id="step-1">The Eventhouse and the table</h2></div></div>
 
@@ -1295,6 +1383,8 @@ While I was building part 2, my store stopped by mistake. All four regions went 
 ### How this guide was checked
 
 Steps 1 to 7 and the Fabric parts of part 2 were built from zero in an empty workspace, by clicking, exactly as written here, and the screenshots are from that build. The rule in step 7 was tested with a staged outage: it fired once. The rain rule in step 15 was created the same way and ran for 45 minutes without a false alert, but no rain started in the 17 cities in that time, so I did not see it fire; the rain alert in the video came from a rule with the same logic that was created by a script. Steps 8 to 10, and the Teams screenshots, are from the build you see in the videos, where the rule was created by a script; I say so where a field is named differently.
+
+The fast path was built from zero three times: once from my PC with a stand-in for the notebook's sign-in, once as a notebook run inside Fabric in an empty workspace (under three minutes), and once by clicking **Run all** on a workspace that was already built (seven seconds, nothing changed). The screenshots in that section are from the second build. I started the orders rule the notebook made and saw it fire in the rule's history; I did not see its rain rule fire.
 </div>
 
 <div class="g-box ok" markdown="1">
