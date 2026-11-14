@@ -1294,7 +1294,7 @@ While I was building part 2, my store stopped by mistake. All four regions went 
 <div class="g-box" markdown="1">
 ### How this guide was checked
 
-Steps 1 to 7 and the Fabric parts of part 2 were built from zero in an empty workspace, by clicking, exactly as written here, and the screenshots are from that build. The rule in step 7 was tested with a real outage. Steps 8 to 10, and the Teams screenshots, are from the build you see in the videos, where the rule was created by a script; I say so where a field is named differently.
+Steps 1 to 7 and the Fabric parts of part 2 were built from zero in an empty workspace, by clicking, exactly as written here, and the screenshots are from that build. The rule in step 7 was tested with a staged outage: it fired once. The rain rule in step 15 was created the same way and ran for 45 minutes without a false alert, but no rain started in the 17 cities in that time, so I did not see it fire; the rain alert in the video came from a rule with the same logic that was created by a script. Steps 8 to 10, and the Teams screenshots, are from the build you see in the videos, where the rule was created by a script; I say so where a field is named differently.
 </div>
 
 <div class="g-box ok" markdown="1">
