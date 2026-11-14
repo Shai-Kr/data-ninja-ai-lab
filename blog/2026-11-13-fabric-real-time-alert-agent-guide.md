@@ -36,8 +36,10 @@ image: /assets/blog/fabric-real-time-alert-agent/d-architecture-with-weather.web
   background: linear-gradient(135deg, rgba(41,182,232,0.16), rgba(10,22,38,0.7)); }
 .g-part h2 { margin: 0 !important; max-width: none !important; font-size: 1.9rem; }
 .g-part p { margin: 8px 0 0 !important; max-width: none !important; color: var(--muted); }
-.g-shot { max-width: 900px; margin: 22px auto 28px; }
-.g-shot img { margin: 0 auto !important; border-radius: 14px !important; border: 1px solid var(--line); box-shadow: 0 18px 44px rgba(0,0,0,0.45); width: 100%; }
+.g-shot { max-width: 1000px; margin: 22px auto 28px; }
+.g-shot img { margin: 0 auto !important; border-radius: 14px !important; border: 1px solid var(--line); box-shadow: 0 18px 44px rgba(0,0,0,0.45); width: 100%; cursor: zoom-in; }
+.g-zoom { position: fixed; inset: 0; z-index: 9999; display: grid; place-items: center; padding: 2vh 2vw; background: rgba(2, 6, 14, 0.93); cursor: zoom-out; }
+.g-zoom img { max-width: 96vw; max-height: 96vh; border-radius: 10px; box-shadow: 0 20px 60px rgba(0,0,0,0.6); }
 .g-shot.chat img { max-width: 720px; }
 .g-shot.small img { max-width: 620px; }
 .g-shot figcaption { max-width: 760px; margin: 12px auto 0; font-size: 0.95rem; color: var(--muted); }
@@ -92,7 +94,7 @@ image: /assets/blog/fabric-real-time-alert-agent/d-architecture-with-weather.web
 <div class="g-box" markdown="1">
 ### How to read the steps
 
-Every step is a list of clicks, with a screenshot, and the numbers on the screenshot match the clicks.
+Every step is a list of clicks, with a screenshot, and the numbers on the screenshot show where to click. **Click any screenshot to see it full size.**
 
 When a step asks you to paste something, a coloured label says **where it goes**, and the box has a **Copy** button in its corner:
 
@@ -1320,5 +1322,19 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     host.appendChild(b);
   });
+  var closeZoom = function () { var z = document.querySelector('.g-zoom'); if (z) z.remove(); };
+  document.querySelectorAll('.g-shot img').forEach(function (img) {
+    img.addEventListener('click', function () {
+      closeZoom();
+      var z = document.createElement('div');
+      z.className = 'g-zoom';
+      var big = document.createElement('img');
+      big.src = img.src; big.alt = img.alt;
+      z.appendChild(big);
+      z.addEventListener('click', closeZoom);
+      document.body.appendChild(z);
+    });
+  });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeZoom(); });
 });
 </script>
