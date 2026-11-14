@@ -43,6 +43,14 @@ image: /assets/blog/fabric-real-time-alert-agent/d-architecture-with-weather.web
 .g-table td { padding: 10px 12px; border-bottom: 1px solid rgba(116, 214, 255, 0.1); vertical-align: top; }
 .g-check { max-width: 760px; margin: 14px auto; padding: 10px 16px; border-left: 4px solid #1fd1c2; background: rgba(8, 44, 46, 0.4); border-radius: 0 12px 12px 0; }
 .g-check b { color: #5fe6d8; }
+.g-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-top: 12px; }
+.g-links a { display: block; padding: 12px 14px; border-radius: 12px; border: 1px solid var(--line); background: rgba(41, 182, 232, 0.08); text-decoration: none; font-weight: 700; }
+.g-links a small { display: block; font-weight: 500; color: var(--muted); margin-top: 2px; }
+.g-links a:hover { border-color: var(--cyan); }
+.g-code { position: relative; }
+.g-copy { position: absolute; top: 8px; right: 8px; z-index: 2; padding: 5px 12px; border-radius: 8px; border: 1px solid var(--line); background: rgba(10, 22, 38, 0.92); color: var(--cyan); font: 600 0.78rem/1.2 inherit; cursor: pointer; }
+.g-copy:hover { border-color: var(--cyan); }
+.g-copy.done { color: #5fe6d8; border-color: #1fd1c2; }
 .article-body pre { scrollbar-width: thin; scrollbar-color: rgba(116, 214, 255, 0.35) transparent; }
 .article-body ol[start] { max-width: 760px; margin-left: auto; margin-right: auto; }
 </style>
@@ -56,6 +64,42 @@ image: /assets/blog/fabric-real-time-alert-agent/d-architecture-with-weather.web
 <p class="g-lead">In part 2, real weather joins the same data, and the agent starts telling you what rain is about to do to your sales.</p>
 
 The two videos show it working. This article is the build: every step, in order, with the screenshots, the code, and the things that went wrong on the way.
+
+<div class="g-box ok" markdown="1">
+### Start here: what you are going to do
+
+1. **Build the data path in Fabric**: an Eventhouse (the database), an Eventstream (the front door), and a dashboard.
+2. **Send orders into it** with a small simulated store.
+3. **Add the watching**: a Fabric data agent, a rule in Activator, an agent in Teams, and a two-step flow that connects them.
+4. **Part 2**: add a real weather feed to the same database, and a second rule.
+
+Everything you copy from this page has a **Copy** button in its corner.
+
+<div class="g-links">
+<a href="https://github.com/Shai-Kr/pbi101-youtube/tree/main/videos/11-live-orders-alert" target="_blank" rel="noopener">The code, part 1<small>GitHub: orders, dashboard, rule</small></a>
+<a href="https://github.com/Shai-Kr/pbi101-youtube/tree/main/videos/12-weather-joins-orders" target="_blank" rel="noopener">The code, part 2<small>GitHub: weather feed, second rule</small></a>
+<a href="https://github.com/Shai-Kr/pbi101-youtube/archive/refs/heads/main.zip" target="_blank" rel="noopener">Download everything (ZIP)<small>The whole repo in one file</small></a>
+<a href="https://www.youtube.com/playlist?list=PLW_84LVKkESo" target="_blank" rel="noopener">The two videos<small>YouTube playlist</small></a>
+</div>
+</div>
+
+<div class="g-box warn" markdown="1">
+### Where do the commands on this page run?
+
+Three kinds of things appear in grey boxes. Each one runs in a different place:
+
+- **`python ...` commands** run **on your own computer**, in a terminal, **not inside Fabric**. They are optional shortcuts: every item they create can also be created by clicking in Fabric, and each step says how.
+- **KQL** (the boxes that start with a dot, or with a table name) is pasted **inside Fabric**: open the KQL database, choose **Query**, paste, and press **Run**.
+- **Text in quotes** (instructions, messages) is pasted into the box the step names.
+
+To run the `python` commands:
+
+1. Install [Python](https://www.python.org/downloads/) (3.10 or newer) and the [Azure CLI](https://learn.microsoft.com/cli/azure/install-azure-cli).
+2. Download the code: [the ZIP](https://github.com/Shai-Kr/pbi101-youtube/archive/refs/heads/main.zip), and unzip it.
+3. Open a terminal and sign in with the account you use in Fabric: `az login`
+4. Copy the file `studio/fabric_env.example.json` to a folder named `.pbi101` in your user folder, rename it `fabric_env.json`, and put **your workspace id** in it. The workspace id is the long code in the address bar after `/groups/` when the workspace is open.
+5. In the terminal, go into the folder of the part you are building (`videos/11-live-orders-alert` or `videos/12-weather-joins-orders`) and type the command exactly as shown.
+</div>
 
 <div class="g-box" markdown="1">
 ### What is in this guide
@@ -656,3 +700,35 @@ The pattern is the same for any events: something comes in, a rule watches it, a
 
 The code is here: [part 1](https://github.com/Shai-Kr/pbi101-youtube/tree/main/videos/11-live-orders-alert) and [part 2](https://github.com/Shai-Kr/pbi101-youtube/tree/main/videos/12-weather-joins-orders).
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('.article-body pre').forEach(function (pre) {
+    var host = pre.closest('div.highlighter-rouge') || pre;
+    if (host.classList.contains('g-code')) return;
+    host.classList.add('g-code');
+    var b = document.createElement('button');
+    b.type = 'button'; b.className = 'g-copy'; b.textContent = 'Copy';
+    b.setAttribute('aria-label', 'Copy to clipboard');
+    b.addEventListener('click', function () {
+      var text = pre.innerText.replace(/\n$/, '');
+      var ok = function () { b.textContent = 'Copied'; b.classList.add('done'); setTimeout(function () { b.textContent = 'Copy'; b.classList.remove('done'); }, 1600); };
+      if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(text).then(ok); }
+      else { var t = document.createElement('textarea'); t.value = text; document.body.appendChild(t); t.select(); document.execCommand('copy'); t.remove(); ok(); }
+    });
+    host.appendChild(b);
+  });
+  document.querySelectorAll('.article-body blockquote').forEach(function (q) {
+    if (q.closest('.g-code')) return;
+    q.classList.add('g-code');
+    var b = document.createElement('button');
+    b.type = 'button'; b.className = 'g-copy'; b.textContent = 'Copy';
+    b.addEventListener('click', function () {
+      var text = Array.prototype.map.call(q.querySelectorAll('p'), function (x) { return x.innerText; }).join('\n\n');
+      var ok = function () { b.textContent = 'Copied'; b.classList.add('done'); setTimeout(function () { b.textContent = 'Copy'; b.classList.remove('done'); }, 1600); };
+      navigator.clipboard.writeText(text).then(ok);
+    });
+    q.appendChild(b);
+  });
+});
+</script>
