@@ -280,7 +280,7 @@ Anyone who has it can send events into your Eventstream. Do not put it in a chat
 <div class="g-box" markdown="1">
 ### Good to know about the notebook
 
-- **You can close the tab.** The store keeps running in Fabric. When you open the notebook again it reconnects.
+- **You can close the tab.** The store keeps running in Fabric: I left the page for a quarter of an hour and the orders kept arriving. When you open the notebook again it reconnects.
 - **It stops by itself after two hours** (`RUN_MINUTES = 120` in the first cell). To stop it earlier, click **Interrupt kernel**, the button that replaced *Run all*.
 - **To start it again**: Run all.
 - It is a plain Python notebook. It sends about 20 orders a minute, fewer at night.
@@ -289,7 +289,7 @@ Anyone who has it can send events into your Eventstream. Do not put it in a chat
 <details class="g-details" markdown="1">
 <summary>Prefer to paste the code instead of importing the file? Open this</summary>
 
-Create a notebook yourself: **New item**, **Notebook**. Paste the first box into the first cell. Add a second cell (**+ Code**) and paste the second box into it. Then continue from step 4 above.
+Create a notebook yourself: **New item**, **Notebook**. Paste the first box into the first cell. Add a second cell (**+ Code**) and paste the second box into it. Then continue from step 4 above. The code is plain Python, so the language box in the toolbar can stay as it is. (I tested the imported file, which sets the language to Python by itself.)
 
 <div class="g-where"><b class="nb">Notebook</b><span>Cell 1: the settings</span></div>
 {% raw %}
@@ -465,7 +465,7 @@ Every run adds another 28 days of orders on top. If you ran it twice by mistake,
 
 **1.** In the workspace: **New item**, type **Real-Time Dashboard**, click the card. Name it `Aurora Live Orders` and click **Create**.
 
-**2.** A small window offers your Eventhouse as the data source. Click **Continue**.
+**2.** A small window offers your Eventhouse as the data source. Click **Continue**. (If the window does not show, click the **AuroraLive** card under *Suggested from the Workspace*.)
 
 <figure class="g-shot"><img src="{{ '/assets/blog/fabric-real-time-alert-agent/ui-18-dashboard-source.webp' | relative_url }}" alt="The new dashboard: a suggestion to use the workspace&#x27;s Eventhouse as the data source" loading="lazy"></figure>
 
