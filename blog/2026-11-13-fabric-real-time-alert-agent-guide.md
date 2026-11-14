@@ -43,6 +43,8 @@ image: /assets/blog/fabric-real-time-alert-agent/d-architecture-with-weather.web
 .g-table td { padding: 10px 12px; border-bottom: 1px solid rgba(116, 214, 255, 0.1); vertical-align: top; }
 .g-check { max-width: 760px; margin: 14px auto; padding: 10px 16px; border-left: 4px solid #1fd1c2; background: rgba(8, 44, 46, 0.4); border-radius: 0 12px 12px 0; }
 .g-check b { color: #5fe6d8; }
+.article-body pre { scrollbar-width: thin; scrollbar-color: rgba(116, 214, 255, 0.35) transparent; }
+.article-body ol[start] { max-width: 760px; margin-left: auto; margin-right: auto; }
 </style>
 
 <figure class="g-shot"><img src="{{ '/assets/blog/fabric-real-time-alert-agent/d-architecture-with-weather.webp' | relative_url }}" alt="The whole system: a store sends orders through an Eventstream into an Eventhouse, an Activator rule watches them, and an agent in Teams answers; a weather feed joins through a second Eventstream"></figure>
@@ -144,9 +146,10 @@ The script creates a workspace folder called "Real-Time", the Eventhouse `Aurora
 
 ```kusto
 .create-merge table OrdersLive (
-    OrderId: string, OrderTime: datetime, ProductId: long, Product: string, Category: string,
-    RegionId: long, Region: string, City: string, Quantity: long, UnitPrice: real,
-    SalesAmount: real, PaymentMethod: string, Channel: string)
+    OrderId: string, OrderTime: datetime, ProductId: long, Product: string,
+    Category: string, RegionId: long, Region: string, City: string,
+    Quantity: long, UnitPrice: real, SalesAmount: real,
+    PaymentMethod: string, Channel: string)
 
 .alter table OrdersLive policy streamingingestion enable
 ```
@@ -375,7 +378,7 @@ Now connect the rule to the agent.
 
 </div>
 
-4. Back in the rule, pick the new action and map its `Region` field to the region's name. Save and start the rule.
+<ol start="4"><li>Back in the rule, pick the new action and map its <code>Region</code> field to the region's name. Save and start the rule.</li></ol>
 
 <figure class="g-shot"><img src="{{ '/assets/blog/fabric-real-time-alert-agent/09-flow.webp' | relative_url }}" alt="The two-step Power Automate flow, with the Teams step open: Post as User, Post in Group chat, and the message" loading="lazy"><figcaption><strong>The glue.</strong> (1) The trigger. (2) The Teams step. (3) Post as User. (4) Post in the chat with the agent. (5) The message, with the region's name from the trigger.</figcaption></figure>
 
