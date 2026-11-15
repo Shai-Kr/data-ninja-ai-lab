@@ -13,6 +13,11 @@ channel:
 
 # Newest first. `post` = the blog article that goes with the video (shown as "Read the article").
 videos:
+  - id: "wNoeba0Glvs"
+    title: "I Put My Power BI Dashboard in VR (Fabric Apps Guide)"
+    duration: "16:09"
+    tag: "Fabric Apps · Power BI · VR"
+    post: "/blog/2026-11-15-power-bi-dashboard-in-vr-fabric-apps.html"
   - id: "1_e6TUSKjxs"
     title: "Real Weather in Fabric: Rain Alert + AI Agent in Teams"
     duration: "9:17"

@@ -33,6 +33,11 @@ description: Practical Data, Microsoft Fabric, Power BI, analytics engineering, 
 <section class="post-list featured home-articles">
   <h2>Latest articles</h2>
   <article class="post-card">
+    <p class="post-meta">Microsoft Fabric · Power BI · Fabric Apps</p>
+    <h3><a href="{{ '/blog/2026-11-15-power-bi-dashboard-in-vr-fabric-apps.html' | relative_url }}">I Put a Power BI Dashboard in VR. Here's What Fabric Apps Change.</a></h3>
+    <p>A room you can walk around in, built on a real Power BI semantic model. What a Fabric App really is, how an AI agent built a simple one from a single prompt, and why I think the screen is now yours. With the video and all the materials.</p>
+  </article>
+  <article class="post-card">
     <p class="post-meta">Microsoft Fabric · Real-Time Intelligence · AI Agents</p>
     <h3><a href="{{ '/blog/2026-11-13-fabric-real-time-alert-agent-guide.html' | relative_url }}">Real-Time Orders, a Teams Alert and an AI Agent in Microsoft Fabric: The Full Build Guide</a></h3>
     <p>A step-by-step build: orders flow into Fabric as they happen, a rule watches them, and an AI agent in Teams explains the alert. Then real weather joins in. Every step, with screenshots, code and two videos.</p>

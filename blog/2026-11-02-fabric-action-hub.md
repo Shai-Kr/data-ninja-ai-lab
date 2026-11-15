@@ -190,6 +190,8 @@ The quality bar is the full journey: correct audience, preserved context, delibe
 
 That is how Fabric becomes an action hub instead of another place where users stop after reading a chart.
 
+**Related:** a Fabric App taken to the extreme, with a video and the full project: [I Put a Power BI Dashboard in VR. Here's What Fabric Apps Change.]({{ '/blog/2026-11-15-power-bi-dashboard-in-vr-fabric-apps.html' | relative_url }})
+
 ## Sources
 
 - [Fabric Updates Blog](https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/bg-p/fbc_fabricupdatesblogs)
