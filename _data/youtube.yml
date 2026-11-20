@@ -13,6 +13,11 @@ channel:
 
 # Newest first. `post` = the blog article that goes with the video (shown as "Read the article").
 videos:
+  - id: "-dYfZbnaf30"
+    title: "Fabric Eventhouse and KQL for Beginners: Step by Step"
+    duration: "13:14"
+    tag: "Fabric · Eventhouse · KQL"
+    post: "/blog/2026-11-13-fabric-real-time-alert-agent-guide.html"
   - id: "p1v7tNulW38"
     title: "Microsoft Fabric Eventstream for Beginners: Step by Step"
     duration: "13:43"

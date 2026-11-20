@@ -264,6 +264,8 @@ Steps 1 to 7 below build the same things by hand, one click at a time. Read them
 
 An Eventhouse is where the orders will live. It comes with a database of the same name.
 
+{% include yt-embed.html id="-dYfZbnaf30" title="Fabric Eventhouse and KQL for Beginners: Step by Step" duration="13:14" kicker="New to the Eventhouse and KQL? Both, slowly, in a video" %}
+
 **1.** Open your workspace and click **New item**.
 
 <figure class="g-shot"><img src="{{ '/assets/blog/fabric-real-time-alert-agent/ui-01-new-item.webp' | relative_url }}" alt="The workspace with the New item button" loading="lazy"></figure>
