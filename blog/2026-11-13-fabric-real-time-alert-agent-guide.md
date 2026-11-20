@@ -305,6 +305,8 @@ You will come back to this editor several times. Each time: click in it, **Ctrl+
 
 The Eventstream is the address the store sends orders to. It has three boxes: a **source**, the **stream**, and a **destination**.
 
+{% include yt-embed.html id="p1v7tNulW38" title="Microsoft Fabric Eventstream for Beginners: Step by Step" duration="13:43" kicker="New to Eventstream? This step, slowly, in a video" %}
+
 **1.** Back in the workspace: **New item**, type **Eventstream**, click the card. Name it `AuroraOrders` and click **Create**. Leave the schema checkbox empty.
 
 **2.** On the first screen, click **Use custom endpoint**.
