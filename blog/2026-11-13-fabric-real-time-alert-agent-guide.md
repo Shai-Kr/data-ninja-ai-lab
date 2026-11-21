@@ -555,6 +555,8 @@ Every run adds another 28 days of orders on top. If you ran it twice by mistake,
 
 <div class="g-step"><span class="n">5</span><div><small>Part 1 · the data</small><h2 id="step-5">A live dashboard</h2></div></div>
 
+{% include yt-embed.html id="SFLM0AAo1ks" title="Fabric Real-Time Dashboard for Beginners: Step by Step" duration="13:15" kicker="New to Real-Time Dashboards? This step, slowly, in a video" %}
+
 **1.** In the workspace: **New item**, type **Real-Time Dashboard**, click the card. Name it `Aurora Live Orders` and click **Create**.
 
 **2.** A small window offers your Eventhouse as the data source. Click **Continue**. (If the window does not show, click the **AuroraLive** card under *Suggested from the Workspace*.)
