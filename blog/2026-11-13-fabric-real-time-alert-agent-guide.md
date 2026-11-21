@@ -656,6 +656,8 @@ If you have never built a data agent, this video builds one from scratch:
 
 <div class="g-step"><span class="n">7</span><div><small>Part 1 · the watching</small><h2 id="step-7">The rule that watches</h2></div></div>
 
+{% include yt-embed.html id="R2eB3odh-OQ" title="Fabric Activator for Beginners: Step by Step" duration="13:06" kicker="New to Activator? Rules and alerts, slowly, in a video" %}
+
 Now the part that notices. A rule in **Activator** runs a query every minute. Every row the query returns is an alert.
 
 So the query is written to return a region **only in the minute it stopped**: no orders in the last 10 minutes, but at least one in the minute before that.
