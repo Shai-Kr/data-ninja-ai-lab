@@ -654,6 +654,10 @@ If you have never built a data agent, this video builds one from scratch:
 
 {% include yt-embed.html id="KOMo49vQUAc" title="Build a Fabric Data Agent in 5 Minutes (+ Prod Checklist)" duration="9:39" kicker="New to data agents? Start here" %}
 
+And this one builds an agent on a KQL database, like the one in this step, slowly. It also shows a wrong answer and how to fix it:
+
+{% include yt-embed.html id="aBbjOcO4z0Y" title="Fabric Data Agent for Beginners: Step by Step" duration="14:16" kicker="A data agent on a KQL database, slowly, in a video" %}
+
 <div class="g-step"><span class="n">7</span><div><small>Part 1 · the watching</small><h2 id="step-7">The rule that watches</h2></div></div>
 
 {% include yt-embed.html id="R2eB3odh-OQ" title="Fabric Activator for Beginners: Step by Step" duration="13:06" kicker="New to Activator? Rules and alerts, slowly, in a video" %}
