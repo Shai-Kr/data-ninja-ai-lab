@@ -22,6 +22,7 @@ sitemap: false
   .article-body { overflow-x: hidden; font-size: 0.98rem; }
   .article-body img { width: 100%; max-width: 100%; height: auto; border-radius: 16px; }
   .article-body pre { max-width: 100%; overflow-x: auto; font-size: 0.78rem; }
+  .article-body pre code { white-space: pre-wrap; overflow-wrap: anywhere; }
   .article-body table { display: block; max-width: 100%; overflow-x: auto; }
   .subscribe-orbit { display: none; }
 }
