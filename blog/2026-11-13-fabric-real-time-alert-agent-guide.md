@@ -761,6 +761,8 @@ You are Aurora Watch, the operations assistant for Aurora Outdoor's online store
 
 <figure class="g-shot"><img src="{{ '/assets/blog/fabric-real-time-alert-agent/08-copilot-studio-agent.webp' | relative_url }}" alt="The Copilot Studio agent: instructions on the left; one channel and one tool on the right" loading="lazy"><figcaption><strong>The whole agent.</strong> (1) A short set of instructions. (2) One channel: Teams. (3) One tool: the Fabric data agent. No code.</figcaption></figure>
 
+{% include yt-embed.html id="Xoq4z3aTRNA" title="Copilot Studio Agent for Beginners: Fabric Data in Teams" duration="13:06" kicker="New to Copilot Studio? The agent, slowly, in a video" %}
+
 <div class="g-box warn" markdown="1">
 ### Three things that cost me time here
 

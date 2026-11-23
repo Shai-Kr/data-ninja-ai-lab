@@ -13,6 +13,11 @@ channel:
 
 # Newest first. `post` = the blog article that goes with the video (shown as "Read the article").
 videos:
+  - id: "Xoq4z3aTRNA"
+    title: "Copilot Studio Agent for Beginners: Fabric Data in Teams"
+    duration: "13:06"
+    tag: "Copilot Studio · Fabric · AI Agents"
+    post: "/blog/2026-11-13-fabric-real-time-alert-agent-guide.html"
   - id: "aBbjOcO4z0Y"
     title: "Fabric Data Agent for Beginners: Step by Step"
     duration: "14:16"
