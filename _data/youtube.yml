@@ -13,6 +13,11 @@ channel:
 
 # Newest first. `post` = the blog article that goes with the video (shown as "Read the article").
 videos:
+  - id: "_TaA-d3nrgE"
+    title: "Microsoft Fabric by Building: The Course in 3 Minutes"
+    duration: "2:46"
+    tag: "Microsoft Fabric · The course"
+    post: "/blog/2026-11-13-fabric-real-time-alert-agent-guide.html"
   - id: "KksM2Do3QkY"
     title: "Power Automate for Beginners: Fabric Alert to a Teams Agent"
     duration: "14:04"
