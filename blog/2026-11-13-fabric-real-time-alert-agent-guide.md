@@ -775,6 +775,8 @@ You are Aurora Watch, the operations assistant for Aurora Outdoor's online store
 
 Now replace the test action from step 7 with the real one: a small flow that posts the alert in your chat with the agent.
 
+{% include yt-embed.html id="KksM2Do3QkY" title="Power Automate for Beginners: Fabric Alert to a Teams Agent" duration="14:04" kicker="New to Power Automate? The flow, slowly, in a video" %}
+
 **1.** In Fabric, open the item **AuroraOrdersWatch** and click the rule. In the *Definition* pane open the **Action** list, scroll to the bottom, and click **Create custom action**.
 
 <figure class="g-shot"><img src="{{ '/assets/blog/fabric-real-time-alert-agent/ui-31-custom-action-menu.webp' | relative_url }}" alt="The rule&#x27;s Action list, with Create custom action at the bottom" loading="lazy"></figure>
