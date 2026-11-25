@@ -23,6 +23,7 @@ sitemap: false
   .article-body img { width: 100%; max-width: 100%; height: auto; border-radius: 16px; }
   .article-body table { display: block; max-width: 100%; overflow-x: auto; }
   .article-body pre { max-width: 100%; overflow-x: auto; }
+  .article-body pre code { white-space: pre-wrap; overflow-wrap: anywhere; }
   .subscribe-orbit { display: none; }
 }
 .review-visual { width: 100%; max-width: 100%; margin: 34px 0 10px; overflow: hidden; }
