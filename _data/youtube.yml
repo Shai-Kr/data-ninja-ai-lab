@@ -13,6 +13,11 @@ channel:
 
 # Newest first. `post` = the blog article that goes with the video (shown as "Read the article").
 videos:
+  - id: "xjxbHfnINy0"
+    title: "Power BI Desktop for Apps: Build a Fabric App with AI"
+    duration: "12:28"
+    tag: "Power BI · Fabric apps"
+    post: "/blog/2026-11-15-power-bi-dashboard-in-vr-fabric-apps.html"
   - id: "_TaA-d3nrgE"
     title: "Microsoft Fabric by Building: The Course in 3 Minutes"
     duration: "2:46"
